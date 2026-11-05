@@ -1,11 +1,56 @@
 {
-  "lastUpdated": "2026-11-05T18:05:29.681Z",
+  "lastUpdated": "2026-11-05T20:52:31.719Z",
   "totalSources": 7,
   "items": [
     {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L21ldGEtc2F5cy11cy11c2Vycy1jYW4tbm93LXZpZGVvLWNoYXQtd2l0aC10aGVpci1tdXNlLWFpLWF2YXRhci8=",
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T19:48:28.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9jb3Ntb3MtaW50ZXJhY3RpdmUtd29ybGQtc2ltdWxhdGlvbg==",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T19:35:16.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L21ldGFzLXdhcm5zLXRoYXQtZWxlY3Rpb24tYmFja2xhc2gtYWdhaW5zdC1kYXRhLWNlbnRlcnMtY291bGQtbWFrZS1haS1leHBhbnNpb24taGFyZGVyLw==",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T19:12:39.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L29wZW5haS1yZWxlYXNlZC1hLW5ldy1jeWJlcnNlY3VyaXR5LW1vZGVsLWlzLXRoYXQtZW5vdWdoLw==",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "source": "TechCrunch AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-05T19:06:12.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAyODAxNS9tZXRhLW11c2UtYWktdm9pY2UtbW9kZS1leHByZXNzaXZlLWF2YXRhcg==",
+      "title": "Muse has a voice mode now",
+      "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article....",
+      "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "source": "The Verge AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-05T19:03:04.000Z"
+    },
+    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L29wZW5haS1wcmVzaWRlbnQtZ3JlZy1icm9ja21hbi1zYXlzLWNvbXBhbnktY291bGQtYmUtaXBvLXJlYWR5LWluLTIwMjcv",
       "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-      "summary": "OpenAI President Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "summary": "OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
       "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
       "source": "TechCrunch AI",
       "providerTag": "OpenAI",
@@ -21,12 +66,48 @@
       "publishedAt": "2026-11-05T18:00:00.000Z"
     },
     {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjc2NTIvYW50aHJvcGljLWNsYXVkZS1wbGFpZC1wZXJzb25hbC1maW5hbmNl",
+      "title": "Claude AI can plug directly into your bank account",
+      "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can a...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+      "source": "The Verge AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-05T18:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjY5MjcvdG90YWwtcmVwdWRpYXRpb24tdGhlLWJsdWUtd2F2ZS1pcy1hYm91dC10by1oaXQtYWk=",
+      "title": "‘Total repudiation’: The blue wave is about to hit AI",
+      "summary": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgi...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T17:51:52.000Z"
+    },
+    {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2RldmVsb3BlcnMtdG9vbHMvaW50cm9kdWNpbmctZ2VtaW5pLW9tbmktMS0yLWZsYXNoLw==",
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp\">Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consist...",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "source": "Google AI Blog",
       "providerTag": "Google",
+      "publishedAt": "2026-11-05T17:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2VudGVydGFpbm1lbnQvMTAyNjI4Mi9ncmltZXMtYWktbW92aWU=",
+      "title": "Grimes is going to star in an AI movie that’s coming to theaters",
+      "summary": "The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star Grimes is going to appear in the movie. Billed as \"the first AI film to come to theatres,\" Gods Don't Give Gifts is a notable tes...",
+      "url": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T17:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjc1OTkvb3BlbmFpLWdwdC02LWN5YmVyLWxhdW5jaA==",
+      "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
+      "summary": "OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process. OpenAI says that ...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+      "source": "The Verge AI",
+      "providerTag": "OpenAI",
       "publishedAt": "2026-11-05T17:00:00.000Z"
     },
     {
@@ -120,6 +201,15 @@
       "publishedAt": "2026-11-05T10:45:00.000Z"
     },
     {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ludHJvZHVjaW5nLWdwdC02LWN5YmVy",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-05T09:00:00.000Z"
+    },
+    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3NldHRpbmctbmV3LXN0YW5kYXJkLXJlc3BvbnNpYmxlLWFpLWluZnJhc3RydWN0dXJl",
       "title": "Setting a new standard for responsible AI infrastructure",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
@@ -138,15 +228,6 @@
       "publishedAt": "2026-11-05T01:26:22.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA0L2FmdGVyLXRoZS1taWR0ZXJtcy1hLWJpZ2dlci1jbGFzaC1vdmVyLWRhdGEtY2VudGVycy1jb3VsZC1iZS1jb21pbmcv",
-      "title": "After the midterms, a bigger clash over data centers could be coming",
-      "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
-      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T01:02:14.000Z"
-    },
-    {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL3Bob25vbi10dHM=",
       "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
       "summary": "點擊閱讀完整原文報導。",
@@ -156,15 +237,6 @@
       "publishedAt": "2026-11-05T00:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA0L2FpLXBhY3Mtc3BlbnQtbWlsbGlvbnMtdHJ5aW5nLXRvLXNoYXBlLWNvbmdyZXNzLWhlcmVzLWhvdy10aGV5LWZhcmVkLw==",
-      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
-      "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
-      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-04T22:45:09.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjY4NjcvcXVhbGNvbW0tZWFybmluZ3MtZGF0YS1jZW50ZXJz",
       "title": "Qualcomm is betting big on data centers as smartphone sales sink",
       "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in...",
@@ -172,15 +244,6 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-04T22:42:15.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA0L25vdGhpbmctY2VvLXNheXMtY29tcGFueXMtbXlzdGVyaW91cy1haS1maXJzdC1kZXZpY2UtaXMtZHJvcHBpbmctbmV4dC1tb250aC8=",
-      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
-      "summary": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
-      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-04T22:13:16.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjY4Nzgvbm90LWV2ZW4tZ29vZC1hdC1iZWluZy1yaWNo",
@@ -201,42 +264,6 @@
       "publishedAt": "2026-11-04T20:55:50.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAyNjc4Ny9hdHQtZ2VtaW5pLWZvci1ob21lLWNvbm5lY3RlZC1saWZlLXNlY3VyaXR5LXN5c3RlbQ==",
-      "title": "Gemini for Home now plugs into AT&#038;T’s smart security system",
-      "summary": "AT&#38;T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini...",
-      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-      "source": "The Verge AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-04T20:23:24.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjY1ODYvbm90aGluZy1zY3JlZW4tZnJlZS1haS1kZXZpY2UtY2FybC1wZWk=",
-      "title": "Nothing teases a screen-free AI device ahead of launch next month",
-      "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He did...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-04T18:26:07.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2NvbHVtbi8xMDI2NDY0L29wdGltaXplci1hbWF6b24tYmVlLWZyb250aWVyLWFtYmllbnQtbGlzdGVuaW5nLXdlYXJhYmxlcw==",
-      "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
-      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How...",
-      "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-04T18:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjY0NzQvb3BlbmFpLWNoYXRncHQtYW5pbWF0ZWQtZ2lmcy1pbWFnZXMtMi02",
-      "title": "ChatGPT will now make you animated GIFs",
-      "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual ...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
-      "source": "The Verge AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-04T18:00:00.000Z"
-    },
-    {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL0RoYXJtYS1BSS9kaGFybWEtZmllbGQtZXh0cmFjdG9y",
       "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
       "summary": "點擊閱讀完整原文報導。",
@@ -244,15 +271,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-04T17:50:10.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvbGljeS8xMDI2MzY1L2RhdGEtY2VudGVycy1taWR0ZXJtcy1yZXN1bHRz",
-      "title": "Data centers lost the midterms",
-      "summary": "Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, ...",
-      "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-04T16:05:39.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L29wZW5haS10by1hY3F1aXJlLXBpZXJyZQ==",
@@ -343,24 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-03T12:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2Npc2NvLWN5YmVy",
-      "title": "How Cisco defends at machine speed with OpenAI",
-      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-      "url": "https://openai.com/index/cisco-cyber",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-03T08:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2hlaW1zdGFkZW4=",
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-      "url": "https://openai.com/index/heimstaden",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-03T08:00:00.000Z"
     }
   ]
 }
