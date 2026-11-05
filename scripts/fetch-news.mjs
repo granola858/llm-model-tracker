@@ -54,14 +54,38 @@ const RSS_SOURCES = [
 ];
 
 const PROVIDER_KEYWORDS = [
-  { tag: 'OpenAI', keywords: ['openai', 'chatgpt', 'gpt-4', 'gpt-5', 'sora', 'sam altman', 'o1', 'o3', 'o4'] },
-  { tag: 'Anthropic', keywords: ['anthropic', 'claude', 'sonnet', 'opus', 'haiku', 'dario amodei'] },
-  { tag: 'Google', keywords: ['google', 'deepmind', 'gemini', 'gemma', 'notebooklm', 'veo'] },
-  { tag: 'Meta', keywords: ['meta ai', 'llama', 'zuckerberg', 'fair'] },
-  { tag: 'xAI', keywords: ['xai', 'grok', 'colossus'] },
-  { tag: 'Mistral', keywords: ['mistral', 'mixtral', 'le chat', 'pixtral', 'magistral'] },
-  { tag: 'DeepSeek', keywords: ['deepseek', '深度求索'] },
-  { tag: 'Qwen', keywords: ['qwen', 'tongyi', 'alibaba', '通義千問', '阿里'] },
+  {
+    tag: 'OpenAI',
+    keywords: ['openai', 'chatgpt', 'gpt-4', 'gpt-5', 'gpt-6', 'sora', 'sam altman', 'o1', 'o3', 'o4', 'codex', 'rosalind'],
+  },
+  {
+    tag: 'Anthropic',
+    keywords: ['anthropic', 'claude', 'sonnet', 'opus', 'haiku', 'mythos', 'fable', 'dario amodei'],
+  },
+  {
+    tag: 'Google',
+    keywords: ['google', 'deepmind', 'gemini', 'argon', 'gemma', 'notebooklm', 'veo'],
+  },
+  {
+    tag: 'Meta',
+    keywords: ['meta ai', 'llama', 'muse spark', 'muse code', 'zuckerberg', 'fair'],
+  },
+  {
+    tag: 'xAI',
+    keywords: ['xai', 'grok', 'colossus', 'deepswe'],
+  },
+  {
+    tag: 'Mistral',
+    keywords: ['mistral', 'mixtral', 'ministral', 'le chat', 'pixtral', 'magistral', 'codestral', 'voxtral'],
+  },
+  {
+    tag: 'DeepSeek',
+    keywords: ['deepseek', '深度求索', 'engram'],
+  },
+  {
+    tag: 'Qwen',
+    keywords: ['qwen', 'tongyi', 'alibaba', '通義千問', '阿里'],
+  },
 ];
 
 function decodeHtmlEntities(str = '') {
@@ -142,7 +166,7 @@ function parseXmlFeed(xml, source) {
     const providerTag = detectProviderTag(title, cleanSummary, source.defaultTag);
 
     items.push({
-      id: `${source.name}-${Buffer.from(url).toString('base64').slice(0, 16)}`,
+      id: `${source.name}-${Buffer.from(url).toString('base64')}`,
       title,
       summary: cleanSummary.length >= 220 ? `${cleanSummary}...` : cleanSummary || '點擊閱讀完整原文報導。',
       url,
