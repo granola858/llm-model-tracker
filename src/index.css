@@ -1,1 +1,89 @@
-@import "tailwindcss";
+@import '@fontsource/noto-sans-tc/400.css';
+@import '@fontsource/noto-sans-tc/700.css';
+@import '@fontsource/noto-sans-tc/900.css';
+@import 'tailwindcss';
+
+/* 撕日曆・夜間版：墨底、紙白字；朱紅只給旗艦，農民曆綠只給「上次造訪後新增」 */
+@theme {
+  --font-sans: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+
+  --color-ink: #1a1714;
+  --color-ink-raised: #221e1a;
+  --color-ink-sunk: #15120f;
+  --color-rule: #3a332c;
+  --color-rule-soft: #2a2520;
+
+  --color-paper: #efe8dc;
+  --color-paper-dim: #c9c0b3;
+  --color-muted: #a39a8e;
+  --color-paper-rule: #cfc5b6;
+  --color-paper-ink: #2a241f;
+  --color-paper-muted: #5e554b;
+
+  --color-cinnabar: #c41e17;
+  --color-cinnabar-ink: #ff6a5c;
+  --color-almanac: #276b3c;
+  --color-almanac-ink: #5cc282;
+
+  --text-2xs: 0.75rem;
+  --text-2xs--line-height: 1.1rem;
+}
+
+@layer base {
+  html {
+    background: var(--color-ink);
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-ink text-paper font-sans antialiased;
+    font-feature-settings: 'tnum' 1;
+  }
+  ::selection {
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-paper);
+    outline-offset: 2px;
+  }
+  a {
+    text-underline-offset: 3px;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-rule) transparent;
+  }
+  input::placeholder {
+    color: var(--color-muted);
+  }
+  select option {
+    background: var(--color-ink-raised);
+    color: var(--color-paper);
+  }
+}
+
+/* 唯一的進場動作：今天這一頁從上緣撕開露出 */
+@keyframes sheet-tear {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+.sheet-tear {
+  animation: sheet-tear 520ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .sheet-tear {
+    animation: none;
+  }
+}
+
+/* 估計值：≈ 加虛線底線 */
+.est {
+  text-decoration: underline dotted;
+  text-decoration-color: var(--color-muted);
+  text-underline-offset: 3px;
+  cursor: help;
+}

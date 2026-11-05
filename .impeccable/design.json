@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T21:35:12.657Z",
+  "title": "Design System: AI 模型演進追蹤器",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "夜墨",
+        "canonical": "oklch(20.7% 0.008 67)",
+        "tonalRamp": [
+          "oklch(15% 0.002 67)",
+          "oklch(26% 0.005 67)",
+          "oklch(38% 0.008 67)",
+          "oklch(49% 0.008 67)",
+          "oklch(61% 0.008 67)",
+          "oklch(72% 0.008 67)",
+          "oklch(84% 0.004 67)",
+          "oklch(95% 0.001 67)"
+        ]
+      },
+      "ink-raised": {
+        "role": "neutral",
+        "displayName": "墨・浮起",
+        "canonical": "oklch(23.8% 0.010 67)",
+        "tonalRamp": [
+          "oklch(15% 0.002 67)",
+          "oklch(26% 0.006 67)",
+          "oklch(38% 0.010 67)",
+          "oklch(49% 0.010 67)",
+          "oklch(61% 0.010 67)",
+          "oklch(72% 0.010 67)",
+          "oklch(84% 0.006 67)",
+          "oklch(95% 0.001 67)"
+        ]
+      },
+      "ink-sunk": {
+        "role": "neutral",
+        "displayName": "墨・下沉",
+        "canonical": "oklch(18.5% 0.008 67)",
+        "tonalRamp": [
+          "oklch(15% 0.002 67)",
+          "oklch(26% 0.005 67)",
+          "oklch(38% 0.008 67)",
+          "oklch(49% 0.008 67)",
+          "oklch(61% 0.008 67)",
+          "oklch(72% 0.008 67)",
+          "oklch(84% 0.004 67)",
+          "oklch(95% 0.001 67)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "細線",
+        "canonical": "oklch(32.6% 0.016 67)",
+        "tonalRamp": [
+          "oklch(15% 0.003 67)",
+          "oklch(26% 0.010 67)",
+          "oklch(38% 0.016 67)",
+          "oklch(49% 0.016 67)",
+          "oklch(61% 0.016 67)",
+          "oklch(72% 0.016 67)",
+          "oklch(84% 0.009 67)",
+          "oklch(95% 0.002 67)"
+        ]
+      },
+      "rule-soft": {
+        "role": "neutral",
+        "displayName": "細線・淡",
+        "canonical": "oklch(26.8% 0.012 67)",
+        "tonalRamp": [
+          "oklch(15% 0.002 67)",
+          "oklch(26% 0.008 67)",
+          "oklch(38% 0.012 67)",
+          "oklch(49% 0.012 67)",
+          "oklch(61% 0.012 67)",
+          "oklch(72% 0.012 67)",
+          "oklch(84% 0.007 67)",
+          "oklch(95% 0.002 67)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "紙白",
+        "canonical": "oklch(93.3% 0.018 81)",
+        "tonalRamp": [
+          "oklch(15% 0.004 81)",
+          "oklch(26% 0.012 81)",
+          "oklch(38% 0.018 81)",
+          "oklch(49% 0.018 81)",
+          "oklch(61% 0.018 81)",
+          "oklch(72% 0.018 81)",
+          "oklch(84% 0.010 81)",
+          "oklch(95% 0.003 81)"
+        ]
+      },
+      "paper-dim": {
+        "role": "neutral",
+        "displayName": "紙白・淡",
+        "canonical": "oklch(81.2% 0.021 77)",
+        "tonalRamp": [
+          "oklch(15% 0.004 77)",
+          "oklch(26% 0.014 77)",
+          "oklch(38% 0.021 77)",
+          "oklch(49% 0.021 77)",
+          "oklch(61% 0.021 77)",
+          "oklch(72% 0.021 77)",
+          "oklch(84% 0.012 77)",
+          "oklch(95% 0.003 77)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "灰",
+        "canonical": "oklch(69.0% 0.020 75)",
+        "tonalRamp": [
+          "oklch(15% 0.004 75)",
+          "oklch(26% 0.013 75)",
+          "oklch(38% 0.020 75)",
+          "oklch(49% 0.020 75)",
+          "oklch(61% 0.020 75)",
+          "oklch(72% 0.020 75)",
+          "oklch(84% 0.012 75)",
+          "oklch(95% 0.003 75)"
+        ]
+      },
+      "paper-rule": {
+        "role": "neutral",
+        "displayName": "紙・細線",
+        "canonical": "oklch(82.7% 0.023 78)",
+        "tonalRamp": [
+          "oklch(15% 0.005 78)",
+          "oklch(26% 0.015 78)",
+          "oklch(38% 0.023 78)",
+          "oklch(49% 0.023 78)",
+          "oklch(61% 0.023 78)",
+          "oklch(72% 0.023 78)",
+          "oklch(84% 0.014 78)",
+          "oklch(95% 0.004 78)"
+        ]
+      },
+      "paper-ink": {
+        "role": "neutral",
+        "displayName": "紙・墨字",
+        "canonical": "oklch(26.5% 0.013 62)",
+        "tonalRamp": [
+          "oklch(15% 0.003 62)",
+          "oklch(26% 0.008 62)",
+          "oklch(38% 0.013 62)",
+          "oklch(49% 0.013 62)",
+          "oklch(61% 0.013 62)",
+          "oklch(72% 0.013 62)",
+          "oklch(84% 0.007 62)",
+          "oklch(95% 0.002 62)"
+        ]
+      },
+      "paper-muted": {
+        "role": "neutral",
+        "displayName": "紙・灰",
+        "canonical": "oklch(45.5% 0.020 70)",
+        "tonalRamp": [
+          "oklch(15% 0.004 70)",
+          "oklch(26% 0.013 70)",
+          "oklch(38% 0.020 70)",
+          "oklch(49% 0.020 70)",
+          "oklch(61% 0.020 70)",
+          "oklch(72% 0.020 70)",
+          "oklch(84% 0.011 70)",
+          "oklch(95% 0.003 70)"
+        ]
+      },
+      "cinnabar": {
+        "role": "primary",
+        "displayName": "朱紅",
+        "canonical": "oklch(52.7% 0.200 29)",
+        "tonalRamp": [
+          "oklch(15% 0.040 29)",
+          "oklch(26% 0.131 29)",
+          "oklch(38% 0.200 29)",
+          "oklch(49% 0.200 29)",
+          "oklch(61% 0.200 29)",
+          "oklch(72% 0.200 29)",
+          "oklch(84% 0.115 29)",
+          "oklch(95% 0.030 29)"
+        ]
+      },
+      "cinnabar-ink": {
+        "role": "primary",
+        "displayName": "朱紅・墨面版",
+        "canonical": "oklch(70.8% 0.185 28)",
+        "tonalRamp": [
+          "oklch(15% 0.037 28)",
+          "oklch(26% 0.121 28)",
+          "oklch(38% 0.185 28)",
+          "oklch(49% 0.185 28)",
+          "oklch(61% 0.185 28)",
+          "oklch(72% 0.185 28)",
+          "oklch(84% 0.106 28)",
+          "oklch(95% 0.028 28)"
+        ]
+      },
+      "almanac": {
+        "role": "secondary",
+        "displayName": "農民曆綠",
+        "canonical": "oklch(47.2% 0.102 151)",
+        "tonalRamp": [
+          "oklch(15% 0.020 151)",
+          "oklch(26% 0.067 151)",
+          "oklch(38% 0.102 151)",
+          "oklch(49% 0.102 151)",
+          "oklch(61% 0.102 151)",
+          "oklch(72% 0.102 151)",
+          "oklch(84% 0.059 151)",
+          "oklch(95% 0.015 151)"
+        ]
+      },
+      "almanac-ink": {
+        "role": "secondary",
+        "displayName": "農民曆綠・墨面版",
+        "canonical": "oklch(73.6% 0.134 154)",
+        "tonalRamp": [
+          "oklch(15% 0.027 154)",
+          "oklch(26% 0.088 154)",
+          "oklch(38% 0.134 154)",
+          "oklch(49% 0.134 154)",
+          "oklch(61% 0.134 154)",
+          "oklch(72% 0.134 154)",
+          "oklch(84% 0.077 154)",
+          "oklch(95% 0.020 154)"
+        ]
+      },
+      "provider-openai": {
+        "role": "tertiary",
+        "displayName": "OpenAI 青",
+        "canonical": "oklch(75.7% 0.102 213)",
+        "tonalRamp": [
+          "oklch(15% 0.020 213)",
+          "oklch(26% 0.067 213)",
+          "oklch(38% 0.102 213)",
+          "oklch(49% 0.102 213)",
+          "oklch(61% 0.102 213)",
+          "oklch(72% 0.102 213)",
+          "oklch(84% 0.059 213)",
+          "oklch(95% 0.015 213)"
+        ]
+      },
+      "provider-anthropic": {
+        "role": "tertiary",
+        "displayName": "Anthropic 陶土",
+        "canonical": "oklch(70.8% 0.107 43)",
+        "tonalRamp": [
+          "oklch(15% 0.021 43)",
+          "oklch(26% 0.070 43)",
+          "oklch(38% 0.107 43)",
+          "oklch(49% 0.107 43)",
+          "oklch(61% 0.107 43)",
+          "oklch(72% 0.107 43)",
+          "oklch(84% 0.062 43)",
+          "oklch(95% 0.016 43)"
+        ]
+      },
+      "provider-google": {
+        "role": "tertiary",
+        "displayName": "Google 芥黃",
+        "canonical": "oklch(83.3% 0.132 95)",
+        "tonalRamp": [
+          "oklch(15% 0.026 95)",
+          "oklch(26% 0.087 95)",
+          "oklch(38% 0.132 95)",
+          "oklch(49% 0.132 95)",
+          "oklch(61% 0.132 95)",
+          "oklch(72% 0.132 95)",
+          "oklch(84% 0.076 95)",
+          "oklch(95% 0.020 95)"
+        ]
+      },
+      "provider-meta": {
+        "role": "tertiary",
+        "displayName": "Meta 藍紫",
+        "canonical": "oklch(72.6% 0.124 282)",
+        "tonalRamp": [
+          "oklch(15% 0.025 282)",
+          "oklch(26% 0.081 282)",
+          "oklch(38% 0.124 282)",
+          "oklch(49% 0.124 282)",
+          "oklch(61% 0.124 282)",
+          "oklch(72% 0.124 282)",
+          "oklch(84% 0.072 282)",
+          "oklch(95% 0.019 282)"
+        ]
+      },
+      "provider-xai": {
+        "role": "tertiary",
+        "displayName": "xAI 骨白",
+        "canonical": "oklch(87.1% 0.013 82)",
+        "tonalRamp": [
+          "oklch(15% 0.003 82)",
+          "oklch(26% 0.009 82)",
+          "oklch(38% 0.013 82)",
+          "oklch(49% 0.013 82)",
+          "oklch(61% 0.013 82)",
+          "oklch(72% 0.013 82)",
+          "oklch(84% 0.008 82)",
+          "oklch(95% 0.002 82)"
+        ]
+      },
+      "provider-mistral": {
+        "role": "tertiary",
+        "displayName": "Mistral 橘",
+        "canonical": "oklch(76.8% 0.146 68)",
+        "tonalRamp": [
+          "oklch(15% 0.029 68)",
+          "oklch(26% 0.096 68)",
+          "oklch(38% 0.146 68)",
+          "oklch(49% 0.146 68)",
+          "oklch(61% 0.146 68)",
+          "oklch(72% 0.146 68)",
+          "oklch(84% 0.084 68)",
+          "oklch(95% 0.022 68)"
+        ]
+      },
+      "provider-deepseek": {
+        "role": "tertiary",
+        "displayName": "DeepSeek 鈷藍",
+        "canonical": "oklch(68.1% 0.152 260)",
+        "tonalRamp": [
+          "oklch(15% 0.030 260)",
+          "oklch(26% 0.100 260)",
+          "oklch(38% 0.152 260)",
+          "oklch(49% 0.152 260)",
+          "oklch(61% 0.152 260)",
+          "oklch(72% 0.152 260)",
+          "oklch(84% 0.088 260)",
+          "oklch(95% 0.023 260)"
+        ]
+      },
+      "provider-qwen": {
+        "role": "tertiary",
+        "displayName": "Qwen 丁香紫",
+        "canonical": "oklch(72.4% 0.151 313)",
+        "tonalRamp": [
+          "oklch(15% 0.030 313)",
+          "oklch(26% 0.099 313)",
+          "oklch(38% 0.151 313)",
+          "oklch(49% 0.151 313)",
+          "oklch(61% 0.151 313)",
+          "oklch(72% 0.151 313)",
+          "oklch(84% 0.087 313)",
+          "oklch(95% 0.023 313)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display・日期數字",
+        "purpose": "只用於「今天」頁的大日期數字（桌機）。"
+      },
+      "display-compact": {
+        "displayName": "Display・窄螢幕",
+        "purpose": "窄螢幕的日期數字。"
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "模型詳情列的模型名稱。"
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "頂列產品名，只出現一次。"
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "區塊標題、日期頁的年月與星期。"
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "分頁、篩選、清單、表格、新聞標題。"
+      },
+      "body-long": {
+        "displayName": "Body Long",
+        "purpose": "模型重點說明，最寬 75ch。"
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "表頭、刻度、年份索引、時間戳記、圖例。"
+      }
+    },
+    "shadows": [
+      {
+        "name": "paper-mark-ring",
+        "value": "0 0 0 1px rgba(42, 36, 31, 0.55)",
+        "purpose": "只用於紙面上的模型形狀，提供淺色資料點的輪廓；不是立體感。"
+      }
+    ],
+    "motion": [
+      {
+        "name": "sheet-tear",
+        "value": "clip-path: inset(0 0 100% 0) → inset(0 0 0 0); 520ms cubic-bezier(0.16, 1, 0.3, 1) both",
+        "purpose": "唯一進場動作：日期區塊從上緣撕開露出；prefers-reduced-motion: reduce 時關閉。"
+      },
+      {
+        "name": "ease-sheet",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "撕頁揭露的緩動。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "分頁",
+      "kind": "nav",
+      "refersTo": "tab",
+      "description": "頂列檢視切換；選中為紙白反白。",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\"><button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\">時間軸</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\">規格比較</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\">統計</button></div>",
+      "css": ".ds-tabs{display:flex;gap:4px;background:var(--color-ink,#1a1714);padding:12px;} .ds-tab{font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;font-size:.875rem;line-height:1.25rem;border:0;background:transparent;color:var(--color-paper-dim,#c9c0b3);border-radius:4px;padding:6px 14px;cursor:pointer;} .ds-tab:hover{background:var(--color-ink-raised,#221e1a);color:var(--color-paper,#efe8dc);} .ds-tab[aria-selected=\"true\"]{background:var(--color-paper,#efe8dc);color:var(--color-ink,#1a1714);} .ds-tab:focus-visible{outline:2px solid var(--color-paper,#efe8dc);outline-offset:2px;}"
+    },
+    {
+      "name": "廠商切換鈕",
+      "kind": "chip",
+      "refersTo": "provider-toggle",
+      "description": "廠商篩選；關閉時灰字加刪除線、圓點轉灰。",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\" aria-pressed=\"true\"><i class=\"ds-dot\" style=\"background:#56c1d6\"></i>OpenAI</button><button class=\"ds-chip\" aria-pressed=\"false\"><i class=\"ds-dot\" style=\"background:#5e554b\"></i>Anthropic</button></div>",
+      "css": ".ds-chips{display:flex;gap:8px;background:var(--color-ink,#1a1714);padding:12px;} .ds-chip{font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;display:flex;align-items:center;gap:8px;font-size:.875rem;line-height:1.25rem;background:transparent;border:1px solid var(--color-paper-dim,#c9c0b3);color:var(--color-paper,#efe8dc);border-radius:4px;padding:4px 12px;cursor:pointer;} .ds-chip[aria-pressed=\"false\"]{border-color:var(--color-rule-soft,#2a2520);color:var(--color-muted,#a39a8e);text-decoration:line-through;} .ds-chip[aria-pressed=\"false\"]:hover{color:var(--color-paper-dim,#c9c0b3);} .ds-chip:focus-visible{outline:2px solid var(--color-paper,#efe8dc);outline-offset:2px;} .ds-dot{display:inline-block;width:8px;height:8px;border-radius:9999px;}"
+    },
+    {
+      "name": "搜尋框",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "浮起墨底、細線邊框；「/」鍵帽提示。",
+      "html": "<div class=\"ds-search\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input class=\"ds-input\" type=\"search\" placeholder=\"搜尋模型、參數、關鍵字\" aria-label=\"搜尋模型\"><kbd class=\"ds-kbd\">/</kbd></div>",
+      "css": ".ds-search{position:relative;width:288px;background:var(--color-ink,#1a1714);padding:12px;} .ds-search svg{position:absolute;left:24px;top:50%;transform:translateY(-50%);color:var(--color-muted,#a39a8e);pointer-events:none;} .ds-input{font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;width:100%;font-size:.875rem;line-height:1.25rem;background:var(--color-ink-raised,#221e1a);color:var(--color-paper,#efe8dc);border:1px solid var(--color-rule,#3a332c);border-radius:4px;padding:8px 36px;} .ds-input::placeholder{color:var(--color-muted,#a39a8e);} .ds-input:focus{outline:none;border-color:var(--color-paper-dim,#c9c0b3);} .ds-kbd{position:absolute;right:22px;top:50%;transform:translateY(-50%);font-size:.75rem;color:var(--color-muted,#a39a8e);border:1px solid var(--color-rule,#3a332c);border-radius:4px;padding:0 6px;}"
+    },
+    {
+      "name": "下拉選單",
+      "kind": "input",
+      "refersTo": "select",
+      "description": "新聞主題、授權、年份篩選。",
+      "html": "<label class=\"ds-field\">主題 <select class=\"ds-select\"><option>全部</option><option>OpenAI</option><option>綜合產業</option></select></label>",
+      "css": ".ds-field{font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;display:flex;align-items:center;gap:8px;font-size:.75rem;color:var(--color-muted,#a39a8e);background:var(--color-ink,#1a1714);padding:12px;} .ds-select{font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;font-size:.875rem;background:var(--color-ink-raised,#221e1a);color:var(--color-paper,#efe8dc);border:1px solid var(--color-rule,#3a332c);border-radius:4px;padding:6px 8px;} .ds-select:focus-visible{outline:2px solid var(--color-paper,#efe8dc);outline-offset:2px;}"
+    },
+    {
+      "name": "圖示按鈕",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "32px 純圖示按鈕，附 aria-label 與 title。",
+      "html": "<button class=\"ds-icon-btn\" aria-label=\"重新讀取新聞\" title=\"重新讀取新聞\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8\"/><path d=\"M21 3v5h-5\"/><path d=\"M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16\"/><path d=\"M8 16H3v5\"/></svg></button>",
+      "css": ".ds-icon-btn{display:grid;place-items:center;width:32px;height:32px;border:0;border-radius:4px;background:transparent;color:var(--color-muted,#a39a8e);cursor:pointer;} .ds-icon-btn:hover{background:var(--color-ink-raised,#221e1a);color:var(--color-paper,#efe8dc);} .ds-icon-btn:focus-visible{outline:2px solid var(--color-paper,#efe8dc);outline-offset:2px;} .ds-icon-btn:disabled{opacity:.5;}"
+    },
+    {
+      "name": "今天日期頁",
+      "kind": "custom",
+      "refersTo": "today-sheet",
+      "description": "唯一的紙白面積：大日期數字與上次造訪後清單；撕頁揭露。",
+      "html": "<aside class=\"ds-sheet\"><div class=\"ds-sheet-head\"><p class=\"ds-sheet-ym\">2026　十一月</p><p class=\"ds-sheet-day\">06</p><p class=\"ds-sheet-wd\">星期五</p></div><div class=\"ds-sheet-list\"><h2 class=\"ds-sheet-h\">上次造訪後<span>2 款</span></h2><ul><li><i class=\"ds-shape ds-diamond\" style=\"background:#e3c75a;border-color:#e3c75a\"></i><span>Gemini 4 Carbon</span><small>10/28</small></li><li><i class=\"ds-shape ds-diamond\" style=\"background:#9a9cf2;border-color:#9a9cf2\"></i><span class=\"ds-flagship\">Muse Spark Open</span><small>10/15</small></li></ul></div></aside>",
+      "css": ".ds-sheet{font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;font-feature-settings:'tnum' 1;width:272px;background:var(--color-paper,#efe8dc);color:var(--color-paper-ink,#2a241f);} .ds-sheet-head{text-align:center;padding:28px 24px 16px;animation:ds-tear 520ms cubic-bezier(0.16,1,0.3,1) both;} @keyframes ds-tear{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0 0 0 0)}} @media (prefers-reduced-motion:reduce){.ds-sheet-head{animation:none}} .ds-sheet-ym{margin:0;font-size:1rem;font-weight:700;} .ds-sheet-day{margin:8px 0 0;font-size:9.5rem;line-height:.85;font-weight:900;letter-spacing:-.04em;} .ds-sheet-wd{margin:8px 0 0;font-size:1.125rem;font-weight:700;} .ds-sheet-list{margin:0 24px;border-top:2px solid var(--color-paper-ink,#2a241f);padding:12px 0 20px;} .ds-sheet-h{display:flex;justify-content:space-between;margin:0;font-size:.875rem;font-weight:700;} .ds-sheet-h span{color:var(--color-almanac,#276b3c);} .ds-sheet ul{list-style:none;margin:8px 0 0;padding:0;} .ds-sheet li{display:flex;align-items:center;gap:10px;padding:8px 0;font-size:.875rem;border-bottom:1px solid var(--color-paper-rule,#cfc5b6);cursor:pointer;} .ds-sheet li:last-child{border-bottom:0;} .ds-sheet li span{flex:1;} .ds-sheet small{font-size:.75rem;color:var(--color-paper-muted,#5e554b);} .ds-flagship{font-weight:700;color:var(--color-cinnabar,#c41e17);} .ds-shape{display:inline-block;width:9px;height:9px;border:2px solid;box-sizing:border-box;box-shadow:0 0 0 1px rgba(42,36,31,.55);} .ds-diamond{transform:rotate(45deg) scale(.9);}"
+    },
+    {
+      "name": "時間軸泳道",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "廠商泳道：圓＝一般、菱形＝推理；紙白環＝選中，綠環＝新增；旗艦標籤用朱紅墨面版。",
+      "html": "<div class=\"ds-lane\"><span class=\"ds-lane-name\"><i class=\"ds-dot\" style=\"background:#e3c75a\"></i>Google</span><div class=\"ds-lane-track\"><button class=\"ds-mark\" style=\"left:20%\" aria-label=\"Gemini 1.5\"><span class=\"ds-ring\"><span class=\"ds-gap\"><i class=\"ds-m\" style=\"background:#e3c75a;border-color:#e3c75a;border-radius:9999px\"></i></span></span></button><button class=\"ds-mark\" style=\"left:55%\" aria-label=\"Gemini 4 Argon，推理模型，上次造訪後新增\"><span class=\"ds-ring ds-new\"><span class=\"ds-gap\"><i class=\"ds-m ds-dia\" style=\"background:#e3c75a;border-color:#e3c75a\"></i></span></span></button><button class=\"ds-mark\" style=\"left:85%\" aria-label=\"Gemini 4 Carbon，推理模型\" aria-pressed=\"true\"><span class=\"ds-ring ds-active\"><span class=\"ds-gap\"><i class=\"ds-m ds-dia\" style=\"width:12px;height:12px;background:#e3c75a;border-color:#e3c75a\"></i></span></span></button><span class=\"ds-tag\" style=\"left:85%\">Gemini 4 Carbon</span></div></div>",
+      "css": ".ds-lane{font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;display:flex;align-items:stretch;min-height:56px;width:560px;background:var(--color-ink,#1a1714);border-bottom:1px dashed var(--color-rule-soft,#2a2520);} .ds-lane-name{display:flex;align-items:center;gap:8px;width:96px;padding-left:16px;font-size:.875rem;color:var(--color-paper-dim,#c9c0b3);} .ds-dot{display:inline-block;width:8px;height:8px;border-radius:9999px;} .ds-lane-track{position:relative;flex:1;margin-right:40px;} .ds-lane-track::before{content:\"\";position:absolute;left:0;right:0;top:50%;height:1px;background:var(--color-rule-soft,#2a2520);} .ds-mark{position:absolute;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:24px;height:24px;border:0;border-radius:9999px;background:transparent;cursor:pointer;padding:0;} .ds-mark:focus-visible{outline:2px solid var(--color-paper,#efe8dc);outline-offset:2px;} .ds-ring{display:grid;place-items:center;border-radius:9999px;padding:2px;} .ds-new{background:var(--color-almanac-ink,#5cc282);} .ds-active{background:var(--color-paper,#efe8dc);} .ds-gap{display:grid;place-items:center;border-radius:9999px;padding:2px;background:var(--color-ink,#1a1714);} .ds-m{display:inline-block;width:10px;height:10px;border:2px solid;box-sizing:border-box;} .ds-dia{transform:rotate(45deg) scale(.9);} .ds-tag{position:absolute;bottom:50%;margin-bottom:10px;font-size:.75rem;font-weight:700;color:var(--color-cinnabar-ink,#ff6a5c);white-space:nowrap;transform:translateX(-100%);}"
+    },
+    {
+      "name": "估計值",
+      "kind": "custom",
+      "refersTo": "model-detail",
+      "description": "詳情列規格：未公開用灰字，估計值用 ≈ 加虛線底線與說明。",
+      "html": "<dl class=\"ds-spec\"><div><dt>參數</dt><dd class=\"ds-na\">未公開</dd></div><div><dt>上下文</dt><dd><span class=\"ds-est\" title=\"非官方數字，依公開報導推估\">≈2M - 10M</span></dd></div><div><dt>授權</dt><dd>閉源</dd></div></dl>",
+      "css": ".ds-spec{font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;display:flex;gap:32px;font-size:.875rem;background:var(--color-ink-raised,#221e1a);color:var(--color-paper,#efe8dc);padding:16px 20px;margin:0;font-feature-settings:'tnum' 1;} .ds-spec div{display:flex;align-items:baseline;gap:10px;} .ds-spec dt{color:var(--color-muted,#a39a8e);} .ds-spec dd{margin:0;} .ds-na{color:var(--color-muted,#a39a8e);} .ds-est{text-decoration:underline dotted var(--color-muted,#a39a8e);text-underline-offset:3px;cursor:help;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "撕日曆・夜間版",
+    "overview": "整個介面是一本夜裡翻開的撕日曆。墨色底（ink）是夜，紙白（paper）是那一頁「今天」；每次打開都翻到今天，時間軸從今天往回撕。紙白頁是唯一一塊亮面，大日期數字是整套系統唯一的展示字，其他一切都退回細線、小字與資料點。\n\n顏色沿用日曆的印刷慣例：平日黑字，國定假日印朱紅，農民曆的宜忌用綠。在這裡，朱紅只給旗艦發佈（以及週日或當天有旗艦的日期數字），農民曆綠只給「上次造訪後新增」。八家廠商的品牌色退到資料層，只出現在點、形狀與長條上，而且刻意避開這兩個保留色相。密度偏高，為作者本人夜間快速瀏覽而排，不為陌生訪客加說明。\n\n材質是平的：直角或 4px 小圓角、1px 細線分隔、沒有卡片、沒有陰影、沒有漸層、沒有光暈。資訊靠形狀與符號編碼，不靠裝飾：推理模型是菱形、一般模型是圓形，估計值是「≈」加虛線底線。唯一的動作是今天那一頁從上緣撕開露出。",
+    "keyCharacteristics": [
+      "墨底紙字，暖灰調中性色，唯一亮面是「今天」日期頁",
+      "兩個保留色：朱紅（旗艦）、農民曆綠（上次造訪後新增），各有紙面版與墨面版",
+      "廠商色只在資料點上，八色全部避開紅綠",
+      "單一字族 Noto Sans TC（400／700／900），全域等寬數字",
+      "形狀承載語意：圓＝一般、菱形＝推理、空心＝估計、外環＝狀態",
+      "平面材質：1px 細線、4px 小圓角、零陰影",
+      "唯一進場動作：日期區塊的撕頁揭露，減少動態時關閉"
+    ],
+    "rules": [
+      {
+        "name": "The 國定假日 Rule",
+        "body": "朱紅只給旗艦。旗艦模型名稱、週日或當天有旗艦發佈的日期數字可以印紅；hover、強調、警示、按鈕都不行。",
+        "section": "colors"
+      },
+      {
+        "name": "The 農民曆 Rule",
+        "body": "綠色只表示「上次造訪後新增」（首次造訪為最近 30 天）。不拿來表示成功、開啟、或任何其他狀態。",
+        "section": "colors"
+      },
+      {
+        "name": "The 紙墨兩版 Rule",
+        "body": "每個保留色有兩版：紙面用 cinnabar／almanac，墨底用 cinnabar-ink／almanac-ink。不可把紙面版放到墨底上，反之亦然。",
+        "section": "colors"
+      },
+      {
+        "name": "The 資料層品牌色 Rule",
+        "body": "廠商色只畫在資料點、形狀、長條上，不當文字色、不當面積底色。新增廠商色時必須避開朱紅與農民曆綠的色相。",
+        "section": "colors"
+      },
+      {
+        "name": "The 唯一展示字 Rule",
+        "body": "只有日期數字可以超過 1.25rem。其他標題一律靠 700／900 字重分層，不放大。",
+        "section": "typography"
+      },
+      {
+        "name": "The 三字重 Rule",
+        "body": "只用 400、700、900，這是唯一載入的三個字重。",
+        "section": "typography"
+      },
+      {
+        "name": "The 等寬數字 Rule",
+        "body": "全域 `font-feature-settings: 'tnum' 1`；日期、款數、參數、上下文長度都要能縱向對齊。",
+        "section": "typography"
+      },
+      {
+        "name": "The 依量分配 Rule",
+        "body": "時間空間依發佈數量分配，不依日曆等長；年份索引與時間軸用同一邏輯。",
+        "section": "layout"
+      },
+      {
+        "name": "The 平面紙張 Rule",
+        "body": "層次靠墨色明度與 1px 細線，不靠陰影。需要分組時加一條線，不加一張卡。",
+        "section": "elevation"
+      },
+      {
+        "name": "The 形狀即語意 Rule",
+        "body": "推理用形狀表達，不用顏色或文字徽章；顏色已經被廠商佔用。",
+        "section": "shapes"
+      },
+      {
+        "name": "The 估計值 Rule",
+        "body": "未經官方證實的數字前加「≈」，下方加 muted 色虛線底線（偏移 3px），游標為 help，並附 title 說明。",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** 把朱紅限定在旗艦模型與紅日（週日或當天有旗艦）；墨底用 cinnabar-ink，紙面用 cinnabar。",
+      "**Do** 把綠色限定在「上次造訪後新增」；墨底用 almanac-ink，紙面用 almanac。",
+      "**Do** 用形狀表達推理（菱形）、用空心或「≈」加虛線底線表達估計值。",
+      "**Do** 用 1px 細線（rule／rule-soft）分組，浮起墨（ink-raised）只給控制項、詳情列與表頭。",
+      "**Do** 所有數字使用等寬數字，日期與款數縱向對齊。",
+      "**Do** 讓時間空間依發佈數量分配，最近的那端最寬。",
+      "**Do** 在減少動態偏好下關閉撕頁動畫與載入旋轉。"
+    ],
+    "donts": [
+      "**Don't** 把朱紅用在 hover、按鈕、錯誤或任何非旗艦的強調。",
+      "**Don't** 把綠色用於「成功」「開啟」等一般狀態。",
+      "**Don't** 把廠商色用在文字或大面積底色，也不要新增偏紅或偏綠的廠商色。",
+      "**Don't** 加卡片、卡中卡、陰影、光暈或漸層；紙面描邊環是唯一的 box-shadow，用途是輪廓。",
+      "**Don't** 讓日期數字以外的任何文字超過 1.25rem，也不要引入第二個字族。",
+      "**Don't** 加入第二個進場動畫。",
+      "**Don't** 擺出「KPI 卡＋篩選面板＋圖表卡」的儀表板排法。"
+    ]
+  }
+}

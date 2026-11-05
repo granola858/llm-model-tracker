@@ -24,6 +24,8 @@ export interface AIModel {
   license: LicenseType;
   category: ModelCategory;
   isReasoning: boolean;
+  /** 未經官方證實、由公開報導推估的規格欄位 */
+  estimated?: Array<'parameters' | 'context'>;
   highlights: string;
   officialUrl: string;
 }
