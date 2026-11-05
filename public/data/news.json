@@ -1,0 +1,78 @@
+{
+  "lastUpdated": "2026-11-05T12:00:00.000Z",
+  "totalSources": 7,
+  "items": [
+    {
+      "id": "news-1",
+      "title": "OpenAI 持續擴展 GPT-5 與 o3 深度推理生態，強化多代理自主工具調用能力",
+      "summary": "OpenAI 宣布針對開發者 API 推出全新 Agentic Workflow 更新，大幅降低長上下文快取費用並提升視覺與程式碼協同推理速度。",
+      "url": "https://openai.com/news/",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-05T08:30:00.000Z"
+    },
+    {
+      "id": "news-2",
+      "title": "Anthropic 發表 Claude 4.5 企業級自主編程安全報告與長程記憶機制",
+      "summary": "Claude Code 與 Sonnet / Opus 系列新增跨專案記憶檢索功能，能在數十萬行大型程式碼庫中維持長時間自主重構與自動化測試驗證。",
+      "url": "https://www.anthropic.com/news",
+      "source": "Anthropic News",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-04T19:15:00.000Z"
+    },
+    {
+      "id": "news-3",
+      "title": "Google DeepMind 推出 Gemini 新一代多模態即時串流與科學探索基準",
+      "summary": "Google DeepMind 公布最新多模態世界模型進展，結合 200 萬至 1000 萬 Token 長視窗，加速材料科學與軟體工程自動化。",
+      "url": "https://blog.google/technology/ai/",
+      "source": "Google AI Blog",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-04T14:20:00.000Z"
+    },
+    {
+      "id": "news-4",
+      "title": "DeepSeek 開源新一代高效稀疏注意力架構，推理吞吐量再提升 3 倍",
+      "summary": "深度求索團隊於 GitHub 釋出最新強化學習推理與硬體對齊技術報告，再度降低開源大模型在本地端與雲端叢集的部署門檻。",
+      "url": "https://github.com/deepseek-ai",
+      "source": "Hugging Face Blog",
+      "providerTag": "DeepSeek",
+      "publishedAt": "2026-11-03T16:45:00.000Z"
+    },
+    {
+      "id": "news-5",
+      "title": "阿里通義千問 Qwen3.5 系列更新：全模態視覺語音與端側輕量模型齊發",
+      "summary": "Qwen 團隊推出涵蓋 0.6B 至 400B+ MoE 的完整開源權重矩陣，支援超過 119 種語言與混合思維鏈切換。",
+      "url": "https://qwenlm.github.io/",
+      "source": "TechCrunch AI",
+      "providerTag": "Qwen",
+      "publishedAt": "2026-11-03T10:10:00.000Z"
+    },
+    {
+      "id": "news-6",
+      "title": "Meta Llama 4 開放生態系突破十億次下載，原生千萬級上下文獲廣泛採用",
+      "summary": "Meta 宣布 Llama 4 Scout 與 Maverick 在開源社群創下新紀錄，並與多家硬體大廠合作優化 MoE 邊緣端推論。",
+      "url": "https://ai.meta.com/blog/",
+      "source": "The Verge AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-02T21:00:00.000Z"
+    },
+    {
+      "id": "news-7",
+      "title": "xAI 擴建 Colossus 超級運算叢集，Grok 4 強化即時全網查證與多代理推理",
+      "summary": "xAI 宣布為 Grok 系列引入更高併發的 Test-Time Compute 推理模式，在數學、物理與即時金融數據分析表現顯著提升。",
+      "url": "https://x.ai/blog",
+      "source": "VentureBeat AI",
+      "providerTag": "xAI",
+      "publishedAt": "2026-11-01T15:30:00.000Z"
+    },
+    {
+      "id": "news-8",
+      "title": "Mistral AI 發布歐洲主權 AI 與企業私有化部署套件，強化多語系合規推理",
+      "summary": "Mistral 針對金融與歐洲公部門推出全新輕量化高精準度模型與文檔解析 API，兼顧推論速度與資料隱私。",
+      "url": "https://mistral.ai/news/",
+      "source": "Ars Technica AI",
+      "providerTag": "Mistral",
+      "publishedAt": "2026-10-31T11:05:00.000Z"
+    }
+  ]
+}
