@@ -7,7 +7,7 @@
 ## ✨ 核心功能特色
 
 1. **完整歷代模型資料庫（2020 – 2026+）**
-   - 收錄從早期奠基模型（如 `GPT-3`、`LLaMA 1`、`Claude 1`、`PaLM 2`）到中後期多模態與深度推理模型（如 `GPT-4o`、`o1/o3`、`GPT-5`、`Claude 3.5/3.7/4/4.5`、`Gemini 1.5/2.0/2.5/3.0`、`Llama 3/4`、`DeepSeek-V3/R1/R2`、`Qwen2.5/3/3.5`、`Grok 2/3/4`、`Mixtral/Mistral Large 2`）。
+   - 收錄從早期奠基模型（如 `GPT-3`、`LLaMA 1`、`Claude 1`、`PaLM 2`）到中後期多模態與深度推理模型（如 `GPT-4o`、`o1/o3`、`GPT-5/6`、`Claude 3.5/3.7/4/4.5/5/5.5`、`Gemini 1.5/2.0/2.5/3/4`、`Llama 3/4`、`Muse Spark`、`DeepSeek-V3/R1/V4`、`Qwen2.5/3/3.5/3.8`、`Grok 2/3/4/4.7`、`Mixtral/Mistral Large 2/3/4`）。
 2. **圖形化 / 表格雙視圖無縫切換**
    - **圖形化呈現 (Graphical View)**：
      - **各廠牌演進泳道圖 (Swimlane Matrix)**：以時間為橫軸、8 大廠商為縱軸，直觀對比各家發佈節奏；支援滑鼠懸停即時預覽模型規格卡，並以金色光暈標記具備思維鏈推理（Reasoning）的模型。
