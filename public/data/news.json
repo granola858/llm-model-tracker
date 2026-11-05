@@ -1,11 +1,92 @@
 {
-  "lastUpdated": "2026-11-05T13:22:53.268Z",
+  "lastUpdated": "2026-11-05T18:05:29.681Z",
   "totalSources": 7,
   "items": [
     {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L29wZW5haS1wcmVzaWRlbnQtZ3JlZy1icm9ja21hbi1zYXlzLWNvbXBhbnktY291bGQtYmUtaXBvLXJlYWR5LWluLTIwMjcv",
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "summary": "OpenAI President Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "source": "TechCrunch AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-05T18:02:27.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2NsYXVkZS1jYW4tbm93LWFuYWx5emUteW91ci1zcGVuZGluZy13aXRoLWl0cy1uZXctcGVyc29uYWwtZmluYW5jZS10b29sLw==",
+      "title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "summary": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-05T18:00:00.000Z"
+    },
+    {
+      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2RldmVsb3BlcnMtdG9vbHMvaW50cm9kdWNpbmctZ2VtaW5pLW9tbmktMS0yLWZsYXNoLw==",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp\">Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consist...",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "Google AI Blog",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-05T17:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2F4aW9tLW1hdGgtd2FudHMtdG8ta2VlcC1haS1zbG9wLW91dC1vZi1tYXRoZW1hdGljcy8=",
+      "title": "Axiom Math wants to keep AI slop out of mathematics",
+      "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T16:16:45.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2Ryb3Bib3gtYWNxdWlyZXMtdGlncmlzLWRhdGEtZm9yLTM1MG0tdG8tYm9sc3Rlci1pdHMtYWktaWluZnJhc3RydWN0dXJlLw==",
+      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T15:19:05.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAyNDQzOC93aWxseS1zaGloLXN1cHBseS1jaGFpbi1haS1jaGlwcy1yYW0td2hlcmUtZG9lcy1teS1zdHVmZi1jb21lLWZyb20tYm9vaw==",
+      "title": "The hidden supply chain costs of the AI boom",
+      "summary": "Today, I’m talking with Willy Shih, an economist, a professor of management practice at Harvard Business School, and the author of the upcoming book, Where Does My Stuff Come From? The Powerful Economics Behind Global Su...",
+      "url": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T15:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjc0MjcvYWktbXVzaWMtc291bmRjbG91ZC1lbGV2ZW5sYWJz",
+      "title": "You can post AI music straight to SoundCloud from ElevenLabs",
+      "summary": "After partnering with Moises earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from ElevenLabs and then upload...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T15:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2FpbmFzLXNtYXJ0LXJpbmctaGFzLWEtc2NyZWVuLWEtam95c3RpY2stYW5kLWEtbWljLXNvLXlvdS1jYW4tdGFsay10by1haS1hZ2VudHMv",
+      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
+      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T14:42:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2JveC10YXBzLW52aWRpYXMtbmVtb3Ryb24tZm9yLW5ldy1hZ2VudC1maXJzdC1jb250ZW50LXJldHJpZXZhbC1zeXN0ZW0v",
+      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+      "summary": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T14:00:00.000Z"
+    },
+    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2EteWMtc3RhcnR1cC1pcy1wdXR0aW5nLTFtLWJlaGluZC1maXZlLXVuc29sdmVkLW1hdGVyaWFscy1zY2llbmNlLXByb2JsZW1zLWZvci1haS8=",
-      "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
-      "summary": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
+      "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
+      "summary": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials.",
       "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
       "source": "TechCrunch AI",
       "providerTag": "General",
@@ -23,7 +104,7 @@
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2FnaWxpdHktaXMtdGhlLWZpcnN0LXB1cmUtaHVtYW5vaWQtcm9ib3QtY29tcGFueS1vbi10aGUtc3RvY2stbWFya2V0LWFyZS15b3UtYnV5aW5nLw==",
       "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
-      "summary": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company.",
+      "summary": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
       "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
       "source": "TechCrunch AI",
       "providerTag": "General",
@@ -50,7 +131,7 @@
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA0L2FwcGxlLWlzLXJlcG9ydGVkbHktY3V0dGluZy1idWRnZXRzLWZvci1pdHMtaW50ZXJuYWwtYWktdXNhZ2Uv",
       "title": "Apple is reportedly cutting budgets for its internal AI usage",
-      "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+      "summary": "The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
       "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
       "source": "TechCrunch AI",
       "providerTag": "General",
@@ -102,15 +183,6 @@
       "publishedAt": "2026-11-04T22:13:16.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA0L2FsbW9zdC1uby1vbmUtdXNlcy1haS1hZ2VudHMtdG8tYm9vay10aGVpci11YmVyLWNvbXBhbnktc2F5cy8=",
-      "title": "Almost no one uses AI agents to book their Uber, company says",
-      "summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
-      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-04T21:56:01.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjY4Nzgvbm90LWV2ZW4tZ29vZC1hdC1iZWluZy1yaWNo",
       "title": "17 better ways Elon Musk could have wasted $446 million",
       "summary": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known...",
@@ -118,24 +190,6 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-04T21:45:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA0L29wZW5haS1pcy1hbHJlYWR5LXRyeWluZy10by1zaGFwZS10aGUtMjAyOC1lbGVjdGlvbi8=",
-      "title": "OpenAI is already trying to shape the 2028 election",
-      "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
-      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-      "source": "TechCrunch AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-04T21:25:44.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA0L21ldGEtYWNxdWlyZXMtYWktY29kaW5nLXN0YXJ0dXAtY29uZHVjdG9yLw==",
-      "title": "Meta acquires AI coding startup Conductor",
-      "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
-      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-04T21:10:56.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9iaWctdGVjaC1jbGFpbXMtdm90ZXJzLWFpLWJhY2tsYXNoLWlzLWFudGktdHJ1bXAtbm90LWFudGktdGVjaC8=",
@@ -154,33 +208,6 @@
       "source": "The Verge AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-04T20:23:24.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS92aWRlby9vcGVuLXNvdXJjZS1haS1pcy1ib29taW5nLWh1Z2dpbmctZmFjZS1leHBsYWlucy13aG8tcHJvZml0cy8=",
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely...",
-      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-04T19:30:04.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA0L2R1Y2tkdWNrZ28tcGl0Y2hlcy1pdHNlbGYtdG8tc2Nob29scy1hbWlkLWJhY2tsYXNoLW92ZXItZ29vZ2xlcy1haS1wb2xpY3kv",
-      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-      "summary": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
-      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-      "source": "TechCrunch AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-04T19:29:52.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS9wb2RjYXN0L2J1aWxkaW5nLW9uLW9wZW4tc291cmNlLWFpLWh1Z2dpbmctZmFjZXMtcG9saWN5LWNoaWVmLW9uLXRoZS1jb3N0cy1yaXNrcy1hbmQtdHJhZGUtb2Zmcy8=",
-      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely...",
-      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-04T18:44:57.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjY1ODYvbm90aGluZy1zY3JlZW4tZnJlZS1haS1kZXZpY2UtY2FybC1wZWk=",
@@ -226,24 +253,6 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-04T16:05:39.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RyYW5zcG9ydGF0aW9uLzEwMjYzMDYvdWJlci1haS1hZ2VudHMtcTMtZWFybmluZ3MtZGlzaW50ZXJtZWRpYXRpb24=",
-      "title": "Uber only fulfilled 4 rides from AI agents last quarter",
-      "summary": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume ...",
-      "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-04T15:58:45.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjYyOTIvc2FtLWFsdG1hbi1yYW0tc2hvcnRhZ2UtcGNzLWNvbW1lbnRz",
-      "title": "Sam Altman addresses RAM comments: People should ‘put as much as they want in their computers’",
-      "summary": "OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to \"Ram Altman\" in response to another user's comment, saying, \"i actually do want the world to have tons of...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
-      "source": "The Verge AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-04T14:46:01.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L29wZW5haS10by1hY3F1aXJlLXBpZXJyZQ==",
@@ -352,15 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-03T08:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ppbGwtaGF6ZWxiYWtlci1jaGllZi1jb3Jwb3JhdGUtYWZmYWlycy1vZmZpY2Vy",
-      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
-      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-03T00:00:00.000Z"
     }
   ]
 }
