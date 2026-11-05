@@ -1,78 +1,366 @@
 {
-  "lastUpdated": "2026-11-05T12:00:00.000Z",
+  "lastUpdated": "2026-11-05T13:08:14.941Z",
   "totalSources": 7,
   "items": [
     {
-      "id": "news-1",
-      "title": "OpenAI 持續擴展 GPT-5 與 o3 深度推理生態，強化多代理自主工具調用能力",
-      "summary": "OpenAI 宣布針對開發者 API 推出全新 Agentic Workflow 更新，大幅降低長上下文快取費用並提升視覺與程式碼協同推理速度。",
-      "url": "https://openai.com/news/",
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
+      "summary": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
+      "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T13:00:00.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0",
+      "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
+      "summary": "US leader in deploying humanoid robots goes public on the Nadaq stock exchange.",
+      "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T12:00:41.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+      "summary": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company.",
+      "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T12:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cu",
+      "title": "Big Tech’s big AI buildout will not end until someone stops it",
+      "summary": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI data center buildout, and the AI data cente...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T10:45:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVu",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
-      "publishedAt": "2026-11-05T08:30:00.000Z"
+      "publishedAt": "2026-11-05T02:00:00.000Z"
     },
     {
-      "id": "news-2",
-      "title": "Anthropic 發表 Claude 4.5 企業級自主編程安全報告與長程記憶機制",
-      "summary": "Claude Code 與 Sonnet / Opus 系列新增跨專案記憶檢索功能，能在數十萬行大型程式碼庫中維持長時間自主重構與自動化測試驗證。",
-      "url": "https://www.anthropic.com/news",
-      "source": "Anthropic News",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-04T19:15:00.000Z"
-    },
-    {
-      "id": "news-3",
-      "title": "Google DeepMind 推出 Gemini 新一代多模態即時串流與科學探索基準",
-      "summary": "Google DeepMind 公布最新多模態世界模型進展，結合 200 萬至 1000 萬 Token 長視窗，加速材料科學與軟體工程自動化。",
-      "url": "https://blog.google/technology/ai/",
-      "source": "Google AI Blog",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-04T14:20:00.000Z"
-    },
-    {
-      "id": "news-4",
-      "title": "DeepSeek 開源新一代高效稀疏注意力架構，推理吞吐量再提升 3 倍",
-      "summary": "深度求索團隊於 GitHub 釋出最新強化學習推理與硬體對齊技術報告，再度降低開源大模型在本地端與雲端叢集的部署門檻。",
-      "url": "https://github.com/deepseek-ai",
-      "source": "Hugging Face Blog",
-      "providerTag": "DeepSeek",
-      "publishedAt": "2026-11-03T16:45:00.000Z"
-    },
-    {
-      "id": "news-5",
-      "title": "阿里通義千問 Qwen3.5 系列更新：全模態視覺語音與端側輕量模型齊發",
-      "summary": "Qwen 團隊推出涵蓋 0.6B 至 400B+ MoE 的完整開源權重矩陣，支援超過 119 種語言與混合思維鏈切換。",
-      "url": "https://qwenlm.github.io/",
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "Apple is reportedly cutting budgets for its internal AI usage",
+      "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
       "source": "TechCrunch AI",
-      "providerTag": "Qwen",
-      "publishedAt": "2026-11-03T10:10:00.000Z"
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T01:26:22.000Z"
     },
     {
-      "id": "news-6",
-      "title": "Meta Llama 4 開放生態系突破十億次下載，原生千萬級上下文獲廣泛採用",
-      "summary": "Meta 宣布 Llama 4 Scout 與 Maverick 在開源社群創下新紀錄，並與多家硬體大廠合作優化 MoE 邊緣端推論。",
-      "url": "https://ai.meta.com/blog/",
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "After the midterms, a bigger clash over data centers could be coming",
+      "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
+      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T01:02:14.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdn",
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-05T00:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T22:45:09.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cu",
+      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
       "source": "The Verge AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-02T21:00:00.000Z"
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T22:42:15.000Z"
     },
     {
-      "id": "news-7",
-      "title": "xAI 擴建 Colossus 超級運算叢集，Grok 4 強化即時全網查證與多代理推理",
-      "summary": "xAI 宣布為 Grok 系列引入更高併發的 Test-Time Compute 推理模式，在數學、物理與即時金融數據分析表現顯著提升。",
-      "url": "https://x.ai/blog",
-      "source": "VentureBeat AI",
-      "providerTag": "xAI",
-      "publishedAt": "2026-11-01T15:30:00.000Z"
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+      "summary": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T22:13:16.000Z"
     },
     {
-      "id": "news-8",
-      "title": "Mistral AI 發布歐洲主權 AI 與企業私有化部署套件，強化多語系合規推理",
-      "summary": "Mistral 針對金融與歐洲公部門推出全新輕量化高精準度模型與文檔解析 API，兼顧推論速度與資料隱私。",
-      "url": "https://mistral.ai/news/",
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T21:56:01.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cu",
+      "title": "17 better ways Elon Musk could have wasted $446 million",
+      "summary": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T21:45:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "OpenAI is already trying to shape the 2028 election",
+      "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "source": "TechCrunch AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-04T21:25:44.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "Meta acquires AI coding startup Conductor",
+      "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T21:10:56.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0",
+      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+      "summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
       "source": "Ars Technica AI",
-      "providerTag": "Mistral",
-      "publishedAt": "2026-10-31T11:05:00.000Z"
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T20:55:50.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cu",
+      "title": "Gemini for Home now plugs into AT&#038;T’s smart security system",
+      "summary": "AT&#38;T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini...",
+      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "source": "The Verge AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-04T20:23:24.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "Open source AI is booming. Hugging Face explains who profits.",
+      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely...",
+      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T19:30:04.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+      "summary": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
+      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+      "source": "TechCrunch AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-04T19:29:52.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNo",
+      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely...",
+      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T18:44:57.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cu",
+      "title": "Nothing teases a screen-free AI device ahead of launch next month",
+      "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He did...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T18:26:07.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cu",
+      "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
+      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How...",
+      "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cu",
+      "title": "ChatGPT will now make you animated GIFs",
+      "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual ...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+      "source": "The Verge AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdn",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T17:50:10.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cu",
+      "title": "Data centers lost the midterms",
+      "summary": "Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, ...",
+      "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T16:05:39.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cu",
+      "title": "Uber only fulfilled 4 rides from AI agents last quarter",
+      "summary": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume ...",
+      "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-04T15:58:45.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cu",
+      "title": "Sam Altman addresses RAM comments: People should ‘put as much as they want in their computers’",
+      "summary": "OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to \"Ram Altman\" in response to another user's comment, saying, \"i actually do want the world to have tons of...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
+      "source": "The Verge AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-04T14:46:01.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVu",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-04T14:30:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVu",
+      "title": "A thousand fewer paths to root",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-04T08:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVu",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-04T07:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVu",
+      "title": "Introducing Images 2.6",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVu",
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0",
+      "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+      "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
+      "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-03T20:39:55.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0",
+      "title": "Google will let schools skip AI tools, but they have to give up search, too",
+      "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+      "source": "Ars Technica AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-03T17:54:43.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdn",
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-03T17:15:21.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdn",
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-03T16:35:36.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVu",
+      "title": "Accelerating engineering for the physical world",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-03T12:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVu",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "url": "https://openai.com/index/cisco-cyber",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-03T08:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVu",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "url": "https://openai.com/index/heimstaden",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-03T08:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVu",
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-03T00:00:00.000Z"
     }
   ]
 }
