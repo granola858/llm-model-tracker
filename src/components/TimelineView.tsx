@@ -1,9 +1,10 @@
-import React, { useEffect, useMemo, useRef } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ExternalLink } from 'lucide-react';
 import { AIModel, ProviderId } from '../types';
 import { PROVIDERS } from '../data/modelsData';
 import { CATEGORY_LABEL, LICENSE_LABEL, MODALITY_LABEL, toTime } from '../lib/format';
 import { ContextValue, ModelShape, ParamsValue, ProviderDot } from './marks';
+import { LabelSpot, labelText, layoutLabels, measureLabel, resetLabelMeasure, rowOffset, LABEL } from '../lib/laneLabels';
 
 interface Props {
   models: AIModel[]; // 已篩選、由舊到新
@@ -18,6 +19,8 @@ interface Props {
 
 const FIRST_YEAR = 2020;
 const DAY = 24 * 60 * 60 * 1000;
+/** 「全部」檢視每條泳道最多標幾個（最新的優先）；單一年份則全部都試著標 */
+const ALL_VIEW_LABELS = 3;
 
 interface Segment {
   label: string;
@@ -26,6 +29,20 @@ interface Segment {
   from: number; // 0–1 起點
   to: number;
 }
+
+/**
+ * 日期 → 軌道上的百分比。範圍外沿最近一段的比例往外延伸，
+ * 切換年份時移出範圍的點才會朝正確方向滑出去，而不是全部擠在邊上。
+ */
+const makePos = (segments: Segment[]) => (t: number) => {
+  const seg = t < segments[0].start ? segments[0] : segments.find((s) => t < s.end) ?? segments[segments.length - 1];
+  return (seg.from + ((seg.to - seg.from) * (t - seg.start)) / (seg.end - seg.start)) * 100;
+};
+
+/** 範圍外的點只需要滑出邊界外一點點再淡出，不必飛到幾千 % 外 */
+const clampX = (x: number) => Math.min(112, Math.max(-12, x));
+
+const tickKey = (s: { start: number; label: string }) => `${s.start}|${s.label}`;
 
 export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onActive, since, year, onYear, now }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -98,29 +115,98 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
 
   const rangeStart = segments[0].start;
   const rangeEnd = segments[segments.length - 1].end;
+  const pos = useMemo(() => makePos(segments), [segments]);
 
-  const pos = (date: string) => {
-    const t = toTime(date);
-    const seg = segments.find((s) => t >= s.start && t < s.end) ?? segments[segments.length - 1];
-    const frac = Math.min(1, Math.max(0, (t - seg.start) / (seg.end - seg.start)));
-    return (seg.from + (seg.to - seg.from) * frac) * 100;
-  };
-
+  // all：這家廠商的所有模型，一律渲染，範圍外的淡出，切換年份時才能沿軸滑動
+  // models：目前範圍內、可互動的那些
   const lanes = useMemo(
     () =>
-      providers.map((p) => ({
-        provider: p,
-        models: models.filter((m) => {
-          const t = toTime(m.releaseDate);
-          return m.provider === p && t >= rangeStart && t < rangeEnd;
-        }),
-      })),
+      providers.map((p) => {
+        const all = models.filter((m) => m.provider === p);
+        return {
+          provider: p,
+          all,
+          models: all.filter((m) => {
+            const t = toTime(m.releaseDate);
+            return t >= rangeStart && t < rangeEnd;
+          }),
+        };
+      }),
     [providers, models, rangeStart, rangeEnd]
+  );
+
+  // 所有可能出現的刻度（每年一月的年份 + 每個月），只顯示目前檢視用到的，其餘跟著軸滑動並淡出
+  const tickPool = useMemo(() => {
+    const list: { start: number; label: string }[] = [];
+    for (let y = FIRST_YEAR; y <= lastYear; y++) {
+      list.push({ start: new Date(y, 0, 1).getTime(), label: String(y) });
+      const lastMonth = y === lastYear ? now.getMonth() : 11;
+      for (let mo = 0; mo <= lastMonth; mo++) list.push({ start: new Date(y, mo, 1).getTime(), label: `${mo + 1}月` });
+    }
+    return list;
+  }, [lastYear, now]);
+  const shownTicks = useMemo(
+    () =>
+      new Set(
+        segments.filter((s, i) => i === 0 || i === segments.length - 1 || s.to - s.from >= 0.06).map(tickKey)
+      ),
+    [segments]
   );
 
   const visible = lanes.flatMap((l) => l.models);
   const active = models.find((m) => m.id === activeId) ?? models[models.length - 1];
   const focusId = visible.some((m) => m.id === active?.id) ? active?.id : visible[visible.length - 1]?.id;
+
+  // 標籤排版要知道軌道的實際寬高（所有泳道等寬等高，量第一條就好）
+  const [track, setTrack] = useState({ w: 0, h: 0 });
+  const trackRef = useCallback((el: HTMLDivElement | null) => {
+    if (!el) return;
+    const ro = new ResizeObserver(([e]) => {
+      const w = Math.round(e.contentRect.width);
+      const h = Math.round(e.contentRect.height);
+      setTrack((p) => (p.w === w && p.h === h ? p : { w, h }));
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  // 網頁字型載入後寬度會變，重量一次
+  const [fontEpoch, setFontEpoch] = useState(0);
+  useEffect(() => {
+    const fonts = document.fonts;
+    if (!fonts) return;
+    const bump = () => {
+      resetLabelMeasure();
+      setFontEpoch((n) => n + 1);
+    };
+    fonts.addEventListener('loadingdone', bump);
+    void fonts.ready.then(bump);
+    return () => fonts.removeEventListener('loadingdone', bump);
+  }, []);
+
+  const labelSpots = useMemo(() => {
+    const spots = new Map<string, LabelSpot>();
+    if (!track.w) return spots;
+    for (const lane of lanes) {
+      const pool = year === 'ALL' ? lane.models.slice(-ALL_VIEW_LABELS) : lane.models;
+      const items = [...pool].reverse().map((m) => ({
+        id: m.id,
+        x: (pos(toTime(m.releaseDate)) / 100) * track.w,
+        w: measureLabel(labelText(m), m.category === 'Flagship'),
+      }));
+      for (const [id, spot] of layoutLabels(items, track.w, track.h)) spots.set(id, spot);
+    }
+    return spots;
+    // fontEpoch：字型換了，量出來的寬度不同，要重排
+  }, [lanes, pos, track, year, fontEpoch]);
+
+  // 切換過年份之後，標籤等圓點滑定位才淡入；第一次載入不播
+  const [shownYear, setShownYear] = useState(year);
+  const [zoomed, setZoomed] = useState(false);
+  if (shownYear !== year) {
+    setShownYear(year);
+    setZoomed(true);
+  }
 
   // 手機版：時間軸預設捲到「今天」
   useEffect(() => {
@@ -154,8 +240,6 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
     e.preventDefault();
     if (next) focusModel(next.id);
   };
-
-  const labelCount = year === 'ALL' ? 2 : 3;
 
   return (
     <section aria-label="模型時間軸" className="flex min-h-0 flex-1 flex-col">
@@ -201,60 +285,82 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
             <div ref={lanesRef} role="group" aria-label="各廠商發佈" className="flex flex-1 flex-col pt-3">
               {lanes.map((lane, laneIdx) => {
                 const meta = PROVIDERS[lane.provider];
-                const labeled = new Set(lane.models.slice(-labelCount).map((m) => m.id));
                 return (
-                  <div key={lane.provider} className="flex min-h-14 flex-1 items-stretch border-b border-dashed border-rule-soft">
+                  // overflow-x-clip：滑出範圍的點不撐開捲動寬度；clip 不是捲動容器，廠商名的 sticky 照常
+                  <div
+                    key={lane.provider}
+                    className="flex min-h-14 flex-1 items-stretch overflow-x-clip border-b border-dashed border-rule-soft"
+                  >
                     <div className="sticky left-0 z-20 flex w-24 shrink-0 items-center gap-2 bg-ink pl-4 text-sm font-medium text-paper-dim">
                       <ProviderDot color={meta.color} />
                       {meta.name}
                     </div>
-                    <div className="relative mr-10 flex-1">
+                    <div ref={laneIdx === 0 ? trackRef : undefined} className="relative mr-10 flex-1">
                       <div aria-hidden className="absolute inset-x-0 top-1/2 h-px bg-rule-soft" />
-                      {lane.models.map((m, idx) => {
-                        const x = pos(m.releaseDate);
+                      {lane.all.map((m) => {
+                        const idx = lane.models.indexOf(m);
+                        const out = idx < 0;
                         const isNew = toTime(m.releaseDate) > since;
                         const isActive = m.id === active?.id;
-                        const labelIdx = lane.models.length - 1 - idx;
-                        const right = x > 78;
                         return (
-                          <React.Fragment key={m.id}>
-                            <button
-                              type="button"
-                              data-id={m.id}
-                              tabIndex={m.id === focusId ? 0 : -1}
-                              onMouseEnter={() => onActive(m.id)}
-                              onFocus={() => onActive(m.id)}
-                              onClick={() => onActive(m.id)}
-                              onKeyDown={(e) => onKey(e, laneIdx, idx)}
-                              aria-label={`${m.name}，${meta.name}，${m.releaseDate}${m.isReasoning ? '，推理模型' : ''}${
-                                isNew ? '，上次造訪後新增' : ''
+                          <button
+                            key={m.id}
+                            type="button"
+                            data-id={m.id}
+                            data-out={out || undefined}
+                            inert={out}
+                            tabIndex={m.id === focusId ? 0 : -1}
+                            onMouseEnter={() => onActive(m.id)}
+                            onFocus={() => onActive(m.id)}
+                            onClick={() => onActive(m.id)}
+                            onKeyDown={(e) => onKey(e, laneIdx, idx)}
+                            aria-label={`${m.name}，${meta.name}，${m.releaseDate}${m.isReasoning ? '，推理模型' : ''}${
+                              isNew ? '，上次造訪後新增' : ''
+                            }`}
+                            aria-pressed={isActive}
+                            className="tl-move absolute top-1/2 z-10 grid h-6 w-6 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full"
+                            style={{ left: `${clampX(pos(toTime(m.releaseDate)))}%` }}
+                          >
+                            <span
+                              className={`grid place-items-center rounded-full p-0.5 ${
+                                isActive ? 'bg-paper' : isNew ? 'bg-almanac-ink' : ''
                               }`}
-                              aria-pressed={isActive}
-                              className="absolute top-1/2 z-10 grid h-6 w-6 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full"
-                              style={{ left: `${x}%` }}
                             >
-                              <span
-                                className={`grid place-items-center rounded-full p-0.5 ${
-                                  isActive ? 'bg-paper' : isNew ? 'bg-almanac-ink' : ''
-                                }`}
-                              >
-                                <span className="grid place-items-center rounded-full bg-ink p-0.5">
-                                  <ModelShape model={m} size={isActive ? 12 : 10} />
-                                </span>
+                              <span className="grid place-items-center rounded-full bg-ink p-0.5">
+                                <ModelShape model={m} size={isActive ? 12 : 10} />
                               </span>
-                            </button>
-                            {labeled.has(m.id) && (
-                              <span
-                                aria-hidden
-                                className={`pointer-events-none absolute hidden whitespace-nowrap text-xs lg:block ${
-                                  labelIdx === 0 ? 'bottom-1/2 mb-2.5' : 'top-1/2 mt-2.5'
-                                } ${m.category === 'Flagship' ? 'font-bold text-cinnabar-ink' : 'text-paper-dim'}`}
-                                style={right ? { right: `${100 - x}%`, marginRight: 6 } : { left: `${x}%`, marginLeft: 6 }}
-                              >
-                                {m.name.split(' (')[0]}
-                              </span>
-                            )}
-                          </React.Fragment>
+                            </span>
+                          </button>
+                        );
+                      })}
+                      {lane.models.map((m) => {
+                        const spot = labelSpots.get(m.id);
+                        if (!spot) return null;
+                        const x = pos(toTime(m.releaseDate));
+                        const end = spot.anchor === 'end';
+                        const offset = `calc(50% + ${rowOffset(spot.row)}px)`;
+                        return (
+                          <span
+                            // 換年份就換一個元素，才能等圓點滑定位後重新淡入
+                            key={`${year}:${m.id}`}
+                            aria-hidden
+                            className={`tl-move pointer-events-none absolute hidden whitespace-nowrap text-xs leading-4 lg:block ${
+                              zoomed ? 'tl-label-in' : ''
+                            } ${
+                              m.category === 'Flagship'
+                                ? 'font-bold text-cinnabar-ink'
+                                : m.id === active?.id
+                                  ? 'text-paper'
+                                  : 'text-paper-dim'
+                            }`}
+                            style={{
+                              left: `calc(${x}% ${end ? '-' : '+'} ${LABEL.dotGap}px)`,
+                              transform: end ? 'translateX(-100%)' : undefined,
+                              ...(spot.side === 'above' ? { bottom: offset } : { top: offset }),
+                            }}
+                          >
+                            {labelText(m)}
+                          </span>
                         );
                       })}
                     </div>
@@ -267,18 +373,24 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
             </div>
 
             {/* 時間刻度 */}
-            <div className="flex h-8 shrink-0 border-b border-rule">
+            <div className="flex h-8 shrink-0 overflow-x-clip border-b border-rule">
               <div className="sticky left-0 z-20 w-24 shrink-0 bg-ink" />
               <div className="relative mr-10 flex-1">
-                {segments.filter((s, i) => i === 0 || i === segments.length - 1 || s.to - s.from >= 0.06).map((s) => (
-                  <span
-                    key={s.label}
-                    className="absolute top-1 border-l border-rule pl-1.5 text-2xs text-muted tabular-nums"
-                    style={{ left: `${s.from * 100}%` }}
-                  >
-                    {s.label}
-                  </span>
-                ))}
+                {tickPool.map((s) => {
+                  const key = tickKey(s);
+                  const out = !shownTicks.has(key);
+                  return (
+                    <span
+                      key={key}
+                      aria-hidden={out || undefined}
+                      data-out={out || undefined}
+                      className="tl-move absolute top-1 whitespace-nowrap border-l border-rule pl-1.5 text-2xs text-muted tabular-nums"
+                      style={{ left: `${clampX(pos(s.start))}%` }}
+                    >
+                      {s.label}
+                    </span>
+                  );
+                })}
               </div>
             </div>
           </div>
