@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T22:57:02.807Z",
+  "lastUpdated": "2026-11-06T00:09:35.870Z",
   "totalSources": 7,
   "items": [
     {
@@ -246,6 +246,15 @@
       "publishedAt": "2026-11-05T09:00:00.000Z"
     },
     {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L21lcmdlLWJ1aWxkcy13aXRoLW9wZW5haQ==",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-05T08:00:00.000Z"
+    },
+    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3NldHRpbmctbmV3LXN0YW5kYXJkLXJlc3BvbnNpYmxlLWFpLWluZnJhc3RydWN0dXJl",
       "title": "Setting a new standard for responsible AI infrastructure",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
@@ -253,6 +262,15 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-05T02:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2Fkcy9jdXN0b21lcnMvZmxpcHNuYWNr",
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-05T00:45:15.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL3Bob25vbi10dHM=",
@@ -343,24 +361,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-03T20:39:55.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9nb29nbGUtd2lsbC1sZXQtc2Nob29scy1za2lwLWFpLXRvb2xzLWJ1dC10aGV5LWhhdmUtdG8tZ2l2ZS11cC1zZWFyY2gtdG9vLw==",
-      "title": "Google will let schools skip AI tools, but they have to give up search, too",
-      "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
-      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-      "source": "Ars Technica AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-03T17:54:43.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FsbGVuYWkvc3RhdGViZW5jaA==",
-      "title": "StateBench: Testing how language models track state changes over long documents",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/allenai/statebench",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-03T17:15:21.000Z"
     }
   ]
 }
