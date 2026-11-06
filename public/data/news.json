@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-06T08:15:59.137Z",
+  "lastUpdated": "2026-11-06T12:05:35.913Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL25ld3MvMTAyODU0OS9wcm90ZXN0ZXJzLW1pY3Jvc29mdC1kYXRhLWNlbnRlci1zaXRlLWFtc3RlcmRhbQ==",
+      "title": "Protesters break into Microsoft data center site in Amsterdam",
+      "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data cen...",
+      "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T11:55:19.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L3BhbG8tYWx0by1uZXR3b3Jrcy1pbi10YWxrcy10by1idXktYWktYWdlbnQtc2VjdXJpdHktc3RhcnR1cC1jbHV0Y2gtZm9yLTUwMG0v",
       "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
@@ -28,6 +37,15 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-06T00:06:12.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL29wZW4tYXNyLWxlYWRlcmJvYXJkLWxpdmE=",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T00:00:00.000Z"
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2FpcmJuYi1zYXlzLWl0cy1sYXVuY2hpbmctYW4tYWktdHJhdmVsLWFnZW50LWluLXRoZS1maXJzdC1oYWxmLW9mLTIwMjcv",
@@ -219,15 +237,6 @@
       "publishedAt": "2026-11-05T15:00:00.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjc0MjcvYWktbXVzaWMtc291bmRjbG91ZC1lbGV2ZW5sYWJz",
-      "title": "You can post AI music straight to SoundCloud from ElevenLabs",
-      "summary": "After partnering with Moises earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from ElevenLabs and then upload...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T15:00:00.000Z"
-    },
-    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2FpbmFzLXNtYXJ0LXJpbmctaGFzLWEtc2NyZWVuLWEtam95c3RpY2stYW5kLWEtbWljLXNvLXlvdS1jYW4tdGFsay10by1haS1hZ2VudHMv",
       "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
       "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
@@ -352,15 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-04T08:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2RheWJyZWFrLXJlZC1hd3MtZ292Y2xvdWQ=",
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-04T07:00:00.000Z"
     }
   ]
 }
