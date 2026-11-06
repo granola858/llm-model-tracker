@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-11-06T12:05:35.913Z",
+  "lastUpdated": "2026-11-06T14:08:13.073Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FsbGVuYWkvdG95YmxvY2tz",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T14:00:48.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAyODU4Ny9hbWF6b24tYWxleGEtc2hvcHBpbmctYWktdGV4dC1vcmRlcnM=",
+      "title": "Amazon will let you text Alexa your shopping list",
+      "summary": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the...",
+      "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T14:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L3VuZGVyZG9nLXNob3dzLW9mZi1hLTMybWItc3BlZWNoLW1vZGVsLWluLW5ldy1kZW1vLw==",
+      "title": "Underdog shows off a 32MB speech model in new demo",
+      "summary": "Despite its small size, Underdog's new model can generate both speech and music.",
+      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T13:02:16.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L3BoeXNpY2wtcmFpc2VzLTEwbS10by1tYWtlLXRoZS1kaWdpdGFsLXdvcmxkLXJlYWwtZW5vdWdoLWZvci1yb2JvdHMv",
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T13:00:00.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL25ld3MvMTAyODU0OS9wcm90ZXN0ZXJzLW1pY3Jvc29mdC1kYXRhLWNlbnRlci1zaXRlLWFtc3RlcmRhbQ==",
       "title": "Protesters break into Microsoft data center site in Amsterdam",
@@ -228,15 +264,6 @@
       "publishedAt": "2026-11-05T15:19:05.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAyNDQzOC93aWxseS1zaGloLXN1cHBseS1jaGFpbi1haS1jaGlwcy1yYW0td2hlcmUtZG9lcy1teS1zdHVmZi1jb21lLWZyb20tYm9vaw==",
-      "title": "The hidden supply chain costs of the AI boom",
-      "summary": "Today, I’m talking with Willy Shih, an economist, a professor of management practice at Harvard Business School, and the author of the upcoming book, Where Does My Stuff Come From? The Powerful Economics Behind Global Su...",
-      "url": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T15:00:00.000Z"
-    },
-    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2FpbmFzLXNtYXJ0LXJpbmctaGFzLWEtc2NyZWVuLWEtam95c3RpY2stYW5kLWEtbWljLXNvLXlvdS1jYW4tdGFsay10by1haS1hZ2VudHMv",
       "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
       "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
@@ -244,24 +271,6 @@
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-05T14:42:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2JveC10YXBzLW52aWRpYXMtbmVtb3Ryb24tZm9yLW5ldy1hZ2VudC1maXJzdC1jb250ZW50LXJldHJpZXZhbC1zeXN0ZW0v",
-      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
-      "summary": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.",
-      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T14:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2EteWMtc3RhcnR1cC1pcy1wdXR0aW5nLTFtLWJlaGluZC1maXZlLXVuc29sdmVkLW1hdGVyaWFscy1zY2llbmNlLXByb2JsZW1zLWZvci1haS8=",
-      "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
-      "summary": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials.",
-      "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T13:00:00.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9hZ2lsaXR5LXJvYm90aWNzLW5hc2RhcS1kZWJ1dC1pbnZpdGVzLXNjcnV0aW55LW9mLWh1bWFub2lkLXJvYm90LW1hcmtldC8=",
@@ -352,15 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-04T14:30:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2EtdGhvdXNhbmQtZmV3ZXItcGF0aHMtdG8tcm9vdA==",
-      "title": "A thousand fewer paths to root",
-      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-04T08:00:00.000Z"
     }
   ]
 }
