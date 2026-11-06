@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T02:06:56.973Z",
+  "lastUpdated": "2026-11-06T06:06:46.494Z",
   "totalSources": 7,
   "items": [
     {
@@ -145,6 +145,15 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-05T17:51:52.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2F1c3RyYWxpYW4tdW5pdmVyc2l0aWVzLWFpLW5hdGl2ZS1ncmFkdWF0ZXM=",
+      "title": "Australian universities are creating AI-native graduates",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-05T17:00:00.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2RldmVsb3BlcnMtdG9vbHMvaW50cm9kdWNpbmctZ2VtaW5pLW9tbmktMS0yLWZsYXNoLw==",
@@ -352,15 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-04T07:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ludHJvZHVjaW5nLWltYWdlcy0yLTY=",
-      "title": "Introducing Images 2.6",
-      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "url": "https://openai.com/index/introducing-images-2-6",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-04T00:00:00.000Z"
     }
   ]
 }
