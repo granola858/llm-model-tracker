@@ -6,9 +6,9 @@ on:
     - cron: '30 1 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pull-requests: write
+# 預設不給權限，每個 job 只拿自己需要的。
+# 安裝 npm 套件、呼叫 Claude、建置只在唯讀的 review job 執行，第三方程式碼拿不到寫入權限。
+permissions: {}
 
 concurrency:
   group: 'update-models'
@@ -18,12 +18,20 @@ env:
   PR_BRANCH: bot/model-updates
 
 jobs:
-  propose-models:
+  review:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      added: ${{ steps.fetch.outputs.added }}
+      changed: ${{ steps.collect.outputs.changed }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
 
       # 上一次提出的 PR 還沒處理時先不跑，避免覆蓋待審內容、也不重複花 API 費用
       - name: Skip if a model-update PR is still open
@@ -39,7 +47,7 @@ jobs:
 
       - name: Setup Node.js
         if: steps.guard.outputs.open == '0'
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '22'
           cache: 'npm'
@@ -53,8 +61,10 @@ jobs:
         id: fetch
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          MODEL_UPDATE_SUMMARY: ${{ runner.temp }}/model-update.md
-        run: npm run fetch-models
+          MODEL_UPDATE_SUMMARY: ${{ runner.temp }}/review/model-update.md
+        run: |
+          mkdir -p "$RUNNER_TEMP/review"
+          npm run fetch-models
 
       - name: Validate models.json and type-check
         if: steps.guard.outputs.open == '0'
@@ -62,10 +72,51 @@ jobs:
           npm run validate-models
           npm run build
 
-      # 已審過的候選清單直接進 main，下次不會再送審
-      - name: Commit reviewed-candidate state to main
+      # 審核結果交給 publish job 寫回 repo
+      - name: Collect review results
         if: steps.guard.outputs.open == '0'
+        id: collect
         run: |
+          if git diff --quiet -- src/data/models.json scripts/state/reviewed-candidates.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            cp src/data/models.json scripts/state/reviewed-candidates.json "$RUNNER_TEMP/review/"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload review results
+        if: steps.collect.outputs.changed == 'true'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: model-review
+          path: ${{ runner.temp }}/review/
+          retention-days: 1
+          if-no-files-found: error
+
+  # 只搬運 review job 的結果，不裝套件、不執行 repo 內的程式碼
+  publish:
+    needs: review
+    if: needs.review.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - name: Download review results
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: model-review
+          path: ${{ runner.temp }}/review
+
+      # 已審過的候選清單直接進 main，下次不會再送審。
+      # 這時工作目錄只有這個檔案有變動，git pull --rebase 才不會因為未 commit 的 models.json 失敗
+      - name: Commit reviewed-candidate state to main
+        run: |
+          cp "$RUNNER_TEMP/review/reviewed-candidates.json" scripts/state/reviewed-candidates.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add scripts/state/reviewed-candidates.json
@@ -77,14 +128,18 @@ jobs:
             git push origin HEAD:main
           fi
 
+      - name: Apply proposed models
+        if: needs.review.outputs.added != '0'
+        run: cp "$RUNNER_TEMP/review/models.json" src/data/models.json
+
       - name: Open pull request with new models
-        if: steps.guard.outputs.open == '0' && steps.fetch.outputs.added != '0'
-        uses: peter-evans/create-pull-request@v7
+        if: needs.review.outputs.added != '0'
+        uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7.0.11
         with:
           branch: ${{ env.PR_BRANCH }}
           base: main
           add-paths: src/data/models.json
-          commit-message: 'feat(data): 自動提出 ${{ steps.fetch.outputs.added }} 筆新模型'
-          title: '新增 ${{ steps.fetch.outputs.added }} 筆模型（自動查證，待審核）'
-          body-path: ${{ runner.temp }}/model-update.md
+          commit-message: 'feat(data): 自動提出 ${{ needs.review.outputs.added }} 筆新模型'
+          title: '新增 ${{ needs.review.outputs.added }} 筆模型（自動查證，待審核）'
+          body-path: ${{ runner.temp }}/review/model-update.md
           delete-branch: true

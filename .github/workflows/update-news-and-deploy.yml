@@ -11,39 +11,37 @@ on:
   # 3. 允許在 GitHub Actions 頁面手動一鍵觸發
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+# 預設不給權限，每個 job 只拿自己需要的。
+# 安裝 npm 套件與建置只在唯讀的 build job 執行，第三方程式碼拿不到寫入權限。
+permissions: {}
 
 concurrency:
   group: 'pages'
   cancel-in-progress: false
 
 jobs:
-  update-news-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  # 只跑 repo 自己的腳本、不裝 npm 套件，所以可以給 push 權限
+  update-news:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '22'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
 
       - name: Fetch latest AI News into public/data/news.json
         run: npm run fetch-news
 
       - name: Commit updated news.json back to repository (if changed)
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -54,6 +52,29 @@ jobs:
             git commit -m "chore(news): 自動更新最新 AI 產業新聞動態 [skip ci]"
             git push
           fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: update-news
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          ref: ${{ needs.update-news.outputs.sha }}
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
 
       - name: Validate models.json
         run: npm run validate-models
@@ -61,14 +82,26 @@ jobs:
       - name: Build static frontend (Vite)
         run: npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
         with:
           path: './dist'
 
+  # 只部署已建好的產物，不 checkout、不執行任何 repo 內的程式碼
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
+
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5

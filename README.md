@@ -53,7 +53,7 @@ npm run build
 1. 將本專案推送至您的 GitHub Repository（預設分支為 `main`）。
 2. 前往 GitHub 專案的 **Settings** -> **Pages**。
 3. 在 **Build and deployment** 下方的 **Source** 選擇 **`GitHub Actions`**。
-4. 前往 **Settings** -> **Actions** -> **General**，確認 **Workflow permissions** 勾選 **`Read and write permissions`**（讓 Action 可以自動將更新後的 `public/data/news.json` commit 回儲存庫）。
+4. 前往 **Settings** -> **Actions** -> **General**，**Workflow permissions** 選 **`Read repository contents and packages permissions`**（唯讀）即可。兩個 workflow 都在檔案裡替每個 job 宣告需要的權限：只有寫回新聞、審核結果與開 PR 的 job 拿得到寫入權限，安裝 npm 套件與建置的 job 一律唯讀。
 5. 同一頁的 **Workflow permissions** 下方勾選 **`Allow GitHub Actions to create and approve pull requests`**（讓模型更新流程可以自動開 PR）。
 6. 前往 **Settings** -> **Secrets and variables** -> **Actions**，新增 Repository secret **`ANTHROPIC_API_KEY`**。沒有設定時，模型更新流程只會列出候選，不會呼叫 API。
 7. 完成後，每當您推送程式碼、每滿 6 小時排程、或至 **Actions** 頁籤手動點擊 **Run workflow**，系統就會自動抓取最新 AI 新聞並完成靜態網站部署！
