@@ -139,5 +139,12 @@ export const writeUrlState = (s: UrlState) => {
   if (s.year !== 'ALL') p.set('y', s.year);
   if (s.model) p.set('m', s.model);
   const qs = p.toString();
-  window.history.replaceState(null, '', `${window.location.pathname}${qs ? `?${qs}` : ''}`);
+  const url = `${window.location.pathname}${qs ? `?${qs}` : ''}`;
+  if (url === `${window.location.pathname}${window.location.search}${window.location.hash}`) return;
+  // Safari、Firefox 限制 replaceState 的呼叫頻率，超過會丟例外；網址沒同步到不該讓畫面壞掉
+  try {
+    window.history.replaceState(null, '', url);
+  } catch {
+    // 下一次狀態變動時會再寫一次
+  }
 };

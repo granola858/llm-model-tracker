@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Search } from 'lucide-react';
 import { ProviderId } from './types';
 import { INITIAL_MODELS, PROVIDERS } from './data/modelsData';
@@ -23,6 +23,9 @@ const TABS: { id: TabId; label: string }[] = [
   { id: 'compare', label: '規格比較' },
   { id: 'stats', label: '統計' },
 ];
+
+// 狀態停下來多久才寫進網址。Safari 30 秒內超過 100 次 replaceState 會丟例外，500 ms 最多 60 次
+const URL_SYNC_DELAY = 500;
 
 export const App: React.FC = () => {
   const initial = useMemo(readUrlState, []);
@@ -53,14 +56,20 @@ export const App: React.FC = () => {
   // 選中的模型被篩掉時，改指向篩選後最新的一筆
   const effectiveActive = filtered.some((m) => m.id === activeId) ? activeId : newestFirst[0]?.id ?? '';
 
+  // hover 掃過時間軸、連續輸入搜尋都會一直改狀態，等停下來才同步網址
   useEffect(() => {
-    writeUrlState({
-      tab,
-      providers,
-      q: query,
-      year,
-      model: effectiveActive === newestFirst[0]?.id ? '' : effectiveActive,
-    });
+    const timer = window.setTimeout(
+      () =>
+        writeUrlState({
+          tab,
+          providers,
+          q: query,
+          year,
+          model: effectiveActive === newestFirst[0]?.id ? '' : effectiveActive,
+        }),
+      URL_SYNC_DELAY
+    );
+    return () => window.clearTimeout(timer);
   }, [tab, providers, query, year, effectiveActive, newestFirst]);
 
   // 「/」聚焦搜尋
@@ -83,12 +92,13 @@ export const App: React.FC = () => {
     });
   const allOn = providers.length === ALL_PROVIDERS.length;
 
-  const pickModel = (id: string) => {
+  // 保持同一個函式，TodaySheet 才不會跟著 hover 重繪
+  const pickModel = useCallback((id: string) => {
     const m = INITIAL_MODELS.find((x) => x.id === id);
-    if (m && year !== 'ALL' && !m.releaseDate.startsWith(year)) setYear('ALL');
+    if (m) setYear((y) => (y !== 'ALL' && !m.releaseDate.startsWith(y) ? 'ALL' : y));
     setActiveId(id);
     setTab('timeline');
-  };
+  }, []);
 
   return (
     <div className="flex min-h-dvh flex-col lg:h-dvh lg:overflow-hidden">

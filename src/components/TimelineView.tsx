@@ -286,14 +286,10 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
       </div>
 
       {active && (
-        // 所有模型的詳情疊在同一格隱形撐高，面板高度固定為最高者：
+        // 隱形撐高與選中的詳情疊在同一格，面板高度固定為最高者：
         // 切換選取時上方泳道不會位移，避免 hover 選取在點之間來回跳
         <div className="grid shrink-0 border-t border-rule bg-ink-raised px-5 py-4">
-          {models.map((m) => (
-            <div key={m.id} aria-hidden className="invisible col-start-1 row-start-1">
-              <ModelDetail model={m} isNew={toTime(m.releaseDate) > since} />
-            </div>
-          ))}
+          <DetailSizer models={models} since={since} />
           <div aria-live="polite" className="col-start-1 row-start-1">
             <ModelDetail model={active} isNew={toTime(active.releaseDate) > since} />
           </div>
@@ -303,50 +299,103 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
   );
 };
 
-const ModelDetail: React.FC<{ model: AIModel; isNew: boolean }> = ({ model, isNew }) => {
+const NEW_LABEL = '上次造訪後新增';
+
+/** 估算排版寬度：全形字算 1、其餘算半形 */
+const textWidth = (s: string) => {
+  let w = 0;
+  for (const c of s) w += /[⺀-鿿豈-﫿＀-￯]/.test(c) ? 1 : 0.55;
+  return w;
+};
+
+const widest = (models: AIModel[], width: (m: AIModel) => number) =>
+  models.reduce((a, b) => (width(b) > width(a) ? b : a));
+
+/**
+ * 詳情的標題、規格、說明三列高度各自只看自己的內容：每列取最長的那一款，
+ * 拼成一份隱形撐高，高度不低於任何一款模型。只在篩選結果改變時重算。
+ */
+const DetailSizer = React.memo(function DetailSizer({ models, since }: { models: AIModel[]; since: number }) {
+  if (!models.length) return null;
+  const isNew = (m: AIModel) => toTime(m.releaseDate) > since;
+  const head = widest(
+    models,
+    // 標題是 text-xl，其餘是 text-sm
+    (m) =>
+      textWidth(m.name) * 1.4 +
+      textWidth(PROVIDERS[m.provider].name + CATEGORY_LABEL[m.category]) +
+      (m.isReasoning ? 2 : 0) +
+      (isNew(m) ? NEW_LABEL.length : 0)
+  );
+  const specs = widest(models, (m) =>
+    textWidth(m.parameters + m.contextWindow + LICENSE_LABEL[m.license] + m.modalities.map((x) => MODALITY_LABEL[x] ?? x).join('・'))
+  );
+  const text = widest(models, (m) => textWidth(m.highlights));
+  return (
+    <div aria-hidden className="invisible col-start-1 row-start-1">
+      <DetailHead model={head} isNew={isNew(head)} />
+      <DetailSpecs model={specs} />
+      <DetailText model={text} />
+    </div>
+  );
+});
+
+const ModelDetail: React.FC<{ model: AIModel; isNew: boolean }> = ({ model, isNew }) => (
+  <>
+    <DetailHead model={model} isNew={isNew} />
+    <DetailSpecs model={model} />
+    <DetailText model={model} />
+  </>
+);
+
+const DetailHead: React.FC<{ model: AIModel; isNew: boolean }> = ({ model, isNew }) => {
   const meta = PROVIDERS[model.provider];
   return (
-    <>
-      <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
-        <h2 className="flex items-center gap-2.5 text-xl font-bold">
-          <ModelShape model={model} size={12} />
-          {model.name}
-        </h2>
-        <span className="flex items-center gap-1.5 text-sm text-paper-dim">
-          <ProviderDot color={meta.color} />
-          {meta.name}
-        </span>
-        <span className="text-sm text-paper-dim tabular-nums">{model.releaseDate}</span>
-        <span className={`text-sm ${model.category === 'Flagship' ? 'font-bold text-cinnabar-ink' : 'text-paper-dim'}`}>
-          {CATEGORY_LABEL[model.category]}
-          {model.isReasoning && model.category !== 'Reasoning' ? '・推理' : ''}
-        </span>
-        {isNew && <span className="text-sm font-medium text-almanac-ink">上次造訪後新增</span>}
-        <a
-          href={model.officialUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="ml-auto inline-flex items-center gap-1 text-sm text-paper-dim hover:text-paper hover:underline"
-        >
-          官方頁面
-          <ExternalLink aria-hidden className="h-3.5 w-3.5" />
-        </a>
-      </div>
-      <dl className="mt-3 flex flex-wrap gap-x-8 gap-y-1 text-sm">
-        {[
-          ['參數', <ParamsValue model={model} />],
-          ['上下文', <ContextValue model={model} />],
-          ['授權', LICENSE_LABEL[model.license]],
-          ['模態', model.modalities.map((x) => MODALITY_LABEL[x] ?? x).join('・')],
-        ].map(([k, v]) => (
-          <div key={k as string} className="flex items-baseline gap-2.5">
-            <dt className="text-muted">{k}</dt>
-            <dd>{v}</dd>
-          </div>
-        ))}
-      </dl>
-      <p className="mt-2 text-sm leading-relaxed text-paper-dim">{model.highlights}</p>
-    </>
+    <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+      <h2 className="flex items-center gap-2.5 text-xl font-bold">
+        <ModelShape model={model} size={12} />
+        {model.name}
+      </h2>
+      <span className="flex items-center gap-1.5 text-sm text-paper-dim">
+        <ProviderDot color={meta.color} />
+        {meta.name}
+      </span>
+      <span className="text-sm text-paper-dim tabular-nums">{model.releaseDate}</span>
+      <span className={`text-sm ${model.category === 'Flagship' ? 'font-bold text-cinnabar-ink' : 'text-paper-dim'}`}>
+        {CATEGORY_LABEL[model.category]}
+        {model.isReasoning && model.category !== 'Reasoning' ? '・推理' : ''}
+      </span>
+      {isNew && <span className="text-sm font-medium text-almanac-ink">{NEW_LABEL}</span>}
+      <a
+        href={model.officialUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="ml-auto inline-flex items-center gap-1 text-sm text-paper-dim hover:text-paper hover:underline"
+      >
+        官方頁面
+        <ExternalLink aria-hidden className="h-3.5 w-3.5" />
+      </a>
+    </div>
   );
 };
+
+const DetailSpecs: React.FC<{ model: AIModel }> = ({ model }) => (
+  <dl className="mt-3 flex flex-wrap gap-x-8 gap-y-1 text-sm">
+    {[
+      ['參數', <ParamsValue model={model} />],
+      ['上下文', <ContextValue model={model} />],
+      ['授權', LICENSE_LABEL[model.license]],
+      ['模態', model.modalities.map((x) => MODALITY_LABEL[x] ?? x).join('・')],
+    ].map(([k, v]) => (
+      <div key={k as string} className="flex items-baseline gap-2.5">
+        <dt className="text-muted">{k}</dt>
+        <dd>{v}</dd>
+      </div>
+    ))}
+  </dl>
+);
+
+const DetailText: React.FC<{ model: AIModel }> = ({ model }) => (
+  <p className="mt-2 text-sm leading-relaxed text-paper-dim">{model.highlights}</p>
+);
 

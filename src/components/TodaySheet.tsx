@@ -13,7 +13,8 @@ interface Props {
 
 const FALLBACK_COUNT = 5;
 
-export const TodaySheet: React.FC<Props> = ({ now, models, baseline, onPick }) => {
+// memo：hover 時間軸時 props 不變，這一欄不必跟著重繪
+export const TodaySheet = React.memo(function TodaySheet({ now, models, baseline, onPick }: Props) {
   const t = todayParts(now);
   const fresh = models.filter((m) => toTime(m.releaseDate) > baseline.since);
   const list = fresh.length ? fresh : models.slice(0, FALLBACK_COUNT);
@@ -77,4 +78,4 @@ export const TodaySheet: React.FC<Props> = ({ now, models, baseline, onPick }) =
       </div>
     </aside>
   );
-};
+});

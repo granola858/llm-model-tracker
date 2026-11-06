@@ -9,7 +9,8 @@ type Status = 'loading' | 'ready' | 'error';
 const TOPICS = ['ALL', ...ALL_PROVIDERS, 'General'] as const;
 const topicLabel = (t: string) => (t === 'ALL' ? '全部' : t === 'General' ? '綜合產業' : PROVIDERS[t as ProviderId].name);
 
-export const NewsColumn: React.FC = () => {
+// memo：沒有 props，hover 時間軸時不必跟著重繪
+export const NewsColumn = React.memo(function NewsColumn() {
   const [payload, setPayload] = useState<NewsDataPayload | null>(null);
   const [status, setStatus] = useState<Status>('loading');
   const [topic, setTopic] = useState<string>('ALL');
@@ -101,4 +102,4 @@ export const NewsColumn: React.FC = () => {
       </div>
     </section>
   );
-};
+});
