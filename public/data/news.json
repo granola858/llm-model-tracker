@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T01:03:43.671Z",
+  "lastUpdated": "2026-11-06T01:11:30.512Z",
   "totalSources": 7,
   "items": [
     {
@@ -291,6 +291,15 @@
       "publishedAt": "2026-11-05T00:45:15.000Z"
     },
     {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ZyYW5rbGluLXRlbXBsZXRvbg==",
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "url": "https://openai.com/index/franklin-templeton",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-05T00:00:00.000Z"
+    },
+    {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL3Bob25vbi10dHM=",
       "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
       "summary": "點擊閱讀完整原文報導。",
@@ -349,15 +358,6 @@
       "title": "Introducing Images 2.6",
       "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
       "url": "https://openai.com/index/introducing-images-2-6",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-04T00:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2RldnJldi1lbnRlcnByaXNlLXNlbGYtc2VydmljZQ==",
-      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-      "url": "https://openai.com/index/devrev-enterprise-self-service",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-04T00:00:00.000Z"
