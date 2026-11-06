@@ -172,7 +172,8 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
           >
             全部
           </button>
-          {years.map((y) => {
+          {/* 新到舊：最新、最常點的年份緊接在「全部」下方 */}
+          {[...years].reverse().map((y) => {
             const on = year === y.year;
             return (
               <button
@@ -284,7 +285,20 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
         </div>
       </div>
 
-      {active && <ModelDetail model={active} isNew={toTime(active.releaseDate) > since} />}
+      {active && (
+        // 所有模型的詳情疊在同一格隱形撐高，面板高度固定為最高者：
+        // 切換選取時上方泳道不會位移，避免 hover 選取在點之間來回跳
+        <div className="grid shrink-0 border-t border-rule bg-ink-raised px-5 py-4">
+          {models.map((m) => (
+            <div key={m.id} aria-hidden className="invisible col-start-1 row-start-1">
+              <ModelDetail model={m} isNew={toTime(m.releaseDate) > since} />
+            </div>
+          ))}
+          <div aria-live="polite" className="col-start-1 row-start-1">
+            <ModelDetail model={active} isNew={toTime(active.releaseDate) > since} />
+          </div>
+        </div>
+      )}
     </section>
   );
 };
@@ -292,7 +306,7 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
 const ModelDetail: React.FC<{ model: AIModel; isNew: boolean }> = ({ model, isNew }) => {
   const meta = PROVIDERS[model.provider];
   return (
-    <div aria-live="polite" className="shrink-0 border-t border-rule bg-ink-raised px-5 py-4">
+    <>
       <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
         <h2 className="flex items-center gap-2.5 text-xl font-bold">
           <ModelShape model={model} size={12} />
@@ -331,8 +345,8 @@ const ModelDetail: React.FC<{ model: AIModel; isNew: boolean }> = ({ model, isNe
           </div>
         ))}
       </dl>
-      <p className="mt-2 max-w-[75ch] text-sm leading-relaxed text-paper-dim">{model.highlights}</p>
-    </div>
+      <p className="mt-2 text-sm leading-relaxed text-paper-dim">{model.highlights}</p>
+    </>
   );
 };
 

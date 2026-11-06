@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { AIModel, ProviderId } from '../types';
 import { PROVIDERS } from '../data/modelsData';
 import { isEstimated, toTime } from '../lib/format';
@@ -99,7 +99,7 @@ export const StatsView: React.FC<Props> = ({ models, providers, years, now }) =>
   );
 };
 
-const W = 1000;
+// 寬度跟著容器實際像素走，點與字維持固定大小，只有年份間距隨寬度伸縮
 const H = 300;
 const PAD = { l: 56, r: 24, t: 16, b: 32 };
 const TICKS = [
@@ -111,6 +111,26 @@ const TICKS = [
 ];
 
 const ContextChart: React.FC<{ models: AIModel[]; now: Date }> = ({ models, now }) => {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const boxRef = useRef<HTMLDivElement>(null);
+  const [W, setW] = useState(0);
+
+  useLayoutEffect(() => {
+    const el = boxRef.current;
+    if (!el) return;
+    setW(el.clientWidth);
+    const ro = new ResizeObserver(([e]) => setW(Math.round(e.contentRect.width)));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  // 窄螢幕會橫向捲動：預設捲到最新的一端
+  const hasWidth = W > 0;
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (el && hasWidth) el.scrollLeft = el.scrollWidth;
+  }, [hasWidth]);
+
   const t0 = new Date(2020, 0, 1).getTime();
   const t1 = now.getTime();
   const x = (d: string) => PAD.l + ((toTime(d) - t0) / (t1 - t0)) * (W - PAD.l - PAD.r);
@@ -127,42 +147,55 @@ const ContextChart: React.FC<{ models: AIModel[]; now: Date }> = ({ models, now 
         上下文長度演進
         <span className="text-2xs font-normal text-muted">對數刻度・空心為估計值</span>
       </figcaption>
-      <svg viewBox={`0 0 ${W} ${H}`} className="h-auto w-full" role="img" aria-label="各模型上下文長度隨時間變化的散佈圖">
-        {TICKS.map((t) => (
-          <g key={t.l}>
-            <line x1={PAD.l} x2={W - PAD.r} y1={y(t.v)} y2={y(t.v)} stroke="#2a2520" />
-            <text x={PAD.l - 10} y={y(t.v) + 4} textAnchor="end" fontSize="12" fill="#a39a8e">
-              {t.l}
-            </text>
-          </g>
-        ))}
-        {years.map((yr) => {
-          const xx = x(`${yr}-01-01`);
-          return (
-            <text key={yr} x={xx} y={H - 8} fontSize="12" fill="#a39a8e">
-              {yr}
-            </text>
-          );
-        })}
-        {models.map((m) => {
-          const c = PROVIDERS[m.provider].color;
-          const est = isEstimated(m, 'context');
-          const cx = x(m.releaseDate);
-          const cy = y(m.contextTokens);
-          const shape = { fill: est ? '#1a1714' : c, stroke: c, strokeWidth: 2 };
-          const title = <title>{`${m.name}・${m.contextWindow}${est ? '（估計）' : ''}・${m.releaseDate}`}</title>;
-          // 與時間軸一致：推理模型用菱形
-          return m.isReasoning ? (
-            <polygon key={m.id} points={`${cx},${cy - 6} ${cx + 6},${cy} ${cx},${cy + 6} ${cx - 6},${cy}`} {...shape}>
-              {title}
-            </polygon>
-          ) : (
-            <circle key={m.id} cx={cx} cy={cy} r={5} {...shape}>
-              {title}
-            </circle>
-          );
-        })}
-      </svg>
+      <div className="relative">
+        <div ref={scrollRef} className="overflow-x-auto">
+          <div ref={boxRef} className="min-w-[640px]" style={{ height: H }}>
+            {hasWidth && (
+              <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} className="block" role="img" aria-label="各模型上下文長度隨時間變化的散佈圖">
+                {TICKS.map((t) => (
+                  <line key={t.l} x1={PAD.l} x2={W - PAD.r} y1={y(t.v)} y2={y(t.v)} stroke="#2a2520" />
+                ))}
+                {years.map((yr) => {
+                  const xx = x(`${yr}-01-01`);
+                  return (
+                    <text key={yr} x={xx} y={H - 8} fontSize="12" fill="#a39a8e">
+                      {yr}
+                    </text>
+                  );
+                })}
+                {models.map((m) => {
+                  const c = PROVIDERS[m.provider].color;
+                  const est = isEstimated(m, 'context');
+                  const cx = x(m.releaseDate);
+                  const cy = y(m.contextTokens);
+                  const shape = { fill: est ? '#1a1714' : c, stroke: c, strokeWidth: 2 };
+                  const title = <title>{`${m.name}・${m.contextWindow}${est ? '（估計）' : ''}・${m.releaseDate}`}</title>;
+                  // 與時間軸一致：推理模型用菱形
+                  return m.isReasoning ? (
+                    <polygon key={m.id} points={`${cx},${cy - 6} ${cx + 6},${cy} ${cx},${cy + 6} ${cx - 6},${cy}`} {...shape}>
+                      {title}
+                    </polygon>
+                  ) : (
+                    <circle key={m.id} cx={cx} cy={cy} r={5} {...shape}>
+                      {title}
+                    </circle>
+                  );
+                })}
+              </svg>
+            )}
+          </div>
+        </div>
+        {/* Y 軸刻度釘在左側，窄螢幕橫向捲動時仍看得到 */}
+        {hasWidth && (
+          <svg aria-hidden width={PAD.l} height={H} className="pointer-events-none absolute left-0 top-0 bg-ink">
+            {TICKS.map((t) => (
+              <text key={t.l} x={PAD.l - 10} y={y(t.v) + 4} textAnchor="end" fontSize="12" fill="#a39a8e">
+                {t.l}
+              </text>
+            ))}
+          </svg>
+        )}
+      </div>
     </figure>
   );
 };
