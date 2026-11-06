@@ -5,7 +5,7 @@ export interface ProviderMeta {
   id: ProviderId;
   /** 介面上統一使用的短名 */
   name: string;
-  /** 夜間墨底上的資料點顏色；避開朱紅（旗艦）與農民曆綠（新增）兩個保留色 */
+  /** 夜間墨底上的資料點顏色；避開朱紅（紅日）與農民曆綠（新增）兩個保留色 */
   color: string;
   website: string;
 }

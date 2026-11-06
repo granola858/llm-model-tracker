@@ -19,9 +19,10 @@ export const TodaySheet = React.memo(function TodaySheet({ now, models, baseline
   const fresh = models.filter((m) => toTime(m.releaseDate) > baseline.since);
   const list = fresh.length ? fresh : models.slice(0, FALLBACK_COUNT);
   const heading = baseline.firstVisit ? '最近 30 天' : '上次造訪後';
-  // 日曆慣例：平日黑字；週日或當天有旗艦發佈才印紅
+  // 日曆慣例：平日黑字；週日印紅，旗艦標示開著時當天有旗艦發佈也印紅（.flagship-day）
   const iso = `${t.year}-${String(now.getMonth() + 1).padStart(2, '0')}-${t.day}`;
-  const redDay = now.getDay() === 0 || models.some((m) => m.releaseDate === iso && m.isFlagship);
+  const sunday = now.getDay() === 0;
+  const flagshipDay = models.some((m) => m.releaseDate === iso && m.isFlagship);
 
   return (
     <aside
@@ -40,7 +41,7 @@ export const TodaySheet = React.memo(function TodaySheet({ now, models, baseline
         <p
           aria-hidden
           className={`order-first text-[5.5rem] leading-[0.85] font-black tracking-[-0.04em] tabular-nums lg:order-2 lg:mt-2 lg:text-[9.5rem] ${
-            redDay ? 'text-cinnabar' : 'text-paper-ink'
+            sunday ? 'text-cinnabar' : `text-paper-ink ${flagshipDay ? 'flagship-day' : ''}`
           }`}
         >
           {t.day}
@@ -65,7 +66,7 @@ export const TodaySheet = React.memo(function TodaySheet({ now, models, baseline
                 className="flex w-full items-center gap-2.5 py-2 text-left text-sm hover:underline focus-visible:outline-paper-ink"
               >
                 <ModelShape model={m} size={9} onPaper />
-                <span className={`min-w-0 flex-1 truncate ${m.isFlagship ? 'font-bold text-cinnabar' : ''}`}>
+                <span className={`min-w-0 flex-1 truncate ${m.isFlagship ? 'flagship flagship-paper' : ''}`}>
                   {m.name.split(' (')[0]}
                 </span>
                 <span className="sr-only">{PROVIDERS[m.provider].name}</span>

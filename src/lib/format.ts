@@ -156,3 +156,26 @@ export const writeUrlState = (s: UrlState) => {
     // 下一次狀態變動時會再寫一次
   }
 };
+
+/**
+ * 旗艦標示開關：偏好設定存在 localStorage，不進網址。
+ * 實際樣式由 html[data-flagship] 控制（見 index.css 的 .flagship），元件只要掛 class。
+ */
+const FLAGSHIP_KEY = 'llm_tracker_flagship_v1';
+
+export function readFlagshipPref(): boolean {
+  try {
+    return localStorage.getItem(FLAGSHIP_KEY) !== 'off';
+  } catch {
+    return true;
+  }
+}
+
+export function applyFlagshipPref(on: boolean) {
+  document.documentElement.dataset.flagship = on ? 'on' : 'off';
+  try {
+    localStorage.setItem(FLAGSHIP_KEY, on ? 'on' : 'off');
+  } catch {
+    // 無痕模式等情況寫不進去，只影響下次開啟
+  }
+}

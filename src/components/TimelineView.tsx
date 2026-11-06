@@ -346,20 +346,15 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
                             aria-hidden
                             className={`tl-move pointer-events-none absolute hidden whitespace-nowrap text-xs leading-4 lg:block ${
                               zoomed ? 'tl-label-in' : ''
-                            } ${
-                              m.isFlagship
-                                ? 'font-bold text-cinnabar-ink'
-                                : m.id === active?.id
-                                  ? 'text-paper'
-                                  : 'text-paper-dim'
-                            }`}
+                            } ${m.id === active?.id ? 'text-paper' : 'text-paper-dim'}`}
                             style={{
                               left: `calc(${x}% ${end ? '-' : '+'} ${LABEL.dotGap}px)`,
                               transform: end ? 'translateX(-100%)' : undefined,
                               ...(spot.side === 'above' ? { bottom: offset } : { top: offset }),
                             }}
                           >
-                            {labelText(m)}
+                            {/* 燙金放在內層，才不會跟外層的淡入動畫搶 animation */}
+                            <span className={m.isFlagship ? 'flagship' : undefined}>{labelText(m)}</span>
                           </span>
                         );
                       })}
@@ -472,9 +467,7 @@ const DetailHead: React.FC<{ model: AIModel; isNew: boolean }> = ({ model, isNew
         {meta.name}
       </span>
       <span className="text-sm text-paper-dim tabular-nums">{model.releaseDate}</span>
-      <span className={`text-sm ${model.isFlagship ? 'font-bold text-cinnabar-ink' : 'text-paper-dim'}`}>
-        {categoryLabel(model)}
-      </span>
+      <span className={`text-sm text-paper-dim ${model.isFlagship ? 'flagship' : ''}`}>{categoryLabel(model)}</span>
       {isNew && <span className="text-sm font-medium text-almanac-ink">{NEW_LABEL}</span>}
       <a
         href={model.officialUrl}

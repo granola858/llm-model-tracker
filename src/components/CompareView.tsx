@@ -152,7 +152,7 @@ export const CompareView: React.FC<{ models: AIModel[]; years: string[] }> = ({ 
                       >
                         <ChevronRight aria-hidden className={`h-3.5 w-3.5 shrink-0 text-muted transition-transform ${expanded ? 'rotate-90' : ''}`} />
                         <ModelShape model={m} size={9} />
-                        <span className={m.isFlagship ? 'text-cinnabar-ink' : ''}>{m.name}</span>
+                        <span className={m.isFlagship ? 'flagship' : undefined}>{m.name}</span>
                       </button>
                     </td>
                     <td className="px-4 py-2.5 whitespace-nowrap text-paper-dim">

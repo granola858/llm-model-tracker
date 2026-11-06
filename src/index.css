@@ -3,7 +3,7 @@
 @import '@fontsource/noto-sans-tc/900.css';
 @import 'tailwindcss';
 
-/* 撕日曆・夜間版：墨底、紙白字；朱紅只給旗艦，農民曆綠只給「上次造訪後新增」 */
+/* 撕日曆・夜間版：墨底、紙白字；燙金只給旗艦，朱紅只給紅日，農民曆綠只給「上次造訪後新增」 */
 @theme {
   --font-sans: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
 
@@ -22,6 +22,10 @@
 
   --color-cinnabar: #c41e17;
   --color-cinnabar-ink: #ff6a5c;
+  --color-gold: #7a560c;
+  --color-gold-sheen: #c79a2e;
+  --color-gold-ink: #e9b949;
+  --color-gold-ink-sheen: #fff6d6;
   --color-almanac: #276b3c;
   --color-almanac-ink: #5cc282;
 
@@ -122,4 +126,51 @@
   text-decoration-color: var(--color-muted);
   text-underline-offset: 3px;
   cursor: help;
+}
+
+/*
+ * 旗艦：燙金字，一道光每隔幾秒掃過去。
+ * 開關關掉時（html[data-flagship='off']）完全不套，旗艦字就跟一般字一樣。
+ * 預設是墨底版；紙面上加 .flagship-paper 換成壓深的金，維持對比。
+ */
+@keyframes gold-sheen {
+  0% {
+    background-position: 100% 0;
+  }
+  40%,
+  100% {
+    background-position: 0 0;
+  }
+}
+:root:not([data-flagship='off']) .flagship {
+  --gold: var(--color-gold-ink);
+  --gold-sheen: var(--color-gold-ink-sheen);
+  font-weight: 700;
+  color: var(--gold);
+  background: linear-gradient(
+      105deg,
+      var(--gold) 0%,
+      var(--gold) 42%,
+      var(--gold-sheen) 50%,
+      var(--gold) 58%,
+      var(--gold) 100%
+    )
+    100% 0 / 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gold-sheen 5s ease-in-out infinite;
+}
+:root:not([data-flagship='off']) .flagship-paper {
+  --gold: var(--color-gold);
+  --gold-sheen: var(--color-gold-sheen);
+}
+/* 紅日：週日，或開關開著時當天有旗艦發佈 */
+:root:not([data-flagship='off']) .flagship-day {
+  color: var(--color-cinnabar);
+}
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-flagship='off']) .flagship {
+    animation: none;
+  }
 }

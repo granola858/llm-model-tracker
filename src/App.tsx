@@ -1,11 +1,13 @@
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Search } from 'lucide-react';
+import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { Search, Sparkles } from 'lucide-react';
 import { ProviderId } from './types';
 import { INITIAL_MODELS, PROVIDERS } from './data/modelsData';
 import {
   ALL_PROVIDERS,
   TabId,
+  applyFlagshipPref,
   matchesQuery,
+  readFlagshipPref,
   readUrlState,
   readVisitBaseline,
   toTime,
@@ -37,6 +39,9 @@ export const App: React.FC = () => {
   const [query, setQuery] = useState(initial.q);
   const [year, setYear] = useState(initial.year);
   const [activeId, setActiveId] = useState(initial.model);
+  const [showFlagship, setShowFlagship] = useState(readFlagshipPref);
+  // 在繪製前套上，避免先閃一下燙金再消失
+  useLayoutEffect(() => applyFlagshipPref(showFlagship), [showFlagship]);
   const searchRef = useRef<HTMLInputElement>(null);
 
   const filtered = useMemo(
@@ -169,6 +174,18 @@ export const App: React.FC = () => {
             </button>
           );
         })}
+        <span aria-hidden className="mx-1 h-5 w-px shrink-0 bg-rule" />
+        <button
+          type="button"
+          aria-pressed={showFlagship}
+          onClick={() => setShowFlagship((v) => !v)}
+          className={`flex shrink-0 items-center gap-1.5 rounded-sm border px-3 py-1 text-sm ${
+            showFlagship ? 'border-paper-dim text-paper' : 'border-rule-soft text-muted line-through decoration-muted hover:text-paper-dim'
+          }`}
+        >
+          <Sparkles aria-hidden className={`h-3.5 w-3.5 ${showFlagship ? 'text-gold-ink' : ''}`} />
+          <span className="flagship">旗艦</span>
+        </button>
         {freshCount > 0 && (
           <span className="ml-auto shrink-0 pl-4 text-sm font-medium text-almanac-ink">
             {baseline.firstVisit ? '最近 30 天' : '上次造訪後'} {freshCount} 款新發佈
