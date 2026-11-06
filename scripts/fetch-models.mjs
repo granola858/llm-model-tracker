@@ -212,9 +212,10 @@ const MODEL_ITEM_SCHEMA = {
   additionalProperties: false,
   required: [
     'id', 'name', 'provider', 'releaseDate', 'parameters', 'contextWindow', 'contextTokens', 'modalities',
-    'license', 'category', 'isReasoning', 'estimated', 'highlights', 'officialUrl', 'sources',
+    'license', 'category', 'isReasoning', 'estimated', 'highlights', 'officialUrl', 'sources', 'candidateRefs',
   ],
   properties: {
+    candidateRefs: { type: 'array', items: { type: 'string' }, description: '這筆模型對應的候選編號，例如 ["c1"]' },
     id: { type: 'string', description: '小寫 kebab-case，格式為「廠商-模型」，例如 openai-gpt-6-1-terra' },
     name: { type: 'string', description: '官方模型名稱，開放權重模型可在括號註明參數量' },
     provider: { type: 'string', enum: PROVIDER_IDS },
@@ -253,8 +254,16 @@ const SUBMIT_TOOL = {
         items: {
           type: 'object',
           additionalProperties: false,
-          required: ['candidate', 'reason'],
-          properties: { candidate: { type: 'string' }, reason: { type: 'string' } },
+          required: ['candidateRefs', 'candidate', 'reason', 'recheck'],
+          properties: {
+            candidateRefs: { type: 'array', items: { type: 'string' }, description: '對應的候選編號，例如 ["c3", "c6"]' },
+            candidate: { type: 'string', description: '候選的簡短名稱' },
+            reason: { type: 'string' },
+            recheck: {
+              type: 'boolean',
+              description: '目前資訊不足、之後可能值得收錄時填 true（隔天會再送審）；確定不收錄填 false',
+            },
+          },
         },
       },
     },
@@ -276,7 +285,11 @@ function buildSystemPrompt(existing) {
 - 只有傳聞、尚未正式發布的消息
 - 不屬於這 8 家的模型
 
-收錄前請用 web_search 到官方部落格、文件或模型卡查證發布日與規格。官方沒公布的參數量填「未公開」；context 或參數是依報導推估的，要在 estimated 標出來。不要編造數字。
+查證規則：
+- 收錄前一定要用 web_search 到官方部落格、文件或模型卡查證發布日與規格。官方沒公布的參數量填「未公開」；context 或參數是依報導推估的，要在 estimated 標出來。不要編造數字。
+- 候選資料只是線索。像「某廠商發布新模型」但沒寫名稱的新聞，要先用 web_search 找出是哪個模型、是否已正式發布，不能因為候選資料本身資訊不足就略過。
+- 只有一眼就能確定的情況可以不搜尋直接略過：不屬於這 8 家、明顯不是模型發布（訴訟、人事、產品功能）、或既有清單裡已經有同一個模型。
+- 搜尋後仍無法確認、但之後可能值得收錄（例如剛宣布、規格還沒公開），放進 skipped 並把 recheck 設為 true，隔天會再審一次；確定不收錄的 recheck 設為 false。
 
 欄位規則：
 - category 只能選一個主要定位：Flagship（旗艦）、Reasoning（以推理為主打）、Lightweight（輕量／低價）、Multimodal（以多模態為主打）、Coding（程式專用）
@@ -288,7 +301,7 @@ function buildSystemPrompt(existing) {
 
 ${examples}
 
-審完所有候選後，呼叫一次 submit_models 提交結果；每個候選都必須出現在 models 或 skipped 其中之一（同一個模型的多個候選可以合併成一筆）。`;
+審完所有候選後，呼叫一次 submit_models 提交結果；每個候選編號（c1、c2…）都必須出現在某一筆 models 或 skipped 的 candidateRefs 裡（同一個模型的多個候選可以合併成一筆）。`;
 }
 
 function buildUserMessage(candidates, existing, today) {
@@ -296,7 +309,7 @@ function buildUserMessage(candidates, existing, today) {
     .map((m) => `- ${m.id} | ${m.name} | ${m.provider} | ${m.releaseDate}`)
     .join('\n');
   const candidateLines = candidates
-    .map((c) => `- [${c.source}] ${c.provider}｜${c.name}｜${c.date}｜${JSON.stringify(c.detail)}`)
+    .map((c, i) => `- c${i + 1} [${c.source}] ${c.provider}｜${c.name}｜${c.date}｜${JSON.stringify(c.detail)}`)
     .join('\n');
   return `今天是 ${today}。
 
@@ -400,6 +413,30 @@ export function mergeProposals(existing, proposals, today) {
   return { models: [...existing, ...added.map((a) => a.model)], added, rejected };
 }
 
+/**
+ * 算出新的「已審過候選」紀錄。
+ * - Claude 明確處理過（收錄，或確定不收錄）的候選記為已審過
+ * - 標記 recheck 的、或 Claude 漏掉沒處理的候選不記錄，下次會再送審
+ * - 早於 pruneBefore 的舊紀錄清掉（已超出回溯期間，不會再出現）
+ */
+export function nextReviewedState(reviewed, fresh, result, today, pruneBefore) {
+  const next = Object.fromEntries(Object.entries(reviewed).filter(([, d]) => d >= pruneBefore));
+  const refToKey = new Map(fresh.map((c, i) => [`c${i + 1}`, c.key]));
+  const settled = new Set();
+  const recheck = new Set();
+
+  for (const m of result.models ?? []) for (const ref of m.candidateRefs ?? []) settled.add(ref);
+  for (const s of result.skipped ?? []) {
+    for (const ref of s.candidateRefs ?? []) (s.recheck ? recheck : settled).add(ref);
+  }
+
+  for (const ref of settled) {
+    const key = refToKey.get(ref);
+    if (key && !recheck.has(ref)) next[key] = today;
+  }
+  return next;
+}
+
 function buildSummary({ added, rejected, skipped, counts, today }) {
   const lines = [`由 \`scripts/fetch-models.mjs\` 於 ${today} 自動產生，合併前請確認發布日與規格。`, ''];
 
@@ -422,7 +459,7 @@ function buildSummary({ added, rejected, skipped, counts, today }) {
 
   if (skipped.length) {
     lines.push('<details>', `<summary>Claude 判斷不收錄的候選（${skipped.length}）</summary>`, '');
-    for (const s of skipped) lines.push(`- ${s.candidate}：${s.reason}`);
+    for (const s of skipped) lines.push(`- ${s.candidate}：${s.reason}${s.recheck ? '（之後再看）' : ''}`);
     lines.push('', '</details>', '');
   }
 
@@ -477,10 +514,9 @@ async function main() {
   const result = await reviewWithClaude(fresh, existing, today);
   const { models, added, rejected } = mergeProposals(existing, result.models ?? [], today);
 
-  // 記錄已審過的候選（含這次新增的），並清掉超出回溯期間、不會再出現的舊紀錄
-  const pruneBefore = daysAgoISO(LOOKBACK_DAYS + 7);
-  const nextReviewed = Object.fromEntries(Object.entries(reviewed).filter(([, d]) => d >= pruneBefore));
-  for (const c of fresh) nextReviewed[c.key] = today;
+  const nextReviewed = nextReviewedState(reviewed, fresh, result, today, daysAgoISO(LOOKBACK_DAYS + 7));
+  const pending = fresh.filter((c) => !nextReviewed[c.key]);
+  if (pending.length) console.log(`   ${pending.length} 筆候選標記為之後再看或未被處理，下次會再送審`);
   await fs.mkdir(path.dirname(REVIEWED_PATH), { recursive: true });
   await fs.writeFile(REVIEWED_PATH, `${JSON.stringify(nextReviewed, null, 2)}\n`, 'utf-8');
 
