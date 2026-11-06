@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-06T14:08:13.073Z",
+  "lastUpdated": "2026-11-06T16:09:59.132Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L3JhbXAtZGF0YS1zaG93cy1haS1zcGVuZGluZy1zdGFsbGluZy1qdXN0LWFzLWFudGhyb3BpYy1uZWFycy1pdHMtaXBvLw==",
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-06T15:54:47.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L2FmdGVyLWJsb2NraW5nLW11c2UtYW1hem9uLW5vdy1sZXRzLXVzZXJzLXRleHQtYWxleGEtdG8taGVscC10aGVtLXNob3Av",
+      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T14:10:00.000Z"
+    },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FsbGVuYWkvdG95YmxvY2tz",
       "title": "ToyBlocks: A controlled world for robot learning and evaluation",
@@ -253,24 +271,6 @@
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-05T16:16:45.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2Ryb3Bib3gtYWNxdWlyZXMtdGlncmlzLWRhdGEtZm9yLTM1MG0tdG8tYm9sc3Rlci1pdHMtYWktaWluZnJhc3RydWN0dXJlLw==",
-      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
-      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T15:19:05.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2FpbmFzLXNtYXJ0LXJpbmctaGFzLWEtc2NyZWVuLWEtam95c3RpY2stYW5kLWEtbWljLXNvLXlvdS1jYW4tdGFsay10by1haS1hZ2VudHMv",
-      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
-      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
-      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T14:42:00.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9hZ2lsaXR5LXJvYm90aWNzLW5hc2RhcS1kZWJ1dC1pbnZpdGVzLXNjcnV0aW55LW9mLWh1bWFub2lkLXJvYm90LW1hcmtldC8=",
