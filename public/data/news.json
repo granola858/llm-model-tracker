@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-06T06:06:46.494Z",
+  "lastUpdated": "2026-11-06T07:19:11.514Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L3BhbG8tYWx0by1uZXR3b3Jrcy1pbi10YWxrcy10by1idXktYWktYWdlbnQtc2VjdXJpdHktc3RhcnR1cC1jbHV0Y2gtZm9yLTUwMG0v",
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T06:28:32.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjg0NTQvb3BlbmFpLWRhdGEtY2VudGVyLW5kYQ==",
       "title": "OpenAI is stepping back from NDAs for data center projects",
@@ -253,15 +262,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-05T12:00:41.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2FnaWxpdHktaXMtdGhlLWZpcnN0LXB1cmUtaHVtYW5vaWQtcm9ib3QtY29tcGFueS1vbi10aGUtc3RvY2stbWFya2V0LWFyZS15b3UtYnV5aW5nLw==",
-      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
-      "summary": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
-      "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T12:00:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ludHJvZHVjaW5nLWdwdC02LWN5YmVy",
