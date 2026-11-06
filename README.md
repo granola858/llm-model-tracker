@@ -20,6 +20,11 @@
    - 內建 [`scripts/fetch-news.mjs`](./scripts/fetch-news.mjs) 爬蟲腳本（零外部依賴，使用原生 Node.js `fetch`），自動聚合 OpenAI、Google AI、TechCrunch AI、The Verge AI、Hugging Face、Ars Technica、VentureBeat 等 RSS 來源，並自動辨識對應的 AI 廠商標籤寫入 [`public/data/news.json`](./public/data/news.json)。
    - 搭配 [`.github/workflows/update-news-and-deploy.yml`](./.github/workflows/update-news-and-deploy.yml)，每 6 小時自動更新新聞並重新部署至 **GitHub Pages**，前端直接讀取同源靜態 JSON，完全無 CORS 跨域阻擋問題。
 
+4. **新模型自動查證，以 PR 送審**
+   - 模型清單存放在 [`src/data/models.json`](./src/data/models.json)，可直接手動編輯，格式由 [`scripts/validate-models.mjs`](./scripts/validate-models.mjs) 檢查。
+   - [`scripts/fetch-models.mjs`](./scripts/fetch-models.mjs) 會從 OpenRouter models API、各廠商的 Hugging Face 官方帳號與 `news.json` 收集近 30 天的候選，交給 Claude 以 web search 查證官方公告並依格式填好欄位，通過驗證的才寫入。
+   - [`.github/workflows/update-models.yml`](./.github/workflows/update-models.yml) 每天執行一次，有新模型時自動開 PR；合併後即觸發部署。已審過的候選記在 `scripts/state/reviewed-candidates.json`，不會重複送審。
+
 ---
 
 ## 🚀 本地開發與執行方式
@@ -30,6 +35,9 @@ npm install
 
 # 2. 手動執行一次最新 AI 新聞抓取（會更新 public/data/news.json）
 npm run fetch-news
+
+# （選用）列出近期的候選新模型；設定 ANTHROPIC_API_KEY 並拿掉 --dry-run 才會實際查證與寫入
+npm run fetch-models -- --dry-run
 
 # 3. 啟動本地開發伺服器
 npm run dev
@@ -46,4 +54,6 @@ npm run build
 2. 前往 GitHub 專案的 **Settings** -> **Pages**。
 3. 在 **Build and deployment** 下方的 **Source** 選擇 **`GitHub Actions`**。
 4. 前往 **Settings** -> **Actions** -> **General**，確認 **Workflow permissions** 勾選 **`Read and write permissions`**（讓 Action 可以自動將更新後的 `public/data/news.json` commit 回儲存庫）。
-5. 完成後，每當您推送程式碼、每滿 6 小時排程、或至 **Actions** 頁籤手動點擊 **Run workflow**，系統就會自動抓取最新 AI 新聞並完成靜態網站部署！
+5. 同一頁的 **Workflow permissions** 下方勾選 **`Allow GitHub Actions to create and approve pull requests`**（讓模型更新流程可以自動開 PR）。
+6. 前往 **Settings** -> **Secrets and variables** -> **Actions**，新增 Repository secret **`ANTHROPIC_API_KEY`**。沒有設定時，模型更新流程只會列出候選，不會呼叫 API。
+7. 完成後，每當您推送程式碼、每滿 6 小時排程、或至 **Actions** 頁籤手動點擊 **Run workflow**，系統就會自動抓取最新 AI 新聞並完成靜態網站部署！

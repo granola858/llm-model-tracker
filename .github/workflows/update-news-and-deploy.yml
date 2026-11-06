@@ -55,6 +55,9 @@ jobs:
             git push
           fi
 
+      - name: Validate models.json
+        run: npm run validate-models
+
       - name: Build static frontend (Vite)
         run: npm run build
 

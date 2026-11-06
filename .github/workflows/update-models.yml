@@ -1,0 +1,90 @@
+name: Propose New Models (PR)
+
+on:
+  # 每天台灣時間 09:30 檢查一次是否有新模型發布
+  schedule:
+    - cron: '30 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: 'update-models'
+  cancel-in-progress: false
+
+env:
+  PR_BRANCH: bot/model-updates
+
+jobs:
+  propose-models:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 上一次提出的 PR 還沒處理時先不跑，避免覆蓋待審內容、也不重複花 API 費用
+      - name: Skip if a model-update PR is still open
+        id: guard
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          open=$(gh pr list --head "$PR_BRANCH" --state open --json number --jq 'length')
+          echo "open=$open" >> "$GITHUB_OUTPUT"
+          if [ "$open" != "0" ]; then
+            echo "::notice::已有待審的模型更新 PR，這次跳過。"
+          fi
+
+      - name: Setup Node.js
+        if: steps.guard.outputs.open == '0'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        if: steps.guard.outputs.open == '0'
+        run: npm ci
+
+      - name: Find and review new models with Claude
+        if: steps.guard.outputs.open == '0'
+        id: fetch
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODEL_UPDATE_SUMMARY: ${{ runner.temp }}/model-update.md
+        run: npm run fetch-models
+
+      - name: Validate models.json and type-check
+        if: steps.guard.outputs.open == '0'
+        run: |
+          npm run validate-models
+          npm run build
+
+      # 已審過的候選清單直接進 main，下次不會再送審
+      - name: Commit reviewed-candidate state to main
+        if: steps.guard.outputs.open == '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/state/reviewed-candidates.json
+          if git diff --staged --quiet; then
+            echo "No reviewed-candidate changes."
+          else
+            git commit -m "chore(models): 記錄已審核的候選模型 [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Open pull request with new models
+        if: steps.guard.outputs.open == '0' && steps.fetch.outputs.added != '0'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: ${{ env.PR_BRANCH }}
+          base: main
+          add-paths: src/data/models.json
+          commit-message: 'feat(data): 自動提出 ${{ steps.fetch.outputs.added }} 筆新模型'
+          title: '新增 ${{ steps.fetch.outputs.added }} 筆模型（自動查證，待審核）'
+          body-path: ${{ runner.temp }}/model-update.md
+          delete-branch: true
