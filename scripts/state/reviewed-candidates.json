@@ -1,1 +1,12 @@
-{}
+{
+  "openrouter:google/gemini-omni-1.2-flash": "2026-11-06",
+  "openrouter:google/gemini-omni-1.1-flash": "2026-11-06",
+  "openrouter:openai/gpt-6.1-terra-pro": "2026-11-06",
+  "openrouter:deepseek/deepseek-v4.1-flash-1017": "2026-11-06",
+  "openrouter:anthropic/claude-haiku-5.5": "2026-11-06",
+  "hf:deepseek-ai/DeepSeek-V4.1-Flash-1017": "2026-11-06",
+  "news:https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work": "2026-11-06",
+  "news:https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/": "2026-11-06",
+  "news:https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/": "2026-11-06",
+  "news:https://openai.com/index/introducing-images-2-6": "2026-11-06"
+}
