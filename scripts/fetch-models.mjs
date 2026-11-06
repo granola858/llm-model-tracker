@@ -212,7 +212,7 @@ const MODEL_ITEM_SCHEMA = {
   additionalProperties: false,
   required: [
     'id', 'name', 'provider', 'releaseDate', 'parameters', 'contextWindow', 'contextTokens', 'modalities',
-    'license', 'category', 'isReasoning', 'estimated', 'highlights', 'officialUrl', 'sources', 'candidateRefs',
+    'license', 'category', 'isFlagship', 'isReasoning', 'estimated', 'highlights', 'officialUrl', 'sources', 'candidateRefs',
   ],
   properties: {
     candidateRefs: { type: 'array', items: { type: 'string' }, description: '這筆模型對應的候選編號，例如 ["c1"]' },
@@ -226,6 +226,7 @@ const MODEL_ITEM_SCHEMA = {
     modalities: { type: 'array', items: { type: 'string', enum: MODALITIES } },
     license: { type: 'string', enum: LICENSES },
     category: { type: 'string', enum: CATEGORIES },
+    isFlagship: { type: 'boolean', description: '這筆發布是否包含該廠商當時最高階的主力模型' },
     isReasoning: { type: 'boolean' },
     estimated: {
       type: 'array',
@@ -293,6 +294,7 @@ function buildSystemPrompt(existing) {
 
 欄位規則：
 - category 只能選一個主要定位：Flagship（旗艦）、Reasoning（以推理為主打）、Lightweight（輕量／低價）、Multimodal（以多模態為主打）、Coding（程式專用）
+- isFlagship：這筆發布包含該廠商當時最高階的主力模型就填 true，與 category 無關（例如以推理或程式為主打的頂級新世代也算）；category 選 Flagship 時必須為 true
 - isReasoning：模型具備思考／推理模式就填 true
 - highlights 用台灣正體中文（台灣用語），一到兩句、40–90 字，寫這個模型的定位與最重要的差異，不要行銷口號
 - id 不可與既有清單重複
@@ -392,7 +394,7 @@ export function mergeProposals(existing, proposals, today) {
     const ordered = {};
     for (const key of [
       'id', 'name', 'provider', 'releaseDate', 'parameters', 'contextWindow', 'contextTokens', 'modalities',
-      'license', 'category', 'isReasoning', 'estimated', 'highlights', 'officialUrl',
+      'license', 'category', 'isFlagship', 'isReasoning', 'estimated', 'highlights', 'officialUrl',
     ]) {
       if (model[key] !== undefined) ordered[key] = model[key];
     }
@@ -443,7 +445,7 @@ function buildSummary({ added, rejected, skipped, counts, today }) {
   lines.push(`## 新增 ${added.length} 筆`, '');
   for (const { model: m, sources } of added) {
     lines.push(`### ${m.name}（${m.provider}，${m.releaseDate}）`);
-    lines.push(`- 參數：${m.parameters}｜Context：${m.contextWindow}｜${m.license}｜${m.category}${m.isReasoning ? '｜推理' : ''}`);
+    lines.push(`- 參數：${m.parameters}｜Context：${m.contextWindow}｜${m.license}｜${m.category}${m.isFlagship ? '｜旗艦' : ''}${m.isReasoning ? '｜推理' : ''}`);
     if (m.estimated?.length) lines.push(`- 推估欄位：${m.estimated.join('、')}`);
     lines.push(`- ${m.highlights}`);
     lines.push(`- 官方連結：${m.officialUrl}`);

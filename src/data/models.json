@@ -12,6 +12,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "開創大型語言模型 Few-shot Learning 時代的代表作，1750 億參數震驚業界。",
     "officialUrl": "https://arxiv.org/abs/2005.14165"
@@ -29,6 +30,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "estimated": [
       "parameters"
@@ -49,6 +51,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "開啟全球開源大型語言模型生態系的起點，證明小參數經過充分訓練也能擊敗巨型模型。",
     "officialUrl": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/"
@@ -67,6 +70,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "estimated": [
       "parameters"
@@ -87,6 +91,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "Anthropic 首款商用模型，採用 Constitutional AI（憲法 AI）對齊安全規範，隨後率先推出 100K 長文本。",
     "officialUrl": "https://www.anthropic.com/news/introducing-claude"
@@ -104,6 +109,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "強化多語言翻譯、邏輯推理與程式設計能力，驅動早期 Bard 升級版。",
     "officialUrl": "https://ai.google/discover/palm2/"
@@ -121,6 +127,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "支援 100K 至 200K Token 超長上下文，在長文閱讀、低幻覺與程式碼生成表現大幅躍進。",
     "officialUrl": "https://www.anthropic.com/news/claude-2"
@@ -138,6 +145,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "首款允許免費商用授權的開源權重旗艦模型，引入 GQA (Grouped-Query Attention)。",
     "officialUrl": "https://ai.meta.com/llama/"
@@ -155,6 +163,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "阿里巴巴首代開源大模型系列，具備極佳的中英雙語理解與工具調用能力。",
     "officialUrl": "https://github.com/QwenLM/Qwen"
@@ -172,6 +181,7 @@
     ],
     "license": "Open-Weights",
     "category": "Lightweight",
+    "isFlagship": false,
     "isReasoning": false,
     "highlights": "採用 Sliding Window Attention (SWA)，以 7B 規模全面擊敗 Llama 2 13B。",
     "officialUrl": "https://mistral.ai/news/announcing-mistral-7b/"
@@ -189,6 +199,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "馬斯克創立 xAI 首作，314B 混合專家模型（於 2024 年 3 月以 Apache 2.0 開源權重）。",
     "officialUrl": "https://x.ai/blog/grok-os"
@@ -207,6 +218,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "OpenAI 首屆 DevDay 發表，上下文暴增至 128K，API 價格大幅調降並支援 JSON Mode。",
     "officialUrl": "https://openai.com/blog/new-models-and-developer-products-announced-at-devday"
@@ -224,6 +236,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "深度求索首代通用與程式碼開源大模型，在推理、編程與數學能力上超越 Llama 2 70B。",
     "officialUrl": "https://github.com/deepseek-ai/DeepSeek-LLM"
@@ -244,6 +257,7 @@
     ],
     "license": "Proprietary",
     "category": "Multimodal",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "Google DeepMind 首款從頭原生訓練的多模態模型系列，Ultra 首度在 MMLU 超越人類專家。",
     "officialUrl": "https://deepmind.google/technologies/gemini/"
@@ -261,6 +275,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "引領開源界 Sparse MoE（稀疏混合專家）風潮，以極低推論成本匹敵 GPT-3.5。",
     "officialUrl": "https://mistral.ai/news/mixtral-of-experts/"
@@ -281,6 +296,7 @@
     ],
     "license": "Proprietary",
     "category": "Multimodal",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "突破性支援 100 萬至 200 萬 Token 上下文視窗，可一次分析整部電影或數萬行程式碼庫。",
     "officialUrl": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/"
@@ -299,6 +315,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "Claude 3 Opus 在各項基準測試首度超越 GPT-4，具備視覺能力與極低幻覺率。",
     "officialUrl": "https://www.anthropic.com/news/claude-3-family"
@@ -316,6 +333,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "使用高達 15T Token 預訓練，使 8B 與 70B 成為同量級最強開源標準。",
     "officialUrl": "https://ai.meta.com/blog/meta-llama-3/"
@@ -333,6 +351,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "首創 MLA (Multi-head Latent Attention) 與 DeepSeekMoE 架構，大幅減少 KV Cache 記憶體佔用。",
     "officialUrl": "https://github.com/deepseek-ai/DeepSeek-V2"
@@ -352,6 +371,7 @@
     ],
     "license": "Proprietary",
     "category": "Multimodal",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "端到端原生處理語音、影像與文字，語音反應延遲僅 232 毫秒，接近真人對話體驗。",
     "officialUrl": "https://openai.com/index/hello-gpt-4o/"
@@ -369,6 +389,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "支援 29 種以上語言，72B 版本在多項開源基準測試登頂，上下文擴展至 128K。",
     "officialUrl": "https://qwenlm.github.io/blog/qwen2/"
@@ -387,6 +408,7 @@
     ],
     "license": "Proprietary",
     "category": "Coding",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "橫掃軟體工程與 Coding 領域，推出 Artifacts 互動介面與 10 月升級版 Computer Use 電腦操作功能。",
     "officialUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
@@ -404,6 +426,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "史上最大 405B 稠密開源權重模型，上下文升級 128K，正面對決 GPT-4o 與 Claude 3.5。",
     "officialUrl": "https://ai.meta.com/blog/meta-llama-3-1/"
@@ -422,6 +445,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "以單節點推理高效能設計的 123B 旗艦模型，支援數十種自然語言與 80+ 程式語言。",
     "officialUrl": "https://mistral.ai/news/mistral-large-2407/"
@@ -440,6 +464,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "整合 X 平台即時資訊流，推理與程式碼能力躍升至 LMSYS 排行榜前段班。",
     "officialUrl": "https://x.ai/blog/grok-2"
@@ -458,6 +483,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "開創 Test-Time Compute（測試時思維鏈強化學習）新範式，在奧數 AIME 與物理博士題大幅突破。",
     "officialUrl": "https://openai.com/o1/"
@@ -476,6 +502,7 @@
     ],
     "license": "Open-Weights",
     "category": "Coding",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "基於 18T Token 預訓練，旗下 Qwen2.5-Coder-32B 成為開源程式碼生成標竿。",
     "officialUrl": "https://qwenlm.github.io/blog/qwen2.5/"
@@ -496,6 +523,7 @@
     ],
     "license": "Proprietary",
     "category": "Multimodal",
+    "isFlagship": false,
     "isReasoning": false,
     "highlights": "邁向 Agentic Era 的主力模型，速度比 1.5 Pro 快兩倍且性能更強，支援原生圖片與音訊輸出。",
     "officialUrl": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
@@ -513,6 +541,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "採用 FP8 混合精度訓練與 Multi-Token Prediction，以極低訓練成本追平頂尖閉源模型。",
     "officialUrl": "https://github.com/deepseek-ai/DeepSeek-V3"
@@ -530,6 +559,7 @@
     ],
     "license": "Open-Weights",
     "category": "Reasoning",
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "以大規模強化學習 (GRPO) 激發自發性思維鏈推理，MIT 開源授權並追平 OpenAI o1，震撼全球科技界。",
     "officialUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
@@ -547,6 +577,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "高性價比 STEM 推理模型，支援 Low / Medium / High 三段推理深度調整與外部工具搜尋。",
     "officialUrl": "https://openai.com/index/openai-o3-mini/"
@@ -565,6 +596,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "基於 Colossus 超級電腦叢集訓練，搭載 Think 推理模式與 DeepSearch 深度搜尋代理。",
     "officialUrl": "https://x.ai/blog/grok-3"
@@ -583,6 +615,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "業界首創混合推理架構（Hybrid Reasoning），可自由切換即時回應與 Extended Thinking，同步推出 Claude Code。",
     "officialUrl": "https://www.anthropic.com/news/claude-3-7-sonnet"
@@ -601,6 +634,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "擴展非監督學習極限的巨型預訓練模型，具備極高情商 (EQ)、直覺理解與極低幻覺率。",
     "officialUrl": "https://openai.com/index/introducing-gpt-4-5/"
@@ -619,6 +653,7 @@
     ],
     "license": "Open-Weights",
     "category": "Multimodal",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "Llama 首度全面轉向原生多模態 MoE 架構，Llama 4 Scout 支援破紀錄的 1000 萬 Token 上下文視窗。",
     "officialUrl": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
@@ -637,6 +672,7 @@
     ],
     "license": "Proprietary",
     "category": "Coding",
+    "isFlagship": false,
     "isReasoning": false,
     "highlights": "針對開發者 API 推出的百萬級長文本與高精準指令遵循系列，SWE-bench 軟體工程表現大幅躍升。",
     "officialUrl": "https://openai.com/index/gpt-4-1/"
@@ -655,6 +691,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "首款可在思維鏈中結合視覺縮放、Python 執行與網頁搜尋的多模態 Agentic 推理模型（o3-pro 於 6 月推出）。",
     "officialUrl": "https://openai.com/index/introducing-o3-and-o4-mini/"
@@ -672,6 +709,7 @@
     ],
     "license": "Open-Weights",
     "category": "Reasoning",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "支援 Thinking / Non-thinking 雙模式無縫切換與 119 種語言，Apache 2.0 開源授權。",
     "officialUrl": "https://qwenlm.github.io/blog/qwen3/"
@@ -690,6 +728,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "企業級高性價比多模態模型與歐洲首款多語言透明思維鏈推理模型 Magistral 系列。",
     "officialUrl": "https://mistral.ai/news/mistral-medium-3"
@@ -708,6 +747,7 @@
     ],
     "license": "Proprietary",
     "category": "Coding",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "專為長時間自主軟體工程 Agent 打造，支援平行工具呼叫與擴展推理（8 月推出 Opus 4.1 強化版）。",
     "officialUrl": "https://www.anthropic.com/news/claude-4"
@@ -728,6 +768,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "全系列正式版（GA）內建可調控 Thinking 推理預算，兼顧超大規模程式碼庫分析與高吞吐低延遲（7 月補齊 Flash-Lite）。",
     "officialUrl": "https://blog.google/technology/google-deepmind/"
@@ -747,6 +788,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "引入多代理平行推理（Multi-Agent Test-Time Compute），在 Humanity’s Last Exam 創下新高分。",
     "officialUrl": "https://x.ai"
@@ -767,6 +809,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "OpenAI 跨世代大一統架構，結合即時多模態回應與深度 Agent 工具鏈調用，大幅降低幻覺率。",
     "officialUrl": "https://openai.com"
@@ -785,6 +828,7 @@
     ],
     "license": "Proprietary",
     "category": "Coding",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "9 月底推出 Sonnet 4.5、10 月 Haiku 4.5、11 月 Opus 4.5，全面升級電腦操作（Computer Use）與長時程自主編程。",
     "officialUrl": "https://www.anthropic.com/news"
@@ -805,6 +849,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "開啟 Gemini 3 世代，搭載全新 Deep Think 深度推理機制、強化資安防禦與複雜多模態空間理解。",
     "officialUrl": "https://blog.google/technology/google-deepmind/"
@@ -823,6 +868,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "Mistral 重回 Apache 2.0 開源權重的 675B 巨型稀疏 MoE 旗艦，同步推出 3B/8B/14B Ministral 3 端側系列。",
     "officialUrl": "https://mistral.ai/news/"
@@ -842,6 +888,7 @@
     ],
     "license": "Proprietary",
     "category": "Coding",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "繼 11 月 GPT-5.1 後的年末重大更新，提供 Instant / Thinking / Pro 多層推理與專為軟體工程打造的 GPT-5.2-Codex。",
     "officialUrl": "https://openai.com/news/"
@@ -860,6 +907,7 @@
     ],
     "license": "Proprietary",
     "category": "Coding",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -882,6 +930,7 @@
     ],
     "license": "Open-Weights",
     "category": "Reasoning",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -904,6 +953,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -927,6 +977,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -948,6 +999,7 @@
     ],
     "license": "Open-Weights",
     "category": "Reasoning",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "4 月發表 V4 預覽與 Engram 記憶架構，7 月以 MIT 授權開源 V4-Flash-0731，8 月正式推出 1.6 兆參數 V4-Pro-0813 旗艦。",
     "officialUrl": "https://deepseek.com"
@@ -967,6 +1019,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -990,6 +1043,7 @@
     ],
     "license": "Open-Weights",
     "category": "Multimodal",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -1013,6 +1067,7 @@
     ],
     "license": "Proprietary",
     "category": "Multimodal",
+    "isFlagship": false,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -1034,6 +1089,7 @@
     ],
     "license": "Open-Weights",
     "category": "Multimodal",
+    "isFlagship": false,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -1056,6 +1112,7 @@
     ],
     "license": "Proprietary",
     "category": "Coding",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -1079,6 +1136,7 @@
     ],
     "license": "Proprietary",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -1101,6 +1159,7 @@
     ],
     "license": "Proprietary",
     "category": "Coding",
+    "isFlagship": true,
     "isReasoning": true,
     "highlights": "9/1 先更新頂層 Fable 5.1 與 Mythos 5.1，再接連推出 Opus 5.5 (9/22)、Sonnet 5.5 (9/28) 與 Haiku 5.5 (10/7)；Opus 5.5 以約 Fable 5.1 等級表現、較 Opus 5 低 40% 成本運行。",
     "officialUrl": "https://www.anthropic.com/news"
@@ -1120,6 +1179,7 @@
     ],
     "license": "Proprietary",
     "category": "Coding",
+    "isFlagship": false,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -1143,6 +1203,7 @@
     ],
     "license": "Proprietary",
     "category": "Multimodal",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -1164,6 +1225,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -1185,6 +1247,7 @@
     ],
     "license": "Proprietary",
     "category": "Lightweight",
+    "isFlagship": false,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -1208,6 +1271,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"
@@ -1229,6 +1293,7 @@
     ],
     "license": "Open-Weights",
     "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": true,
     "estimated": [
       "context"

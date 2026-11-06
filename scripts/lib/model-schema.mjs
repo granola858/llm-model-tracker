@@ -32,7 +32,7 @@ export function validateModel(m, opts = {}) {
 
   const allowed = new Set([
     'id', 'name', 'provider', 'releaseDate', 'parameters', 'contextWindow', 'contextTokens',
-    'modalities', 'license', 'category', 'isReasoning', 'estimated', 'highlights', 'officialUrl',
+    'modalities', 'license', 'category', 'isFlagship', 'isReasoning', 'estimated', 'highlights', 'officialUrl',
   ]);
   for (const key of Object.keys(m)) {
     if (!allowed.has(key)) errors.push(`多出未知欄位 ${key}`);
@@ -45,6 +45,8 @@ export function validateModel(m, opts = {}) {
   if (!PROVIDER_IDS.includes(m.provider)) errors.push(`provider 不在清單內：${m.provider}`);
   if (!LICENSES.includes(m.license)) errors.push(`license 不在清單內：${m.license}`);
   if (!CATEGORIES.includes(m.category)) errors.push(`category 不在清單內：${m.category}`);
+  if (typeof m.isFlagship !== 'boolean') errors.push('isFlagship 必須是布林值');
+  else if (m.category === 'Flagship' && !m.isFlagship) errors.push('category 是 Flagship 時 isFlagship 必須為 true');
   if (typeof m.isReasoning !== 'boolean') errors.push('isReasoning 必須是布林值');
 
   if (!isNonEmptyString(m.releaseDate) || !isRealDate(m.releaseDate)) {

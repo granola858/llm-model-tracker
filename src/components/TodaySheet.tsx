@@ -21,7 +21,7 @@ export const TodaySheet = React.memo(function TodaySheet({ now, models, baseline
   const heading = baseline.firstVisit ? '最近 30 天' : '上次造訪後';
   // 日曆慣例：平日黑字；週日或當天有旗艦發佈才印紅
   const iso = `${t.year}-${String(now.getMonth() + 1).padStart(2, '0')}-${t.day}`;
-  const redDay = now.getDay() === 0 || models.some((m) => m.releaseDate === iso && m.category === 'Flagship');
+  const redDay = now.getDay() === 0 || models.some((m) => m.releaseDate === iso && m.isFlagship);
 
   return (
     <aside
@@ -65,7 +65,7 @@ export const TodaySheet = React.memo(function TodaySheet({ now, models, baseline
                 className="flex w-full items-center gap-2.5 py-2 text-left text-sm hover:underline focus-visible:outline-paper-ink"
               >
                 <ModelShape model={m} size={9} onPaper />
-                <span className={`min-w-0 flex-1 truncate ${m.category === 'Flagship' ? 'font-bold text-cinnabar' : ''}`}>
+                <span className={`min-w-0 flex-1 truncate ${m.isFlagship ? 'font-bold text-cinnabar' : ''}`}>
                   {m.name.split(' (')[0]}
                 </span>
                 <span className="sr-only">{PROVIDERS[m.provider].name}</span>

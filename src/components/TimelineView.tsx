@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { ExternalLink } from 'lucide-react';
 import { AIModel, ProviderId } from '../types';
 import { PROVIDERS } from '../data/modelsData';
-import { CATEGORY_LABEL, LICENSE_LABEL, MODALITY_LABEL, toTime } from '../lib/format';
+import { categoryLabel, LICENSE_LABEL, MODALITY_LABEL, toTime } from '../lib/format';
 import { ContextValue, ModelShape, ParamsValue, ProviderDot } from './marks';
 import { LabelSpot, labelText, layoutLabels, measureLabel, resetLabelMeasure, rowOffset, LABEL } from '../lib/laneLabels';
 
@@ -192,7 +192,7 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
       const items = [...pool].reverse().map((m) => ({
         id: m.id,
         x: (pos(toTime(m.releaseDate)) / 100) * track.w,
-        w: measureLabel(labelText(m), m.category === 'Flagship'),
+        w: measureLabel(labelText(m), m.isFlagship),
       }));
       for (const [id, spot] of layoutLabels(items, track.w, track.h)) spots.set(id, spot);
     }
@@ -347,7 +347,7 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
                             className={`tl-move pointer-events-none absolute hidden whitespace-nowrap text-xs leading-4 lg:block ${
                               zoomed ? 'tl-label-in' : ''
                             } ${
-                              m.category === 'Flagship'
+                              m.isFlagship
                                 ? 'font-bold text-cinnabar-ink'
                                 : m.id === active?.id
                                   ? 'text-paper'
@@ -435,8 +435,7 @@ const DetailSizer = React.memo(function DetailSizer({ models, since }: { models:
     // 標題是 text-xl，其餘是 text-sm
     (m) =>
       textWidth(m.name) * 1.4 +
-      textWidth(PROVIDERS[m.provider].name + CATEGORY_LABEL[m.category]) +
-      (m.isReasoning ? 2 : 0) +
+      textWidth(PROVIDERS[m.provider].name + categoryLabel(m)) +
       (isNew(m) ? NEW_LABEL.length : 0)
   );
   const specs = widest(models, (m) =>
@@ -473,9 +472,8 @@ const DetailHead: React.FC<{ model: AIModel; isNew: boolean }> = ({ model, isNew
         {meta.name}
       </span>
       <span className="text-sm text-paper-dim tabular-nums">{model.releaseDate}</span>
-      <span className={`text-sm ${model.category === 'Flagship' ? 'font-bold text-cinnabar-ink' : 'text-paper-dim'}`}>
-        {CATEGORY_LABEL[model.category]}
-        {model.isReasoning && model.category !== 'Reasoning' ? '・推理' : ''}
+      <span className={`text-sm ${model.isFlagship ? 'font-bold text-cinnabar-ink' : 'text-paper-dim'}`}>
+        {categoryLabel(model)}
       </span>
       {isNew && <span className="text-sm font-medium text-almanac-ink">{NEW_LABEL}</span>}
       <a

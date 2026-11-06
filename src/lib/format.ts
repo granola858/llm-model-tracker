@@ -48,6 +48,14 @@ export const CATEGORY_LABEL: Record<AIModel['category'], string> = {
   Coding: '程式',
 };
 
+/** 分類顯示文字：主要定位，再補上旗艦／推理兩個獨立標記（與主要定位重複時不再寫一次） */
+export function categoryLabel(m: Pick<AIModel, 'category' | 'isFlagship' | 'isReasoning'>): string {
+  const parts = [CATEGORY_LABEL[m.category]];
+  if (m.isFlagship && m.category !== 'Flagship') parts.push(CATEGORY_LABEL.Flagship);
+  if (m.isReasoning && m.category !== 'Reasoning') parts.push(CATEGORY_LABEL.Reasoning);
+  return parts.join('・');
+}
+
 export const MODALITY_LABEL: Record<string, string> = {
   Text: '文字',
   Vision: '視覺',

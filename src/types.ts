@@ -23,6 +23,8 @@ export interface AIModel {
   modalities: string[];
   license: LicenseType;
   category: ModelCategory;
+  /** 這筆發布包含該廠商當時最高階的主力模型；與 category 互不影響 */
+  isFlagship: boolean;
   isReasoning: boolean;
   /** 未經官方證實、由公開報導推估的規格欄位 */
   estimated?: Array<'parameters' | 'context'>;

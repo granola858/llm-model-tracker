@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { ArrowDown, ArrowUp, ChevronRight } from 'lucide-react';
 import { AIModel } from '../types';
 import { PROVIDERS } from '../data/modelsData';
-import { CATEGORY_LABEL, LICENSE_LABEL, MODALITY_LABEL, paramsDisclosed, toTime } from '../lib/format';
+import { categoryLabel, LICENSE_LABEL, MODALITY_LABEL, paramsDisclosed, toTime } from '../lib/format';
 import { ContextValue, ModelShape, ParamsValue, ProviderDot } from './marks';
 
 type SortKey = 'releaseDate' | 'name' | 'provider' | 'params' | 'context' | 'license';
@@ -152,7 +152,7 @@ export const CompareView: React.FC<{ models: AIModel[]; years: string[] }> = ({ 
                       >
                         <ChevronRight aria-hidden className={`h-3.5 w-3.5 shrink-0 text-muted transition-transform ${expanded ? 'rotate-90' : ''}`} />
                         <ModelShape model={m} size={9} />
-                        <span className={m.category === 'Flagship' ? 'text-cinnabar-ink' : ''}>{m.name}</span>
+                        <span className={m.isFlagship ? 'text-cinnabar-ink' : ''}>{m.name}</span>
                       </button>
                     </td>
                     <td className="px-4 py-2.5 whitespace-nowrap text-paper-dim">
@@ -170,8 +170,7 @@ export const CompareView: React.FC<{ models: AIModel[]; years: string[] }> = ({ 
                     </td>
                     <td className="px-4 py-2.5 whitespace-nowrap text-paper-dim">{LICENSE_LABEL[m.license]}</td>
                     <td className="px-4 py-2.5 whitespace-nowrap text-paper-dim">
-                      {CATEGORY_LABEL[m.category]}
-                      {m.isReasoning && m.category !== 'Reasoning' ? '・推理' : ''}
+                      {categoryLabel(m)}
                     </td>
                     <td className="px-4 py-2.5 whitespace-nowrap text-paper-dim">
                       {m.modalities.map((x) => MODALITY_LABEL[x] ?? x).join('・')}
