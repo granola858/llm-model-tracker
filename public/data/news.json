@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-11-07T00:08:35.787Z",
+  "lastUpdated": "2026-11-07T06:05:58.244Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L2NydXNvZS1zZWxscy10cm91YmxlZC13eW9taW5nLWRhdGEtY2VudGVyLXByb2plY3QtdG8tZ29vZ2xlLw==",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "source": "TechCrunch AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-07T01:40:28.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjkzODAvb3BlbmFpLTEtMjUtdHJpbGxpb24taW52ZXN0bWVudC12YWx1YXRpb24=",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 bil...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "source": "The Verge AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-06T23:46:18.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAyOTMzOC9udmlkaWEtY2VvLWplbnNlbi1odWFuZy1jaGluYS1zcHk=",
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about Ameri...",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T23:00:44.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L29wZW5haS1yZXBvcnRlZGx5LXJhaXNlcy1hbi1hZGRpdGlvbmFsLTExLWJpbGxpb24tYXQtYS0xLTI1LXRyaWxsaW9uLXZhbHVhdGlvbi8=",
       "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
@@ -201,15 +228,6 @@
       "publishedAt": "2026-11-06T00:37:56.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAyODQxMi9haXJibmItYWktdHJhdmVsLWFnZW50LXEzLTIwMjYtZWFybmluZ3M=",
-      "title": "Airbnb is working on an AI travel agent",
-      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple,...",
-      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-06T00:06:12.000Z"
-    },
-    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L21lYXN1cmluZy1ob3ctYWktYWdlbnRzLWhhbmRsZS13ZXQtbGFiLXNjaWVuY2U=",
       "title": "Measuring how AI agents handle everyday wet-lab science",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
@@ -237,15 +255,6 @@
       "publishedAt": "2026-11-05T22:40:55.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjgzMDIvcGVycGxleGl0eS10ZWFtbWF0ZXMtYWktYWdlbnRzLXdvcms=",
-      "title": "Perplexity launches its own take on AI agents for work",
-      "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
-      "source": "The Verge AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-05T22:26:50.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9nb29nbGUtc2Nob29scy1jYW4ta2VlcC1zZWFyY2gtd2hpbGUtc2tpcHBpbmctZ2VtaW5pLWJ1dC1haS1zZWFyY2gtaXMtbm9uLW5lZ290aWFibGUv",
       "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
       "summary": "Google is technically offering schools more choice but not the choices anyone wants.",
@@ -271,15 +280,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-05T20:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L21ldGEtc2F5cy11cy11c2Vycy1jYW4tbm93LXZpZGVvLWNoYXQtd2l0aC10aGVpci1tdXNlLWFpLWF2YXRhci8=",
-      "title": "Meta says US users can now video chat with their Muse AI avatar",
-      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
-      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T19:48:28.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9jb3Ntb3MtaW50ZXJhY3RpdmUtd29ybGQtc2ltdWxhdGlvbg==",
