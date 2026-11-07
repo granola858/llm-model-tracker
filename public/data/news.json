@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-11-06T18:06:12.104Z",
+  "lastUpdated": "2026-11-07T00:08:35.787Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L29wZW5haS1yZXBvcnRlZGx5LXJhaXNlcy1hbi1hZGRpdGlvbmFsLTExLWJpbGxpb24tYXQtYS0xLTI1LXRyaWxsaW9uLXZhbHVhdGlvbi8=",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "source": "TechCrunch AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-06T22:53:46.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzkwMjU0Ni9kYXRhLWNlbnRlcnMtYWktZW5lcmd5LXBvd2VyLWdyaWRzLWNvbnRyb3ZlcnN5",
+      "title": "All the latest updates on AI data centers",
+      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impa...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T20:02:22.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L2h1bmRyZWRzLW9mLWFydGV4LWFpLWhhY2tpbmctdG9vbHMtZm91bmQtcHVibGljbHktZXhwb3NlZC10by10aGUtd2ViLw==",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T18:44:38.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L21ldGEtaW50cm9kdWNlcy1zcGFjZXMtYS1uZXctd2F5LXRvLWNvbGxhYm9yYXRlLXdpdGgteW91ci1tdXNlLWFnZW50Lw==",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T18:44:20.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAyODg3MS9tZXRhLW11c2UtYWktc3BhY2Vz",
+      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, ...",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-06T18:10:10.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS9wb2RjYXN0L2hvdy1hLWJsdWUtd2F2ZS1taWR0ZXJtLW1pZ2h0LXJlc2hhcGUtdGhlLWFpLWluZHVzdHJ5Lw==",
       "title": "How a Blue Wave midterm might reshape the AI industry",
@@ -129,6 +174,15 @@
       "publishedAt": "2026-11-06T11:55:19.000Z"
     },
     {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3BhcnRuZXJpbmctd2l0aC1oYWNrdHJvbg==",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-06T08:00:00.000Z"
+    },
+    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L3BhbG8tYWx0by1uZXR3b3Jrcy1pbi10YWxrcy10by1idXktYWktYWdlbnQtc2VjdXJpdHktc3RhcnR1cC1jbHV0Y2gtZm9yLTUwMG0v",
       "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
       "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
@@ -154,6 +208,15 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-06T00:06:12.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L21lYXN1cmluZy1ob3ctYWktYWdlbnRzLWhhbmRsZS13ZXQtbGFiLXNjaWVuY2U=",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-06T00:00:00.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL29wZW4tYXNyLWxlYWRlcmJvYXJkLWxpdmE=",
@@ -228,51 +291,6 @@
       "publishedAt": "2026-11-05T19:35:16.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L21ldGFzLXdhcm5zLXRoYXQtZWxlY3Rpb24tYmFja2xhc2gtYWdhaW5zdC1kYXRhLWNlbnRlcnMtY291bGQtbWFrZS1haS1leHBhbnNpb24taGFyZGVyLw==",
-      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
-      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T19:12:39.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L29wZW5haS1yZWxlYXNlZC1hLW5ldy1jeWJlcnNlY3VyaXR5LW1vZGVsLWlzLXRoYXQtZW5vdWdoLw==",
-      "title": "OpenAI released a new cybersecurity model. Is that enough?",
-      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
-      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-      "source": "TechCrunch AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-05T19:06:12.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAyODAxNS9tZXRhLW11c2UtYWktdm9pY2UtbW9kZS1leHByZXNzaXZlLWF2YXRhcg==",
-      "title": "Muse has a voice mode now",
-      "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article....",
-      "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
-      "source": "The Verge AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-05T19:03:04.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L29wZW5haS1wcmVzaWRlbnQtZ3JlZy1icm9ja21hbi1zYXlzLWNvbXBhbnktY291bGQtYmUtaXBvLXJlYWR5LWluLTIwMjcv",
-      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-      "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
-      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-      "source": "TechCrunch AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-05T18:02:27.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjc2NTIvYW50aHJvcGljLWNsYXVkZS1wbGFpZC1wZXJzb25hbC1maW5hbmNl",
-      "title": "Claude AI can plug directly into your bank account",
-      "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can a...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
-      "source": "The Verge AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-05T18:00:00.000Z"
-    },
-    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2F1c3RyYWxpYW4tdW5pdmVyc2l0aWVzLWFpLW5hdGl2ZS1ncmFkdWF0ZXM=",
       "title": "Australian universities are creating AI-native graduates",
       "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
@@ -343,24 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-05T00:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL3Bob25vbi10dHM=",
-      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/phonon-tts",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T00:00:00.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9iaWctdGVjaC1jbGFpbXMtdm90ZXJzLWFpLWJhY2tsYXNoLWlzLWFudGktdHJ1bXAtbm90LWFudGktdGVjaC8=",
-      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
-      "summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
-      "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-04T20:55:50.000Z"
     }
   ]
 }
