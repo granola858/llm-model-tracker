@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-07T18:04:00.354Z",
+  "lastUpdated": "2026-11-08T00:09:35.473Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA3L2FmdGVyLXRoZS1taWR0ZXJtcy10aGluZ3MtYXJlLWxvb2tpbmctcm9ja3ktZm9yLWVsb24tbXVzay1hbmQtZGF0YS1jZW50ZXJzLw==",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-07T22:07:22.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA3L2NoaW5lc2UtZXhlYy13YXMtcmVjcnVpdGVkLXRvLXNweS1vbi1udmlkaWEtY2VvLWFjY29yZGluZy10by11cy1pbnRlbGxpZ2VuY2UtbWVtby8=",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-07T21:17:08.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAyOTQ4OS9ueXQtY29va2luZy1haS1hc3Npc3RhbnQtcmV2aWV3",
       "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
@@ -219,15 +237,6 @@
       "publishedAt": "2026-11-06T08:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L3BhbG8tYWx0by1uZXR3b3Jrcy1pbi10YWxrcy10by1idXktYWktYWdlbnQtc2VjdXJpdHktc3RhcnR1cC1jbHV0Y2gtZm9yLTUwMG0v",
-      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-      "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
-      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-06T06:28:32.000Z"
-    },
-    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L21lYXN1cmluZy1ob3ctYWktYWdlbnRzLWhhbmRsZS13ZXQtbGFiLXNjaWVuY2U=",
       "title": "Measuring how AI agents handle everyday wet-lab science",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
@@ -244,15 +253,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-06T00:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA1L2FpcmJuYi1zYXlzLWl0cy1sYXVuY2hpbmctYW4tYWktdHJhdmVsLWFnZW50LWluLXRoZS1maXJzdC1oYWxmLW9mLTIwMjcv",
-      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
-      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T22:40:55.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9nb29nbGUtc2Nob29scy1jYW4ta2VlcC1zZWFyY2gtd2hpbGUtc2tpcHBpbmctZ2VtaW5pLWJ1dC1haS1zZWFyY2gtaXMtbm9uLW5lZ290aWFibGUv",
