@@ -47,3 +47,21 @@ export interface NewsDataPayload {
   totalSources: number;
   items: NewsItem[];
 }
+
+/** near＝時間說得準、by＝只知道在 date 之前、after＝到 date 都不到一半機率 */
+export type PredictionPrecision = 'near' | 'by' | 'after';
+
+/** 下一代旗艦的市場預測，不是官方消息；由 scripts/fetch-predictions.mjs 產生 */
+export interface Prediction {
+  provider: ProviderId;
+  name: string;
+  date: string; // YYYY-MM-DD
+  precision: PredictionPrecision;
+  probability: number; // date 之前發布的機率，0–1
+  url: string;
+}
+
+export interface PredictionsPayload {
+  lastUpdated: string;
+  items: Prediction[];
+}

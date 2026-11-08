@@ -19,6 +19,7 @@
 3. **純前端零後端 + GitHub Actions 自動化新聞抓取**
    - 內建 [`scripts/fetch-news.mjs`](./scripts/fetch-news.mjs) 爬蟲腳本（零外部依賴，使用原生 Node.js `fetch`），自動聚合 OpenAI、Google AI、TechCrunch AI、The Verge AI、Hugging Face、Ars Technica、VentureBeat 等 RSS 來源，並自動辨識對應的 AI 廠商標籤寫入 [`public/data/news.json`](./public/data/news.json)。
    - 搭配 [`.github/workflows/update-news-and-deploy.yml`](./.github/workflows/update-news-and-deploy.yml)，每 6 小時自動更新新聞並重新部署至 **GitHub Pages**，前端直接讀取同源靜態 JSON，完全無 CORS 跨域阻擋問題。
+   - 同一個排程也會執行 [`scripts/fetch-predictions.mjs`](./scripts/fetch-predictions.mjs)，把 Polymarket 公開 API 的機率換算成各家下一代旗艦的大約發布時間，寫入 [`public/data/predictions.json`](./public/data/predictions.json)。
 
 4. **新模型自動查證，以 PR 送審**
    - 模型清單存放在 [`src/data/models.json`](./src/data/models.json)，可直接手動編輯，格式由 [`scripts/validate-models.mjs`](./scripts/validate-models.mjs) 檢查。
@@ -35,6 +36,9 @@ npm install
 
 # 2. 手動執行一次最新 AI 新聞抓取（會更新 public/data/news.json）
 npm run fetch-news
+
+# （選用）更新下一代旗艦預測（會更新 public/data/predictions.json）
+npm run fetch-predictions
 
 # （選用）列出近期的候選新模型；設定 ANTHROPIC_API_KEY 並拿掉 --dry-run 才會實際查證與寫入
 npm run fetch-models -- --dry-run

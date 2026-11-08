@@ -1,12 +1,14 @@
-import React from 'react';
-import { AIModel } from '../types';
+import React, { useEffect, useState } from 'react';
+import { AIModel, Prediction, PredictionsPayload, ProviderId } from '../types';
 import { PROVIDERS } from '../data/modelsData';
 import { VisitBaseline, shortDate, toTime, todayParts } from '../lib/format';
+import { predictionDetail, predictionLabel, selectPredictions } from '../lib/predictions';
 import { ModelShape } from './marks';
 
 interface Props {
   now: Date;
   models: AIModel[]; // 已篩選、由新到舊
+  providers: ProviderId[];
   baseline: VisitBaseline;
   onPick: (id: string) => void;
 }
@@ -14,7 +16,22 @@ interface Props {
 const FALLBACK_COUNT = 5;
 
 // memo：hover 時間軸時 props 不變，這一欄不必跟著重繪
-export const TodaySheet = React.memo(function TodaySheet({ now, models, baseline, onPick }: Props) {
+export const TodaySheet = React.memo(function TodaySheet({ now, models, providers, baseline, onPick }: Props) {
+  const [predictions, setPredictions] = useState<Prediction[]>([]);
+  useEffect(() => {
+    let cancelled = false;
+    fetch(`./data/predictions.json?t=${Date.now()}`)
+      .then((res) => (res.ok ? (res.json() as Promise<PredictionsPayload>) : null))
+      .then((payload) => {
+        if (!cancelled && Array.isArray(payload?.items)) setPredictions(payload.items);
+      })
+      // 預測只是附加資訊，讀不到就整區不顯示
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   const t = todayParts(now);
   const fresh = models.filter((m) => toTime(m.releaseDate) > baseline.since);
   const list = fresh.length ? fresh : models.slice(0, FALLBACK_COUNT);
@@ -23,6 +40,7 @@ export const TodaySheet = React.memo(function TodaySheet({ now, models, baseline
   const iso = `${t.year}-${String(now.getMonth() + 1).padStart(2, '0')}-${t.day}`;
   const sunday = now.getDay() === 0;
   const flagshipDay = models.some((m) => m.releaseDate === iso && m.isFlagship);
+  const upcoming = selectPredictions(predictions, providers, iso);
 
   return (
     <aside
@@ -50,6 +68,30 @@ export const TodaySheet = React.memo(function TodaySheet({ now, models, baseline
           {t.weekday}
         </p>
       </div>
+
+      {upcoming.length > 0 && (
+        <div className="mx-6 border-t-2 border-paper-ink pt-3 pb-5">
+          <h2 className="text-sm font-bold">下一代旗艦預測</h2>
+          <ul className="mt-2">
+            {upcoming.map((p) => (
+              <li key={p.provider} className="border-b border-paper-rule last:border-b-0">
+                <a
+                  href={p.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  title={predictionDetail(p)}
+                  className="flex w-full items-center gap-2.5 py-2 text-left text-sm hover:underline focus-visible:outline-paper-ink"
+                >
+                  <ModelShape model={{ provider: p.provider, isReasoning: false }} size={9} hollow onPaper />
+                  <span className="min-w-0 flex-1 truncate">{p.name}</span>
+                  <span className="sr-only">{PROVIDERS[p.provider].name}</span>
+                  <span className="text-xs text-paper-muted tabular-nums">{predictionLabel(p, t.year)}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <div className="mx-6 border-t-2 border-paper-ink pt-3 pb-5">
         <h2 className="flex items-baseline justify-between text-sm font-bold">

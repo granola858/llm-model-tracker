@@ -4,7 +4,12 @@ import { PROVIDERS } from '../data/modelsData';
 import { isEstimated, paramsDisclosed } from '../lib/format';
 
 /** 推理模型用菱形、一般模型用圓形；形狀而非顏色承載「推理」 */
-export const ModelShape: React.FC<{ model: AIModel; size?: number; hollow?: boolean; onPaper?: boolean }> = ({
+export const ModelShape: React.FC<{
+  model: Pick<AIModel, 'provider' | 'isReasoning'>;
+  size?: number;
+  hollow?: boolean;
+  onPaper?: boolean;
+}> = ({
   model,
   size = 10,
   hollow = false,

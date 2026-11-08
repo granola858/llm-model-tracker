@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
+    "test": "node --experimental-strip-types --test \"tests/*.test.mjs\"",
     "fetch-news": "node scripts/fetch-news.mjs",
+    "fetch-predictions": "node scripts/fetch-predictions.mjs",
     "fetch-models": "node scripts/fetch-models.mjs",
     "validate-models": "node scripts/validate-models.mjs"
   },

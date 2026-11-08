@@ -214,7 +214,7 @@ export const App: React.FC = () => {
               />
             </div>
             <div className="order-1 lg:order-2 lg:min-h-0">
-              <TodaySheet now={now} models={newestFirst} baseline={baseline} onPick={pickModel} />
+              <TodaySheet now={now} models={newestFirst} providers={providers} baseline={baseline} onPick={pickModel} />
             </div>
             <div className="order-3 lg:min-h-0">
               <NewsColumn />

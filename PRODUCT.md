@@ -29,6 +29,7 @@ web
 - 純前端靜態網站（React 19 + TypeScript + Vite + Tailwind CSS v4），部署在 GitHub Pages，`base: './'`。
 - 模型資料寫死在 `src/data/modelsData.ts`（`INITIAL_MODELS`），由作者（或 AI 助理）手動研究後更新、commit、push。
 - 新聞由 GitHub Actions 每 6 小時執行 `scripts/fetch-news.mjs` 抓 RSS，寫入 `public/data/news.json` 後重新部署。
+- 下一代旗艦預測由同一個 Action 執行 `scripts/fetch-predictions.mjs`，把 Polymarket 公開 API 的機率換算成大約發布時間，寫入 `public/data/predictions.json`。這是押注者的機率，不是事實，不進 `models.json`。
 - 使用者可在瀏覽器端自行「新增模型」，存在 localStorage，不會回寫到原始資料。
 
 ## Capabilities and Constraints
@@ -42,6 +43,7 @@ web
   1. **屬於通用主線**：推理、程式、多模態專線與開放權重副線（o 系列、R 系列、QwQ、Magistral、Codex、Devstral、Pixtral、Gemma 等），以及輕量層級（Flash、mini、Instant、Fast、Haiku、Small、Lite）都不算。廠商的第一個通用模型直接算。
   2. **當天最高階**：只跟同一家、符合收錄範圍的模型比，先看官方層級與定價。較低層級要算，官方必須明說它是旗艦、整體最強，或整體達到、超過舊頂端；「接近」舊頂端或只在單一領域領先都不算。
   3. **是新版本**：新世代或小數點升級都算，同一版本只標第一次開放給一般使用者的那筆（含預覽、實驗版）。預覽轉正式、日期快照或 v2 小修、開放既有模型的權重、加上思考或加強模式、擴充上下文都不算。
+- 「今天」頁日期下方列出最接近的 3 筆下一代旗艦預測（模型名稱與大約發布時間），跟著廠商篩選變動。每家對應的市場寫在 `scripts/lib/predictions.mjs`，只收通用主線，累計交易量低於 5,000 美元的不顯示；機率第一次過半的日期當大約時間，到最後一檔都不過半的標成「某日後」。
 - 沒有後端、沒有帳號，新聞來源僅限 RSS。
 - **資料可信度**：不強制每筆附來源，但未經官方證實的規格（參數量、上下文長度等估計值）要標示出來。目前資料結構還沒有「估計值」欄位，這是待補的產品需求。
 
@@ -49,6 +51,7 @@ web
 
 - `src/data/models.json`：197 筆模型資料（2020 – 2026-10），其中 2026 年下半年幾筆的上下文長度與參數量是估計值，部分舊資料曾被發現日期或名稱有誤並已修正。
 - `public/data/news.json`：自動抓取的新聞，約 40 則。
+- `public/data/predictions.json`：預測市場的機率，不是官方消息。
 - 沒有使用者見證、流量數據或外部引用，未來工作不得杜撰。
 
 ## Product Principles
