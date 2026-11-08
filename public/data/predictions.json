@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T16:16:24.309Z",
+  "lastUpdated": "2026-11-08T16:25:22.326Z",
   "items": [
     {
       "provider": "OpenAI",
@@ -14,7 +14,7 @@
       "name": "Claude Fable 5.2+",
       "date": "2026-11-12",
       "precision": "near",
-      "probability": 0.505,
+      "probability": 0.5,
       "url": "https://polymarket.com/event/next-fable-model-5pt2-released-byptptpt"
     },
     {
@@ -22,7 +22,7 @@
       "name": "Gemini Carbon",
       "date": "2026-11-10",
       "precision": "near",
-      "probability": 0.515,
+      "probability": 0.505,
       "url": "https://polymarket.com/event/gemini-carbon-released-byptptpt-20261026"
     },
     {
@@ -54,7 +54,7 @@
       "name": "Qwen Max 3.9+",
       "date": "2026-11-20",
       "precision": "near",
-      "probability": 0.87,
+      "probability": 0.865,
       "url": "https://polymarket.com/event/next-alibaba-qwen-max-3pt9-released-byptptpt"
     }
   ]
