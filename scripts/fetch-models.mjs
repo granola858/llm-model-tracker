@@ -293,6 +293,7 @@ function buildSystemPrompt(existing) {
 - 搜尋後仍無法確認、但之後可能值得收錄（例如剛宣布、規格還沒公開），放進 skipped 並把 recheck 設為 true，隔天會再審一次；確定不收錄的 recheck 設為 false。
 
 欄位規則：
+- 一筆只收同一天發布的模型：同一天一起發表的可以合併成一筆（例如「GPT-6 Sol & Luna」）；同系列但不同天發布的版本（例如先出 Sonnet、兩週後才出 Haiku）各自一筆，releaseDate 填該模型自己的官方公告日，不要寫成「4.6 ~ 4.8」這種區間或併進既有的一筆
 - category 只能選一個主要定位：Flagship（旗艦）、Reasoning（以推理為主打）、Lightweight（輕量／低價）、Multimodal（以多模態為主打）、Coding（程式專用）
 - isFlagship：這筆發布包含該廠商當時最高階的主力模型就填 true，與 category 無關（例如以推理或程式為主打的頂級新世代也算）；category 選 Flagship 時必須為 true
 - isReasoning：模型具備思考／推理模式就填 true
