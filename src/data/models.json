@@ -151,6 +151,46 @@
     "officialUrl": "https://www.anthropic.com/news/claude-2"
   },
   {
+    "id": "qwen-vl",
+    "name": "Qwen-VL",
+    "provider": "Qwen",
+    "releaseDate": "2023-08-22",
+    "parameters": "7B + Vision Encoder",
+    "contextWindow": "8K",
+    "contextTokens": 8192,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": false,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "以 Qwen-7B 加上視覺編碼器的開放權重視覺語言模型，允許商用。",
+    "officialUrl": "https://github.com/QwenLM/Qwen-VL"
+  },
+  {
+    "id": "meta-code-llama",
+    "name": "Code Llama",
+    "provider": "Meta",
+    "releaseDate": "2023-08-24",
+    "parameters": "7B / 13B / 34B",
+    "contextWindow": "100K",
+    "contextTokens": 100000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "以 Llama 2 為基礎的程式專用模型，採相同的社群授權，2024 年 1 月再補上 70B 版本。",
+    "officialUrl": "https://ai.meta.com/blog/code-llama-large-language-model-coding/"
+  },
+  {
     "id": "anthropic-claude-2-1",
     "name": "Claude 2.1",
     "provider": "Anthropic",
@@ -371,6 +411,24 @@
     "officialUrl": "https://mistral.ai/news/mixtral-of-experts/"
   },
   {
+    "id": "qwen-1-5",
+    "name": "Qwen1.5 (0.5B - 72B)",
+    "provider": "Qwen",
+    "releaseDate": "2024-02-04",
+    "parameters": "0.5B - 72B",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": false,
+    "highlights": "Qwen1.5 開放權重系列，一次釋出 0.5B 到 72B 多種尺寸。",
+    "officialUrl": "https://qwenlm.github.io/blog/qwen1.5/"
+  },
+  {
     "id": "google-gemini-1-5-pro",
     "name": "Gemini 1.5 Pro",
     "provider": "Google",
@@ -390,6 +448,99 @@
     "isReasoning": false,
     "highlights": "首度推出 100 萬 Token 長上下文（研究中測到 1000 萬），可一次分析整部電影或數萬行程式碼庫；5 月再開放 200 萬 Token 候補。",
     "officialUrl": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/"
+  },
+  {
+    "id": "google-gemma",
+    "name": "Gemma (2B / 7B)",
+    "provider": "Google",
+    "releaseDate": "2024-02-21",
+    "parameters": "2B / 7B",
+    "contextWindow": "8K",
+    "contextTokens": 8192,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "與 Gemini 同源研究打造的輕量開放模型，可在筆電或工作站上執行。",
+    "officialUrl": "https://blog.google/technology/developers/gemma-open-models/"
+  },
+  {
+    "id": "mistral-large-small-2402",
+    "name": "Mistral Large & Small",
+    "provider": "Mistral",
+    "releaseDate": "2024-02-26",
+    "parameters": "未公開",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Proprietary",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": false,
+    "highlights": "與對話介面 Le Chat 同日推出的閉源旗艦與小型模型，Large 支援英、法、西、德、義五種語言。",
+    "officialUrl": "https://mistral.ai/news/mistral-large/"
+  },
+  {
+    "id": "xai-grok-1-5",
+    "name": "Grok-1.5",
+    "provider": "xAI",
+    "releaseDate": "2024-03-28",
+    "parameters": "未公開",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Proprietary",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": false,
+    "highlights": "強化推理並把上下文提高到 128K，隨後開放給 X Premium 使用者。",
+    "officialUrl": "https://x.ai/news/grok-1.5"
+  },
+  {
+    "id": "qwen-code-1-5",
+    "name": "CodeQwen1.5",
+    "provider": "Qwen",
+    "releaseDate": "2024-04-16",
+    "parameters": "7B",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": false,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "Qwen 第一個程式專用的開放權重模型。",
+    "officialUrl": "https://qwenlm.github.io/blog/codeqwen1.5/"
+  },
+  {
+    "id": "mistral-mixtral-8x22b",
+    "name": "Mixtral 8x22B",
+    "provider": "Mistral",
+    "releaseDate": "2024-04-17",
+    "parameters": "141B (MoE)",
+    "contextWindow": "64K",
+    "contextTokens": 64000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": false,
+    "highlights": "Apache 2.0 授權的大型 MoE 模型，先以 BitTorrent 釋出權重。",
+    "officialUrl": "https://mistral.ai/news/mixtral-8x22b/"
   },
   {
     "id": "google-gemini-1-5-flash",
@@ -488,6 +639,78 @@
     "officialUrl": "https://openai.com/index/hello-gpt-4o/"
   },
   {
+    "id": "mistral-codestral",
+    "name": "Codestral",
+    "provider": "Mistral",
+    "releaseDate": "2024-05-29",
+    "parameters": "22B",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "Mistral 第一個程式專用模型，權重可下載，非正式環境授權（MNPL）不可商用。",
+    "officialUrl": "https://mistral.ai/news/codestral/"
+  },
+  {
+    "id": "deepseek-coder-v2",
+    "name": "DeepSeek-Coder-V2",
+    "provider": "DeepSeek",
+    "releaseDate": "2024-06-14",
+    "parameters": "236B (21B Active)",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "程式專用的 MoE 模型，權重開放且允許商用，官方提供網頁對話介面。",
+    "officialUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2"
+  },
+  {
+    "id": "google-gemma-2",
+    "name": "Gemma 2 (9B / 27B)",
+    "provider": "Google",
+    "releaseDate": "2024-06-27",
+    "parameters": "9B / 27B",
+    "contextWindow": "8K",
+    "contextTokens": 8192,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "第二代開放模型，以可商用的 Gemma 授權釋出 9B 與 27B 兩種尺寸。",
+    "officialUrl": "https://blog.google/technology/developers/google-gemma-2/"
+  },
+  {
+    "id": "mistral-codestral-mamba",
+    "name": "Codestral Mamba",
+    "provider": "Mistral",
+    "releaseDate": "2024-07-16",
+    "parameters": "7B",
+    "contextWindow": "256K",
+    "contextTokens": 256000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "改用 Mamba 架構的程式模型，Apache 2.0 授權，上下文 256K。",
+    "officialUrl": "https://mistral.ai/news/codestral-mamba/"
+  },
+  {
     "id": "openai-gpt-4o-mini",
     "name": "GPT-4o mini",
     "provider": "OpenAI",
@@ -542,6 +765,102 @@
     "isReasoning": false,
     "highlights": "以中階價格超越 Claude 3 Opus，程式與視覺推理大幅領先，並在 claude.ai 推出 Artifacts 互動介面。",
     "officialUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+  },
+  {
+    "id": "mistral-nemo",
+    "name": "Mistral NeMo",
+    "provider": "Mistral",
+    "releaseDate": "2024-07-18",
+    "parameters": "12B",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "與 NVIDIA 合作的 12B 模型，Apache 2.0 授權，上下文 128K。",
+    "officialUrl": "https://mistral.ai/news/mistral-nemo/"
+  },
+  {
+    "id": "qwen-2-vl",
+    "name": "Qwen2-VL",
+    "provider": "Qwen",
+    "releaseDate": "2024-08-29",
+    "parameters": "2B / 7B / 72B",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Video"
+    ],
+    "license": "Open-Weights",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": false,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "可理解超過 20 分鐘影片的視覺語言模型，2B 與 7B 以 Apache 2.0 授權。",
+    "officialUrl": "https://qwenlm.github.io/blog/qwen2-vl/"
+  },
+  {
+    "id": "deepseek-v2-5",
+    "name": "DeepSeek-V2.5",
+    "provider": "DeepSeek",
+    "releaseDate": "2024-09-05",
+    "parameters": "236B (21B Active)",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": false,
+    "highlights": "把 V2 對話模型與 Coder-V2 合併成單一模型，網頁與 API 同步上線並開放權重。",
+    "officialUrl": "https://api-docs.deepseek.com/news/news0905"
+  },
+  {
+    "id": "meta-llama-3-2",
+    "name": "Llama 3.2 (1B - 90B)",
+    "provider": "Meta",
+    "releaseDate": "2024-09-25",
+    "parameters": "1B / 3B / 11B / 90B",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "Llama 首度支援圖片輸入（11B、90B），另有可在手機上執行的 1B 與 3B 純文字模型。",
+    "officialUrl": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+  },
+  {
+    "id": "mistral-ministral",
+    "name": "Ministral (3B / 8B)",
+    "provider": "Mistral",
+    "releaseDate": "2024-10-16",
+    "parameters": "3B / 8B",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "為裝置端與邊緣運算設計，8B 權重開放研究使用，3B 只有 API。",
+    "officialUrl": "https://mistral.ai/news/ministraux/"
   },
   {
     "id": "anthropic-claude-3-5-sonnet-v2",
@@ -600,7 +919,7 @@
   },
   {
     "id": "mistral-pixtral-12b",
-    "name": "Pixtral 12B",
+    "name": "Pixtral 12B & Mistral Small 24.09",
     "provider": "Mistral",
     "releaseDate": "2024-09-17",
     "parameters": "12B (+0.4B Vision Encoder)",
@@ -614,7 +933,7 @@
     "category": "Multimodal",
     "isFlagship": false,
     "isReasoning": false,
-    "highlights": "Mistral 首款多模態模型，以 Apache 2.0 開源，支援任意解析度的影像輸入與 128K 上下文。",
+    "highlights": "Mistral 首款多模態模型，以 Apache 2.0 開源，支援任意解析度的影像輸入與 128K 上下文；同日更新開放權重的 Mistral Small 24.09。",
     "officialUrl": "https://mistral.ai/news/pixtral-12b/"
   },
   {
@@ -692,6 +1011,124 @@
     "officialUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
   },
   {
+    "id": "mistral-pixtral-large",
+    "name": "Pixtral Large",
+    "provider": "Mistral",
+    "releaseDate": "2024-11-18",
+    "parameters": "124B",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "以 Mistral Large 2 為基礎的 124B 多模態開放權重模型，可在 Le Chat 使用。",
+    "officialUrl": "https://mistral.ai/news/pixtral-large/"
+  },
+  {
+    "id": "deepseek-r1-lite-preview",
+    "name": "DeepSeek-R1-Lite-Preview",
+    "provider": "DeepSeek",
+    "releaseDate": "2024-11-20",
+    "parameters": "未公開",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Reasoning",
+    "isFlagship": false,
+    "isReasoning": true,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "在 chat.deepseek.com 公開的推理預覽版，即時顯示完整思考過程。",
+    "officialUrl": "https://api-docs.deepseek.com/news/news1120"
+  },
+  {
+    "id": "openai-o1-pro",
+    "name": "OpenAI o1 & o1 pro",
+    "provider": "OpenAI",
+    "releaseDate": "2024-12-05",
+    "parameters": "未公開",
+    "contextWindow": "200K",
+    "contextTokens": 200000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Reasoning",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "o1 結束預覽並支援圖片輸入，同日推出每月 $200 的 ChatGPT Pro 與思考更久的 o1 pro mode。",
+    "officialUrl": "https://openai.com/index/introducing-chatgpt-pro/"
+  },
+  {
+    "id": "meta-llama-3-3",
+    "name": "Llama 3.3 (70B)",
+    "provider": "Meta",
+    "releaseDate": "2024-12-06",
+    "parameters": "70B",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": false,
+    "highlights": "只推出 70B 指令版的更新，採 Llama 3.3 社群授權，可自行下載部署。",
+    "officialUrl": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+  },
+  {
+    "id": "google-gemini-2-flash-thinking",
+    "name": "Gemini 2.0 Flash Thinking",
+    "provider": "Google",
+    "releaseDate": "2024-12-19",
+    "parameters": "未公開",
+    "contextWindow": "32K - 1M",
+    "contextTokens": 1048576,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Reasoning",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "在 Gemini 2.0 Flash 上加入思考模式，先在 AI Studio 以實驗版開放，2025 年 2 月進入 Gemini App。",
+    "officialUrl": "https://aistudio.google.com/docs/changelog"
+  },
+  {
+    "id": "qwen-qvq-72b-preview",
+    "name": "QVQ-72B-Preview",
+    "provider": "Qwen",
+    "releaseDate": "2024-12-25",
+    "parameters": "72B",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Reasoning",
+    "isFlagship": false,
+    "isReasoning": true,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "Qwen 第一個開放權重的視覺推理模型，以預覽版釋出。",
+    "officialUrl": "https://qwenlm.github.io/blog/qvq-72b-preview/"
+  },
+  {
     "id": "qwen-2-5-vl",
     "name": "Qwen2.5-VL",
     "provider": "Qwen",
@@ -767,6 +1204,244 @@
     "isReasoning": true,
     "highlights": "以大規模強化學習 (GRPO) 激發自發性思維鏈推理，MIT 開源授權並追平 OpenAI o1，震撼全球科技界。",
     "officialUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
+  },
+  {
+    "id": "qwen-2-5-max",
+    "name": "Qwen2.5-Max",
+    "provider": "Qwen",
+    "releaseDate": "2025-01-28",
+    "parameters": "未公開",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Proprietary",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": false,
+    "highlights": "大規模 MoE 閉源旗艦，可在 Qwen Chat 直接使用。",
+    "officialUrl": "https://qwenlm.github.io/blog/qwen2.5-max/"
+  },
+  {
+    "id": "mistral-small-3",
+    "name": "Mistral Small 3",
+    "provider": "Mistral",
+    "releaseDate": "2025-01-30",
+    "parameters": "24B",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "重視延遲的 24B 模型，Apache 2.0 授權，可下載到本機部署。",
+    "officialUrl": "https://mistral.ai/news/mistral-small-3/"
+  },
+  {
+    "id": "google-gemini-2-pro",
+    "name": "Gemini 2.0 Pro",
+    "provider": "Google",
+    "releaseDate": "2025-02-05",
+    "parameters": "未公開",
+    "contextWindow": "2M",
+    "contextTokens": 2097152,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Proprietary",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": false,
+    "highlights": "以 200 萬 Token 上下文主打程式與複雜提示的實驗版，開放給 Gemini Advanced 使用者與 AI Studio。",
+    "officialUrl": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
+  },
+  {
+    "id": "qwen-qwq-max-preview",
+    "name": "QwQ-Max-Preview",
+    "provider": "Qwen",
+    "releaseDate": "2025-02-25",
+    "parameters": "未公開",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Proprietary",
+    "category": "Reasoning",
+    "isFlagship": false,
+    "isReasoning": true,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "以 Qwen2.5-Max 為基礎的推理預覽版，在 Qwen Chat 開放。",
+    "officialUrl": "https://qwenlm.github.io/blog/qwq-max-preview/"
+  },
+  {
+    "id": "qwen-qwq-32b",
+    "name": "QwQ-32B",
+    "provider": "Qwen",
+    "releaseDate": "2025-03-06",
+    "parameters": "32B",
+    "contextWindow": "128K",
+    "contextTokens": 131072,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Reasoning",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "以強化學習訓練的 32B 推理模型，Apache 2.0 授權；2024 年 11 月先有預覽版。",
+    "officialUrl": "https://qwenlm.github.io/blog/qwq-32b/"
+  },
+  {
+    "id": "google-gemma-3",
+    "name": "Gemma 3 (1B - 27B)",
+    "provider": "Google",
+    "releaseDate": "2025-03-12",
+    "parameters": "1B / 4B / 12B / 27B",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "基於 Gemini 2.0 技術的開放模型，可在手機到工作站上執行，支援 140 多種語言與 128K 上下文。",
+    "officialUrl": "https://blog.google/technology/developers/gemma-3/"
+  },
+  {
+    "id": "mistral-small-3-1",
+    "name": "Mistral Small 3.1",
+    "provider": "Mistral",
+    "releaseDate": "2025-03-17",
+    "parameters": "24B",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "加入多模態理解，上下文擴大到 128K，維持 Apache 2.0 授權。",
+    "officialUrl": "https://mistral.ai/news/mistral-small-3-1/"
+  },
+  {
+    "id": "deepseek-v3-0324",
+    "name": "DeepSeek-V3-0324",
+    "provider": "DeepSeek",
+    "releaseDate": "2025-03-24",
+    "parameters": "671B (37B Active)",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": false,
+    "highlights": "V3 的重要更新，權重改採 MIT 授權。",
+    "officialUrl": "https://api-docs.deepseek.com/news/news250325"
+  },
+  {
+    "id": "qwen-2-5-omni",
+    "name": "Qwen2.5-Omni",
+    "provider": "Qwen",
+    "releaseDate": "2025-03-27",
+    "parameters": "7B",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Open-Weights",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": false,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "同時處理文字、圖片、音訊與影片並能輸出語音，Apache 2.0 授權，也可在 Qwen Chat 使用。",
+    "officialUrl": "https://qwenlm.github.io/blog/qwen2.5-omni/"
+  },
+  {
+    "id": "qwen-qvq-max",
+    "name": "QVQ-Max",
+    "provider": "Qwen",
+    "releaseDate": "2025-03-28",
+    "parameters": "未公開",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Video"
+    ],
+    "license": "Proprietary",
+    "category": "Reasoning",
+    "isFlagship": false,
+    "isReasoning": true,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "可對圖片與影片推理的閉源模型，在 Qwen Chat 開放。",
+    "officialUrl": "https://qwenlm.github.io/blog/qvq-max-preview/"
+  },
+  {
+    "id": "openai-codex-1",
+    "name": "codex-1",
+    "provider": "OpenAI",
+    "releaseDate": "2025-05-16",
+    "parameters": "未公開",
+    "contextWindow": "200K",
+    "contextTokens": 200000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Proprietary",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": true,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "Codex 代理的第一個模型，由 o3 針對軟體工程調校，上線時開放給 ChatGPT Pro、Business 與 Enterprise。",
+    "officialUrl": "https://openai.com/index/introducing-codex/"
+  },
+  {
+    "id": "mistral-devstral",
+    "name": "Devstral",
+    "provider": "Mistral",
+    "releaseDate": "2025-05-21",
+    "parameters": "24B",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "與 All Hands AI 合作的代理式程式模型，Apache 2.0 授權，可在 Ollama、LM Studio 等工具本機執行。",
+    "officialUrl": "https://mistral.ai/news/devstral/"
   },
   {
     "id": "deepseek-r1-0528",
@@ -1012,6 +1687,119 @@
     "officialUrl": "https://www.anthropic.com/news/claude-4"
   },
   {
+    "id": "mistral-small-3-2",
+    "name": "Mistral Small 3.2",
+    "provider": "Mistral",
+    "releaseDate": "2025-06-20",
+    "parameters": "24B",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "Small 3.1 的小改版，提升指令遵循與函式呼叫穩定度，Apache 2.0 授權。",
+    "officialUrl": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+  },
+  {
+    "id": "google-gemma-3n",
+    "name": "Gemma 3n",
+    "provider": "Google",
+    "releaseDate": "2025-06-26",
+    "parameters": "E2B / E4B",
+    "contextWindow": "32K",
+    "contextTokens": 32000,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "為手機等裝置設計的開放模型，在裝置端原生處理圖片、音訊與影片輸入。",
+    "officialUrl": "https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/"
+  },
+  {
+    "id": "mistral-devstral-2507",
+    "name": "Devstral Small 1.1 & Medium",
+    "provider": "Mistral",
+    "releaseDate": "2025-07-10",
+    "parameters": "24B / 未公開",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "Small 1.1 以 Apache 2.0 開放權重，同日推出僅供 API 的 Devstral Medium。",
+    "officialUrl": "https://mistral.ai/news/devstral-2507/"
+  },
+  {
+    "id": "qwen-3-coder",
+    "name": "Qwen3-Coder",
+    "provider": "Qwen",
+    "releaseDate": "2025-07-22",
+    "parameters": "480B (35B Active)",
+    "contextWindow": "256K - 1M",
+    "contextTokens": 1000000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "480B 的代理式程式模型，開放權重，同時推出命令列工具 Qwen Code。",
+    "officialUrl": "https://qwenlm.github.io/blog/qwen3-coder/"
+  },
+  {
+    "id": "mistral-magistral-1-1",
+    "name": "Magistral 1.1",
+    "provider": "Mistral",
+    "releaseDate": "2025-07-24",
+    "parameters": "24B (Small) / 未公開 (Medium)",
+    "contextWindow": "40K",
+    "contextTokens": 40000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Reasoning",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "改善語氣與排版、減少無限生成，Small 版以 Apache 2.0 開放權重。",
+    "officialUrl": "https://huggingface.co/mistralai/Magistral-Small-2507"
+  },
+  {
+    "id": "google-gemini-2-5-deep-think",
+    "name": "Gemini 2.5 Deep Think",
+    "provider": "Google",
+    "releaseDate": "2025-08-01",
+    "parameters": "未公開",
+    "contextWindow": "1M",
+    "contextTokens": 1048576,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Reasoning",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "以平行思考解決複雜問題的推理模式，在 Gemini App 開放給 Google AI Ultra 訂閱者，每日有次數限制。",
+    "officialUrl": "https://blog.google/products/gemini/gemini-2-5-deep-think/"
+  },
+  {
     "id": "anthropic-claude-opus-4-1",
     "name": "Claude Opus 4.1",
     "provider": "Anthropic",
@@ -1073,27 +1861,6 @@
     "officialUrl": "https://blog.google/products/gemini/gemini-2-5-flash-preview/"
   },
   {
-    "id": "google-gemini-2-5-flash-lite",
-    "name": "Gemini 2.5 Flash-Lite",
-    "provider": "Google",
-    "releaseDate": "2025-06-17",
-    "parameters": "未公開",
-    "contextWindow": "1M",
-    "contextTokens": 1000000,
-    "modalities": [
-      "Text",
-      "Vision",
-      "Audio",
-      "Video"
-    ],
-    "license": "Proprietary",
-    "category": "Lightweight",
-    "isFlagship": false,
-    "isReasoning": true,
-    "highlights": "2.5 系列最便宜、最快的模型，預設不開思考，適合翻譯、分類等大量低延遲任務；同日 2.5 Pro 與 Flash 轉為正式版。",
-    "officialUrl": "https://blog.google/products/gemini/gemini-2-5-model-family-expands/"
-  },
-  {
     "id": "xai-grok-4",
     "name": "Grok 4 & Grok 4 Heavy",
     "provider": "xAI",
@@ -1112,6 +1879,24 @@
     "isReasoning": true,
     "highlights": "引入多代理平行推理（Multi-Agent Test-Time Compute），在 Humanity’s Last Exam 創下新高分。",
     "officialUrl": "https://x.ai"
+  },
+  {
+    "id": "openai-gpt-oss",
+    "name": "gpt-oss (120B / 20B)",
+    "provider": "OpenAI",
+    "releaseDate": "2025-08-05",
+    "parameters": "120B / 20B",
+    "contextWindow": "128K",
+    "contextTokens": 131072,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Reasoning",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "OpenAI 自 GPT-2 以來第一批開放權重語言模型，Apache 2.0 授權，可在自己的硬體上執行。",
+    "officialUrl": "https://openai.com/index/introducing-gpt-oss/"
   },
   {
     "id": "openai-gpt-5",
@@ -1135,6 +1920,237 @@
     "officialUrl": "https://openai.com"
   },
   {
+    "id": "mistral-medium-3-1",
+    "name": "Mistral Medium 3.1",
+    "provider": "Mistral",
+    "releaseDate": "2025-08-12",
+    "parameters": "未公開",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "Medium 3 的更新版，改善語氣與整體表現。",
+    "officialUrl": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08"
+  },
+  {
+    "id": "deepseek-v3-1",
+    "name": "DeepSeek-V3.1",
+    "provider": "DeepSeek",
+    "releaseDate": "2025-08-21",
+    "parameters": "671B (37B Active)",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "單一模型可切換思考與非思考模式，官方稱思考品質與 R1-0528 相當但回應更快。",
+    "officialUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
+  },
+  {
+    "id": "xai-grok-2-open",
+    "name": "Grok 2 Open Weights",
+    "provider": "xAI",
+    "releaseDate": "2025-08-23",
+    "parameters": "未公開",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": false,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "xAI 公開 2024 年主力模型的權重，採 Grok 2 Community License，完整下載約 500GB。",
+    "officialUrl": "https://huggingface.co/xai-org/grok-2"
+  },
+  {
+    "id": "xai-grok-code-fast-1",
+    "name": "Grok Code Fast 1",
+    "provider": "xAI",
+    "releaseDate": "2025-08-28",
+    "parameters": "未公開",
+    "contextWindow": "256K",
+    "contextTokens": 256000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Proprietary",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "主打快速的代理式程式模型，上市時可在 GitHub Copilot、Cursor、Cline 等工具限時免費使用。",
+    "officialUrl": "https://x.ai/news/grok-code-fast-1"
+  },
+  {
+    "id": "qwen-3-next",
+    "name": "Qwen3-Next",
+    "provider": "Qwen",
+    "releaseDate": "2025-09-11",
+    "parameters": "80B (3B Active)",
+    "contextWindow": "256K - 1M",
+    "contextTokens": 1000000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Reasoning",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "新的混合注意力與超稀疏 MoE 架構，每次只啟用 3B 參數，後來成為 Qwen3.5 的基礎。",
+    "officialUrl": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"
+  },
+  {
+    "id": "openai-gpt-5-codex",
+    "name": "GPT-5-Codex",
+    "provider": "OpenAI",
+    "releaseDate": "2025-09-15",
+    "parameters": "未公開",
+    "contextWindow": "400K",
+    "contextTokens": 400000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "GPT-5 的代理式程式開發版本，是 Codex 雲端任務與程式碼審查的預設模型，CLI 與 IDE 擴充功能可選用。",
+    "officialUrl": "https://openai.com/index/introducing-upgrades-to-codex/"
+  },
+  {
+    "id": "mistral-magistral-1-2",
+    "name": "Magistral 1.2",
+    "provider": "Mistral",
+    "releaseDate": "2025-09-17",
+    "parameters": "24B (Small) / 未公開 (Medium)",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Reasoning",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "加入視覺編碼器，推理能力延伸到圖片，Small 版以 Apache 2.0 開放權重。",
+    "officialUrl": "https://huggingface.co/mistralai/Magistral-Small-2509"
+  },
+  {
+    "id": "xai-grok-4-fast",
+    "name": "Grok 4 Fast",
+    "provider": "xAI",
+    "releaseDate": "2025-09-19",
+    "parameters": "未公開",
+    "contextWindow": "2M",
+    "contextTokens": 2000000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "grok.com 與 App 的所有使用者（含免費）都能在 Fast、Auto 模式使用，上下文 2M Token。",
+    "officialUrl": "https://x.ai/news/grok-4-fast"
+  },
+  {
+    "id": "deepseek-v3-1-terminus",
+    "name": "DeepSeek-V3.1-Terminus",
+    "provider": "DeepSeek",
+    "releaseDate": "2025-09-22",
+    "parameters": "671B (37B Active)",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "改善中英文混雜與亂碼問題並強化程式、搜尋代理，App、網頁與 API 同步更新。",
+    "officialUrl": "https://api-docs.deepseek.com/news/news250922"
+  },
+  {
+    "id": "qwen-3-omni",
+    "name": "Qwen3-Omni",
+    "provider": "Qwen",
+    "releaseDate": "2025-09-22",
+    "parameters": "30B (3B Active)",
+    "contextWindow": "64K",
+    "contextTokens": 65536,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Open-Weights",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": true,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "支援文字、圖片、音訊、影片輸入與即時語音輸出，Apache 2.0 授權，也可在 Qwen Chat 語音通話使用。",
+    "officialUrl": "https://github.com/QwenLM/Qwen3-Omni"
+  },
+  {
+    "id": "qwen-3-vl",
+    "name": "Qwen3-VL",
+    "provider": "Qwen",
+    "releaseDate": "2025-09-23",
+    "parameters": "235B (22B Active)",
+    "contextWindow": "256K",
+    "contextTokens": 256000,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Video"
+    ],
+    "license": "Open-Weights",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "支援圖片與影片推理，先釋出 235B-A22B，10 月陸續補上較小尺寸。",
+    "officialUrl": "https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct"
+  },
+  {
+    "id": "qwen-3-max",
+    "name": "Qwen3-Max",
+    "provider": "Qwen",
+    "releaseDate": "2025-09-24",
+    "parameters": "超過 1T",
+    "contextWindow": "256K",
+    "contextTokens": 262144,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Proprietary",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": false,
+    "highlights": "Qwen 第一個超過一兆參數的閉源旗艦，可在 Qwen Chat 使用。",
+    "officialUrl": "https://www.alibabacloud.com/blog/qwen3-max-just-scale-it_602621"
+  },
+  {
     "id": "anthropic-claude-sonnet-4-5",
     "name": "Claude Sonnet 4.5",
     "provider": "Anthropic",
@@ -1154,6 +2170,24 @@
     "officialUrl": "https://www.anthropic.com/news/claude-sonnet-4-5"
   },
   {
+    "id": "deepseek-v3-2-exp",
+    "name": "DeepSeek-V3.2-Exp",
+    "provider": "DeepSeek",
+    "releaseDate": "2025-09-29",
+    "parameters": "671B (37B Active)",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "導入 DeepSeek Sparse Attention 的實驗版，App 與網頁同步上線，API 降價超過 50%。",
+    "officialUrl": "https://api-docs.deepseek.com/news/news250929"
+  },
+  {
     "id": "anthropic-claude-haiku-4-5",
     "name": "Claude Haiku 4.5",
     "provider": "Anthropic",
@@ -1171,6 +2205,47 @@
     "isReasoning": true,
     "highlights": "以約三分之一價格、兩倍以上速度達到接近 Sonnet 4 的程式能力，並支援擴展思考。",
     "officialUrl": "https://www.anthropic.com/news/claude-haiku-4-5"
+  },
+  {
+    "id": "openai-gpt-5-codex-mini",
+    "name": "GPT-5-Codex-Mini",
+    "provider": "OpenAI",
+    "releaseDate": "2025-11-07",
+    "parameters": "未公開",
+    "contextWindow": "400K",
+    "contextTokens": 400000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": true,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "GPT-5-Codex 的精簡版，同樣的訂閱額度約可多用 4 倍，用量接近上限時 Codex 會建議切換。",
+    "officialUrl": "https://openai.com/index/introducing-upgrades-to-codex/"
+  },
+  {
+    "id": "openai-gpt-5-1-codex",
+    "name": "GPT-5.1-Codex & Codex-Mini",
+    "provider": "OpenAI",
+    "releaseDate": "2025-11-13",
+    "parameters": "未公開",
+    "contextWindow": "400K",
+    "contextTokens": 400000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "隨 GPT-5.1 更新的程式專用版與精簡版，在 Codex 與 API 提供。",
+    "officialUrl": "https://openai.com/index/gpt-5-1-for-developers/"
   },
   {
     "id": "xai-grok-4-1",
@@ -1193,6 +2268,25 @@
     ],
     "highlights": "只在 grok.com、X 與 App 推出的消費端更新，兩天後才有上 API 的 Grok 4.1 Fast。",
     "officialUrl": "https://x.ai/news/grok-4-1"
+  },
+  {
+    "id": "openai-gpt-5-1-codex-max",
+    "name": "GPT-5.1-Codex-Max",
+    "provider": "OpenAI",
+    "releaseDate": "2025-11-19",
+    "parameters": "未公開",
+    "contextWindow": "400K",
+    "contextTokens": 400000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "面向長時間、專案規模工作的程式模型，以壓縮機制跨多個上下文視窗持續作業，費率與 GPT-5.1-Codex 相同。",
+    "officialUrl": "https://openai.com/index/gpt-5-1-codex-max/"
   },
   {
     "id": "anthropic-claude-opus-4-5",
@@ -1235,6 +2329,24 @@
     "officialUrl": "https://blog.google/technology/google-deepmind/"
   },
   {
+    "id": "deepseek-v3-2",
+    "name": "DeepSeek-V3.2",
+    "provider": "DeepSeek",
+    "releaseDate": "2025-12-01",
+    "parameters": "671B (37B Active)",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "V3.2-Exp 的正式版，DeepSeek 第一個把思考整合進工具呼叫的模型，App、網頁與 API 同步上線。",
+    "officialUrl": "https://api-docs.deepseek.com/news/news251201"
+  },
+  {
     "id": "mistral-large-3",
     "name": "Mistral Large 3 & Ministral 3",
     "provider": "Mistral",
@@ -1273,6 +2385,25 @@
     "officialUrl": "https://openai.com/index/gpt-5-1/"
   },
   {
+    "id": "mistral-devstral-2",
+    "name": "Devstral 2 & Small 2",
+    "provider": "Mistral",
+    "releaseDate": "2025-12-09",
+    "parameters": "123B / 24B",
+    "contextWindow": "256K",
+    "contextTokens": 256000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "與 Vibe CLI 同日推出，Small 2 以 Apache 2.0 授權，可在一般消費級 GPU 上本機執行。",
+    "officialUrl": "https://mistral.ai/news/devstral-2-vibe-cli/"
+  },
+  {
     "id": "openai-gpt-5-2",
     "name": "GPT-5.2 (Instant / Thinking / Pro)",
     "provider": "OpenAI",
@@ -1292,6 +2423,27 @@
     "officialUrl": "https://openai.com/index/introducing-gpt-5-2/"
   },
   {
+    "id": "google-gemini-3-flash",
+    "name": "Gemini 3 Flash",
+    "provider": "Google",
+    "releaseDate": "2025-12-17",
+    "parameters": "未公開",
+    "contextWindow": "1M",
+    "contextTokens": 1048576,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Proprietary",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "取代 2.5 Flash 成為 Gemini App 的預設模型，全球使用者免費可用，也進入搜尋的 AI 模式。",
+    "officialUrl": "https://blog.google/products/gemini/gemini-3-flash/"
+  },
+  {
     "id": "openai-gpt-5-2-codex",
     "name": "GPT-5.2-Codex",
     "provider": "OpenAI",
@@ -1309,6 +2461,42 @@
     "isReasoning": true,
     "highlights": "專為代理式軟體工程調校的 GPT-5.2 版本，先在 Codex 上線，2026 年 1 月才開放 API。",
     "officialUrl": "https://openai.com/index/introducing-gpt-5-2-codex/"
+  },
+  {
+    "id": "qwen-3-max-thinking",
+    "name": "Qwen3-Max-Thinking",
+    "provider": "Qwen",
+    "releaseDate": "2026-01-25",
+    "parameters": "超過 1T",
+    "contextWindow": "256K",
+    "contextTokens": 262144,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Proprietary",
+    "category": "Reasoning",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "Qwen3-Max 的推理版，可在 Qwen Chat 開啟思考模式使用。",
+    "officialUrl": "https://qwen.ai/blog?id=qwen3-max-thinking"
+  },
+  {
+    "id": "qwen-3-coder-next",
+    "name": "Qwen3-Coder-Next",
+    "provider": "Qwen",
+    "releaseDate": "2026-02-04",
+    "parameters": "80B (3B Active)",
+    "contextWindow": "256K - 1M",
+    "contextTokens": 1000000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Open-Weights",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "建立在 Qwen3-Next 架構上的程式模型，Apache 2.0 授權。",
+    "officialUrl": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
   },
   {
     "id": "anthropic-claude-opus-4-6",
@@ -1349,6 +2537,24 @@
     "officialUrl": "https://openai.com/index/introducing-gpt-5-3-codex/"
   },
   {
+    "id": "openai-gpt-5-3-codex-spark",
+    "name": "GPT-5.3-Codex-Spark",
+    "provider": "OpenAI",
+    "releaseDate": "2026-02-12",
+    "parameters": "未公開",
+    "contextWindow": "128K",
+    "contextTokens": 128000,
+    "modalities": [
+      "Text"
+    ],
+    "license": "Proprietary",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "在 Cerebras 低延遲硬體上執行的即時程式模型，以研究預覽開放給 ChatGPT Pro 使用者。",
+    "officialUrl": "https://openai.com/index/introducing-gpt-5-3-codex-spark/"
+  },
+  {
     "id": "anthropic-claude-sonnet-4-6",
     "name": "Claude Sonnet 4.6",
     "provider": "Anthropic",
@@ -1366,6 +2572,89 @@
     "isReasoning": true,
     "highlights": "比 Opus 4.6 晚 12 天推出的中階主力，以 Sonnet 價位提供 1M 上下文與 128K 輸出。",
     "officialUrl": "https://www.anthropic.com/news/claude-sonnet-4-6"
+  },
+  {
+    "id": "google-gemini-3-1-pro",
+    "name": "Gemini 3.1 Pro",
+    "provider": "Google",
+    "releaseDate": "2026-02-19",
+    "parameters": "未公開",
+    "contextWindow": "1M",
+    "contextTokens": 1048576,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Proprietary",
+    "category": "Reasoning",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "Gemini 3 Deep Think 升級背後的核心模型，透過 Gemini App 與 NotebookLM 提供給 Pro、Ultra 方案使用者。",
+    "officialUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+  },
+  {
+    "id": "qwen-3-5-medium",
+    "name": "Qwen3.5 Medium (27B - 122B)",
+    "provider": "Qwen",
+    "releaseDate": "2026-02-24",
+    "parameters": "27B / 35B (3B Active) / 122B (10B Active)",
+    "contextWindow": "262K - 1M",
+    "contextTokens": 1010000,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Video"
+    ],
+    "license": "Open-Weights",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "Qwen3.5 的中型尺寸，Apache 2.0 授權，35B-A3B 可在一般工作站上本機執行。",
+    "officialUrl": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+  },
+  {
+    "id": "qwen-3-5-small",
+    "name": "Qwen3.5 Small (0.8B - 9B)",
+    "provider": "Qwen",
+    "releaseDate": "2026-03-02",
+    "parameters": "0.8B / 2B / 4B / 9B",
+    "contextWindow": "256K",
+    "contextTokens": 262144,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Video"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "面向個人電腦與手機的小尺寸，Apache 2.0 授權，保有多模態與思考模式。",
+    "officialUrl": "https://huggingface.co/Qwen/Qwen3.5-9B"
+  },
+  {
+    "id": "openai-gpt-5-3-instant",
+    "name": "GPT-5.3 Instant",
+    "provider": "OpenAI",
+    "releaseDate": "2026-03-03",
+    "parameters": "未公開",
+    "contextWindow": "400K",
+    "contextTokens": 400000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": false,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "ChatGPT 最常用模型的更新，改善搜尋結果的整合與語氣，減少不必要的但書與過度斷定的說法。",
+    "officialUrl": "https://openai.com/index/gpt-5-3-instant/"
   },
   {
     "id": "xai-grok-4-20",
@@ -1387,6 +2676,65 @@
     "officialUrl": "https://docs.x.ai/docs/models/grok-4.20"
   },
   {
+    "id": "mistral-small-4",
+    "name": "Mistral Small 4",
+    "provider": "Mistral",
+    "releaseDate": "2026-03-16",
+    "parameters": "119B (6B Active MoE)",
+    "contextWindow": "256K",
+    "contextTokens": 256000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "把對話、程式與推理整合在同一個 Apache 2.0 模型，推理強度可調，支援圖片輸入。",
+    "officialUrl": "https://mistral.ai/news/mistral-small-4/"
+  },
+  {
+    "id": "openai-gpt-5-4-mini",
+    "name": "GPT-5.4 mini",
+    "provider": "OpenAI",
+    "releaseDate": "2026-03-17",
+    "parameters": "未公開",
+    "contextWindow": "400K",
+    "contextTokens": 400000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "Free 與 Go 使用者可透過 Thinking 功能使用的小型版，在 Codex 只占 GPT-5.4 額度的 30%。",
+    "officialUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+  },
+  {
+    "id": "qwen-3-5-omni",
+    "name": "Qwen3.5-Omni",
+    "provider": "Qwen",
+    "releaseDate": "2026-03-30",
+    "parameters": "未公開",
+    "contextWindow": "256K",
+    "contextTokens": 262144,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Proprietary",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "閉源的全模態模型，以單一模型處理文字、圖片、音訊、影片並即時輸出語音。",
+    "officialUrl": "https://www.alibabacloud.com/help/en/model-studio/qwen-omni"
+  },
+  {
     "id": "qwen-3-6-plus",
     "name": "Qwen3.6-Plus",
     "provider": "Qwen",
@@ -1405,6 +2753,27 @@
     "isReasoning": true,
     "highlights": "主打代理式程式開發與多模態推理的閉源模型，只透過託管 API 提供，上下文 1M Token。",
     "officialUrl": "https://www.alibabacloud.com/press-room/alibaba-unveils-qwen3-6-plus-to-accelerate-agentic"
+  },
+  {
+    "id": "google-gemma-4",
+    "name": "Gemma 4 (E2B - 31B)",
+    "provider": "Google",
+    "releaseDate": "2026-04-02",
+    "parameters": "E2B / E4B / 26B MoE / 31B",
+    "contextWindow": "256K",
+    "contextTokens": 262144,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Open-Weights",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "首度改用 Apache 2.0 授權的 Gemma，四種尺寸可在手機到個人電腦上離線執行，主打推理與代理流程。",
+    "officialUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
   },
   {
     "id": "qwen-3-6-35b",
@@ -1464,6 +2833,63 @@
     "isReasoning": true,
     "highlights": "27B 密集架構的開放權重模型，官方稱程式能力超過 Qwen3.5-397B-A17B，Apache 2.0 授權。",
     "officialUrl": "https://qwen.ai/blog?id=qwen3.6-27b"
+  },
+  {
+    "id": "mistral-medium-3-5",
+    "name": "Mistral Medium 3.5",
+    "provider": "Mistral",
+    "releaseDate": "2026-04-28",
+    "parameters": "128B",
+    "contextWindow": "256K",
+    "contextTokens": 256000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "單一組權重涵蓋指令遵循、推理與程式，修改版 MIT 授權，成為 Le Chat 與 Vibe 的預設模型。",
+    "officialUrl": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04"
+  },
+  {
+    "id": "xai-grok-4-3",
+    "name": "Grok 4.3",
+    "provider": "xAI",
+    "releaseDate": "2026-04-30",
+    "parameters": "未公開",
+    "contextWindow": "1M",
+    "contextTokens": 1000000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Reasoning",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "4 月中先以 beta 開放給付費訂閱者，月底開放 API，現價每百萬 Token $1.25 / $2.50。",
+    "officialUrl": "https://docs.x.ai/docs/models/grok-4.3"
+  },
+  {
+    "id": "openai-gpt-5-5-instant",
+    "name": "GPT-5.5 Instant",
+    "provider": "OpenAI",
+    "releaseDate": "2026-05-05",
+    "parameters": "未公開",
+    "contextWindow": "400K",
+    "contextTokens": 400000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": false,
+    "highlights": "接替 GPT-5.3 Instant 成為 ChatGPT 全體使用者的預設模型，降低法律、醫療與金融題目的幻覺。",
+    "officialUrl": "https://openai.com/index/gpt-5-5-instant/"
   },
   {
     "id": "google-gemini-3-5-flash",
@@ -1565,6 +2991,66 @@
     ],
     "highlights": "Meta Superintelligence Labs（MSL）首款閉源推理與 Agentic 模型，驅動 Meta AI 助理，API 僅限私人預覽。",
     "officialUrl": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
+  },
+  {
+    "id": "xai-grok-build-0-1",
+    "name": "Grok Build 0.1",
+    "provider": "xAI",
+    "releaseDate": "2026-05-29",
+    "parameters": "未公開",
+    "contextWindow": "256K",
+    "contextTokens": 256000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Coding",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "驅動 Grok Build 終端機代理的程式模型，也能在 Cursor、Kilo Code、OpenCode 等工具使用。",
+    "officialUrl": "https://x.ai/news/grok-build-0-1"
+  },
+  {
+    "id": "qwen-3-7-plus",
+    "name": "Qwen3.7-Plus",
+    "provider": "Qwen",
+    "releaseDate": "2026-06-01",
+    "parameters": "未公開",
+    "contextWindow": "1M",
+    "contextTokens": 1000000,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Video"
+    ],
+    "license": "Proprietary",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "可看螢幕、操作介面並寫程式的多模態代理模型，可在 Qwen Studio 使用。",
+    "officialUrl": "https://qwen.ai/blog?id=qwen3.7-plus"
+  },
+  {
+    "id": "google-gemma-4-12b",
+    "name": "Gemma 4 12B",
+    "provider": "Google",
+    "releaseDate": "2026-06-03",
+    "parameters": "12B",
+    "contextWindow": "256K",
+    "contextTokens": 262144,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Open-Weights",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "不用獨立編碼器、直接處理圖片與音訊的多模態模型，可在筆電上執行，Apache 2.0 授權。",
+    "officialUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b"
   },
   {
     "id": "meta-muse-spark-1-1",
@@ -1707,6 +3193,26 @@
     "isReasoning": true,
     "highlights": "27B 密集架構的開放權重模型，Apache 2.0 授權，官方稱整體表現勝過 Qwen3.7-Plus。",
     "officialUrl": "https://huggingface.co/Qwen/Qwen3.8-27B"
+  },
+  {
+    "id": "qwen-3-8-flash",
+    "name": "Qwen3.8-Flash & Flash-Next",
+    "provider": "Qwen",
+    "releaseDate": "2026-08-26",
+    "parameters": "125B (6B Active)",
+    "contextWindow": "262K - 1M",
+    "contextTokens": 1000000,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Video"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "Flash-Next 開放權重並預告 Qwen4 架構；Flash 是託管的正式版，預設 1M 上下文。",
+    "officialUrl": "https://qwen.ai/blog?id=qwen3.8-flash-next"
   },
   {
     "id": "meta-muse-spark-1-3",
@@ -1938,27 +3444,6 @@
     "officialUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
   },
   {
-    "id": "google-gemini-3-8-live",
-    "name": "Gemini 3.8 Live",
-    "provider": "Google",
-    "releaseDate": "2026-09-15",
-    "parameters": "MoE 未公開",
-    "contextWindow": "128K",
-    "contextTokens": 131072,
-    "modalities": [
-      "Text",
-      "Vision",
-      "Audio",
-      "Video"
-    ],
-    "license": "Proprietary",
-    "category": "Multimodal",
-    "isFlagship": false,
-    "isReasoning": true,
-    "highlights": "支援低延遲雙向音視訊串流、可直接輸出語音的即時模型，同日推出可在背景延伸推理的 Live Extended Thinking。",
-    "officialUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
-  },
-  {
     "id": "deepseek-v4-1-flash",
     "name": "DeepSeek-V4.1-Flash (Multimodal)",
     "provider": "DeepSeek",
@@ -2014,6 +3499,27 @@
     "isReasoning": true,
     "highlights": "主打長時間執行的代理任務，第三方程式基準 DeepSWE v1.1 從 4.5 的 53% 提升到 65.9%。",
     "officialUrl": "https://x.ai/news/grok-4-6"
+  },
+  {
+    "id": "qwen-3-8-omni-flash",
+    "name": "Qwen3.8-Omni-Flash",
+    "provider": "Qwen",
+    "releaseDate": "2026-09-18",
+    "parameters": "未公開",
+    "contextWindow": "1M",
+    "contextTokens": 1000000,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Proprietary",
+    "category": "Multimodal",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "接替 Qwen3.5-Omni-Plus 的全模態模型，主打音訊與影片代理，可在 Qwen Studio 使用。",
+    "officialUrl": "https://qwen.ai/blog?id=qwen3.8-omni-flash"
   },
   {
     "id": "xai-grok-4-7",
@@ -2229,6 +3735,25 @@
     "officialUrl": "https://ai.meta.com"
   },
   {
+    "id": "deepseek-v4-1-flash-1017",
+    "name": "DeepSeek-V4.1-Flash-1017",
+    "provider": "DeepSeek",
+    "releaseDate": "2026-10-17",
+    "parameters": "552B (MoE)",
+    "contextWindow": "1M",
+    "contextTokens": 1000000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Open-Weights",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "以自我回饋的強化學習改善端到端專案開發，網站、App 與 API 同步上線並開放權重。",
+    "officialUrl": "https://api-docs.deepseek.com/news/news261017"
+  },
+  {
     "id": "openai-gpt-6-1-terra",
     "name": "GPT-6.1 Terra",
     "provider": "OpenAI",
@@ -2246,30 +3771,6 @@
     "isReasoning": true,
     "highlights": "取代 GPT-5.6 Terra 的中階模型（$1 / $5 每百萬 Tokens，僅 Sol 一半），強化電腦操作、視覺推理與程式開發，上線 ChatGPT Work、Codex 與 API。",
     "officialUrl": "https://openai.com/news/"
-  },
-  {
-    "id": "google-gemini-4-carbon",
-    "name": "Gemini 4 Carbon",
-    "provider": "Google",
-    "releaseDate": "2026-10-28",
-    "parameters": "Next-Gen MoE",
-    "contextWindow": "1M",
-    "contextTokens": 1048576,
-    "modalities": [
-      "Text",
-      "Vision",
-      "Audio",
-      "Video"
-    ],
-    "license": "Proprietary",
-    "category": "Reasoning",
-    "isFlagship": true,
-    "isReasoning": true,
-    "estimated": [
-      "context"
-    ],
-    "highlights": "Google 目前最強的前沿模型，主打資安防禦與長程任務，Artificial Analysis 智慧指數 v5.0 拿下第一；目前僅限 Fairwind 計畫成員使用，尚未公開上線。",
-    "officialUrl": "https://blog.google/technology/google-deepmind/"
   },
   {
     "id": "mistral-large-4",
