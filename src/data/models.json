@@ -108,8 +108,8 @@
       "Text"
     ],
     "license": "Proprietary",
-    "category": "Flagship",
-    "isFlagship": true,
+    "category": "General",
+    "isFlagship": false,
     "isReasoning": false,
     "highlights": "上下文視窗從 9K 一口氣擴大到 100K Token，約可一次讀完 7.5 萬字，率先把長文本帶進商用模型。",
     "officialUrl": "https://www.anthropic.com/news/100k-context-windows"
@@ -292,8 +292,8 @@
       "Text"
     ],
     "license": "Open-Weights",
-    "category": "Lightweight",
-    "isFlagship": false,
+    "category": "Flagship",
+    "isFlagship": true,
     "isReasoning": false,
     "highlights": "採用 Sliding Window Attention (SWA)，以 7B 規模全面擊敗 Llama 2 13B。",
     "officialUrl": "https://mistral.ai/news/announcing-mistral-7b/"
@@ -536,8 +536,8 @@
       "Text"
     ],
     "license": "Open-Weights",
-    "category": "Flagship",
-    "isFlagship": true,
+    "category": "General",
+    "isFlagship": false,
     "isReasoning": false,
     "highlights": "Apache 2.0 授權的大型 MoE 模型，先以 BitTorrent 釋出權重。",
     "officialUrl": "https://mistral.ai/news/mixtral-8x22b/"
@@ -876,7 +876,7 @@
     ],
     "license": "Proprietary",
     "category": "Coding",
-    "isFlagship": true,
+    "isFlagship": false,
     "isReasoning": false,
     "highlights": "升級版 3.5 Sonnet 首度以公開 beta 提供 Computer Use 電腦操作，程式能力再進一步；同日發表 Claude 3.5 Haiku。",
     "officialUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
@@ -1351,8 +1351,8 @@
       "Text"
     ],
     "license": "Open-Weights",
-    "category": "Flagship",
-    "isFlagship": true,
+    "category": "General",
+    "isFlagship": false,
     "isReasoning": false,
     "highlights": "V3 的重要更新，權重改採 MIT 授權。",
     "officialUrl": "https://api-docs.deepseek.com/news/news250325"
@@ -1794,7 +1794,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
-    "isFlagship": true,
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "以平行思考解決複雜問題的推理模式，在 Gemini App 開放給 Google AI Ultra 訂閱者，每日有次數限制。",
     "officialUrl": "https://blog.google/products/gemini/gemini-2-5-deep-think/"
@@ -1968,8 +1968,8 @@
       "Text"
     ],
     "license": "Open-Weights",
-    "category": "Flagship",
-    "isFlagship": true,
+    "category": "General",
+    "isFlagship": false,
     "isReasoning": false,
     "estimated": [
       "context"
@@ -2082,8 +2082,8 @@
       "Text"
     ],
     "license": "Open-Weights",
-    "category": "Flagship",
-    "isFlagship": true,
+    "category": "General",
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "改善中英文混雜與亂碼問題並強化程式、搜尋代理，App、網頁與 API 同步更新。",
     "officialUrl": "https://api-docs.deepseek.com/news/news250922"
@@ -2340,8 +2340,8 @@
       "Text"
     ],
     "license": "Open-Weights",
-    "category": "Flagship",
-    "isFlagship": true,
+    "category": "General",
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "V3.2-Exp 的正式版，DeepSeek 第一個把思考整合進工具呼叫的模型，App、網頁與 API 同步上線。",
     "officialUrl": "https://api-docs.deepseek.com/news/news251201"
@@ -2475,7 +2475,7 @@
     ],
     "license": "Proprietary",
     "category": "Reasoning",
-    "isFlagship": true,
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "Qwen3-Max 的推理版，可在 Qwen Chat 開啟思考模式使用。",
     "officialUrl": "https://qwen.ai/blog?id=qwen3-max-thinking"
@@ -3321,8 +3321,8 @@
       "Text"
     ],
     "license": "Open-Weights",
-    "category": "Flagship",
-    "isFlagship": true,
+    "category": "General",
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "1.6 兆參數 V4-Pro 結束預覽的正式版，以 MIT 授權開放權重，成為當時規模最大的開源 MoE 之一。",
     "officialUrl": "https://api-docs.deepseek.com/news/news260813"
@@ -3417,7 +3417,7 @@
     ],
     "license": "Open-Weights",
     "category": "Reasoning",
-    "isFlagship": true,
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "開放 Qwen3.8-Max 同規模的 2.4 兆參數權重，只支援文字與思考模式，採自訂授權（MaaS 營收超過 5,000 萬美元需另行授權）。",
     "officialUrl": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
@@ -3728,8 +3728,8 @@
       "Vision"
     ],
     "license": "Open-Weights",
-    "category": "Flagship",
-    "isFlagship": true,
+    "category": "General",
+    "isFlagship": false,
     "isReasoning": true,
     "highlights": "Meta 重返開放權重路線，於 Hugging Face 釋出由 8 月 Muse Spark 1.2 衍生、另做安全後訓練的 816B 權重（Muse Model License，含商用門檻限制）。",
     "officialUrl": "https://ai.meta.com"

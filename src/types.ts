@@ -10,7 +10,7 @@ export type ProviderId =
 
 export type LicenseType = 'Proprietary' | 'Open-Weights';
 
-export type ModelCategory = 'Flagship' | 'Reasoning' | 'Lightweight' | 'Multimodal' | 'Coding';
+export type ModelCategory = 'Flagship' | 'General' | 'Reasoning' | 'Lightweight' | 'Multimodal' | 'Coding';
 
 export interface AIModel {
   id: string;
@@ -23,7 +23,7 @@ export interface AIModel {
   modalities: string[];
   license: LicenseType;
   category: ModelCategory;
-  /** 這筆發布包含該廠商當時最高階的主力模型；與 category 互不影響 */
+  /** 這筆發布讓該廠商的最強模型換成新版本（判定條件見 PRODUCT.md） */
   isFlagship: boolean;
   isReasoning: boolean;
   /** 未經官方證實、由公開報導推估的規格欄位 */

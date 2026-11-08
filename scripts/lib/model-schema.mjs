@@ -6,7 +6,7 @@
 
 export const PROVIDER_IDS = ['OpenAI', 'Anthropic', 'Google', 'Meta', 'xAI', 'Mistral', 'DeepSeek', 'Qwen'];
 export const LICENSES = ['Proprietary', 'Open-Weights'];
-export const CATEGORIES = ['Flagship', 'Reasoning', 'Lightweight', 'Multimodal', 'Coding'];
+export const CATEGORIES = ['Flagship', 'General', 'Reasoning', 'Lightweight', 'Multimodal', 'Coding'];
 export const MODALITIES = ['Text', 'Vision', 'Audio', 'Video'];
 export const ESTIMATED_FIELDS = ['parameters', 'context'];
 
@@ -47,6 +47,9 @@ export function validateModel(m, opts = {}) {
   if (!CATEGORIES.includes(m.category)) errors.push(`category 不在清單內：${m.category}`);
   if (typeof m.isFlagship !== 'boolean') errors.push('isFlagship 必須是布林值');
   else if (m.category === 'Flagship' && !m.isFlagship) errors.push('category 是 Flagship 時 isFlagship 必須為 true');
+  else if ((m.category === 'General' || m.category === 'Lightweight') && m.isFlagship) {
+    errors.push(`category 是 ${m.category} 時 isFlagship 不可為 true`);
+  }
   if (typeof m.isReasoning !== 'boolean') errors.push('isReasoning 必須是布林值');
 
   if (!isNonEmptyString(m.releaseDate) || !isRealDate(m.releaseDate)) {

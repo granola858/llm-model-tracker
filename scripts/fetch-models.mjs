@@ -226,7 +226,7 @@ const MODEL_ITEM_SCHEMA = {
     modalities: { type: 'array', items: { type: 'string', enum: MODALITIES } },
     license: { type: 'string', enum: LICENSES },
     category: { type: 'string', enum: CATEGORIES },
-    isFlagship: { type: 'boolean', description: '這筆發布是否包含該廠商當時最高階的主力模型' },
+    isFlagship: { type: 'boolean', description: '這筆發布是否讓該廠商的最強模型換成新版本，判定條件見系統提示' },
     isReasoning: { type: 'boolean' },
     estimated: {
       type: 'array',
@@ -295,8 +295,12 @@ function buildSystemPrompt(existing) {
 
 欄位規則：
 - 一筆只收同一天發布的模型：同一天一起發表的可以合併成一筆（例如「GPT-6 Sol & Luna」）；同系列但不同天發布的版本（例如先出 Sonnet、兩週後才出 Haiku）各自一筆，releaseDate 填該模型自己的官方公告日，不要寫成「4.6 ~ 4.8」這種區間或併進既有的一筆
-- category 只能選一個主要定位：Flagship（旗艦）、Reasoning（以推理為主打）、Lightweight（輕量／低價）、Multimodal（以多模態為主打）、Coding（程式專用）
-- isFlagship：這筆發布包含該廠商當時最高階的主力模型就填 true，與 category 無關（例如以推理或程式為主打的頂級新世代也算）；category 選 Flagship 時必須為 true
+- category 只能選一個主要定位：Flagship（旗艦，必須符合下面的 isFlagship 條件）、General（通用，沒有特別主打、也不是旗艦）、Reasoning（以推理為主打）、Lightweight（輕量／低價）、Multimodal（以多模態為主打）、Coding（程式專用）
+- isFlagship：這筆發布讓該廠商的最強模型換成新版本就填 true，下面三點都符合才算。既有清單標「旗艦」的是各廠商歷來的頂端模型，最新一筆就是比較基準。
+  1. 屬於通用主線：平行專線（推理專線如 o 系列、R 系列、QwQ、Magistral；程式專線如 Codex、Coder、Codestral、Devstral；多模態專線如 VL、Omni、Pixtral；開放權重副線如 Gemma、gpt-oss）與輕量層級（Flash、mini、Instant、Fast、Haiku、Small、Lite）都不算。廠商的第一個通用模型直接算；專線併回主線的模型屬於主線。
+  2. 當天最高階：只跟同一家、符合收錄範圍的模型比，先看官方層級與定價（例如 Fable > Opus > Sonnet、Astra > Sol > Terra、Max > Plus、Large > Medium）。較低層級要算，官方必須明說它是旗艦、整體最強，或整體達到、超過舊頂端（例如 Claude 3.5 Sonnet、Gemini 1.5 Pro、Mistral Medium 3.5）；「接近」舊頂端或只在程式等單一領域領先都不算。
+  3. 是新版本：官方給了新的版本號，新世代或小數點升級都算。同一版本只標第一次開放給一般使用者的那筆（含預覽、實驗版）；之後的預覽轉正式、日期快照或 v2 小修、開放既有模型的權重、加上思考或加強模式、擴充上下文都填 false。
+  isFlagship 與 category 彼此獨立（以推理或程式為主打的頂級新世代也算旗艦），但 category 選 Flagship 時必須為 true，選 General 或 Lightweight 時必須為 false。
 - isReasoning：模型具備思考／推理模式就填 true
 - highlights 用台灣正體中文（台灣用語），一到兩句、40–90 字，寫這個模型的定位與最重要的差異，不要行銷口號
 - id 不可與既有清單重複
@@ -310,7 +314,7 @@ ${examples}
 
 function buildUserMessage(candidates, existing, today) {
   const existingLines = existing
-    .map((m) => `- ${m.id} | ${m.name} | ${m.provider} | ${m.releaseDate}`)
+    .map((m) => `- ${m.id} | ${m.name} | ${m.provider} | ${m.releaseDate}${m.isFlagship ? ' | 旗艦' : ''}`)
     .join('\n');
   const candidateLines = candidates
     .map((c, i) => `- c${i + 1} [${c.source}] ${c.provider}｜${c.name}｜${c.date}｜${JSON.stringify(c.detail)}`)

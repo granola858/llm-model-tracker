@@ -42,6 +42,7 @@ export const LICENSE_LABEL: Record<AIModel['license'], string> = {
 
 export const CATEGORY_LABEL: Record<AIModel['category'], string> = {
   Flagship: '旗艦',
+  General: '通用',
   Reasoning: '推理',
   Lightweight: '輕量',
   Multimodal: '多模態',
