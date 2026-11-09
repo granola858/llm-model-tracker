@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-11-09T12:06:10.259Z",
+  "lastUpdated": "2026-11-09T16:59:28.003Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2FudGhyb3BpYy1qb2lucy1haXMtbmF0dXJhbC1nYXMtZnJlbnp5LWJ1eXMtMy00Yi13b3J0aC1vZi10dXJiaW5lcy8=",
+      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "summary": "Anthropic bought billions of dollars worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-09T16:56:54.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L21lZGl1bXMtbmV3LXRrLWFwcC1icmluZ3MtYWktYXNzaXN0YW5jZS1kaXJlY3RseS1pbnRvLXRoZS13cml0aW5nLXByb2Nlc3Mv",
+      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-09T16:12:28.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjk4MDIvdHJ1bXAtNjAtbWludXRlcy1haQ==",
+      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claim...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-09T15:50:38.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAyOTc3My9kaXNuZXktYWRvYmUtZ2VuZXJhdGl2ZS1haS1wYXJ0bmVyc2hpcA==",
+      "title": "Disney and Adobe are building generative AI tools together",
+      "summary": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, ...",
+      "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-09T15:38:56.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAyOTY4NC9yaWFhLW1pdGNoLWdsYXppZXItbmFwc3Rlci1haS1sYWJlbHMtbXVzaWM=",
+      "title": "Hold up — I had a great time talking to the RIAA guy",
+      "summary": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids...",
+      "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-09T15:30:00.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9jZW8tamVuc2VuLWh1YW5nLWFkbWl0cy1hZmZhaXItYXMtbnZpZGlhLXByb2Jlcy1wb3NzaWJsZS1jaGluZXNlLWVzcGlvbmFnZS8=",
+      "title": "Nvidia CEO's affair becomes a national security problem",
+      "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+      "source": "Ars Technica AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-09T15:23:20.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9uZW1vdHJvbi1wZXJzb25hcy1maW5hbmNlLWphcGFu",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan&apos;s Demographics and Financial Context",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-09T15:05:57.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvbGljeS8xMDI5NjUyL2thbnRlci1kb2otYmlkZW4tbGVnYWwtdGVjaA==",
+      "title": "Jonathan Kanter is using AI to take on Big Tech",
+      "summary": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private secto...",
+      "url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-09T14:30:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2F1dG9tYXR0aWMtZGVidXRzLWEtcGxhdGZvcm0tdG8tZGVwbG95LXZpYmUtY29kaW5nLWFwcHMtYW1pZC1hLWNoYW5naW5nLWludGVybmV0Lw==",
+      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+      "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-09T14:00:00.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FtYXpvbi9oaWdoZXItb3JkZXItcHJ1bmluZy1leHBlcnRz",
+      "title": "Your Experts Have Partners. There&apos;s HOPE for Keeping Them Together",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-09T12:34:29.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA4L2lzLWplbnNlbi1odWFuZ3Mtam9iLW9uLXRoZS1saW5lLXlhbGVzLWplZmZyZXktc29ubmVuZmVsZC1lc3RpbWF0ZXMtaXRzLWFib3V0LWEtNTAtNTAv",
       "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
@@ -93,24 +183,6 @@
       "publishedAt": "2026-11-07T15:43:45.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAyOTAzOC9haS1jeWJlcnNlY3VyaXR5LWhhY2tlcnMtZGF0YS1icmVhY2gtZGFyay1hZ2UtYWxleC1zdGFtb3M=",
-      "title": "AI broke the cybersecurity world. What’s next?",
-      "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real...",
-      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-07T15:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjkxMjYvYW50aHJvcGljLW1ldHItcmVwb3J0LWFjY2VsZXJhdGluZy1haS1kZXZlbG9wbWVudA==",
-      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
-      "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's ac...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
-      "source": "The Verge AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-07T12:30:00.000Z"
-    },
-    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L2NydXNvZS1zZWxscy10cm91YmxlZC13eW9taW5nLWRhdGEtY2VudGVyLXByb2plY3QtdG8tZ29vZ2xlLw==",
       "title": "Crusoe sells troubled Wyoming data center project to Google",
       "summary": "The deal highlights the challenges of developing massive AI data centers.",
@@ -118,24 +190,6 @@
       "source": "TechCrunch AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-07T01:40:28.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjkzODAvb3BlbmFpLTEtMjUtdHJpbGxpb24taW52ZXN0bWVudC12YWx1YXRpb24=",
-      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 bil...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-      "source": "The Verge AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-06T23:46:18.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAyOTMzOC9udmlkaWEtY2VvLWplbnNlbi1odWFuZy1jaGluYS1zcHk=",
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about Ameri...",
-      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-06T23:00:44.000Z"
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L29wZW5haS1yZXBvcnRlZGx5LXJhaXNlcy1hbi1hZGRpdGlvbmFsLTExLWJpbGxpb24tYXQtYS0xLTI1LXRyaWxsaW9uLXZhbHVhdGlvbi8=",
@@ -183,15 +237,6 @@
       "publishedAt": "2026-11-06T17:43:02.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS92aWRlby9hZnRlci10aGUtbWlkdGVybXMtaXMtdGhlLWFpLWluZHVzdHJ5LWluLWZvci1hLXJvdWdoLXR3by15ZWFycy8=",
-      "title": "After the midterms, is the AI industry in for a rough two years?",
-      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to im...",
-      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-06T17:23:52.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FtaW5nLzIwMjYvMTEvY291bGQtcG90ZW50aWFsLWFpLWNsb25lcy1vZi1ndGEtdmktZm9yY2UtYS1xdWlja2VyLW9mZmljaWFsLXBvcnQv",
       "title": "Could potential AI clones of GTA VI force a quicker official port?",
       "summary": "A former Rockstar tech director thinks the developer is facing new time pressures.",
@@ -199,24 +244,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-06T16:19:12.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L3JhbXAtZGF0YS1zaG93cy1haS1zcGVuZGluZy1zdGFsbGluZy1qdXN0LWFzLWFudGhyb3BpYy1uZWFycy1pdHMtaXBvLw==",
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
-      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-06T15:54:47.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L2FmdGVyLWJsb2NraW5nLW11c2UtYW1hem9uLW5vdy1sZXRzLXVzZXJzLXRleHQtYWxleGEtdG8taGVscC10aGVtLXNob3Av",
-      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
-      "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
-      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-06T14:10:00.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FsbGVuYWkvdG95YmxvY2tz",
@@ -282,15 +309,6 @@
       "publishedAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9jb3Ntb3MtaW50ZXJhY3RpdmUtd29ybGQtc2ltdWxhdGlvbg==",
-      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-05T19:35:16.000Z"
-    },
-    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2F1c3RyYWxpYW4tdW5pdmVyc2l0aWVzLWFpLW5hdGl2ZS1ncmFkdWF0ZXM=",
       "title": "Australian universities are creating AI-native graduates",
       "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
@@ -343,24 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-05T02:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2Fkcy9jdXN0b21lcnMvZmxpcHNuYWNr",
-      "title": "Flipsnack grows product signups with conversion optimization",
-      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-      "url": "https://openai.com/ads/customers/flipsnack",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-05T00:45:15.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ZyYW5rbGluLXRlbXBsZXRvbg==",
-      "title": "Franklin Templeton uses OpenAI to support investment research",
-      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-      "url": "https://openai.com/index/franklin-templeton",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-05T00:00:00.000Z"
     }
   ]
 }
