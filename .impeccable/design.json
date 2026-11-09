@@ -456,6 +456,14 @@
       "css": ".ds-icon-btn{display:grid;place-items:center;width:32px;height:32px;border:0;border-radius:4px;background:transparent;color:var(--color-muted,#a39a8e);cursor:pointer;} .ds-icon-btn:hover{background:var(--color-ink-raised,#221e1a);color:var(--color-paper,#efe8dc);} .ds-icon-btn:focus-visible{outline:2px solid var(--color-paper,#efe8dc);outline-offset:2px;} .ds-icon-btn:disabled{opacity:.5;}"
     },
     {
+      "name": "PR 通知",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "連到 PR 列表的圖示按鈕；有待處理時圖示提亮，右上角疊紙白底數字。",
+      "html": "<a class=\"ds-pr-link\" href=\"#\" aria-label=\"PR 列表：2 個待處理\" title=\"PR 列表：2 個待處理\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"18\" cy=\"18\" r=\"3\"/><circle cx=\"6\" cy=\"6\" r=\"3\"/><path d=\"M13 6h3a2 2 0 0 1 2 2v7\"/><line x1=\"6\" x2=\"6\" y1=\"9\" y2=\"21\"/></svg><span aria-hidden=\"true\">2</span></a>",
+      "css": ".ds-pr-link{position:relative;display:grid;place-items:center;width:32px;height:32px;border-radius:4px;color:var(--color-paper,#efe8dc);} .ds-pr-link:hover{background:var(--color-ink-raised,#221e1a);} .ds-pr-link:focus-visible{outline:2px solid var(--color-paper,#efe8dc);outline-offset:2px;} .ds-pr-link span{position:absolute;top:-4px;right:-4px;min-width:16px;padding:0 2px;border-radius:4px;background:var(--color-paper,#efe8dc);color:var(--color-ink,#1a1714);font-size:.75rem;line-height:1rem;font-weight:700;text-align:center;}"
+    },
+    {
       "name": "今天日期頁",
       "kind": "custom",
       "refersTo": "today-sheet",
