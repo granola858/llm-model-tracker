@@ -25,6 +25,7 @@
    - 模型清單存放在 [`src/data/models.json`](./src/data/models.json)，可直接手動編輯，格式由 [`scripts/validate-models.mjs`](./scripts/validate-models.mjs) 檢查。
    - [`scripts/fetch-models.mjs`](./scripts/fetch-models.mjs) 會從 OpenRouter models API、各廠商的 Hugging Face 官方帳號與 `news.json` 收集近 30 天的候選，交給 Claude 以 web search 查證官方公告並依格式填好欄位，通過驗證的才寫入。
    - [`.github/workflows/update-models.yml`](./.github/workflows/update-models.yml) 每天執行一次，有新模型時自動開 PR；合併後即觸發部署。已審過的候選記在 `scripts/state/reviewed-candidates.json`，不會重複送審。
+   - 頁首搜尋框右邊的 PR 圖示會標出待處理的 PR 數量（不含 Dependabot），點一下開啟 GitHub 的 PR 列表。數量由瀏覽器直接查 GitHub 搜尋 API，不需要權杖。
 
 ---
 

@@ -18,6 +18,7 @@ import { TodaySheet } from './components/TodaySheet';
 import { NewsColumn } from './components/NewsColumn';
 import { CompareView } from './components/CompareView';
 import { StatsView } from './components/StatsView';
+import { PullRequestLink } from './components/PullRequestLink';
 import { ProviderDot } from './components/marks';
 
 const TABS: { id: TabId; label: string }[] = [
@@ -127,24 +128,27 @@ export const App: React.FC = () => {
             </button>
           ))}
         </div>
-        <div className="relative w-full sm:ml-auto sm:w-72">
-          <label htmlFor="search" className="sr-only">
-            搜尋模型
-          </label>
-          <Search aria-hidden className="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted" />
-          <input
-            id="search"
-            ref={searchRef}
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            onKeyDown={(e) => e.key === 'Escape' && setQuery('')}
-            placeholder="搜尋模型、參數、關鍵字"
-            className="w-full rounded-sm border border-rule bg-ink-raised py-2 pr-9 pl-9 text-sm text-paper focus:border-paper-dim focus:outline-none"
-          />
-          <kbd className="pointer-events-none absolute top-1/2 right-2.5 -translate-y-1/2 rounded-sm border border-rule px-1.5 text-2xs text-muted">
-            /
-          </kbd>
+        <div className="flex w-full items-center gap-3 sm:ml-auto sm:w-auto">
+          <div className="relative min-w-0 flex-1 sm:w-72 sm:flex-none">
+            <label htmlFor="search" className="sr-only">
+              搜尋模型
+            </label>
+            <Search aria-hidden className="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted" />
+            <input
+              id="search"
+              ref={searchRef}
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              onKeyDown={(e) => e.key === 'Escape' && setQuery('')}
+              placeholder="搜尋模型、參數、關鍵字"
+              className="w-full rounded-sm border border-rule bg-ink-raised py-2 pr-9 pl-9 text-sm text-paper focus:border-paper-dim focus:outline-none"
+            />
+            <kbd className="pointer-events-none absolute top-1/2 right-2.5 -translate-y-1/2 rounded-sm border border-rule px-1.5 text-2xs text-muted">
+              /
+            </kbd>
+          </div>
+          <PullRequestLink />
         </div>
       </header>
 
