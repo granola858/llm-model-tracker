@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-11-09T16:59:28.003Z",
+  "lastUpdated": "2026-11-09T18:06:19.378Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L21ldGEtcmVsZWFzZXMtbXVzZS1lbWJlci1hLW5ldy1saWdodHdlaWdodC1tb2RlbC1mb3ItYWdlbnQtZXhlY3V0aW9uLw==",
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-09T18:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjk5OTAvamVuc2VuLWh1YW5nLXRoZS1zcHktd2hvLWxvdmVkLW1l",
+      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
+      "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing tittie...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-09T17:36:08.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9jbGF1ZGUtY29kZS1zZXR0aW5ncy1maWxlcy1leHBvc2UtdGhvdXNhbmRzLW9mLXNlY3JldHMtb24tZ2l0aHViLw==",
+      "title": "Claude Code is accidentally exposing secrets all over GitHub",
+      "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+      "source": "Ars Technica AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-09T17:24:26.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2FudGhyb3BpYy1qb2lucy1haXMtbmF0dXJhbC1nYXMtZnJlbnp5LWJ1eXMtMy00Yi13b3J0aC1vZi10dXJiaW5lcy8=",
       "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
@@ -94,7 +121,7 @@
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA4L2lzLWplbnNlbi1odWFuZ3Mtam9iLW9uLXRoZS1saW5lLXlhbGVzLWplZmZyZXktc29ubmVuZmVsZC1lc3RpbWF0ZXMtaXRzLWFib3V0LWEtNTAtNTAv",
-      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s ‘about a 50-50’",
       "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
       "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
       "source": "TechCrunch AI",
@@ -174,13 +201,13 @@
       "publishedAt": "2026-11-07T15:50:00.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjk0ODMvbnZpZGlhLWFpLWNoaXBzLWNoaW5hLWJsYWNrbGlzdC1nb3Zlcm5tZW50",
-      "title": "The US let Nvidia sell chips to an empty office in China",
-      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Time...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-      "source": "The Verge AI",
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L2Zyb20tdGhlLWZyb250LXJvdy10by10aGUtaG90LXNlYXQtd2hhdC10aGUtbWlkdGVybXMtbWVhbi1mb3ItYmlnLXRlY2gv",
+      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "summary": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communit...",
+      "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+      "source": "TechCrunch AI",
       "providerTag": "General",
-      "publishedAt": "2026-11-07T15:43:45.000Z"
+      "publishedAt": "2026-11-07T04:16:43.000Z"
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L2NydXNvZS1zZWxscy10cm91YmxlZC13eW9taW5nLWRhdGEtY2VudGVyLXByb2plY3QtdG8tZ29vZ2xlLw==",
@@ -208,24 +235,6 @@
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-06T18:44:38.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA2L21ldGEtaW50cm9kdWNlcy1zcGFjZXMtYS1uZXctd2F5LXRvLWNvbGxhYm9yYXRlLXdpdGgteW91ci1tdXNlLWFnZW50Lw==",
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
-      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-06T18:44:20.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS9wb2RjYXN0L2hvdy1hLWJsdWUtd2F2ZS1taWR0ZXJtLW1pZ2h0LXJlc2hhcGUtdGhlLWFpLWluZHVzdHJ5Lw==",
-      "title": "How a Blue Wave midterm might reshape the AI industry",
-      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to im...",
-      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-06T18:00:00.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9kb2VzLW1ldGEtdGhpbmstd2UtY2FudC1yZWFkLW1ldGEtYWJhbmRvbnMtc2tldGNoeS1jb21tZXJjaWFsLXRlcm1zLXVwZGF0ZS8=",
@@ -352,15 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-05T08:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3NldHRpbmctbmV3LXN0YW5kYXJkLXJlc3BvbnNpYmxlLWFpLWluZnJhc3RydWN0dXJl",
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-05T02:00:00.000Z"
     }
   ]
 }
