@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-08T18:04:02.551Z",
+  "lastUpdated": "2026-11-09T00:09:25.384Z",
   "items": [
     {
       "provider": "OpenAI",
       "name": "GPT Astra 6.1+",
-      "date": "2026-11-13",
+      "date": "2026-11-15",
       "precision": "near",
-      "probability": 0.535,
+      "probability": 0.57,
       "url": "https://polymarket.com/event/gpt-astra-6pt1-released-byptptpt"
     },
     {
@@ -14,7 +14,7 @@
       "name": "Claude Fable 5.2+",
       "date": "2026-11-19",
       "precision": "near",
-      "probability": 0.66,
+      "probability": 0.655,
       "url": "https://polymarket.com/event/next-fable-model-5pt2-released-byptptpt"
     },
     {
@@ -22,7 +22,7 @@
       "name": "Gemini Carbon",
       "date": "2026-11-10",
       "precision": "near",
-      "probability": 0.59,
+      "probability": 0.58,
       "url": "https://polymarket.com/event/gemini-carbon-released-byptptpt-20261026"
     },
     {
@@ -30,7 +30,7 @@
       "name": "Muse Wonder 1.1+",
       "date": "2026-12-31",
       "precision": "by",
-      "probability": 0.7,
+      "probability": 0.71,
       "url": "https://polymarket.com/event/next-muse-wonder-1pt1-released-byptptpt"
     },
     {
@@ -38,7 +38,7 @@
       "name": "Grok 4.8+",
       "date": "2026-11-30",
       "precision": "by",
-      "probability": 0.66,
+      "probability": 0.645,
       "url": "https://polymarket.com/event/next-grok-model-4pt8-released-by"
     },
     {
