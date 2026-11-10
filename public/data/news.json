@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-10T00:08:34.279Z",
+  "lastUpdated": "2026-11-10T02:03:02.483Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2FudGhyb3BpYy1yZXBvcnRlZGx5LXBsYW5zLXRvLW1vdmUtZm9yd2FyZC13aXRoLWlwby1wbGFucy8=",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-10T01:27:12.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2VudGVydGFpbm1lbnQvMTAzMDUxMC9wYXJhbW91bnQtc2t5ZGFuY2UtZGF2aWQtZWxsaXNvbi1haQ==",
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, E...",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T00:28:49.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzAzMjgvd2hhdC1jb3VsZC1jaGluYS1nZXQtZnJvbS1qZW5zZW4taHVhbmc=",
       "title": "What could China get from Jensen Huang?",
@@ -23,7 +41,7 @@
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2plbnNlbi1odWFuZy1yZXBvcnRlZGx5LWVuZ2FnZWQtYS1wci1maXJtLXdpdGgtYS1oaXN0b3J5LW9mLWhhbmRsaW5nLWhpZ2gtcHJvZmlsZS1zZXgtc2NhbmRhbHMtYS15ZWFyLWFnby8=",
       "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
-      "summary": "The PR firm was enlisted shortly after an Oct. 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
+      "summary": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
       "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
       "source": "TechCrunch AI",
       "providerTag": "General",
@@ -183,15 +201,6 @@
       "publishedAt": "2026-11-09T15:38:56.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAyOTY4NC9yaWFhLW1pdGNoLWdsYXppZXItbmFwc3Rlci1haS1sYWJlbHMtbXVzaWM=",
-      "title": "Hold up — I had a great time talking to the RIAA guy",
-      "summary": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids...",
-      "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T15:30:00.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9jZW8tamVuc2VuLWh1YW5nLWFkbWl0cy1hZmZhaXItYXMtbnZpZGlhLXByb2Jlcy1wb3NzaWJsZS1jaGluZXNlLWVzcGlvbmFnZS8=",
       "title": "Nvidia CEO's affair becomes a national security problem",
       "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
@@ -262,15 +271,6 @@
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-09T05:26:29.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA4L252aWRpYS1zYXlzLWl0cy1pbnZlc3RpZ2F0aW5nLWNlby1qZW5zZW4taHVhbmdzLXJlbGF0aW9uc2hpcC13aXRoLXBvc3NpYmxlLWNoaW5lc2Utc3B5Lw==",
-      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-      "summary": "In a memo to the company, Huang admitted that he had an affair.",
-      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-      "source": "TechCrunch AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-08T21:00:11.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9kb2VzLW1ldGEtdGhpbmstd2UtY2FudC1yZWFkLW1ldGEtYWJhbmRvbnMtc2tldGNoeS1jb21tZXJjaWFsLXRlcm1zLXVwZGF0ZS8=",

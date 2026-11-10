@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-10T00:08:36.388Z",
+  "lastUpdated": "2026-11-10T02:03:04.756Z",
   "items": [
     {
       "provider": "OpenAI",
       "name": "GPT Astra 6.1+",
       "date": "2026-11-12",
       "precision": "near",
-      "probability": 0.615,
+      "probability": 0.555,
       "url": "https://polymarket.com/event/gpt-astra-6pt1-released-byptptpt"
     },
     {
@@ -14,7 +14,7 @@
       "name": "Gemini Carbon",
       "date": "2026-11-10",
       "precision": "near",
-      "probability": 0.695,
+      "probability": 0.675,
       "url": "https://polymarket.com/event/gemini-carbon-released-byptptpt-20261026"
     },
     {
