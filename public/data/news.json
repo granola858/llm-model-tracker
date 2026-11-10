@@ -1,15 +1,240 @@
 {
-  "lastUpdated": "2026-11-10T12:05:15.883Z",
+  "lastUpdated": "2026-11-10T18:04:03.492Z",
   "totalSources": 7,
   "items": [
     {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzA1NTIvb3BlbmFpLWNoYXRncHQtYnVzaW5lc3MtYWdlbnRzLWh1Yg==",
+      "title": "ChatGPT is getting verified AI ‘Business Agents’",
+      "summary": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesse...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "source": "The Verge AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-10T18:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2dhbWVzLzEwMzA5OTQvYmlnLXdhbGstaW5kZXBlbmRlbnQtZ2FtZXMtZmVzdGl2YWwtaWdmLWFp",
+      "title": "The indie game community is in disarray over AI and Big Walk",
+      "summary": "Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in \"any capacity.\" Soon after, the developer of indie hit Big Walk has published a ...",
+      "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T17:32:47.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL2FudGhyb3BpYy1sYXVuY2hlcy1jbGF1ZGUtbWVldGluZ3MtdG8tdHVybi13b3JrcGxhY2UtZGlzY3Vzc2lvbnMtaW50by1wbGFucy1hbmQtdGFza3Mv",
+      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figur...",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-10T17:30:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzA3MDkvYW50aHJvcGljLWhhcy1pdHMtb3duLWFpLXBvd2VyZWQtb2ZmaWNlLXN1aXRlLW5vdw==",
+      "title": "Anthropic has its own AI-powered office suite now",
+      "summary": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. E...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+      "source": "The Verge AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-10T17:30:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL252aWRpYS1jZW8tamVuc2VuLWh1YW5ncy1hZmZhaXItd2l0aC1hbGxlZ2VkLWNoaW5lc2Utc3B5LWEtdGltZWxpbmUv",
+      "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+      "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-10T17:04:19.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDgzOC9lYmF5LWFpLWFnZW50cy1tZXRhLW11c2UtYWdlbnRpYy1zaG9wcGluZw==",
+      "title": "eBay appears to have shut the door on third-party AI agents",
+      "summary": "eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platform - the latest speed bump in the AI agent race. A reader tells The Verge that for several weeks he's had his Muse agent browse an...",
+      "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T16:20:30.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzA3ODcvZ29vZ2xlLWdlbWluaS00LWNhcmJvbi1wdWJsaWMtcm9sbG91dA==",
+      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+      "summary": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago. Google claims Carbon is its \"strongest model\" yet, and ca...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "source": "The Verge AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-10T16:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL2dvb2dsZS1icm9hZGVucy1pdHMtYWktaGFyZHdhcmUtcG9ydGZvbGlvLXdpdGgtdHdvLW5ldy1zcGVjaWFsaXplZC1jaGlwcy8=",
+      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "source": "TechCrunch AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-10T15:54:08.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL21ldGFzLWFpLWFnZW50LW11c2UtbGFuZHMtb24tYXBwbGUtd2F0Y2gtYW5kLXdlYXItb3Mv",
+      "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+      "summary": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
+      "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T15:29:30.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ29vZ2xlLzIwMjYvMTEvZGVlcG1pbmQtcmV2ZWFscy1nZW1pbmktcm9ib3RpY3MtMi01LWFuZC1vcGVuLXNhZmV0eS1iZW5jaG1hcmstYXNpbW92LWphaWxicmVhay8=",
+      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+      "summary": "The new model is up to twice as successful at some tasks.",
+      "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+      "source": "Ars Technica AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-10T15:00:39.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzA3MDMvYW50aHJvcGljLWlwby0xLTQtdHJpbGxpb24=",
+      "title": "Anthropic targets $1.4 trillion IPO",
+      "summary": "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, which would put its va...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+      "source": "The Verge AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-10T14:06:54.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL2Fkb2JlLWFkZHMtbW9yZS1haS10by1pdHMtcHJvZHVjdHMtYW5kLWxhdW5jaGVzLWFuLW1jcC8=",
+      "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+      "summary": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T14:05:10.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL2FudGhyb3BpYy1zZXRzLWlwby1wcmljZS1yYW5nZS1vZi03MC10by03OC1wZXItc2hhcmUtdG8tcmVhY2gtYW4taW1wbGllZC12YWx1YXRpb24tb2YtMS00MDQtdHJpbGxpb24v",
+      "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "summary": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-10T14:01:39.000Z"
+    },
+    {
+      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9jb21wYW55LW5ld3MvaW5zaWRlLWdvb2dsZS9jb21wYW55LWFubm91bmNlbWVudHMvYWRvYmUtZ29vZ2xlLXBhcnRuZXJzaGlwLWludGVncmF0aW9uLw==",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp\">Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adob...",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source": "Google AI Blog",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-10T14:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL2FmdGVyLWNoYWxsZW5naW5nLWdvb2dsZXMtYW5kcm9pZC13aXRoLWN5YW5vZ2VuLWl0cy1jby1mb3VuZGVyLXRha2VzLWFpbS1hdC13aW5kb3dzLWZvci1haS1lcmEv",
+      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+      "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "source": "TechCrunch AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-10T14:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL3Nwb3RpZnlzLWFpLWRqLWdldHMtbmV3LXZvaWNlcy1wZXJzb25hbGl0aWVzLWFuZC1hbi1vcHRpb24tZm9yLWxlc3MtY2hhdHRlci8=",
+      "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+      "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T14:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDU5My9hZG9iZS1tYXgtYWktYWdlbnRzLW1jcC1maXJlZmx5LWFzc2lzdGFudC11cGRhdGVz",
+      "title": "Adobe is going all in on agentic AI",
+      "summary": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced ...",
+      "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T14:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDY1My9hZG9iZS1tYXgtMjAyNi1waG90b3Nob3AtcHJlbWllcmUtcmVtb3ZhbC11cGRhdGVz",
+      "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
+      "summary": "Adobe is expanding its Creative Cloud apps and Firefly AI platform with new capabilities that aim to make design and editing projects faster and less complicated. Some of the announcements from Adobe's Max event today in...",
+      "url": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T14:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL3Jpbmcta25vd24tZm9yLWl0cy1kb29yYmVsbC1jYW1lcmFzLWxhdW5jaGVzLWEtaG9tZS1zZWN1cml0eS1kcm9uZS1hbmQtYW4tZW50ZXJwcmlzZS1zZWN1cml0eS1yb2JvdC8=",
+      "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+      "summary": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+      "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T13:30:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDYwMS9yaW5nLWRyb25lLWNhbS1oYW5kcy1vbi1wcmljZS1yZWxlYXNlLWRhdGUtYWktcGlsb3Q=",
+      "title": "Hands-on with Ring’s new AI drone camera for your home",
+      "summary": "Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week....",
+      "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T13:30:00.000Z"
+    },
+    {
+      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS9pbmZyYXN0cnVjdHVyZS1hbmQtY2xvdWQvZ29vZ2xlLWNsb3VkL2dlbWluaS1mb3ItaGVhbHRoY2FyZS8=",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-600x600.format-webp.webp\">Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Redu...",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google AI Blog",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-10T13:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL2N5YmVyYXR0YWNrcy10aHJlYXRlbi10by1tYWtlLW9wZW4tc291cmNlLWFpLWEtbGl0dGxlLWxlc3Mtb3Blbi1odWdnaW5nLWZhY2UtZXhlYy13YXJucy8=",
+      "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+      "summary": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developer...",
+      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T13:00:00.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FkZ2V0cy8yMDI2LzExL3VrcmFpbmVzLWZpYmVyLW9wdGljLWRyb25lcy1nZXQtc3F1ZWV6ZWQtYnktYWktZGF0YS1jZW50ZXItZGVtYW5kLw==",
+      "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+      "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
+      "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T12:15:32.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2hlbHBpbmctY2FyZWdpdmVycy11c2UtYWktaW4tZXZlcnlkYXktbGlmZQ==",
+      "title": "Helping caregivers use AI in everyday life",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-10T12:00:00.000Z"
+    },
+    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2Nsb3NpbmctYWktZ3VpZGFuY2UtZ2FwLWVkdWNhdGlvbg==",
       "title": "Closing the AI guidance gap in education",
-      "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
       "url": "https://openai.com/index/closing-ai-guidance-gap-education",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-10T09:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2FpLWVmZmVjdC1vbi1mcmVlbGFuY2Utd29yaw==",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-10T07:00:00.000Z"
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L290dGVyLWFpLWNhbi1ub3ctZm9sbG93LWNvbnZlcnNhdGlvbnMtYWNyb3NzLTMwLWxhbmd1YWdlcy8=",
@@ -30,85 +255,31 @@
       "publishedAt": "2026-11-10T01:27:12.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzAzMjgvd2hhdC1jb3VsZC1jaGluYS1nZXQtZnJvbS1qZW5zZW4taHVhbmc=",
-      "title": "What could China get from Jensen Huang?",
-      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. N...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2VudGVydGFpbm1lbnQvMTAzMDUxMC9wYXJhbW91bnQtc2t5ZGFuY2UtZGF2aWQtZWxsaXNvbi1haQ==",
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, E...",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
       "source": "The Verge AI",
       "providerTag": "General",
-      "publishedAt": "2026-11-09T23:51:58.000Z"
+      "publishedAt": "2026-11-10T00:28:49.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDQ0Ni90cnVtcC1qZW5zZW4taHVhbmctcHJlc3MtY29uZmVyZW5jZQ==",
-      "title": "Here’s what Trump said he knew about Jensen Huang",
-      "summary": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had ...",
-      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
-      "source": "The Verge AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-09T23:47:46.000Z"
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2h1Yi1nY3AtbWFya2V0cGxhY2U=",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "source": "Hugging Face Blog",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-10T00:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2plbnNlbi1odWFuZy1yZXBvcnRlZGx5LWVuZ2FnZWQtYS1wci1maXJtLXdpdGgtYS1oaXN0b3J5LW9mLWhhbmRsaW5nLWhpZ2gtcHJvZmlsZS1zZXgtc2NhbmRhbHMtYS15ZWFyLWFnby8=",
-      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
-      "summary": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
-      "source": "TechCrunch AI",
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2RlY2lzaW9u",
+      "title": "Decision Models in Hugging Face",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/decision",
+      "source": "Hugging Face Blog",
       "providerTag": "General",
-      "publishedAt": "2026-11-09T23:28:37.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzA0MjIvbnZpZGlhLWplbnNlbi1odWFuZy1haS1jaGluYS1hbGljZS1odWFuZw==",
-      "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
-      "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide. Recent reporting noted that since ...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-      "source": "The Verge AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-09T23:07:59.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2Etc2hvcnQtc2VsbGVyLWZsYWdnZWQtbnZpZGlhLWNlb3MtdGllcy10by1hLXN1c3BlY3RlZC1jaGluZXNlLXNweS1zaXgtbW9udGhzLWJlZm9yZS10aGUtc2NhbmRhbC8=",
-      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
-      "summary": "Six months before Nvidia's spy scandal erupted, Culper Research was already questioning Jensen Huang's unusually close relationship with a Chinese executive.",
-      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T22:46:09.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L3RoZS1yYWNlLWlzLW9uLXRvLXN1ZS1udmlkaWEv",
-      "title": "The race is on to sue Nvidia",
-      "summary": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all ...",
-      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T22:23:42.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2plbnNlbi1odWFuZy1wdWxscy1vdXQtb2YtZWxldmVubGFicy1zdW1taXQtYW1pZC1udmlkaWEtY29udHJvdmVyc3kv",
-      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
-      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-09T20:09:06.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2FudGhyb3BpYy1yZWxlYXNlcy1uZXctbXl0aG9zLWFuZC1mYWJsZS1tb2RlbHMtYW1pZC1yc2ktY29uY2VybnMv",
-      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-      "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-09T19:24:51.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDA4NC9hcHBsZS1pbnRlbGxpZ2VuY2UtdXNhZ2UtcGFja3MtYWktZmVhdHVyZXMtY3JlYXRvci1zdHVkaW8tbG9naWMtcHJv",
-      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
-      "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49...",
-      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T19:09:58.000Z"
+      "publishedAt": "2026-11-10T00:00:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NoYXRncHQtZW50ZXJwcmlzZS1hd3MtbWFya2V0cGxhY2U=",
@@ -120,51 +291,6 @@
       "publishedAt": "2026-11-09T19:00:00.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzAwMDUvYW50aHJvcGljLWNsYXVkZS1mYWJsZS1teXRob3MtNS0y",
-      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
-      "summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, ...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
-      "source": "The Verge AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-09T19:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2plbnNlbi1odWFuZ3MtYWZmYWlyLXdpdGgtYWxsZWdlZC1jaGluZXNlLXNweS1wdXRzLW52aWRpYXMtY2hpbmEtYW1iaXRpb25zLXVuZGVyLXNjcnV0aW55Lw==",
-      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
-      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
-      "source": "TechCrunch AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-09T18:09:52.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDA2MS9pbnN0YWdyYW0tYWktZWZmZWN0LWJ1aWxkZXItZmlsdGVycw==",
-      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
-      "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it ha...",
-      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T18:07:23.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L21ldGEtcmVsZWFzZXMtbXVzZS1lbWJlci1hLW5ldy1saWdodHdlaWdodC1tb2RlbC1mb3ItYWdlbnQtZXhlY3V0aW9uLw==",
-      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-      "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
-      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-09T18:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjk5OTAvamVuc2VuLWh1YW5nLXRoZS1zcHktd2hvLWxvdmVkLW1l",
-      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
-      "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing tittie...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T17:36:08.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9jbGF1ZGUtY29kZS1zZXR0aW5ncy1maWxlcy1leHBvc2UtdGhvdXNhbmRzLW9mLXNlY3JldHMtb24tZ2l0aHViLw==",
       "title": "Claude Code is accidentally exposing secrets all over GitHub",
       "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
@@ -172,51 +298,6 @@
       "source": "Ars Technica AI",
       "providerTag": "Anthropic",
       "publishedAt": "2026-11-09T17:24:26.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2FudGhyb3BpYy1qb2lucy1haXMtbmF0dXJhbC1nYXMtZnJlbnp5LWJ1eXMtMy00Yi13b3J0aC1vZi10dXJiaW5lcy8=",
-      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-09T16:56:54.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L21lZGl1bXMtbmV3LXRrLWFwcC1icmluZ3MtYWktYXNzaXN0YW5jZS1kaXJlY3RseS1pbnRvLXRoZS13cml0aW5nLXByb2Nlc3Mv",
-      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
-      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
-      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T16:12:28.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMjk4MDIvdHJ1bXAtNjAtbWludXRlcy1haQ==",
-      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
-      "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claim...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T15:50:38.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAyOTc3My9kaXNuZXktYWRvYmUtZ2VuZXJhdGl2ZS1haS1wYXJ0bmVyc2hpcA==",
-      "title": "Disney and Adobe are building generative AI tools together",
-      "summary": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, ...",
-      "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T15:38:56.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAyOTY4NC9yaWFhLW1pdGNoLWdsYXppZXItbmFwc3Rlci1haS1sYWJlbHMtbXVzaWM=",
-      "title": "Hold up — I had a great time talking to the RIAA guy",
-      "summary": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids...",
-      "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T15:30:00.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9jZW8tamVuc2VuLWh1YW5nLWFkbWl0cy1hZmZhaXItYXMtbnZpZGlhLXByb2Jlcy1wb3NzaWJsZS1jaGluZXNlLWVzcGlvbmFnZS8=",
@@ -235,15 +316,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-09T15:05:57.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2F1dG9tYXR0aWMtZGVidXRzLWEtcGxhdGZvcm0tdG8tZGVwbG95LXZpYmUtY29kaW5nLWFwcHMtYW1pZC1hLWNoYW5naW5nLWludGVybmV0Lw==",
-      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
-      "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
-      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T14:00:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NvbnRyb2wtcm9vbQ==",
@@ -289,78 +361,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-06T17:43:02.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FtaW5nLzIwMjYvMTEvY291bGQtcG90ZW50aWFsLWFpLWNsb25lcy1vZi1ndGEtdmktZm9yY2UtYS1xdWlja2VyLW9mZmljaWFsLXBvcnQv",
-      "title": "Could potential AI clones of GTA VI force a quicker official port?",
-      "summary": "A former Rockstar tech director thinks the developer is facing new time pressures.",
-      "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-06T16:19:12.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FsbGVuYWkvdG95YmxvY2tz",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-06T14:00:48.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3BhcnRuZXJpbmctd2l0aC1oYWNrdHJvbg==",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-06T08:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L21lYXN1cmluZy1ob3ctYWktYWdlbnRzLWhhbmRsZS13ZXQtbGFiLXNjaWVuY2U=",
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-06T00:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL29wZW4tYXNyLWxlYWRlcmJvYXJkLWxpdmE=",
-      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-06T00:00:00.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9nb29nbGUtc2Nob29scy1jYW4ta2VlcC1zZWFyY2gtd2hpbGUtc2tpcHBpbmctZ2VtaW5pLWJ1dC1haS1zZWFyY2gtaXMtbm9uLW5lZ290aWFibGUv",
-      "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
-      "summary": "Google is technically offering schools more choice but not the choices anyone wants.",
-      "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
-      "source": "Ars Technica AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-05T21:40:36.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9sYXdzdWl0LW1hbi1pbnRyb2R1Y2VkLWhpcy13aWZlLXRvLWNoYXRncHQtc2hlLXVzZWQtaXQtdG8tcGxhbi1oaXMtbXVyZGVyLw==",
-      "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
-      "summary": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says.",
-      "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
-      "source": "Ars Technica AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-05T21:39:40.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2N1bHRmaXQtYnVpbGRzLXdpdGgtY29kZXg=",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-05T20:00:00.000Z"
     }
   ]
 }
