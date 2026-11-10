@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-10T06:05:57.105Z",
+  "lastUpdated": "2026-11-10T12:05:17.641Z",
   "items": [
     {
       "provider": "OpenAI",
       "name": "GPT Astra 6.1+",
       "date": "2026-11-12",
       "precision": "near",
-      "probability": 0.565,
+      "probability": 0.55,
       "url": "https://polymarket.com/event/gpt-astra-6pt1-released-byptptpt"
     },
     {
@@ -14,7 +14,7 @@
       "name": "Gemini Carbon",
       "date": "2026-11-10",
       "precision": "near",
-      "probability": 0.815,
+      "probability": 0.895,
       "url": "https://polymarket.com/event/gemini-carbon-released-byptptpt-20261026"
     },
     {
@@ -28,9 +28,9 @@
     {
       "provider": "xAI",
       "name": "Grok 4.8+",
-      "date": "2026-11-23",
-      "precision": "by",
-      "probability": 0.515,
+      "date": "2026-11-30",
+      "precision": "near",
+      "probability": 0.645,
       "url": "https://polymarket.com/event/next-grok-model-4pt8-released-by"
     },
     {
@@ -38,7 +38,7 @@
       "name": "DeepSeek Pro",
       "date": "2026-12-31",
       "precision": "after",
-      "probability": 0.38,
+      "probability": 0.385,
       "url": "https://polymarket.com/event/next-deepseek-pro-released-byptptpt"
     },
     {
@@ -46,7 +46,7 @@
       "name": "Qwen Max 3.9+",
       "date": "2026-11-20",
       "precision": "near",
-      "probability": 0.775,
+      "probability": 0.77,
       "url": "https://polymarket.com/event/next-alibaba-qwen-max-3pt9-released-byptptpt"
     }
   ]

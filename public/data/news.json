@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-10T06:05:55.463Z",
+  "lastUpdated": "2026-11-10T12:05:15.883Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2Nsb3NpbmctYWktZ3VpZGFuY2UtZ2FwLWVkdWNhdGlvbg==",
+      "title": "Closing the AI guidance gap in education",
+      "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-10T09:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L290dGVyLWFpLWNhbi1ub3ctZm9sbG93LWNvbnZlcnNhdGlvbnMtYWNyb3NzLTMwLWxhbmd1YWdlcy8=",
+      "title": "Otter AI can now follow conversations across 30+ languages",
+      "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T07:00:00.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2FudGhyb3BpYy1yZXBvcnRlZGx5LXBsYW5zLXRvLW1vdmUtZm9yd2FyZC13aXRoLWlwby1wbGFucy8=",
       "title": "Anthropic reportedly plans to move forward with IPO plans",
@@ -10,15 +28,6 @@
       "source": "TechCrunch AI",
       "providerTag": "Anthropic",
       "publishedAt": "2026-11-10T01:27:12.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2VudGVydGFpbm1lbnQvMTAzMDUxMC9wYXJhbW91bnQtc2t5ZGFuY2UtZGF2aWQtZWxsaXNvbi1haQ==",
-      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, E...",
-      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-10T00:28:49.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzAzMjgvd2hhdC1jb3VsZC1jaGluYS1nZXQtZnJvbS1qZW5zZW4taHVhbmc=",
@@ -201,6 +210,15 @@
       "publishedAt": "2026-11-09T15:38:56.000Z"
     },
     {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAyOTY4NC9yaWFhLW1pdGNoLWdsYXppZXItbmFwc3Rlci1haS1sYWJlbHMtbXVzaWM=",
+      "title": "Hold up — I had a great time talking to the RIAA guy",
+      "summary": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids...",
+      "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-09T15:30:00.000Z"
+    },
+    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9jZW8tamVuc2VuLWh1YW5nLWFkbWl0cy1hZmZhaXItYXMtbnZpZGlhLXByb2Jlcy1wb3NzaWJsZS1jaGluZXNlLWVzcGlvbmFnZS8=",
       "title": "Nvidia CEO's affair becomes a national security problem",
       "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
@@ -262,15 +280,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-09T08:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA4L2lzLWplbnNlbi1odWFuZ3Mtam9iLW9uLXRoZS1saW5lLXlhbGVzLWplZmZyZXktc29ubmVuZmVsZC1lc3RpbWF0ZXMtaXRzLWFib3V0LWEtNTAtNTAv",
-      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s ‘about a 50-50’",
-      "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
-      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T05:26:29.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9kb2VzLW1ldGEtdGhpbmstd2UtY2FudC1yZWFkLW1ldGEtYWJhbmRvbnMtc2tldGNoeS1jb21tZXJjaWFsLXRlcm1zLXVwZGF0ZS8=",
@@ -352,15 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-05T20:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2F1c3RyYWxpYW4tdW5pdmVyc2l0aWVzLWFpLW5hdGl2ZS1ncmFkdWF0ZXM=",
-      "title": "Australian universities are creating AI-native graduates",
-      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-05T17:00:00.000Z"
     }
   ]
 }
