@@ -3790,5 +3790,24 @@
     "isReasoning": true,
     "highlights": "Mistral 首款突破 1 兆參數的多模態 MoE 旗艦：10/6 以 API 公開預覽，10/29 於 Hugging Face 釋出完整權重（Mistral Ecosystem Open-Weight License）。",
     "officialUrl": "https://mistral.ai/news/"
+  },
+  {
+    "id": "anthropic-claude-fable-5-2",
+    "name": "Claude Fable 5.2",
+    "provider": "Anthropic",
+    "releaseDate": "2026-11-09",
+    "parameters": "未公開",
+    "contextWindow": "1M",
+    "contextTokens": 1000000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "Anthropic 面向一般使用者的最強模型，針對高難度技術工作，在程式、推理與視覺上優於 Fable 5.1，輸出速度快約 30%。已上線付費方案，價格降為 $8 / $40 每百萬 Tokens。",
+    "officialUrl": "https://www.anthropic.com/news"
   }
 ]
