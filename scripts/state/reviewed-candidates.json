@@ -10,5 +10,11 @@
   "news:https://openai.com/index/introducing-images-2-6": "2026-11-06",
   "openrouter:anthropic/claude-fable-5.2": "2026-11-10",
   "news:https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/": "2026-11-10",
-  "news:https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2": "2026-11-10"
+  "news:https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2": "2026-11-10",
+  "openrouter:google/gemini-4-carbon": "2026-11-11",
+  "news:https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout": "2026-11-11",
+  "news:https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/": "2026-11-11",
+  "news:https://openai.com/index/introducing-businesses-chatgpt": "2026-11-11",
+  "news:https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/": "2026-11-11",
+  "news:https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/": "2026-11-11"
 }
