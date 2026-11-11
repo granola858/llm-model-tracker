@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-10T18:04:05.956Z",
+  "lastUpdated": "2026-11-11T00:09:08.229Z",
   "items": [
     {
       "provider": "OpenAI",
       "name": "GPT Astra 6.1+",
-      "date": "2026-11-13",
+      "date": "2026-11-12",
       "precision": "near",
-      "probability": 0.55,
+      "probability": 0.525,
       "url": "https://polymarket.com/event/gpt-astra-6pt1-released-byptptpt"
     },
     {
@@ -14,7 +14,7 @@
       "name": "Gemini Argon",
       "date": "2027-01-31",
       "precision": "after",
-      "probability": 0.175,
+      "probability": 0.205,
       "url": "https://polymarket.com/event/next-gemini-argon-released-byptptpt-20261014"
     },
     {
@@ -22,7 +22,7 @@
       "name": "Muse Wonder 1.1+",
       "date": "2026-12-31",
       "precision": "by",
-      "probability": 0.72,
+      "probability": 0.665,
       "url": "https://polymarket.com/event/next-muse-wonder-1pt1-released-byptptpt"
     },
     {
@@ -46,7 +46,7 @@
       "name": "Qwen Max 3.9+",
       "date": "2026-11-20",
       "precision": "near",
-      "probability": 0.765,
+      "probability": 0.66,
       "url": "https://polymarket.com/event/next-alibaba-qwen-max-3pt9-released-byptptpt"
     }
   ]

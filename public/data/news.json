@@ -1,7 +1,106 @@
 {
-  "lastUpdated": "2026-11-10T18:04:03.492Z",
+  "lastUpdated": "2026-11-11T00:09:05.923Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9yaW5nLWNhbWVyYXMtZ28tbW9iaWxlLWFzLWFtYXpvbi1kZWJ1dHMtYWktcG93ZXJlZC1zZWN1cml0eS1kcm9uZS1hbmQtcm9ib3Qv",
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+      "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T22:35:01.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vc2VjdXJpdHkvMjAyNi8xMS9ncm9rLWJ1aWxkLWNvZGluZy1hZ2VudC1sZWFrcy1vb2RsZXMtb2YtY29uZmlkZW50aWFsLWluZm8tc29tZS1iZWxvbmdpbmctdG8tc3BhY2V4c2kv",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "source": "Ars Technica AI",
+      "providerTag": "xAI",
+      "publishedAt": "2026-11-10T21:12:59.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL29wZW5haS1hY3F1aXJlcy1vZGVzc2lhLXRyYXZlbC1zdGFydHVwLWNyZWF0ZWQtYnktc29uZGVyLWZvdW5kZXIv",
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "summary": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "source": "TechCrunch AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-10T21:08:52.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL29wZW5haS1hbnRocm9waWMtZmFjZS1uZXctb3ZlcnNpZ2h0LWFzLW5ldy15b3Jrcy1haS1zYWZldHktbGF3LXRha2VzLWVmZmVjdC8=",
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "source": "TechCrunch AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-10T20:52:13.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vc2NpZW5jZS8yMDI2LzExL3doYXQtaGFwcGVucy10by1tYXRoZW1hdGljcy13aGVuLWFpLWJlY2FtZXMtYW4tb3JhY2xlLw==",
+      "title": "What happens to mathematics when AI becomes an oracle?",
+      "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World .",
+      "url": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T20:30:01.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL2FsbC03LWFudGhyb3BpYy1mb3VuZGVycy13aWxsLWVhY2gtY2FzaC1vdXQtYWJvdXQtMjUwbS1pbi1pcG8v",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "summary": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of...",
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-10T19:57:52.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL291cmEtdG8tYWNxdWlyZS1haS1uYXRpdmUtcHJpbWFyeS1jYXJlLXN0YXJ0dXAtY291bnNlbC1oZWFsdGgtZm9yLTYyNW0v",
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T19:23:34.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzEwNjMvamVuc2VuLWh1YW5nLWFpLXJhY2UtdXMtY2hpbmEtc3B5",
+      "title": "The US is winning the AI race. Jensen Huang could have blown it",
+      "summary": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy wi...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-10T19:04:05.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL3BzaS1pcy10cnlpbmctdG8tbWFrZS1hLWJ1c2luZXNzLW91dC1vZi1haS1kcml2ZW4tc2NpZW50aWZpYy1kaXNjb3Zlcnkv",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-10T19:03:52.000Z"
+    },
+    {
+      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3BsYXRmb3Jtcy9hbmRyb2lkL2dlbWluaS1pbnRlbGxpZ2VuY2Utbm92ZW1iZXItZmVhdHVyZXMtZGV2aWNlcy8=",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp\">Gemini Intelligence is rolling out to more devices. See how expanded capabilities ac...",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "source": "Google AI Blog",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-10T19:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL29wZW5haS1yb2xscy1vdXQtbmV3LWJ1c2luZXNzLXByb2ZpbGVzLW1ha2luZy1jaGF0Z3B0LWp1c3QtYS1saXR0bGUtYml0LW1vcmUtbGlrZS1nb29nbGUv",
+      "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+      "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
+      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+      "source": "TechCrunch AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-10T18:49:52.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzA1NTIvb3BlbmFpLWNoYXRncHQtYnVzaW5lc3MtYWdlbnRzLWh1Yg==",
       "title": "ChatGPT is getting verified AI ‘Business Agents’",
@@ -129,24 +228,6 @@
       "publishedAt": "2026-11-10T14:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL2FmdGVyLWNoYWxsZW5naW5nLWdvb2dsZXMtYW5kcm9pZC13aXRoLWN5YW5vZ2VuLWl0cy1jby1mb3VuZGVyLXRha2VzLWFpbS1hdC13aW5kb3dzLWZvci1haS1lcmEv",
-      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
-      "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
-      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-      "source": "TechCrunch AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-10T14:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL3Nwb3RpZnlzLWFpLWRqLWdldHMtbmV3LXZvaWNlcy1wZXJzb25hbGl0aWVzLWFuZC1hbi1vcHRpb24tZm9yLWxlc3MtY2hhdHRlci8=",
-      "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
-      "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
-      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-10T14:00:00.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDU5My9hZG9iZS1tYXgtYWktYWdlbnRzLW1jcC1maXJlZmx5LWFzc2lzdGFudC11cGRhdGVz",
       "title": "Adobe is going all in on agentic AI",
       "summary": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced ...",
@@ -165,15 +246,6 @@
       "publishedAt": "2026-11-10T14:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL3Jpbmcta25vd24tZm9yLWl0cy1kb29yYmVsbC1jYW1lcmFzLWxhdW5jaGVzLWEtaG9tZS1zZWN1cml0eS1kcm9uZS1hbmQtYW4tZW50ZXJwcmlzZS1zZWN1cml0eS1yb2JvdC8=",
-      "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
-      "summary": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
-      "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-10T13:30:00.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDYwMS9yaW5nLWRyb25lLWNhbS1oYW5kcy1vbi1wcmljZS1yZWxlYXNlLWRhdGUtYWktcGlsb3Q=",
       "title": "Hands-on with Ring’s new AI drone camera for your home",
       "summary": "Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week....",
@@ -189,15 +261,6 @@
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
       "source": "Google AI Blog",
       "providerTag": "Google",
-      "publishedAt": "2026-11-10T13:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL2N5YmVyYXR0YWNrcy10aHJlYXRlbi10by1tYWtlLW9wZW4tc291cmNlLWFpLWEtbGl0dGxlLWxlc3Mtb3Blbi1odWdnaW5nLWZhY2UtZXhlYy13YXJucy8=",
-      "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
-      "summary": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developer...",
-      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
       "publishedAt": "2026-11-10T13:00:00.000Z"
     },
     {
@@ -219,6 +282,15 @@
       "publishedAt": "2026-11-10T12:00:00.000Z"
     },
     {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ludHJvZHVjaW5nLWJ1c2luZXNzZXMtY2hhdGdwdA==",
+      "title": "Introducing Businesses in ChatGPT",
+      "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-10T10:00:00.000Z"
+    },
+    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2Nsb3NpbmctYWktZ3VpZGFuY2UtZ2FwLWVkdWNhdGlvbg==",
       "title": "Closing the AI guidance gap in education",
       "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
@@ -235,33 +307,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-10T07:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L290dGVyLWFpLWNhbi1ub3ctZm9sbG93LWNvbnZlcnNhdGlvbnMtYWNyb3NzLTMwLWxhbmd1YWdlcy8=",
-      "title": "Otter AI can now follow conversations across 30+ languages",
-      "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
-      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-10T07:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzA5L2FudGhyb3BpYy1yZXBvcnRlZGx5LXBsYW5zLXRvLW1vdmUtZm9yd2FyZC13aXRoLWlwby1wbGFucy8=",
-      "title": "Anthropic reportedly plans to move forward with IPO plans",
-      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-10T01:27:12.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2VudGVydGFpbm1lbnQvMTAzMDUxMC9wYXJhbW91bnQtc2t5ZGFuY2UtZGF2aWQtZWxsaXNvbi1haQ==",
-      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, E...",
-      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-10T00:28:49.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2h1Yi1nY3AtbWFya2V0cGxhY2U=",
@@ -316,51 +361,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-09T15:05:57.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NvbnRyb2wtcm9vbQ==",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "url": "https://openai.com/index/control-room",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-09T13:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FtYXpvbi9oaWdoZXItb3JkZXItcHJ1bmluZy1leHBlcnRz",
-      "title": "Your Experts Have Partners. There&apos;s HOPE for Keeping Them Together",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-09T12:34:29.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NvZGVyYWJiaXQtY29kZXgtZGF5YnJlYWs=",
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-      "url": "https://openai.com/index/coderabbit-codex-daybreak",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-09T08:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2t1a2Vu",
-      "title": "Kuken Industries searches 70 years of drawings in minutes",
-      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
-      "url": "https://openai.com/index/kuken",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-09T08:00:00.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9kb2VzLW1ldGEtdGhpbmstd2UtY2FudC1yZWFkLW1ldGEtYWJhbmRvbnMtc2tldGNoeS1jb21tZXJjaWFsLXRlcm1zLXVwZGF0ZS8=",
-      "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
-      "summary": "Meta won't force Facebook page owners to allow AI training on linked content.",
-      "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-06T17:43:02.000Z"
     }
   ]
 }
