@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T12:06:00.648Z",
+  "lastUpdated": "2026-11-11T16:59:35.075Z",
   "totalSources": 7,
   "items": [
     {
@@ -10,6 +10,87 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzExL2lzLWplbnNlbi1odWFuZ3MtYmFkLWJlaGF2aW9yLW1vcmUtY29tbW9ucGxhY2UtdGhhbi1pdC1zZWVtcy8=",
+      "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+      "summary": "“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said.",
+      "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-11T16:16:07.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzExL29wZW5haXMtcXVhcnRlcmx5LXJldmVudWUtcmVwb3J0ZWRseS1jcm9zc2VzLTEwYi1mb3ItdGhlLWZpcnN0LXRpbWUv",
+      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+      "summary": "Sales of $10B represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
+      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "source": "TechCrunch AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-11T16:14:44.000Z"
+    },
+    {
+      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS9tb2RlbHMtYW5kLXJlc2VhcmNoL2dvb2dsZS1sYWJzL3RhYmxldG9wLw==",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp\">Tabletop is a new Google Labs experiment for group collaboration. Build interactive ...",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "source": "Google AI Blog",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-11T16:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMTUyNi9nb29nbGUtdGFibGV0b3AtYWktZXhwZXJpbWVudC13YWl0bGlzdC1hdmFpbGFiaWxpdHk=",
+      "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+      "summary": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with wor...",
+      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+      "source": "The Verge AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-11T16:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzExL2RhdGFicmlja3MtbmV3LWFpLWFnZW50LXRlbGxzLWNlby1hbGktZ2hvZHNpLXRoZS11bnZhcm5pc2hlZC10cnV0aC8=",
+      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+      "summary": "At 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie...",
+      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-11T15:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzE1MjQvZ29vZ2xlLWRlZXBtaW5kLWFscGhhZ2Vub21lLTItZ2VuZXRpYy1haS1tb2RlbA==",
+      "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+      "summary": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold imp...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+      "source": "The Verge AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-11T15:00:00.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9zaWduYWxzLWVuY3J5cHRpb24tanVzdC1wYXNzZWQtYW4tYWktcG93ZXJlZC1tYXRoZW1hdGljYWwtY2hlY2t1cC8=",
+      "title": "Google DeepMind just mathematically verified key parts of Signal",
+      "summary": "The four-week project hints that AI could make formal verification far more practical.",
+      "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+      "source": "Ars Technica AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-11T14:08:57.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzExL3BsdXJhaS13YW50cy10by1oZWxwLWFpLWFnZW50cy13b3JrLWJldHRlci11c2luZy10aGUtc2FtZS1hcHByb2FjaC10aGF0LWhlbHBlZC1nZXQtc2VsZi1kcml2aW5nLWNhcnMtdG8tcm9hZHMv",
+      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+      "summary": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+      "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-11T14:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMTUwNS9hZG9iZS1tYXgtMjAyNi1zbmVha3MtZXhwZXJpbWVudHMtYWk=",
+      "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+      "summary": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform image...",
+      "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-11T14:00:00.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9jb21wYW55LW5ld3Mvb3V0cmVhY2gtYW5kLWluaXRpYXRpdmVzL2FydHMtY3VsdHVyZS9lc3RoZXItbWFobGFuZ3Uv",
@@ -46,6 +127,15 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-11T05:01:16.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL3Rva2VuLXBvb2xpbmc=",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-11T00:00:00.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9yaW5nLWNhbWVyYXMtZ28tbW9iaWxlLWFzLWFtYXpvbi1kZWJ1dHMtYWktcG93ZXJlZC1zZWN1cml0eS1kcm9uZS1hbmQtcm9ib3Qv",
@@ -183,15 +273,6 @@
       "publishedAt": "2026-11-10T17:30:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL252aWRpYS1jZW8tamVuc2VuLWh1YW5ncy1hZmZhaXItd2l0aC1hbGxlZ2VkLWNoaW5lc2Utc3B5LWEtdGltZWxpbmUv",
-      "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
-      "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-10T17:04:19.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDgzOC9lYmF5LWFpLWFnZW50cy1tZXRhLW11c2UtYWdlbnRpYy1zaG9wcGluZw==",
       "title": "eBay appears to have shut the door on third-party AI agents",
       "summary": "eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platform - the latest speed bump in the AI agent race. A reader tells The Verge that for several weeks he's had his Muse agent browse an...",
@@ -208,24 +289,6 @@
       "source": "The Verge AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-10T16:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL2dvb2dsZS1icm9hZGVucy1pdHMtYWktaGFyZHdhcmUtcG9ydGZvbGlvLXdpdGgtdHdvLW5ldy1zcGVjaWFsaXplZC1jaGlwcy8=",
-      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
-      "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
-      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-      "source": "TechCrunch AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-10T15:54:08.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL21ldGFzLWFpLWFnZW50LW11c2UtbGFuZHMtb24tYXBwbGUtd2F0Y2gtYW5kLXdlYXItb3Mv",
-      "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
-      "summary": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
-      "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-10T15:29:30.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ29vZ2xlLzIwMjYvMTEvZGVlcG1pbmQtcmV2ZWFscy1nZW1pbmktcm9ib3RpY3MtMi01LWFuZC1vcGVuLXNhZmV0eS1iZW5jaG1hcmstYXNpbW92LWphaWxicmVhay8=",
@@ -246,15 +309,6 @@
       "publishedAt": "2026-11-10T14:06:54.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEwL2Fkb2JlLWFkZHMtbW9yZS1haS10by1pdHMtcHJvZHVjdHMtYW5kLWxhdW5jaGVzLWFuLW1jcC8=",
-      "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
-      "summary": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
-      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-10T14:05:10.000Z"
-    },
-    {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9jb21wYW55LW5ld3MvaW5zaWRlLWdvb2dsZS9jb21wYW55LWFubm91bmNlbWVudHMvYWRvYmUtZ29vZ2xlLXBhcnRuZXJzaGlwLWludGVncmF0aW9uLw==",
       "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp\">Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adob...",
@@ -262,33 +316,6 @@
       "source": "Google AI Blog",
       "providerTag": "Google",
       "publishedAt": "2026-11-10T14:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDU5My9hZG9iZS1tYXgtYWktYWdlbnRzLW1jcC1maXJlZmx5LWFzc2lzdGFudC11cGRhdGVz",
-      "title": "Adobe is going all in on agentic AI",
-      "summary": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced ...",
-      "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-10T14:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDY1My9hZG9iZS1tYXgtMjAyNi1waG90b3Nob3AtcHJlbWllcmUtcmVtb3ZhbC11cGRhdGVz",
-      "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
-      "summary": "Adobe is expanding its Creative Cloud apps and Firefly AI platform with new capabilities that aim to make design and editing projects faster and less complicated. Some of the announcements from Adobe's Max event today in...",
-      "url": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-10T14:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMDYwMS9yaW5nLWRyb25lLWNhbS1oYW5kcy1vbi1wcmljZS1yZWxlYXNlLWRhdGUtYWktcGlsb3Q=",
-      "title": "Hands-on with Ring’s new AI drone camera for your home",
-      "summary": "Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week....",
-      "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-10T13:30:00.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS9pbmZyYXN0cnVjdHVyZS1hbmQtY2xvdWQvZ29vZ2xlLWNsb3VkL2dlbWluaS1mb3ItaGVhbHRoY2FyZS8=",
@@ -334,33 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-10T09:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3NpbmdhcG9yZS1haXJsaW5lcy10cmF2ZWwtd29yaw==",
-      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
-      "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
-      "url": "https://openai.com/index/singapore-airlines-travel-work",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-10T08:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2FpLWVmZmVjdC1vbi1mcmVlbGFuY2Utd29yaw==",
-      "title": "Work at the Frontier: AI’s effect on freelance work",
-      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-10T07:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NvZ2VudC1zZWN1cml0eQ==",
-      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-      "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-      "url": "https://openai.com/index/cogent-security",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-10T00:00:00.000Z"
     }
   ]
 }
