@@ -3809,5 +3809,29 @@
     "isReasoning": true,
     "highlights": "Anthropic 面向一般使用者的最強模型，針對高難度技術工作，在程式、推理與視覺上優於 Fable 5.1，輸出速度快約 30%。已上線付費方案，價格降為 $8 / $40 每百萬 Tokens。",
     "officialUrl": "https://www.anthropic.com/news"
+  },
+  {
+    "id": "google-gemini-4-carbon",
+    "name": "Gemini 4 Carbon",
+    "provider": "Google",
+    "releaseDate": "2026-11-10",
+    "parameters": "未公開",
+    "contextWindow": "1M",
+    "contextTokens": 1048576,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Proprietary",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": true,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "Google 宣稱是目前最強的 Gemini 模型，主打程式、代理式任務與長時間複雜專案，價格與 Argon 相同。11/10 對開發者與一般使用者全面開放，並在 Antigravity 預覽 /swarm 多代理功能。",
+    "officialUrl": "https://blog.google/"
   }
 ]
