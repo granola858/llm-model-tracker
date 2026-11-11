@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T16:59:35.075Z",
+  "lastUpdated": "2026-11-11T18:04:16.091Z",
   "totalSources": 7,
   "items": [
     {
@@ -10,6 +10,15 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FtaW5nLzIwMjYvMTEvYmlnLXdhbGstdXNlZC1haS10by1maXgtYS1idWctbm93LXRoZS1pbmRpZS1nYW1pbmctd29ybGQtaXMtaGF2aW5nLWEtcmVja29uaW5nLw==",
+      "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+      "summary": "Any amount of AI coding is too much for many Indie Game Festival judges.",
+      "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-11T17:37:32.000Z"
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzExL2lzLWplbnNlbi1odWFuZ3MtYmFkLWJlaGF2aW9yLW1vcmUtY29tbW9ucGxhY2UtdGhhbi1pdC1zZWVtcy8=",
@@ -352,15 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-10T10:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2Nsb3NpbmctYWktZ3VpZGFuY2UtZ2FwLWVkdWNhdGlvbg==",
-      "title": "Closing the AI guidance gap in education",
-      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-10T09:00:00.000Z"
     }
   ]
 }
