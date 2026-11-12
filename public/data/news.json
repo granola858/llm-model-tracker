@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-12T06:06:25.424Z",
+  "lastUpdated": "2026-11-12T12:05:35.174Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvaG9saWRheXMtZXh0cmFzLWNvZGV4",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-12T09:30:00.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzExL3doby1jb3VsZC1yZXBsYWNlLWplbnNlbi1odWFuZy1hLWhpZ2hseS11bnNjaWVudGlmaWMtbGlzdC1vZi1wb3NzaWJsZS1zdWNjZXNzb3JzLw==",
       "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
@@ -10,6 +19,15 @@
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-12T03:13:10.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NoaWxkcmVuLWZpcnN0LWRlY2xhcmF0aW9u",
+      "title": "Supporting research on AI and children’s safety",
+      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "url": "https://openai.com/index/children-first-declaration",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-12T00:00:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2dpbGJlcnQtdG9iaW4tc2FtLW5pY2tsZXNz",
@@ -50,7 +68,7 @@
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMTY1Mi9qZW5zZW4taHVhbmctcnVtb3I=",
       "title": "Nvidia is reportedly preparing to fire Jensen Huang",
-      "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a...",
+      "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a...",
       "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
       "source": "The Verge AI",
       "providerTag": "Meta",
@@ -343,24 +361,6 @@
       "source": "Ars Technica AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-10T15:00:39.000Z"
-    },
-    {
-      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9jb21wYW55LW5ld3MvaW5zaWRlLWdvb2dsZS9jb21wYW55LWFubm91bmNlbWVudHMvYWRvYmUtZ29vZ2xlLXBhcnRuZXJzaGlwLWludGVncmF0aW9uLw==",
-      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp\">Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adob...",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "source": "Google AI Blog",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-10T14:00:00.000Z"
-    },
-    {
-      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS9pbmZyYXN0cnVjdHVyZS1hbmQtY2xvdWQvZ29vZ2xlLWNsb3VkL2dlbWluaS1mb3ItaGVhbHRoY2FyZS8=",
-      "title": "Google Cloud launches Gemini for healthcare.",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-600x600.format-webp.webp\">Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Redu...",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "source": "Google AI Blog",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-10T13:00:00.000Z"
     }
   ]
 }
