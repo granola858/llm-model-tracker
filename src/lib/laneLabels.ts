@@ -1,4 +1,4 @@
-import { AIModel } from '../types';
+import type { AIModel } from '../types';
 
 /** 泳道標籤的幾何常數（px），與 TimelineView 的 text-xs leading-4 對應 */
 export const LABEL = {
@@ -47,7 +47,18 @@ export const spanOf = (item: LabelItem, anchor: LabelSpot['anchor']): [number, n
 };
 
 /**
- * 依 items 的順序（優先序）逐一找空位，保證同一排不重疊：
+ * 標籤的左右順序必須跟圓點的時間順序一致：較新的模型，標籤左緣與右緣都不能落在較舊模型的左邊。
+ * 容許 LABEL.space 的誤差，幾乎對齊的上下兩排本來就讀不出先後。
+ */
+const keepsOrder = (x: number, lo: number, hi: number, placed: { x: number; lo: number; hi: number }[]) =>
+  placed.every((p) => {
+    if (p.x > x) return lo <= p.lo + LABEL.space && hi <= p.hi + LABEL.space;
+    if (p.x < x) return lo >= p.lo - LABEL.space && hi >= p.hi - LABEL.space;
+    return true;
+  });
+
+/**
+ * 依 items 的順序（優先序）逐一找空位，保證同一排不重疊、左右順序與時間順序一致：
  * 先貼近中線、再往外一排；同一排先試圓點右側起頭（最好認是誰的），放不下才改到左側收尾；
  * 上下兩側輪流。都放不下就不標，滑過圓點仍可在下方詳情看到完整資料。
  */
@@ -55,18 +66,21 @@ export function layoutLabels(items: LabelItem[], trackW: number, laneH: number):
   const rows = rowsFor(laneH);
   const right = trackW + LABEL.tail - 4;
   const taken = new Map<string, [number, number][]>();
+  const placed: { x: number; lo: number; hi: number }[] = [];
   const spots = new Map<string, LabelSpot>();
   for (const item of items) {
     find: for (let row = 0; row < rows; row++) {
       for (const anchor of ['start', 'end'] as const) {
         const [lo, hi] = spanOf(item, anchor);
         if (lo < 0 || hi > right) continue;
+        if (!keepsOrder(item.x, lo, hi, placed)) continue;
         for (const side of ['above', 'below'] as const) {
           const key = `${side}${row}`;
           const used = taken.get(key) ?? [];
           if (used.some(([a, b]) => lo < b + LABEL.space && hi > a - LABEL.space)) continue;
           used.push([lo, hi]);
           taken.set(key, used);
+          placed.push({ x: item.x, lo, hi });
           spots.set(item.id, { side, row, anchor });
           break find;
         }
