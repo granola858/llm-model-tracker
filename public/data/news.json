@@ -1,7 +1,160 @@
 {
-  "lastUpdated": "2026-11-12T18:04:25.104Z",
+  "lastUpdated": "2026-11-13T00:09:01.988Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2RlbW9jcmF0cy1sYXVuY2gtbnZpZGlhLWludmVzdGlnYXRpb24td3JpdGUtc2NhdGhpbmctbGV0dGVyLW9uLWh1YW5ncy1zY2hlbWUtd2l0aC10cnVtcC8=",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "source": "TechCrunch AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-12T22:42:51.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9mYWEtZXhwYW5kcy1haS1hZHZpY2UtdG8tbWFuYWdlLWFpci10cmFmZmljLWNvbmdlc3Rpb24tYWNyb3NzLWVudGlyZS11cy1haXJzcGFjZS8=",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+      "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-12T22:28:47.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL211c2UtY2FuLW5vdy1wbGFjZS1jYWxscy10by11LXMtYnVzaW5lc3Nlcy1pZi15b3UtcGF5Lw==",
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "summary": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-12T22:22:28.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzI1MDUvZ29vZ2xlLXNlYXJjaC1haS1tb2RlLWdlbWluaS00LWh5ZHJvZ2Vu",
+      "title": "Google’s new Gemini model is better at understanding complicated questions",
+      "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break do...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "source": "The Verge AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-12T21:55:32.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL252aWRpYS1jZW8tamVuc2VuLWh1YW5ncy1hZmZhaXItd2l0aC1hbGxlZ2VkLWNoaW5lc2Utc3B5LWEtdGltZWxpbmUv",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-12T21:35:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL25lYml1cy10ZXN0cy10aGUtbmVvY2xvdWQtcGxheWJvb2std2l0aC00MC1iaWxsaW9uLWluLXBsYW5uZWQtc3BlbmRpbmcv",
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-12T21:27:10.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2plbnNlbi1odWFuZy13YXMtaGF2aW5nLWEtdGhpcmQtYWZmYWlyLXJldXRlcnMtcmVwb3J0cy8=",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "summary": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "source": "TechCrunch AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-12T20:26:47.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvYW1wbGl0dWRl",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-12T20:00:00.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FkZ2V0cy8yMDI2LzExL2Fycy1saXZlLWNhbi10aGUtY2xvdWQtc3Vydml2ZS1kcm9uZS1zdHJpa2VzLW9uLWRhdGEtY2VudGVycy8=",
+      "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
+      "summary": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-12T19:59:59.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzIxMjUvYWktYWdlbnRzLW1heWEtc2l0ZS1hcmNoZW9sb2d5LWRpc2NvdmVyeQ==",
+      "title": "No, AI agents did not discover a previously unknown Maya site",
+      "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered an...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "source": "The Verge AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-12T19:42:40.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2dvb2dsZXMtbGF0ZXN0LXNlYXJjaC11cGdyYWRlLXByb21pc2VzLWJldHRlci1hbnN3ZXJzLXRvLXlvdXItbW9zdC1jb21wbGljYXRlZC1xdWVzdGlvbnMv",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-12T19:27:45.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ29vZ2xlLzIwMjYvMTEvZ29vZ2xlLXJvbGxzLW91dC1nZW1pbmktNC1oeWRyb2dlbi1maW5hbGx5LXJlcGxhY2luZy0zLTgtZmxhc2gv",
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+      "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+      "source": "Ars Technica AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-12T19:23:03.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL25lY3Rhci1sYXVuY2hlcy1hbi1haS1hZ2VudC10by1hdXRvbWF0ZS1jcmVhdG9yLWRpc2NvdmVyeS1hbmQtb3V0cmVhY2gtZm9yLWJyYW5kcy8=",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-12T19:11:00.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2libS1ncmFuaXRlL2xsbW9uLWFuLWxsbS1uYXRpdmUtbWFya3VwLWxhbmd1YWdlLW5vdy1pbi1ncmFuaXRl",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-12T19:07:35.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9mYW1pbGllcy1maWdodC10by1rZWVwLWdvb2dsZXMtZGlzdHVyYmluZy1haS1vZmYtc2Nob29sLWlzc3VlZC1jaHJvbWVib29rcy8=",
+      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "summary": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+      "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+      "source": "Ars Technica AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-12T18:57:45.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2plbnNlbi1odWFuZ3MtZXhpdC1wdXRzLW52aWRpYXMtc3VwcG9ydC1mb3Itb3Blbi1zb3VyY2UtaW4tcXVlc3Rpb24v",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadershi...",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-12T18:39:23.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzIxMjYvYWxleC1iYWJ5LXlvdS13ZXJlLXJlY29yZGVkLW9uLXZpZGVv",
+      "title": "Oh, Palantir is ‘progressive’ now, is it?",
+      "summary": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fa...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-12T18:06:54.000Z"
+    },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL3NlYXJjaC9nZW1pbmktNC1oeWRyb2dlbi1zZWFyY2gtdXBncmFkZS8=",
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
@@ -22,17 +175,26 @@
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2h1Z2dpbmctZmFjZS1jZW8tdm93cy10by1rZWVwLWZpZ2h0aW5nLWZvci1vcGVuLXNvdXJjZS1haS1hZnRlci1qZW5zZW4taHVhbmdzLWV4aXQv",
-      "title": "Hugging Face CEO vows to keep fighting for open-source AI after Jensen Huang’s exit",
-      "summary": "Hugging Face's CEO pledged to keep fighting for open-source AI after Huang's exit, raising questions about Nvidia's $12.9B acquisition.",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
       "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-12T17:36:40.000Z"
     },
     {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL3VuaXRlZC1haXJsaW5lcy1ibG9ja3MtYWktYWdlbnRzLWZyb20tYm9va2luZy1mbGlnaHRzLWNpdGluZy1jeWJlcnNlY3VyaXR5LXJpc2tzLw==",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-12T17:17:58.000Z"
+    },
+    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL3NvZnRiYW5rcy1iaWxsaW9uLWRvbGxhci1sb3NzLW1heS1oYXZlLXB1dC1hLWNhcC1vbi1haXMtbmF0dXJhbC1nYXMtYW1iaXRpb25zLw==",
       "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "summary": "SoftBank lost over $3 billion pre-ordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
       "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
       "source": "TechCrunch AI",
       "providerTag": "General",
@@ -66,24 +228,6 @@
       "publishedAt": "2026-11-12T17:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2plbnNlbi1odWFuZy1hZ3JlZXMtdG8tdGVzdGlmeS1iZWZvcmUtY29uZ3Jlc3Mv",
-      "title": "Jensen Huang agrees to testify before Congress",
-      "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-      "source": "TechCrunch AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-12T16:36:37.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2ZpdmUtd2F5cy1qZW5zZW4taHVhbmdzLW91c3Rlci1mcm9tLW52aWRpYS1jb3VsZC1kYW1hZ2UtdGhlLWFpLWluZHVzdHJ5Lw==",
-      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-      "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
-      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T16:32:33.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAzMTI2MC9udmlkaWEtamVuc2VuLWh1YW5nLXJlc2lnbi1jaGluYS1zcHktc2NhbmRhbC1haS1jaGlwcy10cnVtcA==",
       "title": "Jensen Huang is out. What did China want from him?",
       "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his posit...",
@@ -93,15 +237,6 @@
       "publishedAt": "2026-11-12T16:30:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL3RydW1wLWZsb2F0cy1hcHBsZS1jaGFpcm1hbi10aW0tY29vay1hcy1qZW5zZW4taHVhbmdzLXN1Y2Nlc3Nvci8=",
-      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
-      "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
-      "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T16:12:44.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzIwMjgvcmVhZC1udmlkaWFzLWludGVybmFsLWVtYWlscy1qZW5zZW4taHVhbmc=",
       "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
       "summary": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct re...",
@@ -109,33 +244,6 @@
       "source": "The Verge AI",
       "providerTag": "Meta",
       "publishedAt": "2026-11-12T15:48:12.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2plbnNlbi1odWFuZy1pcy1vdXQtYXQtbnZpZGlhLXdoby1pcy1jb2xldHRlLWtyZXNzLWhpcy1pbnRlcmltLXJlcGxhY2VtZW50Lw==",
-      "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
-      "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T15:37:29.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL25vcndlc3QtcHVzaGVzLWRlZXBlci1pbnRvLWFpLXdpdGgtbmV3LTRiLWZ1bmQv",
-      "title": "Norwest pushes deeper into AI with new $4B fund",
-      "summary": "This is the investment firm's largest fund to date.",
-      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T15:18:14.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2N5YmVyYXR0YWNrLW9uLWZpcmV3b3Jrcy1haS1hbGxvd2VkLWhhY2tlcnMtdG8tYWNjZXNzLW5vdGlvbi1jdXN0b21lcnMtY2hhdC10cmFuc2NyaXB0cy8=",
-      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-      "summary": "This is Fireworks' second data breach in as many months.",
-      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T15:02:28.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzA0MjIvbnZpZGlhLWplbnNlbi1odWFuZy1haS1jaGluYS1hbGljZS1odWFuZw==",
@@ -156,15 +264,6 @@
       "publishedAt": "2026-11-12T14:50:17.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL252aWRpYS1jZW8tamVuc2VuLWh1YW5ncy1hZmZhaXItd2l0aC1hbGxlZ2VkLWNoaW5lc2Utc3B5LWEtdGltZWxpbmUv",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-12T14:30:01.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMTg2OC9pLXJldmlld2VkLXRoZS1hcHBsZS1ob21ldmlldy1hc2stbWUtYW55dGhpbmc=",
       "title": "I reviewed the Apple HomeView, ask me anything",
       "summary": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop an...",
@@ -174,22 +273,13 @@
       "publishedAt": "2026-11-12T14:10:00.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzE2ODkvamVuc2VuLWh1YW5nLW52aWRpYS1jZW8tcmVzaWducw==",
-      "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
-      "summary": "Nvidia's board announced that Jensen Huang - its longtime co-founder, president, and CEO - has resigned after reports of two extramarital affairs, one with an alleged Chinese spy and one with an Nvidia executive who repo...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
-      "source": "The Verge AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-12T13:53:16.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL25pbmUta29yZWFuLXN0YXJ0dXBzLXZpZS1mb3ItYS1zcG90LWluLWRpc3J1cHQtMjAyN3Mtc3RhcnR1cC1iYXR0bGVmaWVsZC0yMDAtY29tcGV0aXRpb24v",
-      "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
-      "summary": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S.",
-      "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T13:26:25.000Z"
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvZ29uZG9sYQ==",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-12T12:00:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvaG9saWRheXMtZXh0cmFzLWNvZGV4",
@@ -199,15 +289,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-12T09:30:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzExL3doby1jb3VsZC1yZXBsYWNlLWplbnNlbi1odWFuZy1hLWhpZ2hseS11bnNjaWVudGlmaWMtbGlzdC1vZi1wb3NzaWJsZS1zdWNjZXNzb3JzLw==",
-      "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-      "summary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
-      "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T03:13:10.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NoaWxkcmVuLWZpcnN0LWRlY2xhcmF0aW9u",
@@ -235,24 +316,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMTY1Mi9qZW5zZW4taHVhbmctcnVtb3I=",
-      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
-      "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a...",
-      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-      "source": "The Verge AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-11T22:44:36.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzE2MjMvdW5pdGVkLXVuYXV0aG9yaXplZC1haS1hZ2VudHM=",
-      "title": "United won’t let your AI agent book your flight",
-      "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wa...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-11T21:54:21.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS90YWl3YW5zLWNoaXBtYWtpbmctZ2lhbnQtdHNtYy10by1pbnZlc3QtMWItaW4tYW50aHJvcGljLW9wZW5haS8=",
@@ -298,69 +361,6 @@
       "source": "Ars Technica AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-11T14:08:57.000Z"
-    },
-    {
-      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9jb21wYW55LW5ld3Mvb3V0cmVhY2gtYW5kLWluaXRpYXRpdmVzL2FydHMtY3VsdHVyZS9lc3RoZXItbWFobGFuZ3Uv",
-      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp\">A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-      "source": "Google AI Blog",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-11T09:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NoYXRncHQtcGx1cy1mb3ItdmV0ZXJhbnM=",
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-11T08:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL3F2YWMvYm90cHN5",
-      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/qvac/botpsy",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-11T05:01:16.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ppb3N0YXItdmlqYXktc2VzaGFkcmk=",
-      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
-      "url": "https://openai.com/index/jiostar-vijay-seshadri",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-11T00:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL3Rva2VuLXBvb2xpbmc=",
-      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/token-pooling",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-11T00:00:00.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9yaW5nLWNhbWVyYXMtZ28tbW9iaWxlLWFzLWFtYXpvbi1kZWJ1dHMtYWktcG93ZXJlZC1zZWN1cml0eS1kcm9uZS1hbmQtcm9ib3Qv",
-      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
-      "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
-      "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-10T22:35:01.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vc2VjdXJpdHkvMjAyNi8xMS9ncm9rLWJ1aWxkLWNvZGluZy1hZ2VudC1sZWFrcy1vb2RsZXMtb2YtY29uZmlkZW50aWFsLWluZm8tc29tZS1iZWxvbmdpbmctdG8tc3BhY2V4c2kv",
-      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-      "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
-      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-      "source": "Ars Technica AI",
-      "providerTag": "xAI",
-      "publishedAt": "2026-11-10T21:12:59.000Z"
     }
   ]
 }
