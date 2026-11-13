@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T00:09:03.916Z",
+  "lastUpdated": "2026-11-13T01:47:14.767Z",
   "items": [
     {
       "provider": "OpenAI",
@@ -14,7 +14,7 @@
       "name": "Gemini Argon",
       "date": "2027-01-31",
       "precision": "after",
-      "probability": 0.27,
+      "probability": 0.165,
       "url": "https://polymarket.com/event/next-gemini-argon-released-byptptpt-20261014"
     },
     {
@@ -38,7 +38,7 @@
       "name": "DeepSeek Pro",
       "date": "2026-12-31",
       "precision": "after",
-      "probability": 0.175,
+      "probability": 0.18,
       "url": "https://polymarket.com/event/next-deepseek-pro-released-byptptpt"
     }
   ]
