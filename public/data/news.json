@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-13T06:06:06.261Z",
+  "lastUpdated": "2026-11-13T12:05:25.810Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzIzMzkvbGV0cy10YWxrLWFib3V0LXRoZS1udmlkaWEtc2hpdHNob3c=",
+      "title": "Let’s talk about Jensen Huang’s many affairs!",
+      "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's ...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "source": "The Verge AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-13T12:00:00.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2RlbW9jcmF0cy1sYXVuY2gtbnZpZGlhLWludmVzdGlnYXRpb24td3JpdGUtc2NhdGhpbmctbGV0dGVyLW9uLWh1YW5ncy1zY2hlbWUtd2l0aC10cnVtcC8=",
       "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
@@ -262,15 +271,6 @@
       "source": "Ars Technica AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-12T14:50:17.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMTg2OC9pLXJldmlld2VkLXRoZS1hcHBsZS1ob21ldmlldy1hc2stbWUtYW55dGhpbmc=",
-      "title": "I reviewed the Apple HomeView, ask me anything",
-      "summary": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop an...",
-      "url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
-      "source": "The Verge AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-12T14:10:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvZ29uZG9sYQ==",
