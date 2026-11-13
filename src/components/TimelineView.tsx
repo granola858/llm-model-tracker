@@ -4,7 +4,27 @@ import { AIModel, ProviderId } from '../types';
 import { PROVIDERS } from '../data/modelsData';
 import { categoryLabel, LICENSE_LABEL, MODALITY_LABEL, toTime } from '../lib/format';
 import { ContextValue, ModelShape, ParamsValue, ProviderDot } from './marks';
-import { LabelSpot, labelText, layoutLabels, measureLabel, resetLabelMeasure, rowOffset, LABEL } from '../lib/laneLabels';
+import {
+  CLUSTER_SEP,
+  LabelSpot,
+  clusterByX,
+  clusterNames,
+  labelText,
+  layoutLabels,
+  measureLabel,
+  resetLabelMeasure,
+  rowOffset,
+  LABEL,
+} from '../lib/laneLabels';
+
+interface LaneLabel {
+  id: string;
+  /** 由舊到新 */
+  members: AIModel[];
+  /** 各成員顯示的名稱，第二個起省掉共同開頭 */
+  parts: string[];
+  spot: LabelSpot;
+}
 
 interface Props {
   models: AIModel[]; // 已篩選、由舊到新
@@ -184,19 +204,40 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
     return () => fonts.removeEventListener('loadingdone', bump);
   }, []);
 
-  const labelSpots = useMemo(() => {
-    const spots = new Map<string, LabelSpot>();
-    if (!track.w) return spots;
+  // 每條泳道的標籤：疊在一起的圓點合成一個標籤，名稱照時間由左到右
+  const laneLabels = useMemo(() => {
+    const out = new Map<ProviderId, LaneLabel[]>();
+    if (!track.w) return out;
+    const sepW = measureLabel(CLUSTER_SEP, false);
     for (const lane of lanes) {
-      const pool = year === 'ALL' ? lane.models.slice(-ALL_VIEW_LABELS) : lane.models;
-      const items = [...pool].reverse().map((m) => ({
-        id: m.id,
-        x: (pos(toTime(m.releaseDate)) / 100) * track.w,
-        w: measureLabel(labelText(m), m.isFlagship),
-      }));
-      for (const [id, spot] of layoutLabels(items, track.w, track.h)) spots.set(id, spot);
+      const px = (m: AIModel) => (pos(toTime(m.releaseDate)) / 100) * track.w;
+      const groups = clusterByX(lane.models, px);
+      const recent = new Set(lane.models.slice(-ALL_VIEW_LABELS));
+      const pool = year === 'ALL' ? groups.filter((g) => g.some((m) => recent.has(m))) : groups;
+      const entries = pool.map((members) => {
+        const parts = clusterNames(members.map(labelText));
+        return {
+          id: members.map((m) => m.id).join('+'),
+          members,
+          parts,
+          w: parts.reduce((s, p, i) => s + measureLabel(p, members[i].isFlagship), 0) + sepW * (parts.length - 1),
+        };
+      });
+      const spots = layoutLabels(
+        [...entries].reverse().map((e) => ({ id: e.id, from: px(e.members[0]), to: px(e.members[e.members.length - 1]), w: e.w })),
+        track.w,
+        track.h,
+        lane.models.map(px)
+      );
+      out.set(
+        lane.provider,
+        entries.flatMap((e) => {
+          const spot = spots.get(e.id);
+          return spot ? [{ ...e, spot }] : [];
+        })
+      );
     }
-    return spots;
+    return out;
     // fontEpoch：字型換了，量出來的寬度不同，要重排
   }, [lanes, pos, track, year, fontEpoch]);
 
@@ -333,29 +374,50 @@ export const TimelineView: React.FC<Props> = ({ models, providers, activeId, onA
                           </button>
                         );
                       })}
-                      {lane.models.map((m) => {
-                        const spot = labelSpots.get(m.id);
-                        if (!spot) return null;
-                        const x = pos(toTime(m.releaseDate));
+                      {(laneLabels.get(lane.provider) ?? []).map(({ id, members, parts, spot }) => {
                         const end = spot.anchor === 'end';
+                        // start 從最右邊的圓點起頭，end 在最左邊的圓點收尾；旗桿也立在那顆上
+                        const x = pos(toTime((end ? members[0] : members[members.length - 1]).releaseDate));
                         const offset = `calc(50% + ${rowOffset(spot.row)}px)`;
+                        const hasActive = members.some((m) => m.id === active?.id);
+                        const motion = `tl-move pointer-events-none absolute hidden lg:block ${zoomed ? 'tl-label-in' : ''}`;
                         return (
-                          <span
-                            // 換年份就換一個元素，才能等圓點滑定位後重新淡入
-                            key={`${year}:${m.id}`}
-                            aria-hidden
-                            className={`tl-move pointer-events-none absolute hidden whitespace-nowrap text-xs leading-4 lg:block ${
-                              zoomed ? 'tl-label-in' : ''
-                            } ${m.id === active?.id ? 'text-paper' : 'text-paper-dim'}`}
-                            style={{
-                              left: `calc(${x}% ${end ? '-' : '+'} ${LABEL.dotGap}px)`,
-                              transform: end ? 'translateX(-100%)' : undefined,
-                              ...(spot.side === 'above' ? { bottom: offset } : { top: offset }),
-                            }}
-                          >
-                            {/* 燙金放在內層，才不會跟外層的淡入動畫搶 animation */}
-                            <span className={m.isFlagship ? 'flagship' : undefined}>{labelText(m)}</span>
-                          </span>
+                          // 換年份就換一組元素，才能等圓點滑定位後重新淡入
+                          <React.Fragment key={`${year}:${id}`}>
+                            {/* 外排的標籤離圓點遠，用旗桿把字連回自己的圓點 */}
+                            {spot.row > 0 && (
+                              <span
+                                aria-hidden
+                                className={`${motion} w-px -translate-x-1/2 ${hasActive ? 'bg-paper-dim' : 'bg-muted/45'}`}
+                                style={{
+                                  left: `${x}%`,
+                                  height: rowOffset(spot.row) + LABEL.rowH - 2,
+                                  ...(spot.side === 'above' ? { bottom: '50%' } : { top: '50%' }),
+                                }}
+                              />
+                            )}
+                            <span
+                              aria-hidden
+                              className={`${motion} whitespace-nowrap text-xs leading-4 text-paper-dim`}
+                              style={{
+                                left: `calc(${x}% ${end ? '-' : '+'} ${LABEL.dotGap}px)`,
+                                transform: end ? 'translateX(-100%)' : undefined,
+                                ...(spot.side === 'above' ? { bottom: offset } : { top: offset }),
+                              }}
+                            >
+                              {members.map((m, i) => (
+                                <React.Fragment key={m.id}>
+                                  {i > 0 && CLUSTER_SEP}
+                                  {/* 燙金放在內層，才不會跟外層的淡入動畫搶 animation */}
+                                  <span
+                                    className={`${m.isFlagship ? 'flagship' : ''} ${m.id === active?.id ? 'text-paper' : ''}`}
+                                  >
+                                    {parts[i]}
+                                  </span>
+                                </React.Fragment>
+                              ))}
+                            </span>
+                          </React.Fragment>
                         );
                       })}
                     </div>
