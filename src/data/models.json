@@ -3833,5 +3833,29 @@
     ],
     "highlights": "Google 宣稱是目前最強的 Gemini 模型，主打程式、代理式任務與長時間複雜專案，價格與 Argon 相同。11/10 對開發者與一般使用者全面開放，並在 Antigravity 預覽 /swarm 多代理功能。",
     "officialUrl": "https://blog.google/"
+  },
+  {
+    "id": "google-gemini-4-hydrogen",
+    "name": "Gemini 4 Hydrogen",
+    "provider": "Google",
+    "releaseDate": "2026-11-12",
+    "parameters": "未公開",
+    "contextWindow": "1M",
+    "contextTokens": 1048576,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Proprietary",
+    "category": "Lightweight",
+    "isFlagship": false,
+    "isReasoning": true,
+    "estimated": [
+      "context"
+    ],
+    "highlights": "Gemini 4 系列中接替 3.8 Flash 的高效率低成本模型，主打快速執行、程式與代理式工作流程。上線即對所有人開放，含 Gemini App 免費使用者，價格比 Flash 高。",
+    "officialUrl": "https://blog.google/"
   }
 ]
