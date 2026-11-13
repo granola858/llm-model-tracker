@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T12:05:28.299Z",
+  "lastUpdated": "2026-11-13T18:04:04.015Z",
   "items": [
     {
       "provider": "OpenAI",
@@ -14,7 +14,7 @@
       "name": "Gemini Argon",
       "date": "2027-01-31",
       "precision": "after",
-      "probability": 0.43,
+      "probability": 0.17,
       "url": "https://polymarket.com/event/next-gemini-argon-released-byptptpt-20261014"
     },
     {
@@ -30,7 +30,7 @@
       "name": "Grok 4.8+",
       "date": "2026-11-30",
       "precision": "near",
-      "probability": 0.66,
+      "probability": 0.62,
       "url": "https://polymarket.com/event/next-grok-model-4pt8-released-by"
     },
     {
@@ -38,7 +38,7 @@
       "name": "DeepSeek Pro",
       "date": "2026-12-31",
       "precision": "after",
-      "probability": 0.18,
+      "probability": 0.175,
       "url": "https://polymarket.com/event/next-deepseek-pro-released-byptptpt"
     }
   ]
