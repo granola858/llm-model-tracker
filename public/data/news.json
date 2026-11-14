@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-11-13T18:04:02.185Z",
+  "lastUpdated": "2026-11-14T00:08:49.135Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMzY5Ny9hbWF6b24td29ybGQtcHJvZHVjdC1ncmFwaC1haS1zZWFyY2g=",
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, cal...",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-13T23:49:11.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEzL2plbnNlbi1odWFuZ3MtZGVwYXJ0dXJlLWJsYXN0cy1iaWctaG9sZS1pbi1haS1zdGFydHVwLWZ1bmRpbmctdmNzLWFuZC1mb3VuZGVycy1zYXkv",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-13T22:43:00.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZmVhdHVyZXMvMjAyNi8xMS9mYWEtZXhwYW5kcy1haS1hZHZpY2UtdG8tbWFuYWdlLWFpci10cmFmZmljLWNvbmdlc3Rpb24tYWNyb3NzLWVudGlyZS11cy1haXJzcGFjZS8=",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-13T21:20:47.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzM0MjUvb3BlbmFpLWNoYXRncHQtd2FsbGV0",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US ...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "The Verge AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-13T20:45:10.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEzL2FpLWFnZW50LXN0YXJ0dXAtbGFuZ2NoYWluLWhpdHMtM2ItdmFsdWF0aW9uLw==",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-13T19:37:57.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEzL2V4cG9ydC1iYW5uZWQtbnZpZGlhLWNoaXBzLWFyZS1iZWhpbmQtY2hpbmFzLW1vc3QtcG93ZXJmdWwtYWktbW9kZWxzLXVoLW9oLWplbnNlbi8=",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-13T18:40:30.000Z"
+    },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9zaW1yZWFkeS1hc3NldHMtcm9ib3QtcGljay1hbmQtcGxhY2U=",
       "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
@@ -129,15 +183,6 @@
       "publishedAt": "2026-11-12T22:42:51.000Z"
     },
     {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9mYWEtZXhwYW5kcy1haS1hZHZpY2UtdG8tbWFuYWdlLWFpci10cmFmZmljLWNvbmdlc3Rpb24tYWNyb3NzLWVudGlyZS11cy1haXJzcGFjZS8=",
-      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-      "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T22:28:47.000Z"
-    },
-    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL211c2UtY2FuLW5vdy1wbGFjZS1jYWxscy10by11LXMtYnVzaW5lc3Nlcy1pZi15b3UtcGF5Lw==",
       "title": "Muse can now place calls to US businesses — if you pay",
       "summary": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
@@ -201,15 +246,6 @@
       "publishedAt": "2026-11-12T19:42:40.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2dvb2dsZXMtbGF0ZXN0LXNlYXJjaC11cGdyYWRlLXByb21pc2VzLWJldHRlci1hbnN3ZXJzLXRvLXlvdXItbW9zdC1jb21wbGljYXRlZC1xdWVzdGlvbnMv",
-      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-      "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
-      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-      "source": "TechCrunch AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-12T19:27:45.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ29vZ2xlLzIwMjYvMTEvZ29vZ2xlLXJvbGxzLW91dC1nZW1pbmktNC1oeWRyb2dlbi1maW5hbGx5LXJlcGxhY2luZy0zLTgtZmxhc2gv",
       "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
       "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
@@ -217,15 +253,6 @@
       "source": "Ars Technica AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-12T19:23:03.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL25lY3Rhci1sYXVuY2hlcy1hbi1haS1hZ2VudC10by1hdXRvbWF0ZS1jcmVhdG9yLWRpc2NvdmVyeS1hbmQtb3V0cmVhY2gtZm9yLWJyYW5kcy8=",
-      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
-      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T19:11:00.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2libS1ncmFuaXRlL2xsbW9uLWFuLWxsbS1uYXRpdmUtbWFya3VwLWxhbmd1YWdlLW5vdy1pbi1ncmFuaXRl",
@@ -244,15 +271,6 @@
       "source": "Ars Technica AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-12T18:57:45.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2plbnNlbi1odWFuZ3MtZXhpdC1wdXRzLW52aWRpYXMtc3VwcG9ydC1mb3Itb3Blbi1zb3VyY2UtaW4tcXVlc3Rpb24v",
-      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadershi...",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T18:39:23.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzIxMjYvYWxleC1iYWJ5LXlvdS13ZXJlLXJlY29yZGVkLW9uLXZpZGVv",
@@ -289,24 +307,6 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-12T17:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2dhbWVzLzEwMzIwODUvZ2RjLWZlc3RpdmFsLW9mLWdhbWluZy1hbm51YWwtc3VydmV5LWFpLWxheW9mZnM=",
-      "title": "More game developers are starting to use generative AI",
-      "summary": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it ...",
-      "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T17:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAzMTI2MC9udmlkaWEtamVuc2VuLWh1YW5nLXJlc2lnbi1jaGluYS1zcHktc2NhbmRhbC1haS1jaGlwcy10cnVtcA==",
-      "title": "Jensen Huang is out. What did China want from him?",
-      "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his posit...",
-      "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T16:30:00.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ29vZ2xlLzIwMjYvMTEvZ29vZ2xlLXB1c2hlcy1wcml2YWN5LWFuZ2xlLWFzLWdlbWluaS1wb3dlcmVkLXNtYXJ0Z2xhc3Nlcy1kZWJ1dC1zdGFydGluZy1hdC0zOTUv",
