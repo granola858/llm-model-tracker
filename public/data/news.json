@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-14T06:05:56.360Z",
+  "lastUpdated": "2026-11-14T12:04:24.500Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMzc4MS9udmlkaWEtamVuc2VuLWh1YW5nLWxhc3QtdmlzaW9uYXJ5LXNob3dtYW4tZm91bmRlci1jZW8=",
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers a...",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-14T12:00:00.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMzY5Ny9hbWF6b24td29ybGQtcHJvZHVjdC1ncmFwaC1haS1zZWFyY2g=",
       "title": "Amazon has a plan to index the world’s online shopping data",
@@ -307,15 +316,6 @@
       "source": "The Verge AI",
       "providerTag": "Meta",
       "publishedAt": "2026-11-12T17:44:33.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzIwMjAvZ2VtaW5pLWNoYXRncHQtcGVycGxleGl0eS1zaG9wcGluZy10ZXN0LXJpc2t5LWZha2Utd2Vic2l0ZXMtY2l0YXRpb25z",
-      "title": "AI chatbots are recommending fake retail websites, study finds",
-      "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusive...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T17:00:00.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ29vZ2xlLzIwMjYvMTEvZ29vZ2xlLXB1c2hlcy1wcml2YWN5LWFuZ2xlLWFzLWdlbWluaS1wb3dlcmVkLXNtYXJ0Z2xhc3Nlcy1kZWJ1dC1zdGFydGluZy1hdC0zOTUv",
