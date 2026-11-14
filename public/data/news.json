@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T00:08:49.135Z",
+  "lastUpdated": "2026-11-14T06:05:56.360Z",
   "totalSources": 7,
   "items": [
     {
@@ -172,6 +172,15 @@
       "source": "The Verge AI",
       "providerTag": "Meta",
       "publishedAt": "2026-11-13T12:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvc2hpZWxk",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-13T08:00:00.000Z"
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2RlbW9jcmF0cy1sYXVuY2gtbnZpZGlhLWludmVzdGlnYXRpb24td3JpdGUtc2NhdGhpbmctbGV0dGVyLW9uLWh1YW5ncy1zY2hlbWUtd2l0aC10cnVtcC8=",
@@ -351,15 +360,6 @@
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nLzNkLWxvcmEtZmluZXR1bmluZw==",
-      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/3d-lora-finetuning",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
       "publishedAt": "2026-11-12T00:00:00.000Z"
     }
   ]
