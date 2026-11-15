@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-14T18:04:08.160Z",
+  "lastUpdated": "2026-11-15T00:09:30.954Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE0L3doZXJlLXdhcy1udmlkaWFzLXNlY3VyaXR5LXRlYW0v",
+      "title": "Where was Nvidia’s security team?",
+      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intellig...",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-15T00:08:07.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE0L2Vsb24tbXVzay1vdGhlci10ZWNoLWV4ZWNzLXNpZ24tcGV0aXRpb24tY2FsbGluZy1vbi1udmlkaWEtdG8tcmVpbnN0YXRlLWplbnNlbi1odWFuZy8=",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-14T21:41:22.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE0L3RoZS1haS1ncmF2ZXlhcmQtYS1ydW5uaW5nLWxpc3Qtb2YtcHJvamVjdHMtYW5kLXN0YXJ0dXBzLXRoYXQtZGlkbnQtbWFrZS1pdC8=",
       "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
@@ -217,24 +235,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-13T08:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL2RlbW9jcmF0cy1sYXVuY2gtbnZpZGlhLWludmVzdGlnYXRpb24td3JpdGUtc2NhdGhpbmctbGV0dGVyLW9uLWh1YW5ncy1zY2hlbWUtd2l0aC10cnVtcC8=",
-      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
-      "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
-      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-      "source": "TechCrunch AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-12T22:42:51.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEyL211c2UtY2FuLW5vdy1wbGFjZS1jYWxscy10by11LXMtYnVzaW5lc3Nlcy1pZi15b3UtcGF5Lw==",
-      "title": "Muse can now place calls to US businesses — if you pay",
-      "summary": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
-      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T22:22:28.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzI1MDUvZ29vZ2xlLXNlYXJjaC1haS1tb2RlLWdlbWluaS00LWh5ZHJvZ2Vu",
