@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-15T12:04:30.051Z",
+  "lastUpdated": "2026-11-15T18:03:46.356Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2NvbHVtbi8xMDMzOTQzL2plbnNlbi1odWFuZy1udmlkaWEtY2hpbmEtc3B5aW5nLXNjYW5kYWwtcmVzaWduYXRpb24=",
+      "title": "An overview of Jensen Huang’s messy days",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepba...",
+      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-15T13:00:00.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE0L3doZXJlLXdhcy1udmlkaWFzLXNlY3VyaXR5LXRlYW0v",
       "title": "Where was Nvidia’s security team?",
@@ -298,15 +307,6 @@
       "source": "Ars Technica AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-12T18:57:45.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzIxMjYvYWxleC1iYWJ5LXlvdS13ZXJlLXJlY29yZGVkLW9uLXZpZGVv",
-      "title": "Oh, Palantir is ‘progressive’ now, is it?",
-      "summary": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fa...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-12T18:06:54.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL3NlYXJjaC9nZW1pbmktNC1oeWRyb2dlbi1zZWFyY2gtdXBncmFkZS8=",
