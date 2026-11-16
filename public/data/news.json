@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-11-15T18:03:46.356Z",
+  "lastUpdated": "2026-11-16T00:10:48.977Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE1L2luZGlhbi1jaGlwLXN0YXJ0dXAtYmhhcmF0LXNlbWktbGFuZHMtMjRtLXNlZWQtcm91bmQtYXMtaXQtZXllcy1nbG9iYWwtYWktc2Vuc29yLW1hcmtldC8=",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-15T23:30:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3N0ZXAtdG93YXJkLWRlZmluaW5nLXRoZS1zdGFuZGFyZC1tb2RlbA==",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-15T22:00:01.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L291ci1uZXctYmxvZy1mb3Itc2NpZW5jZQ==",
+      "title": "Our new blog for science",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-15T22:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE1L2lzLWJhZC1uZXdzLWZvci1qZW5zZW4taHVhbmctYWxzby1iYWQtbmV3cy1mb3ItdGhlLWFpLWluZHVzdHJ5Lw==",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-15T21:56:35.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzMzk5OS9qZW5zZW4taHVhbmctcmV0dXJuLW52aWRpYS1tZWdhc3BlZWQ=",
+      "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since...",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-15T20:43:49.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE1L3NubC1nYXRoZXJzLWFsbC10aGUtdGVjaC10eWNvb25zLWZvci1hLWxlc3Nvbi1pbi1kYXRpbmctYW5kLXNweWNyYWZ0Lw==",
+      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+      "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-15T20:20:57.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzM5ODQvY29uZ3Jlc3MtZXhwb3J0LXJ1bGVzLWFpLWNoaXBzLWNoaW5h",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced supp...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-15T19:15:43.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2NvbHVtbi8xMDMzOTQzL2plbnNlbi1odWFuZy1udmlkaWEtY2hpbmEtc3B5aW5nLXNjYW5kYWwtcmVzaWduYXRpb24=",
       "title": "An overview of Jensen Huang’s messy days",
@@ -183,15 +246,6 @@
       "publishedAt": "2026-11-13T14:47:16.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEzL2VsZXZlbmxhYnMtbmV3LWFwcC1jb21iaW5lcy1tZWV0aW5nLW5vdGUtdGFraW5nLWFuZC1kaWN0YXRpb24tZm9yLXRlYW1zLw==",
-      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
-      "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
-      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-13T14:44:48.000Z"
-    },
-    {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2dnbWwtb3JnL2xsYW1hLWNwcC12MQ==",
       "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
       "summary": "點擊閱讀完整原文報導。",
@@ -208,24 +262,6 @@
       "source": "The Verge AI",
       "providerTag": "Anthropic",
       "publishedAt": "2026-11-13T14:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEzL2lzcmFlbHMtdmNzLXNlZS1vcHBvcnR1bml0eS1mb3ItY2hhbGxlbmdlcnMtaW4tbnZpZGlhcy10dXJtb2lsLw==",
-      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-      "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
-      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-13T12:52:19.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzEzL2plbnNlbi1odWFuZy1kaWRudC1zaG93LWNvbmZpZGVuY2UtaW4taGlzLXN1Y2Nlc3Nvci1yZXBvcnQtc2F5cy8=",
-      "title": "Jensen Huang didn’t show confidence in his successor, report says",
-      "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
-      "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-13T12:28:23.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzIzMzkvbGV0cy10YWxrLWFib3V0LXRoZS1udmlkaWEtc2hpdHNob3c=",
@@ -246,15 +282,6 @@
       "publishedAt": "2026-11-13T08:00:00.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzI1MDUvZ29vZ2xlLXNlYXJjaC1haS1tb2RlLWdlbWluaS00LWh5ZHJvZ2Vu",
-      "title": "Google’s new Gemini model is better at understanding complicated questions",
-      "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break do...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-      "source": "The Verge AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-12T21:55:32.000Z"
-    },
-    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvYW1wbGl0dWRl",
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
       "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
@@ -271,15 +298,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-12T19:59:59.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzIxMjUvYWktYWdlbnRzLW1heWEtc2l0ZS1hcmNoZW9sb2d5LWRpc2NvdmVyeQ==",
-      "title": "No, AI agents did not discover a previously unknown Maya site",
-      "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered an...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-      "source": "The Verge AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-12T19:42:40.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ29vZ2xlLzIwMjYvMTEvZ29vZ2xlLXJvbGxzLW91dC1nZW1pbmktNC1oeWRyb2dlbi1maW5hbGx5LXJlcGxhY2luZy0zLTgtZmxhc2gv",
@@ -343,24 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-12T09:30:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NoaWxkcmVuLWZpcnN0LWRlY2xhcmF0aW9u",
-      "title": "Supporting research on AI and children’s safety",
-      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "url": "https://openai.com/index/children-first-declaration",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2dpbGJlcnQtdG9iaW4tc2FtLW5pY2tsZXNz",
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-12T00:00:00.000Z"
     }
   ]
 }
