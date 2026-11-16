@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-16T06:08:49.660Z",
+  "lastUpdated": "2026-11-16T12:08:10.788Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2x2bWgtbWVkaWEtZGl2aXNpb24tcGFydG5lcnNoaXA=",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-16T09:00:00.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE1L2FwcGxlLWxhdW5jaGVzLW5ldy1hcHAtdG8tc3R1ZHktaG93LXBlb3BsZS11c2UtYWktZm9yLWhlYWx0aC8=",
       "title": "Apple launches new app to study how people use AI for health",
@@ -19,6 +28,15 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-16T01:26:56.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3RoZS1raW5ncy10cnVzdC1hbmQtb3BlbmFp",
+      "title": "The King’s Trust and OpenAI launch £1m partnership",
+      "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-16T00:00:00.000Z"
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE1L2luZGlhbi1jaGlwLXN0YXJ0dXAtYmhhcmF0LXNlbWktbGFuZHMtMjRtLXNlZWQtcm91bmQtYXMtaXQtZXllcy1nbG9iYWwtYWktc2Vuc29yLW1hcmtldC8=",
@@ -343,24 +361,6 @@
       "source": "Ars Technica AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-12T14:50:17.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvZ29uZG9sYQ==",
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "url": "https://openai.com/business/customer-stories/gondola",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-12T12:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvaG9saWRheXMtZXh0cmFzLWNvZGV4",
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-12T09:30:00.000Z"
     }
   ]
 }
