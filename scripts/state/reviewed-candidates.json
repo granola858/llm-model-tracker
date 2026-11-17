@@ -21,5 +21,9 @@
   "news:https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/": "2026-11-13",
   "news:https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/": "2026-11-13",
   "news:https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/": "2026-11-13",
-  "news:https://openai.com/index/introducing-chatgpt-wallet": "2026-11-14"
+  "news:https://openai.com/index/introducing-chatgpt-wallet": "2026-11-14",
+  "openrouter:qwen/qwen4-max": "2026-11-17",
+  "news:https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/": "2026-11-17",
+  "news:https://openai.com/index/lvmh-media-division-partnership": "2026-11-17",
+  "news:https://openai.com/index/the-kings-trust-and-openai": "2026-11-17"
 }
