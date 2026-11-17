@@ -3857,5 +3857,25 @@
     ],
     "highlights": "Gemini 4 系列中接替 3.8 Flash 的高效率低成本模型，主打快速執行、程式與代理式工作流程。上線即對所有人開放，含 Gemini App 免費使用者，價格比 Flash 高。",
     "officialUrl": "https://blog.google/"
+  },
+  {
+    "id": "qwen-qwen4-max",
+    "name": "Qwen4-Max",
+    "provider": "Qwen",
+    "releaseDate": "2026-11-11",
+    "parameters": "未公開",
+    "contextWindow": "1M",
+    "contextTokens": 1000000,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Video"
+    ],
+    "license": "Proprietary",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "Qwen4 世代的首款旗艦閉源模型，接替 Qwen3.8-Max，支援文字、圖片與影片輸入，預設啟用推理。11/11 先以預覽版上線 Qwen Chat，11/16 正式開放 API；較小的開放權重 Qwen4 模型尚未公布日期。",
+    "officialUrl": "https://qwen.ai/blog"
   }
 ]
