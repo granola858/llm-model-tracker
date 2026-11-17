@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-17T00:08:55.377Z",
+  "lastUpdated": "2026-11-17T06:06:17.781Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE2L2N5YmVyc2VjdXJpdHktYWktc3RhcnR1cC1jb3JtYS1yZWFjaGVzLTFiLXZhbHVhdGlvbi1pbi1hYm91dC0zLW1vbnRocy8=",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-16T23:32:32.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzNTAyNy90ZWNoLWxlYWRlcnMtbnZpZGlhLWplbnNlbi1odWFuZy10aGVvcmllcw==",
       "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
@@ -244,15 +253,6 @@
       "source": "The Verge AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-16T14:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE2L2ZyZXNod29ya3MtYWx1bXMtcmFpc2UtNTNtLXRvLXRha2Utb24tc2FsZXNmb3JjZS1odWJzcG90LXdpdGgtYWktbmF0aXZlLWNybS8=",
-      "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
-      "summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
-      "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-16T12:30:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3NjaWVuY2UtYXQtdGhlLWZyb250aWVy",
