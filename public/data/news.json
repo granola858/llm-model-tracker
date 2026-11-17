@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-17T06:06:17.781Z",
+  "lastUpdated": "2026-11-17T12:05:33.909Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3N0cmVuZ3RoZW5pbmctbmF0by1hbGxpZWQtY3liZXItZGVmZW5jZXMtYWk=",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-17T00:00:00.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE2L2N5YmVyc2VjdXJpdHktYWktc3RhcnR1cC1jb3JtYS1yZWFjaGVzLTFiLXZhbHVhdGlvbi1pbi1hYm91dC0zLW1vbnRocy8=",
       "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
@@ -264,6 +273,15 @@
       "publishedAt": "2026-11-16T12:00:00.000Z"
     },
     {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvcmV2b2x1dA==",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-16T09:30:00.000Z"
+    },
+    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2x2bWgtbWVkaWEtZGl2aXNpb24tcGFydG5lcnNoaXA=",
       "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
       "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
@@ -282,19 +300,19 @@
       "publishedAt": "2026-11-16T08:00:00.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2FkdmFuY2luZy1jb21wdXRlci11c2UtZm9yLWhlYWx0aGNhcmUtdGVhbXM=",
-      "title": "Advancing computer-use agents for healthcare teams",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L21vcmUtd2F5cy10by1tb3ZlLWNhcmUtZm9yd2FyZC13aXRoLWNoYXRncHQtZm9yLWhlYWx0aGNhcmU=",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-16T06:00:00.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L21vcmUtd2F5cy10by1tb3ZlLWNhcmUtZm9yd2FyZC13aXRoLWNoYXRncHQtZm9yLWhlYWx0aGNhcmU=",
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2FkdmFuY2luZy1jb21wdXRlci11c2UtZm9yLWhlYWx0aGNhcmUtdGVhbXM=",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-16T06:00:00.000Z"
@@ -336,15 +354,6 @@
       "publishedAt": "2026-11-15T22:00:01.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L291ci1uZXctYmxvZy1mb3Itc2NpZW5jZQ==",
-      "title": "Our new blog for science",
-      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
-      "url": "https://openai.com/index/our-new-blog-for-science",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-15T22:00:00.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZmVhdHVyZXMvMjAyNi8xMS9mYWEtZXhwYW5kcy1haS1hZHZpY2UtdG8tbWFuYWdlLWFpci10cmFmZmljLWNvbmdlc3Rpb24tYWNyb3NzLWVudGlyZS11cy1haXJzcGFjZS8=",
       "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
       "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
@@ -352,15 +361,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-13T21:20:47.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9zaW1yZWFkeS1hc3NldHMtcm9ib3QtcGljay1hbmQtcGxhY2U=",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-13T18:00:39.000Z"
     }
   ]
 }
