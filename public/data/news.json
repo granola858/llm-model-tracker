@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-18T06:06:05.437Z",
+  "lastUpdated": "2026-11-18T12:05:20.609Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE4L2FjY2VsLWJhY2tzLWluZGlhcy1odW15bi1sYWJzLXRvLXN1cHBseS10cmFpbmluZy1kYXRhLW5lZWRlZC1ieS11LXMtcm9ib3RpY3MtYWktZGV2ZWxvcGVycy8=",
+      "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
+      "summary": "Founded in February, Humyn Labs competes with startups including Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-18T11:30:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzY0MTUvc3Vuby12aXN1YWxzLWFpLWdlbmVyYXRlZC12aWRlby1pbWFnZXMtZmVhdHVyZQ==",
+      "title": "Suno now lets you make AI videos for your AI music",
+      "summary": "Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that autom...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-18T11:16:53.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L252aWRpYXMtc3RhcnR1cC1zdGFrZXMtYmFsbG9vbmVkLXRvLTY1Yi1idXQtaHVhbmdzLWV4aXQtcHV0cy1mdXR1cmUtZGVhbHMtaW4tZG91YnQv",
       "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
@@ -28,6 +46,15 @@
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-18T00:16:50.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2xlLWdyb3VwZS1maWdhcm8tYW5kLW9wZW5haS1hbm5vdW5jZS1wYXJ0bmVyc2hpcA==",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-18T00:00:00.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzNjExMS9zYXR5YS1uYWRlbGxhLXNheXMtaGVzLWFnaS1waWxsZWQtbm93",
@@ -154,15 +181,6 @@
       "source": "TechCrunch AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-17T18:48:23.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L2FzLWRlY2lzaW9uLW1vZGVsLXVzZS1za3lyb2NrZXRzLWlzLWN1c3RvbWl6YXRpb24taXMtdGhlLW5leHQtZnJvbnRpZXIv",
-      "title": "As decision model use skyrockets, is customization the next frontier?",
-      "summary": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
-      "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-17T18:10:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ludHJvZHVjaW5nLWdwdC02LTItYXN0cmEtc29s",
@@ -300,15 +318,6 @@
       "publishedAt": "2026-11-16T20:41:28.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3NjaWVuY2UvMTAzNDY5NC9udWNsZWFyLWVuZXJneS1jb25zdGVsbGF0aW9uLWVhcm5pbmdzLWRhdGEtY2VudGVycy1kZW1vY3JhdHM=",
-      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
-      "summary": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call la...",
-      "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-16T20:29:37.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS91cy1tb3Zlcy10by1jdXQtY2hpbmFzLXJlbW90ZS1hY2Nlc3MtdG8tYWktY2hpcHMv",
       "title": "US moves to cut China’s remote access to AI chips",
       "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
@@ -352,15 +361,6 @@
       "source": "Google AI Blog",
       "providerTag": "Google",
       "publishedAt": "2026-11-16T14:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3NjaWVuY2UtYXQtdGhlLWZyb250aWVy",
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-16T12:00:00.000Z"
     }
   ]
 }
