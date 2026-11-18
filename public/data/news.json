@@ -1,7 +1,142 @@
 {
-  "lastUpdated": "2026-11-17T18:04:33.153Z",
+  "lastUpdated": "2026-11-18T00:08:56.868Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzNjExMS9zYXR5YS1uYWRlbGxhLXNheXMtaGVzLWFnaS1waWxsZWQtbm93",
+      "title": "Satya Nadella says he’s AGI-pilled now",
+      "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI pilled in the sense t...",
+      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-17T23:41:18.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L252aWRpYS1pcy1hYmFuZG9uaW5nLWNoaW5hLWFmdGVyLWplbnNlbi1odWFuZ3Mtb3VzdGVyLw==",
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-17T23:37:48.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L252aWRpYS1zYXlzLWl0cy1vcGVuLXNvdXJjZS1haS1zdHJhdGVneS1yZW1haW5zLWludGFjdC1hZnRlci1qZW5zZW4taHVhbmdzLWV4aXQv",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-17T23:04:35.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L252aWRpYS1zYXlzLWl0LWRvZXNudC1wbGFuLXRvLXJlYXBwb2ludC1qZW5zZW4taHVhbmctYXMtY2VvLw==",
+      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-17T22:42:27.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L2FtYXpvbi1hbmQtZ29vZ2xlLXdpbGwtdG9nZXRoZXItb3duLW5lYXJseS0zMC1vZi1hbnRocm9waWMtYWZ0ZXItaXRzLWlwby8=",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-17T22:29:05.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L3NlYy1yZXBvcnRlZGx5LWludmVzdGlnYXRpbmctbnZpZGlhLWFtaWQtaHVhbmctZXhpdC8=",
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "source": "TechCrunch AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-17T21:48:07.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzNjAzMi9udmlkaWEtcTMtMjAyNy1qZW5zZW4taHVhbmc=",
+      "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+      "summary": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call...",
+      "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-17T21:40:59.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L2dvb2dsZS1qb2lucy10aGUtdGVjaC1vdXRhZ2UtdHJlbmQtYnktYW5ub3VuY2luZy1pdHMtbm90LWhhdmluZy1vbmUv",
+      "title": "Google joins the tech outage trend by announcing it’s not having one",
+      "summary": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "source": "TechCrunch AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-17T21:34:50.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL25ld3MvMTAzNTk1Ny9tZXRhLWFsZXhhbmRyLXdhbmctc2FtLWFsdG1hbi1pbnN0YWdyYW0tYWktZGVlcGZha2U=",
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "summary": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote...",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "source": "The Verge AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-17T21:00:55.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS90cnVtcC13YXMtaW4tYmVkLXdpdGgtamVuc2VuLWNyaXRpY3MtYmFsay1hdC1odWFuZ3Mtd2lzaC10by1yZXR1cm4tdG8tbnZpZGlhLw==",
+      "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+      "summary": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-17T20:32:55.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L21vZGVsLW1sLXJhaXNlcy0yNTBtLXRvLWF1dG9tYXRlLWludmVzdG1lbnQtYmFua2luZy1ncnVudC13b3JrLw==",
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-17T19:32:11.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L2dvb2dsZS1leHBhbmRzLWFjY2Vzcy10by1nZW1pbmktdGFza3Mtd2hpY2gtY2FuLWhlbHAtd2l0aC1jYWxscy1wdXJjaGFzZXMv",
+      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "source": "TechCrunch AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-17T19:02:20.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzNTc1Ni9nb29nbGUtc3BhcmstYWktdGFza3MtZnJlZQ==",
+      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig ...",
+      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "source": "The Verge AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-17T18:58:01.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L2dvb2dsZS10by1rZWVwLWdlbWluaS1jaGF0cy1mb3ItdHdvLW1vbnRocy11cC1mcm9tLTcyLWhvdXJzLWV2ZW4td2l0aC1oaXN0b3J5LW9mZi8=",
+      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "source": "TechCrunch AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-17T18:48:23.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L2FzLWRlY2lzaW9uLW1vZGVsLXVzZS1za3lyb2NrZXRzLWlzLWN1c3RvbWl6YXRpb24taXMtdGhlLW5leHQtZnJvbnRpZXIv",
+      "title": "As decision model use skyrockets, is customization the next frontier?",
+      "summary": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+      "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-17T18:10:00.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L3BlZGVzdGFsLWFpLXJhaXNlcy00LTctbWlsbGlvbi10by1hZ2VudGlmeS10aGUtc3VwcGx5LWNoYWluLw==",
       "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
@@ -12,6 +147,15 @@
       "publishedAt": "2026-11-17T18:04:16.000Z"
     },
     {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ludHJvZHVjaW5nLWdwdC02LTItYXN0cmEtc29s",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-17T17:45:00.000Z"
+    },
+    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L3Byb3RvbnMtbHVtby1hLXByaXZhY3ktZm9jdXNlZC1hbHRlcm5hdGl2ZS10by1jaGF0Z3B0LWFuZC1jbGF1ZGUtYXJyaXZlcy1vbi1kZXNrdG9wLw==",
       "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
       "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
@@ -19,15 +163,6 @@
       "source": "TechCrunch AI",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-17T17:32:25.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L2FpLW1vZGVscy1jYW4tYmUtdHJpY2tlZC1pbnRvLWlkZW50aWZ5aW5nLWNpdmlsaWFucy1hcy1taWxpdGFyeS10YXJnZXRzLWJ5LXRlbGxpbmctdGhlbS1pdHMtYS1nYW1lLw==",
-      "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
-      "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
-      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-17T17:20:41.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS9wcm9kdWN0cy9nZW1pbmktYXBwL3Rhc2tzLWluLWdlbWluaS1mcmVlLW5ldy1mZWF0dXJlcy8=",
@@ -46,24 +181,6 @@
       "source": "Ars Technica AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-17T16:50:10.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L2plbnNlbi1odWFuZy1zYXlzLWhlLXdvdWxkLWJlLWhvbm9yZWQtaWYtYWxsb3dlZC10by1yZXR1cm4tYXMtbnZpZGlhLWNlby8=",
-      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
-      "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
-      "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-17T16:44:15.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L2RheWRyZWFtcy1uZXctYWktYWdlbnQtYWN0cy1hcy15b3VyLXBlcnNvbmFsLXN0eWxpc3QtYW5kLWNhbi1zaG9wLWZvci15b3UtdG9vLw==",
-      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
-      "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
-      "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-17T16:32:55.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvbGljeS8xMDM1NDEwL2Rvai1tZWdhc3BlZWQtbnZpZGlhLWludmVzdGlnYXRpb24tdXBkYXRl",
@@ -93,42 +210,6 @@
       "publishedAt": "2026-11-17T15:28:59.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L3ZveWFnZS1sYWJzLXJhaXNlcy0xMi1taWxsaW9uLWZvci1hLXNwZWNpYWxpemVkLWFpLXRyYXZlbC1hc3Npc3RhbnQv",
-      "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
-      "summary": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
-      "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-17T15:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L2lzb21vcnBoaWMtbGFicy1yYWlzZXMtNWItYXMtaXQtbG9va3MtdG8tdGFrZS1kcnVnLWNhbmRpZGF0ZXMtdG8tY2xpbmljYWwtdHJpYWxzLw==",
-      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-      "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
-      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-      "source": "TechCrunch AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-17T14:50:58.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L3NjaWVuY2UtY29ycG9yYXRpb25zLWJyYWluLXRlY2gtaXMtd29ydGgtMy01LWJpbGxpb24tYWZ0ZXItbmV3LWZ1bmRpbmcv",
-      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
-      "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
-      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-17T14:26:46.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L252aWRpYXMtZmlyc3QtYmlnLW1vdmUtYWZ0ZXItamVuc2VuLWh1YW5ncy1leGl0LXRhcmdldHMtbmF0aW9uYWwtc2VjdXJpdHkv",
-      "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
-      "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
-      "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-17T14:05:30.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vc2VjdXJpdHkvMjAyNi8xMS9ncm9rLWJvdC10b29rLXVuYXBwcm92ZWQtYWN0aW9ucy1pZ25vcmVkLW9yZGVycy10by1zdG9wLWFuZC10aGVuLWRlbmllZC1pdC8=",
       "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
       "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
@@ -138,19 +219,28 @@
       "publishedAt": "2026-11-17T14:00:29.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE3L3Nwb3RpZnlzLW5ldy10b29sLWFpbXMtdG8tc3RvcC1kZWVwZmFrZXMtZnJvbS1iZWluZy1hdHRyaWJ1dGVkLXRvLXJlYWwtYXJ0aXN0cy8=",
-      "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
-      "summary": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
-      "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-17T14:00:00.000Z"
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ludHJvZHVjaW5nLWNoYXRncHQtZm9yLXNhbGVz",
+      "title": "Introducing ChatGPT for Sales",
+      "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-17T08:00:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3N0cmVuZ3RoZW5pbmctbmF0by1hbGxpZWQtY3liZXItZGVmZW5jZXMtYWk=",
       "title": "Strengthening NATO and allied cyber defenses with AI",
       "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
       "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2FzdHJhLWxhdy02LTI=",
+      "title": "Astra for Law leads in legal intelligence",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "url": "https://openai.com/index/astra-law-6-2",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-17T00:00:00.000Z"
@@ -163,15 +253,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-17T00:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE2L2N5YmVyc2VjdXJpdHktYWktc3RhcnR1cC1jb3JtYS1yZWFjaGVzLTFiLXZhbHVhdGlvbi1pbi1hYm91dC0zLW1vbnRocy8=",
-      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
-      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-16T23:32:32.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzNTAyNy90ZWNoLWxlYWRlcnMtbnZpZGlhLWplbnNlbi1odWFuZy10aGVvcmllcw==",
@@ -190,15 +271,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-16T22:58:27.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE2L2FsbC10aGUtcXVlc3Rpb25zLW52aWRpYS1zaG91bGQtYW5zd2VyLW9uLXR1ZXNkYXktYnV0LXByb2JhYmx5LXdvbnQv",
-      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-      "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number o...",
-      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-16T22:03:02.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzQ4MTUvY2FsaWZvcm5pYS1vcGVuYWktaHVnZ2luZy1mYWNlLWxhd3N1aXQ=",
@@ -228,33 +300,6 @@
       "publishedAt": "2026-11-16T20:29:37.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzQ2NjgvZGF0YS1jZW50ZXJzLWVsZWN0cmljaXR5LWNsaW1hdGUtcG9sbHV0aW9uLXN0dWR5LWhhcnZhcmQ=",
-      "title": "US data centers now burn more electricity than a midsized country",
-      "summary": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively tha...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-16T20:27:58.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzNDU4MS9hcHBsZS1pbnRlbGxpZ2VuY2Utc2lyaS1haS1kYWlseS11c2FnZS1saW1pdHMtaWNsb3VkLXN1YnNjcmlwdGlvbg==",
-      "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
-      "summary": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors....",
-      "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-16T19:24:40.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvbGljeS8xMDM0NTI3L29wZW5haS1jc2FtLWNsYXNzaWZpZXI=",
-      "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
-      "summary": "OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a...",
-      "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
-      "source": "The Verge AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-16T19:23:45.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS91cy1tb3Zlcy10by1jdXQtY2hpbmFzLXJlbW90ZS1hY2Nlc3MtdG8tYWktY2hpcHMv",
       "title": "US moves to cut China’s remote access to AI chips",
       "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
@@ -262,15 +307,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-16T19:10:09.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzNDUwMS9udmlkaWEtYm9hcmQtamVuc2VuLWh1YW5nLW5vdC1icmluZ2luZy1iYWNr",
-      "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
-      "summary": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussion...",
-      "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-16T18:43:35.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2V4cGFuZGluZy1jaGF0Z3B0LWZvci1hY2FkZW1pYy1yZXNlYXJjaGVycw==",
@@ -325,42 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-16T09:30:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2x2bWgtbWVkaWEtZGl2aXNpb24tcGFydG5lcnNoaXA=",
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-16T09:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L291ci1maXJzdC1waGFzZS1vZi1lbWJlZGRlZC1hc3Nlc3NtZW50cw==",
-      "title": "Our first phase of embedded assessments",
-      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-16T08:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L21vcmUtd2F5cy10by1tb3ZlLWNhcmUtZm9yd2FyZC13aXRoLWNoYXRncHQtZm9yLWhlYWx0aGNhcmU=",
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-16T06:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2FkdmFuY2luZy1jb21wdXRlci11c2UtZm9yLWhlYWx0aGNhcmUtdGVhbXM=",
-      "title": "Advancing computer-use agents for healthcare teams",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-16T06:00:00.000Z"
     }
   ]
 }
