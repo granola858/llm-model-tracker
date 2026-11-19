@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-19T00:09:15.359Z",
+  "lastUpdated": "2026-11-19T06:06:11.401Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE4L21pY3Jvc29mdC1jZW8tc2F0eWEtbmFkZWxsYS1leHBsYWlucy13aHktaGUtYXNrZWQtNjBrLWVtcGxveWVlcy10by1xdWl0Lw==",
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short an...",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-19T00:42:56.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE4L2FtaWRzdC1mZWFycy1vZi1haS1jeWJlcmF0dGFja3Mtc2F0eWEtbmFkZWxsYS1zYXlzLWxvdHMtb2YtY3JpdGljYWwtaW5mcmFzdHJ1Y3R1cmUtaXMtdW5wYXRjaGFibGUv",
       "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
@@ -49,7 +58,7 @@
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE4L2FudGhyb3BpYy1yZXBvcnRlZGx5LXByaWNlcy1pcG8tYXQtODMtYS1zaGFyZS1hYm92ZS1wcm9qZWN0ZWQtcmFuZ2Uv",
-      "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+      "title": "Anthropic prices IPO at $83 a share, above projected range",
       "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
       "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
       "source": "TechCrunch AI",
@@ -190,15 +199,6 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-18T17:50:57.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE4L21vcmUtYmFua3Mtc2F5cy1jdXN0b21lcnMtdXNpbmctYWktYWdlbnRzLWFyZS1vbi10aGVpci1vd24tZXZlbi1pZi10aGV5LWdldC1oYWNrZWQv",
-      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
-      "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
-      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T17:32:10.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS9wcm9kdWN0cy9nZW1pbmktYXBwL2dlbWluaS1sb3dlci1tZW1vcnktZGV2aWNlcy8=",
