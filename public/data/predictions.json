@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T00:08:13.880Z",
+  "lastUpdated": "2026-11-20T06:05:55.746Z",
   "items": [
     {
       "provider": "Anthropic",
@@ -28,9 +28,9 @@
     {
       "provider": "xAI",
       "name": "Grok 4.8+",
-      "date": "2026-12-02",
+      "date": "2026-12-07",
       "precision": "near",
-      "probability": 0.505,
+      "probability": 0.775,
       "url": "https://polymarket.com/event/next-grok-model-4pt8-released-by"
     },
     {
@@ -38,7 +38,7 @@
       "name": "DeepSeek Pro",
       "date": "2026-12-31",
       "precision": "after",
-      "probability": 0.155,
+      "probability": 0.19,
       "url": "https://polymarket.com/event/next-deepseek-pro-released-byptptpt"
     }
   ]
