@@ -1,10 +1,118 @@
 {
-  "lastUpdated": "2026-11-19T18:04:26.277Z",
+  "lastUpdated": "2026-11-20T00:08:11.842Z",
   "totalSources": 7,
   "items": [
     {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzODIyNy9hcHBsZS1haS1hZ2VudC1lbmdpbmVlci1qb2ItbGlzdGluZw==",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg,...",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-19T22:31:41.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzgwNjMvbnZpZGlhLXN0b2NrLW1hcmtldC1wcmljZS1lYXJuaW5ncw==",
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 pe...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-19T21:59:35.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L21ldGFzLW5ldy1tdXNlLWNoYXJtLWRldmljZS1tYXktY29zdC0zMDAv",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-19T21:58:06.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L3RoZXNlLXRlY2gtb3V0YWdlcy1hcmUtZ2l2aW5nLXkyay1haS1hZ2VudC1zdHlsZS8=",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-19T21:42:31.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzODA4Ny9tZXRhLW11c2UtY2hhcm0tYWktcHJpY2U=",
+      "title": "Meta’s Muse Charm might cost $300",
+      "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and sai...",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "source": "The Verge AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-19T20:22:17.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS90cmF1bWF0aXplZC10ZWVucy1zdWUtc2Nob29sLWNvcHMtYWZ0ZXItZG9yaXRvcy1iYWctdHJpZ2dlcnMtYWktZ3VuLWFsZXJ0Lw==",
+      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-19T20:19:28.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L252aWRpYS1jZW8tamVuc2VuLWh1YW5ncy1hZmZhaXItd2l0aC1hbGxlZ2VkLWNoaW5lc2Utc3B5LWEtdGltZWxpbmUv",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-19T20:18:49.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzODA1OS9nb29nbGUtc2VhcmNoLWhvbWVwYWdlLWFpLWNoYXRz",
+      "title": "Google is putting AI chats right on the homepage",
+      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the G...",
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "source": "The Verge AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-19T20:05:06.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L2FudGhyb3BpY3MtaXBvLWNvdWxkLWRlbGl2ZXItMTU2LWJpbGxpb24tdG8tY2hhcml0eS8=",
+      "title": "Anthropic’s IPO could deliver $156B to charity",
+      "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-19T19:10:45.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzNzkwMi9nb29nbGUtZ2VtaW5pLW1hY29zLWFpLWNvbXB1dGVyLXVzZQ==",
+      "title": "Gemini on Mac can now use your computer",
+      "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful fo...",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "source": "The Verge AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-19T18:21:13.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L2dvb2dsZS1naXZlcy1nZW1pbmktdGhlLWFiaWxpdHktdG8tdXNlLXlvdXItbWFjLWZvci15b3Uv",
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "source": "TechCrunch AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-19T18:09:11.000Z"
+    },
+    {
+      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2RldmVsb3BlcnMtdG9vbHMvZ2VtaW5pLWFwaS10b29sLXJldHJpZXZhbC8=",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp\">Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now i...",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google AI Blog",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-19T18:00:00.000Z"
+    },
+    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L21ldGFzLWFpLWFnZW50LW11c2UtaXMtbWl4aW5nLXVwLWNvbnZlcnNhdGlvbnMtYW5kLWV4cG9zaW5nLXByaXZhdGUtZGF0YS1yZXBvcnQtc2F5cy8=",
-      "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
       "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belo...",
       "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
       "source": "TechCrunch AI",
@@ -129,58 +237,31 @@
       "publishedAt": "2026-11-19T00:42:56.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE4L2FtaWRzdC1mZWFycy1vZi1haS1jeWJlcmF0dGFja3Mtc2F0eWEtbmFkZWxsYS1zYXlzLWxvdHMtb2YtY3JpdGljYWwtaW5mcmFzdHJ1Y3R1cmUtaXMtdW5wYXRjaGFibGUv",
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
-      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T23:45:00.000Z"
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2NvZGV4LXNlY3VyaXR5LXBsdWdpbi1kZW1v",
+      "title": "Explore the Codex Security Plugin",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE4L2Vsb24tbXVzay1zYXlzLW91c3RpbmctamVuc2VuLWh1YW5nLWlzLWxpa2Uta2lja2luZy1taWNoYWVsLWpvcmRhbi1vZmYteW91ci10ZWFtLw==",
-      "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
-      "summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
-      "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T23:25:17.000Z"
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL3ByLXNjYW5zLWRlbW8=",
+      "title": "See PR scans in action",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzcxNTEvc2Nob29sLWRpc3RyaWN0cy1kaXRjaGluZy1nb29nbGU=",
-      "title": "The nation’s largest school districts consider ditching Google Search",
-      "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next yea...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
-      "source": "The Verge AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-18T23:18:35.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE4L21pY3Jvc29mdC1jZW8tc2F0eWEtbmFkZWxsYS1yZW1haW5zLWNvbmZpZGVudC1pbi1udmlkaWEtYWZ0ZXItaHVhbmdzLWV4aXQv",
-      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-      "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T23:17:28.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE4L3NhdHlhLW5hZGVsbGEtcHJlZGljdHMtYWktYWdlbnRzLXdpbGwtcmVzaHVmZmxlLXRoZS1lY29ub21pY3Mtb2YtdGhlLXdlYi8=",
-      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-      "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
-      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T22:58:11.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE4L2FudGhyb3BpYy1yZXBvcnRlZGx5LXByaWNlcy1pcG8tYXQtODMtYS1zaGFyZS1hYm92ZS1wcm9qZWN0ZWQtcmFuZ2Uv",
-      "title": "Anthropic prices IPO at $83 a share, above projected range",
-      "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
-      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-18T22:11:15.000Z"
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RheWJyZWFrLWJsdWUtb25ib2FyZGluZy1kZW1v",
+      "title": "Get started with Daybreak Blue",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL1JhZGl4QXJrL2RhaXN5cm9zZS0yN2ItcHVzaGluZy10aGUtZnJvbnRpZXItb2YtcG9zdC10cmFpbmlu",
@@ -192,24 +273,6 @@
       "publishedAt": "2026-11-18T19:54:56.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvbGljeS8xMDM2NzQ5L3RydW1wLWFpLWNoaXAtZGF0YS1jZW50ZXItdXMtcGhpbGlwcGluZXMtcGF4LXNpbGljYQ==",
-      "title": "Trump’s latest land grab is an AI hub in the Philippines",
-      "summary": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and P...",
-      "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T19:40:36.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzNTkyNC9udmlkaWEtdmlzdWFsaXplZC1yZXZlbnVlLXByb2ZpdC1lYXJuaW5ncy1hZnRlci1odWFuZw==",
-      "title": "Nvidia’s rise, visualized",
-      "summary": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change. It's easy to ...",
-      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T19:30:00.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9tdXNlLXByaXZhY3ktaW52YXNpb25zLWFyZS1mcmVha2luZy1vdXQtbWV0YS1zdGFmZmVycy1pbnRlcm5hbC1jaGF0cy1zaG93Lw==",
       "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
       "summary": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
@@ -219,15 +282,6 @@
       "publishedAt": "2026-11-18T19:19:33.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvbGljeS8xMDM2OTM1L2NvbmdyZXNzLWZvcmNlZC1hcmJpdHJhdGlvbi1kZWVwZmFrZXMtZGVmaWFuY2UtYWN0",
-      "title": "Tech lawsuits defined 2026 — and lawmakers want more",
-      "summary": "With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits. On ...",
-      "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T19:07:29.000Z"
-    },
-    {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL0RoYXJtYS1BSS9wcmVkaWN0aW5nLWZpbmUtdHVuaW5nLXRpbWU=",
       "title": "Why your fine-tuning job takes longer than the FLOPs say",
       "summary": "點擊閱讀完整原文報導。",
@@ -235,15 +289,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-18T18:53:43.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzY3NzYvbnZpZGlhLWVhcm5pbmdzLWtyZXNzLWplbnNlbi1odWFuZy1wZXRpdGlvbg==",
-      "title": "What is Nvidia without AI’s sugar daddy in charge?",
-      "summary": "If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technology as I had previously been led to believe. Nonetheless, chunks of Silicon Valley are now insisting he is i...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T18:34:15.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FtaW5nLzIwMjYvMTEvd2lsbC13cmlnaHRzLW5leHQtc2ltdWxhdGlvbi13aWxsLXVzZS1haS10by1taW5lLWNvbnRlbnQtZnJvbS15b3VyLW1lbW9yaWVzLw==",
@@ -316,51 +361,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-18T06:00:00.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FkZ2V0cy8yMDI2LzExL21pY3Jvc29mdC1jYWxscy1jb3BpbG90LXRoZS1uZXctb3MtZm9yLXdvcmstYXQtaWduaXRlLWtleW5vdGUv",
-      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
-      "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
-      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T00:27:29.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2xlLWdyb3VwZS1maWdhcm8tYW5kLW9wZW5haS1hbm5vdW5jZS1wYXJ0bmVyc2hpcA==",
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-18T00:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2FkdmFuY2luZy1jaGlwLWRlc2lnbi13aXRoLW91ci1tb2RlbHM=",
-      "title": "Advancing chip design with OpenAI models",
-      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
-      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-18T00:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL21vZS1leHBlcnQtc3RyZWFtaW5n",
-      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/moe-expert-streaming",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T00:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL3J1bWJsZS0yLWZsYXNo",
-      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/rumble-2-flash",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T00:00:00.000Z"
     }
   ]
 }
