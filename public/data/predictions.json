@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T06:05:51.863Z",
+  "lastUpdated": "2026-11-21T07:03:27.611Z",
   "items": [
     {
       "provider": "Anthropic",
@@ -14,7 +14,7 @@
       "name": "Gemini Argon",
       "date": "2027-01-31",
       "precision": "after",
-      "probability": 0.165,
+      "probability": 0.155,
       "url": "https://polymarket.com/event/next-gemini-argon-released-byptptpt-20261014"
     },
     {
@@ -28,9 +28,9 @@
     {
       "provider": "xAI",
       "name": "Grok 4.8+",
-      "date": "2026-12-02",
+      "date": "2026-12-07",
       "precision": "near",
-      "probability": 0.55,
+      "probability": 0.75,
       "url": "https://polymarket.com/event/next-grok-model-4pt8-released-by"
     },
     {
