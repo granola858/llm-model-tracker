@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-11-21T12:04:36.754Z",
+  "lastUpdated": "2026-11-21T18:03:52.334Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIxL2FsbC10aGUtYWktYWdlbnRzLXRoYXQtY2FuLWxpdmUtaW4teW91ci10ZXh0LW1lc3NhZ2VzLw==",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-21T17:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIxL2lzLXNlbGxpbmctYW4tYWktdmVyc2lvbi1vZi15b3VyLWZhY2UtdG8tdGhpcy1taWNyb2RyYW1hLXN0YXJ0dXAtdGhlLWZ1dHVyZS1vZi1ob2xseXdvb2Qv",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-21T16:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAzODcwMS9hbnRocm9waWMtaXBvLWFpLXNhZmV0eS1vcGVuYWktbnZpZGlhLXN0cnVjdHVyZQ==",
+      "title": "Can Anthropic afford to put safety first?",
+      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last T...",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "source": "The Verge AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-21T15:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2dhbWVzLzEwMzgwOTkvY2hlc3MtY2xhc3NpYy1nYW1lcy1leHBhbnNpb24tYWk=",
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, ...",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-21T14:00:00.000Z"
+    },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9nb29nbGVzLWxhdGVzdC1zZWFyY2gtcGFnZS1yZWRlc2lnbi1kcm9wcy10aGUtc2VhcmNoLWJ1dHRvbi1hZGRzLWFpLXNpZGViYXIv",
       "title": "Google rolls out new search homepage with AI chat history and no search button",
@@ -246,33 +282,6 @@
       "publishedAt": "2026-11-19T20:05:06.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L2FudGhyb3BpY3MtaXBvLWNvdWxkLWRlbGl2ZXItMTU2LWJpbGxpb24tdG8tY2hhcml0eS8=",
-      "title": "Anthropic’s IPO could deliver $156B to charity",
-      "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-19T19:10:45.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzNzkwMi9nb29nbGUtZ2VtaW5pLW1hY29zLWFpLWNvbXB1dGVyLXVzZQ==",
-      "title": "Gemini on Mac can now use your computer",
-      "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful fo...",
-      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-      "source": "The Verge AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-19T18:21:13.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L2dvb2dsZS1naXZlcy1nZW1pbmktdGhlLWFiaWxpdHktdG8tdXNlLXlvdXItbWFjLWZvci15b3Uv",
-      "title": "Google gives Gemini the ability to use your Mac for you",
-      "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
-      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-      "source": "TechCrunch AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-19T18:09:11.000Z"
-    },
-    {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2RldmVsb3BlcnMtdG9vbHMvZ2VtaW5pLWFwaS10b29sLXJldHJpZXZhbC8=",
       "title": "Introducing Tool Retrieval in the Gemini API",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp\">Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now i...",
@@ -289,15 +298,6 @@
       "source": "Google AI Blog",
       "providerTag": "Google",
       "publishedAt": "2026-11-19T17:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzUzODQvYW50aHJvcGljLWlwby10cmFkaW5nLW5hc2RhcQ==",
-      "title": "Anthropic starts trading on Wall Street",
-      "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listi...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-      "source": "The Verge AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-19T16:52:01.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2hvdy1vcGVuYWktcGVyZm9ybWFuY2UtZmFjdG9yeS1rZWVwcy1jaGF0Z3B0LWZhc3Q=",
