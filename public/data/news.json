@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-21T18:32:55.634Z",
+  "lastUpdated": "2026-11-21T21:05:42.872Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzOTU1NC91bi1yZWd1bGF0aW9ucy1raWxsZXItcm9ib3Rz",
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings a...",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-21T20:03:37.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIxL2FsbC10aGUtYWktYWdlbnRzLXRoYXQtY2FuLWxpdmUtaW4teW91ci10ZXh0LW1lc3NhZ2VzLw==",
       "title": "Here are the top AI agents that can live in your text messages",
@@ -271,15 +280,6 @@
       "source": "TechCrunch AI",
       "providerTag": "Meta",
       "publishedAt": "2026-11-19T20:18:49.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzODA1OS9nb29nbGUtc2VhcmNoLWhvbWVwYWdlLWFpLWNoYXRz",
-      "title": "Google is putting AI chats right on the homepage",
-      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the G...",
-      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-      "source": "The Verge AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-19T20:05:06.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2RldmVsb3BlcnMtdG9vbHMvZ2VtaW5pLWFwaS10b29sLXJldHJpZXZhbC8=",
