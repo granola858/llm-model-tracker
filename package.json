@@ -11,6 +11,7 @@
     "fetch-news": "node scripts/fetch-news.mjs",
     "fetch-predictions": "node scripts/fetch-predictions.mjs",
     "fetch-models": "node scripts/fetch-models.mjs",
+    "refresh-specs": "node scripts/refresh-specs.mjs",
     "validate-models": "node scripts/validate-models.mjs"
   },
   "dependencies": {

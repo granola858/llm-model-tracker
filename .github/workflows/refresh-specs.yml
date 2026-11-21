@@ -1,0 +1,154 @@
+name: Weekly Refresh Model Specs (PR)
+
+on:
+  # 每週一台灣時間 10:00 自動回補近期模型的推估規格、泛用連結與 OpenRouter 規格差異
+  schedule:
+    - cron: '0 2 * * 1'
+  workflow_dispatch:
+
+# 預設不給權限，每個 job 只拿自己需要的。
+# 安裝 npm 套件、呼叫 Claude、建置只在唯讀的 review job 執行，第三方程式碼拿不到寫入權限。
+permissions: {}
+
+concurrency:
+  group: 'refresh-specs'
+  cancel-in-progress: false
+
+env:
+  PR_BRANCH: bot/spec-updates
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      updated: ${{ steps.refresh.outputs.updated }}
+      changed: ${{ steps.collect.outputs.changed }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Skip if a spec-update PR is still open
+        id: guard
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          open=$(gh pr list --head "$PR_BRANCH" --state open --json number --jq 'length')
+          echo "open=$open" >> "$GITHUB_OUTPUT"
+          if [ "$open" != "0" ]; then
+            echo "::notice::已有待審的規格更新 PR，這次跳過。"
+          fi
+
+      - name: Setup Node.js
+        if: steps.guard.outputs.open == '0'
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        if: steps.guard.outputs.open == '0'
+        run: npm ci
+
+      - name: Refresh and verify recent model specs with Claude
+        if: steps.guard.outputs.open == '0'
+        id: refresh
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SPEC_UPDATE_SUMMARY: ${{ runner.temp }}/review/spec-update.md
+        run: |
+          mkdir -p "$RUNNER_TEMP/review"
+          npm run refresh-specs
+
+      - name: Validate models.json and type-check
+        if: steps.guard.outputs.open == '0'
+        run: |
+          npm run validate-models
+          npm run build
+
+      - name: Collect review results
+        if: steps.guard.outputs.open == '0'
+        id: collect
+        run: |
+          if git diff --quiet -- src/data/models.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            cp src/data/models.json "$RUNNER_TEMP/review/"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload review results
+        if: steps.collect.outputs.changed == 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: spec-review
+          path: ${{ runner.temp }}/review/
+          retention-days: 1
+          if-no-files-found: error
+
+  # 只搬運 review job 的結果，不裝套件、不執行 repo 內的程式碼
+  publish:
+    needs: review
+    if: needs.review.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Download review results
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: spec-review
+          path: ${{ runner.temp }}/review
+
+      - name: Apply updated specs
+        if: needs.review.outputs.updated != '0'
+        run: cp "$RUNNER_TEMP/review/models.json" src/data/models.json
+
+      - name: Open pull request with spec updates
+        id: pr
+        if: needs.review.outputs.updated != '0'
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          branch: ${{ env.PR_BRANCH }}
+          base: main
+          add-paths: src/data/models.json
+          commit-message: 'chore(data): 自動回補 ${{ needs.review.outputs.updated }} 筆模型規格'
+          title: '更新 ${{ needs.review.outputs.updated }} 筆模型規格（每週自動回補）'
+          body-path: ${{ runner.temp }}/review/spec-update.md
+          delete-branch: true
+
+      - name: Auto-merge pull request
+        if: steps.pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ steps.pr.outputs.pull-request-number }}
+        run: |
+          for attempt in 1 2 3; do
+            if gh pr merge "$PR_NUMBER" --squash --delete-branch; then
+              exit 0
+            fi
+            echo "::warning::第 ${attempt} 次合併 PR #${PR_NUMBER} 失敗，5 秒後重試…"
+            sleep 5
+          done
+          echo "::error::無法自動合併 PR #${PR_NUMBER}，請手動確認。"
+          exit 1
+
+  # 有規格更新合併進 main 後立刻重新建置並部署到 GitHub Pages
+  deploy:
+    needs: [review, publish]
+    if: needs.review.outputs.updated != '0'
+    uses: ./.github/workflows/update-news-and-deploy.yml
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
