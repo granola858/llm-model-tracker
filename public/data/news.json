@@ -1,10 +1,64 @@
 {
-  "lastUpdated": "2026-11-20T18:04:20.780Z",
+  "lastUpdated": "2026-11-21T00:08:53.672Z",
   "totalSources": 7,
   "items": [
     {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9nb29nbGVzLWxhdGVzdC1zZWFyY2gtcGFnZS1yZWRlc2lnbi1kcm9wcy10aGUtc2VhcmNoLWJ1dHRvbi1hZGRzLWFpLXNpZGViYXIv",
+      "title": "Google rolls out new search homepage with AI chat history and no search button",
+      "summary": "Google search is making it even easier to access AI tools on the search page.",
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "source": "Ars Technica AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-20T21:58:29.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9tZXRhLXJlY29uc2lkZXJzLTIwMzAtbmV0LXplcm8tZ29hbC1hbWlkLXJlY29yZC1lbWlzc2lvbnMtZnJvbS1haS1kYXRhLWNlbnRlcnMv",
+      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+      "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-20T21:47:10.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vc2VjdXJpdHkvMjAyNi8xMS9hLWxlYWt5LWFpLXN1cHBseS1jaGFpbi1pcy1leHBvc2luZy1zZWNyZXQtdXNlci1kYXRhLWF0LWFuLWFsYXJtaW5nLXJhdGUv",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-20T20:59:08.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIwL2RhbmllbC1lay1iYWNrcy1haS1yZXNlYXJjaGVycy1mdXNpb24tcG93ZXItc3RhcnR1cC1oZXJlcy13aGF0LXRoZXlyZS1idWlsZGluZy8=",
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-20T19:53:41.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIwL2FpLWNsYWltZWQtYS1zb2x1dGlvbi10by10aGUtMTY3LXllYXItb2xkLXJpZW1hbm4taHlwb3RoZXNpcy1hbmQtYS1odW1hbi1kaWQtdG9vLw==",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-20T19:32:08.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvbGljeS8xMDM4ODkyL3RydW1wLWZvcmVpZ24tZGF0YS1jZW50ZXJzLXRheA==",
+      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"...",
+      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-20T18:50:19.000Z"
+    },
+    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIwL2NoaXBzLWNhbi1zdXJ2aXZlLXRoZS1zcGFjZS1lbnZpcm9ubWVudC1jYW4tdGhlaXItZmluYW5jaW5nLw==",
-      "title": "Chips can survive the space environment. Can their financing?",
+      "title": "Chips can survive the space environment — can their financing?",
       "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
       "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
       "source": "TechCrunch AI",
@@ -57,6 +111,15 @@
       "publishedAt": "2026-11-20T12:30:47.000Z"
     },
     {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NvbWJhdHRpbmctYWR2ZXJzYXJpYWwtZGlzdGlsbGF0aW9u",
+      "title": "Combatting adversarial distillation",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L2FwcGxlLW1heS1iZS1kZXZlbG9waW5nLWl0cy1vd24tYWktYWdlbnQtdGhhdC1ydW5zLXlvdXItbWFjLw==",
       "title": "Apple may be developing its own AI agent that runs your Mac",
       "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
@@ -73,6 +136,33 @@
       "source": "TechCrunch AI",
       "providerTag": "Anthropic",
       "publishedAt": "2026-11-20T00:43:50.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvaGViYmlh",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ludHJvZHVjaW5nLW1lZGNoZW1iZW5jaA==",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2lua2xpbmcybWluaQ==",
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-20T00:00:00.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2hhcm5lc3MtYWRhcHRlcnMtYXQtc2NhbGU=",
@@ -192,30 +282,12 @@
       "publishedAt": "2026-11-19T18:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L21ldGFzLWFpLWFnZW50LW11c2UtaXMtbWl4aW5nLXVwLWNvbnZlcnNhdGlvbnMtYW5kLWV4cG9zaW5nLXByaXZhdGUtZGF0YS1yZXBvcnQtc2F5cy8=",
-      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
-      "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belo...",
-      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-19T17:38:40.000Z"
-    },
-    {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2FpL2RpYWxvZ3Vlcy13YWx0ZXItaXNhYWNzb24v",
       "title": "Walter Isaacson on curiosity and creativity in the AI age.",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp\">Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human jud...",
       "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
       "source": "Google AI Blog",
       "providerTag": "Google",
-      "publishedAt": "2026-11-19T17:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L2Zvcm1lci1hbGliYWJhLWV4ZWNzLWV2ZXJmdWwtcmFpc2VzLTQ4LTVtLXRvLWNvbm5lY3QtcmV0YWlsZXJzLXdpdGgtY2hpbmVzZS1mYWN0b3JpZXMv",
-      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
-      "summary": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
-      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
-      "source": "TechCrunch AI",
-      "providerTag": "Qwen",
       "publishedAt": "2026-11-19T17:00:00.000Z"
     },
     {
@@ -228,15 +300,6 @@
       "publishedAt": "2026-11-19T16:52:01.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzc2MzQvb3BlbmFpLWNoYXRncHQtbGl2ZS1kaWN0YXRpb24=",
-      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-      "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT ...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-      "source": "The Verge AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-19T15:16:45.000Z"
-    },
-    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2hvdy1vcGVuYWktcGVyZm9ybWFuY2UtZmFjdG9yeS1rZWVwcy1jaGF0Z3B0LWZhc3Q=",
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
@@ -246,10 +309,10 @@
       "publishedAt": "2026-11-19T08:00:00.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RlcGxveWluZy1kYXlicmVhay1yZWQ=",
-      "title": "Deploying Daybreak Red",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2NvZGV4LXNlY3VyaXR5LXBsdWdpbi1kZW1v",
+      "title": "Explore the Codex Security Plugin",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-19T00:00:00.000Z"
@@ -264,19 +327,19 @@
       "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2NvZGV4LXNlY3VyaXR5LXBsdWdpbi1kZW1v",
-      "title": "Explore the Codex Security Plugin",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RheWJyZWFrLWJsdWUtb25ib2FyZGluZy1kZW1v",
+      "title": "Get started with Daybreak Blue",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RheWJyZWFrLWJsdWUtb25ib2FyZGluZy1kZW1v",
-      "title": "Get started with Daybreak Blue",
-      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RlcGxveWluZy1kYXlicmVhay1yZWQ=",
+      "title": "Deploying Daybreak Red",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-19T00:00:00.000Z"
@@ -298,69 +361,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-18T19:19:33.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL0RoYXJtYS1BSS9wcmVkaWN0aW5nLWZpbmUtdHVuaW5nLXRpbWU=",
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T18:53:43.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FtaW5nLzIwMjYvMTEvd2lsbC13cmlnaHRzLW5leHQtc2ltdWxhdGlvbi13aWxsLXVzZS1haS10by1taW5lLWNvbnRlbnQtZnJvbS15b3VyLW1lbW9yaWVzLw==",
-      "title": "Will Wright's next simulation will use AI to mine content from your memories",
-      "summary": "With MyMems , Wright says he wants to \"turn the simulation inward.\"",
-      "url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T18:10:33.000Z"
-    },
-    {
-      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS9wcm9kdWN0cy9nZW1pbmktYXBwL2dlbWluaS1sb3dlci1tZW1vcnktZGV2aWNlcy8=",
-      "title": "The Gemini app is now available on lower-memory Android devices.",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp\">The Google Gemini app now supports lower-memory Android devices. Access Gemini Live ...",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "source": "Google AI Blog",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-18T17:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2libS1yZXNlYXJjaC90aW1lLXNlcmllcy1wb3dlcmVkLXN0cmVhbWhvdXNl",
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T15:00:23.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3RoZS1zaWxlbnQtY29uc2Vuc3Vz",
-      "title": "The Silent Consensus",
-      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "url": "https://openai.com/index/the-silent-consensus",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-18T10:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3Jlc2VhcmNoLWFjY2VsZXJhdGlvbi1qYWdnZWQtZnJvbnRpZXI=",
-      "title": "Research acceleration: The jagged frontier",
-      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-18T08:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvc3VtaXRvbW8tbGlmZQ==",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-18T08:00:00.000Z"
     }
   ]
 }
