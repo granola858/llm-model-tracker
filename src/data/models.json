@@ -3460,7 +3460,7 @@
     "isFlagship": false,
     "isReasoning": true,
     "highlights": "為 V4 Flash 家族引入原生多模態視覺理解與極致成本效益 Pareto 最佳化（10 月 17 日釋出強化更新版）。",
-    "officialUrl": "https://deepseek.com"
+    "officialUrl": "https://api-docs.deepseek.com/news/news260910/"
   },
   {
     "id": "xai-grok-4-5",
@@ -3557,7 +3557,7 @@
     "isFlagship": true,
     "isReasoning": true,
     "highlights": "OpenAI 邁入 GPT-6 世代的頂級旗艦（API：gpt-6-astra，$10 / $50 每百萬 Tokens），分階段開放 ChatGPT 付費方案、Azure 與 AWS Bedrock。",
-    "officialUrl": "https://openai.com/news/"
+    "officialUrl": "https://openai.com/index/gpt-6-astra/"
   },
   {
     "id": "anthropic-claude-fable-5-1",
@@ -3732,7 +3732,7 @@
     "isFlagship": false,
     "isReasoning": true,
     "highlights": "Meta 重返開放權重路線，於 Hugging Face 釋出由 8 月 Muse Spark 1.2 衍生、另做安全後訓練的 816B 權重（Muse Model License，含商用門檻限制）。",
-    "officialUrl": "https://ai.meta.com"
+    "officialUrl": "https://research.meta.ai/blog/muse-spark-open"
   },
   {
     "id": "deepseek-v4-1-flash-1017",
@@ -3770,7 +3770,7 @@
     "isFlagship": false,
     "isReasoning": true,
     "highlights": "取代 GPT-5.6 Terra 的中階模型（$1 / $5 每百萬 Tokens，僅 Sol 一半），強化電腦操作、視覺推理與程式開發，上線 ChatGPT Work、Codex 與 API。",
-    "officialUrl": "https://openai.com/news/"
+    "officialUrl": "https://openai.com/index/introducing-gpt-6-1-terra/"
   },
   {
     "id": "mistral-large-4",
@@ -3789,7 +3789,7 @@
     "isFlagship": true,
     "isReasoning": true,
     "highlights": "Mistral 首款突破 1 兆參數的多模態 MoE 旗艦：10/6 以 API 公開預覽，10/29 於 Hugging Face 釋出完整權重（Mistral Ecosystem Open-Weight License）。",
-    "officialUrl": "https://mistral.ai/news/"
+    "officialUrl": "https://mistral.ai/news/mistral-large-4/"
   },
   {
     "id": "anthropic-claude-fable-5-2",
@@ -3808,7 +3808,7 @@
     "isFlagship": true,
     "isReasoning": true,
     "highlights": "Anthropic 面向一般使用者的最強模型，針對高難度技術工作，在程式、推理與視覺上優於 Fable 5.1，輸出速度快約 30%。已上線付費方案，價格降為 $8 / $40 每百萬 Tokens。",
-    "officialUrl": "https://www.anthropic.com/news"
+    "officialUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
   },
   {
     "id": "google-gemini-4-carbon",
@@ -3828,11 +3828,8 @@
     "category": "Flagship",
     "isFlagship": true,
     "isReasoning": true,
-    "estimated": [
-      "context"
-    ],
     "highlights": "Google 宣稱是目前最強的 Gemini 模型，主打程式、代理式任務與長時間複雜專案，價格與 Argon 相同。11/10 對開發者與一般使用者全面開放，並在 Antigravity 預覽 /swarm 多代理功能。",
-    "officialUrl": "https://blog.google/"
+    "officialUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
   },
   {
     "id": "google-gemini-4-hydrogen",
@@ -3852,11 +3849,8 @@
     "category": "Lightweight",
     "isFlagship": false,
     "isReasoning": true,
-    "estimated": [
-      "context"
-    ],
     "highlights": "Gemini 4 系列中接替 3.8 Flash 的高效率低成本模型，主打快速執行、程式與代理式工作流程。上線即對所有人開放，含 Gemini App 免費使用者，價格比 Flash 高。",
-    "officialUrl": "https://blog.google/"
+    "officialUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
   },
   {
     "id": "qwen-qwen4-max",
@@ -3876,7 +3870,7 @@
     "isFlagship": true,
     "isReasoning": true,
     "highlights": "Qwen4 世代的首款旗艦閉源模型，接替 Qwen3.8-Max，支援文字、圖片與影片輸入，預設啟用推理。11/11 先以預覽版上線 Qwen Chat，11/16 正式開放 API；較小的開放權重 Qwen4 模型尚未公布日期。",
-    "officialUrl": "https://qwen.ai/blog"
+    "officialUrl": "https://qwen.ai/blog?id=qwen4-max"
   },
   {
     "id": "openai-gpt-6-2",
@@ -3895,7 +3889,7 @@
     "isFlagship": true,
     "isReasoning": true,
     "highlights": "GPT-6.2 世代的新旗艦 Astra 主打高難度工程與專業工作，Sol 接替 GPT-6.1 Sol 負責日常任務。兩者上線 ChatGPT Work 與 Codex，並提供 Ultrafast 選項，API 定價 Astra 為 $8/$40、Sol 為 $2/$10。",
-    "officialUrl": "https://openai.com/"
+    "officialUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
   },
   {
     "id": "google-gemini-4-neon",
@@ -3916,6 +3910,6 @@
     "isFlagship": false,
     "isReasoning": true,
     "highlights": "Gemini 4 系列中介於 Carbon 與 Hydrogen 之間的中階模型，主打程式與代理式工作，提供四段思考等級。Google AI Pro 方案即可在 Gemini App 使用，價格為 $3/$15，也可在 Antigravity 擔任多代理的協調者。",
-    "officialUrl": "https://blog.google/"
+    "officialUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
   }
 ]
