@@ -25,5 +25,13 @@
   "openrouter:qwen/qwen4-max": "2026-11-17",
   "news:https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/": "2026-11-17",
   "news:https://openai.com/index/lvmh-media-division-partnership": "2026-11-17",
-  "news:https://openai.com/index/the-kings-trust-and-openai": "2026-11-17"
+  "news:https://openai.com/index/the-kings-trust-and-openai": "2026-11-17",
+  "openrouter:openai/gpt-6.2-astra": "2026-11-21",
+  "openrouter:openai/gpt-6.2-sol": "2026-11-21",
+  "openrouter:google/gemini-4-neon": "2026-11-21",
+  "openrouter:mistralai/pixtral-large-2502": "2026-11-21",
+  "openrouter:openai/gpt-6.2-astra-pro": "2026-11-21",
+  "openrouter:openai/gpt-6.2-sol-pro": "2026-11-21",
+  "news:https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/": "2026-11-21",
+  "news:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/": "2026-11-21"
 }
