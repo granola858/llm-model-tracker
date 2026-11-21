@@ -3877,5 +3877,45 @@
     "isReasoning": true,
     "highlights": "Qwen4 世代的首款旗艦閉源模型，接替 Qwen3.8-Max，支援文字、圖片與影片輸入，預設啟用推理。11/11 先以預覽版上線 Qwen Chat，11/16 正式開放 API；較小的開放權重 Qwen4 模型尚未公布日期。",
     "officialUrl": "https://qwen.ai/blog"
+  },
+  {
+    "id": "openai-gpt-6-2",
+    "name": "GPT-6.2 (Astra / Sol)",
+    "provider": "OpenAI",
+    "releaseDate": "2026-11-17",
+    "parameters": "未公開",
+    "contextWindow": "1.05M",
+    "contextTokens": 1050000,
+    "modalities": [
+      "Text",
+      "Vision"
+    ],
+    "license": "Proprietary",
+    "category": "Flagship",
+    "isFlagship": true,
+    "isReasoning": true,
+    "highlights": "GPT-6.2 世代的新旗艦 Astra 主打高難度工程與專業工作，Sol 接替 GPT-6.1 Sol 負責日常任務。兩者上線 ChatGPT Work 與 Codex，並提供 Ultrafast 選項，API 定價 Astra 為 $8/$40、Sol 為 $2/$10。",
+    "officialUrl": "https://openai.com/"
+  },
+  {
+    "id": "google-gemini-4-neon",
+    "name": "Gemini 4 Neon",
+    "provider": "Google",
+    "releaseDate": "2026-11-18",
+    "parameters": "未公開",
+    "contextWindow": "1M",
+    "contextTokens": 1048576,
+    "modalities": [
+      "Text",
+      "Vision",
+      "Audio",
+      "Video"
+    ],
+    "license": "Proprietary",
+    "category": "General",
+    "isFlagship": false,
+    "isReasoning": true,
+    "highlights": "Gemini 4 系列中介於 Carbon 與 Hydrogen 之間的中階模型，主打程式與代理式工作，提供四段思考等級。Google AI Pro 方案即可在 Gemini App 使用，價格為 $3/$15，也可在 Antigravity 擔任多代理的協調者。",
+    "officialUrl": "https://blog.google/"
   }
 ]
