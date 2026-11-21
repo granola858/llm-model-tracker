@@ -80,12 +80,18 @@ export const TodaySheet = React.memo(function TodaySheet({ now, models, provider
                   target="_blank"
                   rel="noreferrer"
                   title={predictionDetail(p)}
-                  className="flex w-full items-center gap-2.5 py-2 text-left text-sm hover:underline focus-visible:outline-paper-ink"
+                  className="flex w-full items-start gap-2.5 py-2 text-left text-sm hover:underline focus-visible:outline-paper-ink"
                 >
-                  <ModelShape model={{ provider: p.provider, isReasoning: false }} size={9} hollow onPaper />
-                  <span className="min-w-0 flex-1 truncate">{p.name}</span>
-                  <span className="sr-only">{PROVIDERS[p.provider].name}</span>
-                  <span className="text-xs text-paper-muted tabular-nums">{predictionLabel(p, t.year)}</span>
+                  <span className="mt-1.5 flex shrink-0 items-center">
+                    <ModelShape model={{ provider: p.provider, isReasoning: false }} size={9} hollow onPaper />
+                  </span>
+                  <span className="flex min-w-0 flex-1 flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5">
+                    <span className="break-words">{p.name}</span>
+                    <span className="sr-only">{PROVIDERS[p.provider].name}</span>
+                    <span className="ml-auto shrink-0 text-xs whitespace-nowrap text-paper-muted tabular-nums">
+                      {predictionLabel(p, t.year)}
+                    </span>
+                  </span>
                 </a>
               </li>
             ))}

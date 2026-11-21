@@ -1,4 +1,4 @@
-name: Propose New Models (PR)
+name: Auto Update Models (PR)
 
 on:
   # 每天台灣時間 09:30 檢查一次是否有新模型發布
@@ -133,13 +133,31 @@ jobs:
         run: cp "$RUNNER_TEMP/review/models.json" src/data/models.json
 
       - name: Open pull request with new models
+        id: pr
         if: needs.review.outputs.added != '0'
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           branch: ${{ env.PR_BRANCH }}
           base: main
           add-paths: src/data/models.json
-          commit-message: 'feat(data): 自動提出 ${{ needs.review.outputs.added }} 筆新模型'
-          title: '新增 ${{ needs.review.outputs.added }} 筆模型（自動查證，待審核）'
+          commit-message: 'feat(data): 自動新增 ${{ needs.review.outputs.added }} 筆新模型'
+          title: '新增 ${{ needs.review.outputs.added }} 筆模型（自動查證）'
           body-path: ${{ runner.temp }}/review/model-update.md
           delete-branch: true
+
+      # 保留 PR 紀錄並自動 squash 合併；用預設 GITHUB_TOKEN 合併不會立刻觸發部署，由每 6 小時排程順便部署
+      - name: Auto-merge pull request
+        if: steps.pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ steps.pr.outputs.pull-request-number }}
+        run: |
+          for attempt in 1 2 3; do
+            if gh pr merge "$PR_NUMBER" --squash --delete-branch; then
+              exit 0
+            fi
+            echo "::warning::第 ${attempt} 次合併 PR #${PR_NUMBER} 失敗，5 秒後重試…"
+            sleep 5
+          done
+          echo "::error::無法自動合併 PR #${PR_NUMBER}，請手動確認。"
+          exit 1

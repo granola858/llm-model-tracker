@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { RefreshCw } from 'lucide-react';
+import { PanelRightClose, PanelRightOpen, RefreshCw } from 'lucide-react';
 import { NewsDataPayload, ProviderId } from '../types';
 import { PROVIDERS } from '../data/modelsData';
 import { ALL_PROVIDERS, newsTime, stripHtml } from '../lib/format';
@@ -9,8 +9,13 @@ type Status = 'loading' | 'ready' | 'error';
 const TOPICS = ['ALL', ...ALL_PROVIDERS, 'General'] as const;
 const topicLabel = (t: string) => (t === 'ALL' ? '全部' : t === 'General' ? '綜合產業' : PROVIDERS[t as ProviderId].name);
 
-// memo：沒有 props，hover 時間軸時不必跟著重繪
-export const NewsColumn = React.memo(function NewsColumn() {
+interface NewsColumnProps {
+  collapsed: boolean;
+  onToggle: () => void;
+}
+
+// memo：props 穩定，hover 時間軸時不必跟著重繪
+export const NewsColumn = React.memo(function NewsColumn({ collapsed, onToggle }: NewsColumnProps) {
   const [payload, setPayload] = useState<NewsDataPayload | null>(null);
   const [status, setStatus] = useState<Status>('loading');
   const [topic, setTopic] = useState<string>('ALL');
@@ -33,8 +38,33 @@ export const NewsColumn = React.memo(function NewsColumn() {
 
   const items = (payload?.items ?? []).filter((i) => topic === 'ALL' || (i.providerTag ?? 'General') === topic);
 
+  if (collapsed) {
+    return (
+      <section aria-labelledby="news-h" className="flex h-full flex-col border-t border-rule-soft lg:border-t-0 lg:border-l">
+        <button
+          type="button"
+          onClick={onToggle}
+          aria-expanded={false}
+          aria-label="展開新聞欄"
+          title="展開新聞欄"
+          className="flex w-full items-center justify-between px-5 py-3 text-muted hover:bg-ink-raised hover:text-paper lg:h-full lg:flex-col lg:justify-start lg:gap-3 lg:px-0 lg:py-3"
+        >
+          <span className="flex items-center gap-2 lg:flex-col lg:gap-3">
+            <span className="grid h-8 w-8 place-items-center">
+              <PanelRightOpen aria-hidden className="h-4 w-4" />
+            </span>
+            <span id="news-h" className="text-sm font-bold lg:text-xs lg:tracking-widest lg:[writing-mode:vertical-rl]">
+              新聞
+            </span>
+          </span>
+          <span className="text-2xs lg:hidden">展開</span>
+        </button>
+      </section>
+    );
+  }
+
   return (
-    <section aria-labelledby="news-h" className="flex flex-col border-rule-soft lg:min-h-0 lg:border-l">
+    <section aria-labelledby="news-h" className="flex h-full flex-col border-rule-soft lg:min-h-0 lg:border-l">
       <div className="flex flex-wrap items-center gap-x-3 gap-y-2 border-b border-rule-soft px-5 py-3">
         <h2 id="news-h" className="text-base font-bold whitespace-nowrap">
           新聞
@@ -56,16 +86,28 @@ export const NewsColumn = React.memo(function NewsColumn() {
             ))}
           </select>
         </label>
-        <button
-          type="button"
-          onClick={load}
-          disabled={status === 'loading'}
-          aria-label="重新讀取新聞"
-          title="重新讀取新聞"
-          className="ml-auto grid h-8 w-8 place-items-center rounded-sm text-muted hover:bg-ink-raised hover:text-paper disabled:opacity-50"
-        >
-          <RefreshCw aria-hidden className={`h-4 w-4 ${status === 'loading' ? 'animate-spin motion-reduce:animate-none' : ''}`} />
-        </button>
+        <div className="ml-auto flex items-center gap-1">
+          <button
+            type="button"
+            onClick={load}
+            disabled={status === 'loading'}
+            aria-label="重新讀取新聞"
+            title="重新讀取新聞"
+            className="grid h-8 w-8 place-items-center rounded-sm text-muted hover:bg-ink-raised hover:text-paper disabled:opacity-50"
+          >
+            <RefreshCw aria-hidden className={`h-4 w-4 ${status === 'loading' ? 'animate-spin motion-reduce:animate-none' : ''}`} />
+          </button>
+          <button
+            type="button"
+            onClick={onToggle}
+            aria-expanded={true}
+            aria-label="收折新聞欄"
+            title="收折新聞欄"
+            className="grid h-8 w-8 place-items-center rounded-sm text-muted hover:bg-ink-raised hover:text-paper"
+          >
+            <PanelRightClose aria-hidden className="h-4 w-4" />
+          </button>
+        </div>
       </div>
 
       <div className="px-5 lg:min-h-0 lg:flex-1 lg:overflow-y-auto" aria-busy={status === 'loading'}>

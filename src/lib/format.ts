@@ -180,3 +180,22 @@ export function applyFlagshipPref(on: boolean) {
     // 無痕模式等情況寫不進去，只影響下次開啟
   }
 }
+
+/** 新聞欄展開／收折偏好：存在 localStorage，不進網址 */
+const NEWS_OPEN_KEY = 'llm_tracker_news_open_v1';
+
+export function readNewsOpenPref(): boolean {
+  try {
+    return localStorage.getItem(NEWS_OPEN_KEY) !== 'off';
+  } catch {
+    return true;
+  }
+}
+
+export function writeNewsOpenPref(open: boolean) {
+  try {
+    localStorage.setItem(NEWS_OPEN_KEY, open ? 'on' : 'off');
+  } catch {
+    // 無痕模式等情況寫不進去，只影響下次開啟
+  }
+}

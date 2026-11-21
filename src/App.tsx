@@ -8,9 +8,11 @@ import {
   applyFlagshipPref,
   matchesQuery,
   readFlagshipPref,
+  readNewsOpenPref,
   readUrlState,
   readVisitBaseline,
   toTime,
+  writeNewsOpenPref,
   writeUrlState,
 } from './lib/format';
 import { TimelineView } from './components/TimelineView';
@@ -41,8 +43,16 @@ export const App: React.FC = () => {
   const [year, setYear] = useState(initial.year);
   const [activeId, setActiveId] = useState(initial.model);
   const [showFlagship, setShowFlagship] = useState(readFlagshipPref);
+  const [newsOpen, setNewsOpen] = useState(readNewsOpenPref);
   // 在繪製前套上，避免先閃一下燙金再消失
   useLayoutEffect(() => applyFlagshipPref(showFlagship), [showFlagship]);
+  const toggleNews = useCallback(() => {
+    setNewsOpen((prev) => {
+      const next = !prev;
+      writeNewsOpenPref(next);
+      return next;
+    });
+  }, []);
   const searchRef = useRef<HTMLInputElement>(null);
 
   const filtered = useMemo(
@@ -98,10 +108,15 @@ export const App: React.FC = () => {
     });
   const allOn = providers.length === ALL_PROVIDERS.length;
 
-  // 保持同一個函式，TodaySheet 才不會跟著 hover 重繪
+  // 保持同一個函式，TodaySheet 與 PullRequestLink 才不會跟著 hover 重繪
   const pickModel = useCallback((id: string) => {
     const m = INITIAL_MODELS.find((x) => x.id === id);
-    if (m) setYear((y) => (y !== 'ALL' && !m.releaseDate.startsWith(y) ? 'ALL' : y));
+    if (m) {
+      setProviders((prev) =>
+        prev.includes(m.provider) ? prev : ALL_PROVIDERS.filter((x) => x === m.provider || prev.includes(x))
+      );
+      setYear((y) => (y !== 'ALL' && !m.releaseDate.startsWith(y) ? 'ALL' : y));
+    }
     setActiveId(id);
     setTab('timeline');
   }, []);
@@ -148,7 +163,7 @@ export const App: React.FC = () => {
               /
             </kbd>
           </div>
-          <PullRequestLink />
+          <PullRequestLink onPick={pickModel} />
         </div>
       </header>
 
@@ -203,7 +218,11 @@ export const App: React.FC = () => {
             role="tabpanel"
             id="panel-timeline"
             aria-labelledby="tab-timeline"
-            className="flex min-h-0 flex-1 flex-col lg:grid lg:grid-cols-[minmax(0,1fr)_17rem_21rem]"
+            className={`flex min-h-0 flex-1 flex-col lg:grid ${
+              newsOpen
+                ? 'lg:grid-cols-[minmax(0,1fr)_17rem_21rem]'
+                : 'lg:grid-cols-[minmax(0,1fr)_17rem_2.75rem]'
+            }`}
           >
             <div className="order-2 flex min-h-[34rem] flex-col lg:order-1 lg:min-h-0">
               <TimelineView
@@ -221,7 +240,7 @@ export const App: React.FC = () => {
               <TodaySheet now={now} models={newestFirst} providers={providers} baseline={baseline} onPick={pickModel} />
             </div>
             <div className="order-3 lg:min-h-0">
-              <NewsColumn />
+              <NewsColumn collapsed={!newsOpen} onToggle={toggleNews} />
             </div>
           </div>
         )}

@@ -446,7 +446,7 @@ export function nextReviewedState(reviewed, fresh, result, today, pruneBefore) {
 }
 
 function buildSummary({ added, rejected, skipped, counts, today }) {
-  const lines = [`由 \`scripts/fetch-models.mjs\` 於 ${today} 自動產生，合併前請確認發布日與規格。`, ''];
+  const lines = [`由 \`scripts/fetch-models.mjs\` 於 ${today} 自動產生並合併。`, ''];
 
   lines.push(`## 新增 ${added.length} 筆`, '');
   for (const { model: m, sources } of added) {
