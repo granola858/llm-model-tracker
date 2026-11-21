@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T07:23:28.836Z",
+  "lastUpdated": "2026-11-21T12:04:38.613Z",
   "items": [
     {
       "provider": "Anthropic",
@@ -28,9 +28,9 @@
     {
       "provider": "xAI",
       "name": "Grok 4.8+",
-      "date": "2026-12-07",
+      "date": "2026-12-02",
       "precision": "near",
-      "probability": 0.69,
+      "probability": 0.58,
       "url": "https://polymarket.com/event/next-grok-model-4pt8-released-by"
     },
     {
