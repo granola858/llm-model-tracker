@@ -5,11 +5,13 @@ on:
   push:
     branches:
       - main
-  # 2. 每 6 小時自動抓取最新 AI 新聞 RSS 與下一代旗艦預測，並重新部署靜態頁面
+  # 2. 每 3 小時自動抓取最新 AI 新聞 RSS 與下一代旗艦預測，並重新部署靜態頁面
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */3 * * *'
   # 3. 允許在 GitHub Actions 頁面手動一鍵觸發
   workflow_dispatch:
+  # 4. 供 update-models.yml 在自動合併新模型 PR 後立刻呼叫部署
+  workflow_call:
 
 # 預設不給權限，每個 job 只拿自己需要的。
 # 安裝 npm 套件與建置只在唯讀的 build job 執行，第三方程式碼拿不到寫入權限。
@@ -31,6 +33,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0

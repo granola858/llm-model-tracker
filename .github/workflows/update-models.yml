@@ -1,9 +1,9 @@
 name: Auto Update Models (PR)
 
 on:
-  # 每天台灣時間 09:30 檢查一次是否有新模型發布
+  # 每 6 小時（台灣時間 02:15 / 08:15 / 14:15 / 20:15，錯開新聞抓取 15 分鐘）檢查一次是否有新模型發布
   schedule:
-    - cron: '30 1 * * *'
+    - cron: '15 */6 * * *'
   workflow_dispatch:
 
 # 預設不給權限，每個 job 只拿自己需要的。
@@ -145,7 +145,7 @@ jobs:
           body-path: ${{ runner.temp }}/review/model-update.md
           delete-branch: true
 
-      # 保留 PR 紀錄並自動 squash 合併；用預設 GITHUB_TOKEN 合併不會立刻觸發部署，由每 6 小時排程順便部署
+      # 保留 PR 紀錄並自動 squash 合併；合併完成後由下方 deploy job 立刻觸發建置與部署
       - name: Auto-merge pull request
         if: steps.pr.outputs.pull-request-number != ''
         env:
@@ -161,3 +161,13 @@ jobs:
           done
           echo "::error::無法自動合併 PR #${PR_NUMBER}，請手動確認。"
           exit 1
+
+  # 有新模型合併進 main 後立刻重新建置並部署到 GitHub Pages（不需要 PAT，也不會等到下一次排程）
+  deploy:
+    needs: [review, publish]
+    if: needs.review.outputs.added != '0'
+    uses: ./.github/workflows/update-news-and-deploy.yml
+    permissions:
+      contents: write
+      pages: write
+      id-token: write

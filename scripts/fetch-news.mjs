@@ -230,7 +230,7 @@ async function main() {
   const payload = {
     lastUpdated: new Date().toISOString(),
     totalSources: RSS_SOURCES.length,
-    items: deduplicated.slice(0, 40),
+    items: deduplicated.slice(0, 60),
   };
 
   await fs.writeFile(OUTPUT_PATH, JSON.stringify(payload, null, 2), 'utf-8');
