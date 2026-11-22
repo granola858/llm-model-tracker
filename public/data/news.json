@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-22T12:08:23.378Z",
+  "lastUpdated": "2026-11-22T15:05:46.112Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2NvbHVtbi8xMDM5MTM5L3ZpYmUtY29kaW5nLWdhZGdldHMtdHYtY2FtZXJh",
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday...",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-22T13:00:00.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIxL3NpZ25hbC1yZXN0cmljdHMtbW9iaWxlLXNjcmVlbnNob3RzLWFzLWl0LWNvbmZyb250cy1leGlzdGVudGlhbC10aHJlYXQtb2YtYWktc3VydmVpbGxhbmNlLw==",
       "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
@@ -262,15 +271,6 @@
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-19T21:58:06.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzODA4Ny9tZXRhLW11c2UtY2hhcm0tYWktcHJpY2U=",
-      "title": "Meta’s Muse Charm might cost $300",
-      "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and sai...",
-      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-      "source": "The Verge AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-19T20:22:17.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS90cmF1bWF0aXplZC10ZWVucy1zdWUtc2Nob29sLWNvcHMtYWZ0ZXItZG9yaXRvcy1iYWctdHJpZ2dlcnMtYWktZ3VuLWFsZXJ0Lw==",
