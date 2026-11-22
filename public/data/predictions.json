@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T15:05:47.967Z",
+  "lastUpdated": "2026-11-22T18:07:17.108Z",
   "items": [
     {
       "provider": "Anthropic",
@@ -22,7 +22,7 @@
       "name": "Muse Wonder 1.1+",
       "date": "2027-01-31",
       "precision": "by",
-      "probability": 0.625,
+      "probability": 0.695,
       "url": "https://polymarket.com/event/next-muse-wonder-1pt1-released-byptptpt"
     },
     {
