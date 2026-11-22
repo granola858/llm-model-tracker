@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-21T21:05:42.872Z",
+  "lastUpdated": "2026-11-22T00:17:06.622Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIxL3NpZ25hbC1yZXN0cmljdHMtbW9iaWxlLXNjcmVlbnNob3RzLWFzLWl0LWNvbmZyb250cy1leGlzdGVudGlhbC10aHJlYXQtb2YtYWktc3VydmVpbGxhbmNlLw==",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-21T21:37:10.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIxL2EtdGFsZS1vZi10d28tbnZpZGlhcy8=",
+      "title": "A tale of two Nvidias",
+      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-21T21:07:42.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzOTU1NC91bi1yZWd1bGF0aW9ucy1raWxsZXItcm9ib3Rz",
       "title": "The UN fails to agree on rules regulating ‘killer robots’",
@@ -246,15 +264,6 @@
       "publishedAt": "2026-11-19T21:58:06.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L3RoZXNlLXRlY2gtb3V0YWdlcy1hcmUtZ2l2aW5nLXkyay1haS1hZ2VudC1zdHlsZS8=",
-      "title": "These tech outages are giving Y2K, AI agent style",
-      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
-      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-19T21:42:31.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzODA4Ny9tZXRhLW11c2UtY2hhcm0tYWktcHJpY2U=",
       "title": "Meta’s Muse Charm might cost $300",
       "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and sai...",
@@ -271,15 +280,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-19T20:19:28.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L252aWRpYS1jZW8tamVuc2VuLWh1YW5ncy1hZmZhaXItd2l0aC1hbGxlZ2VkLWNoaW5lc2Utc3B5LWEtdGltZWxpbmUv",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-19T20:18:49.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2RldmVsb3BlcnMtdG9vbHMvZ2VtaW5pLWFwaS10b29sLXJldHJpZXZhbC8=",
