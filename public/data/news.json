@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-22T21:05:53.179Z",
+  "lastUpdated": "2026-11-23T00:17:41.406Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzOTg1MS9tYWpvci10ZWNoLW91dGFnZXM=",
+      "title": "We haven’t seen the last of the major tech outages",
+      "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are m...",
+      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-22T22:48:02.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIyL29wZW5haXMtY2hpZWYtc2NpZW50aXN0LWhhcy10aG91Z2h0cy1vbi1ob3ctdG8tbGltaXQtYWktZGV2ZWxvcG1lbnQv",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "source": "TechCrunch AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-22T21:14:07.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIyL3doeS1kYXRhLWNlbnRlcnMtYXJlLWF0LXRoZS1jZW50ZXItb2YtdGhlLWJpZy10ZWNoLWJhY2tsYXNoLw==",
       "title": "Why data centers are at the center of the Big Tech backlash",
@@ -228,15 +246,6 @@
       "publishedAt": "2026-11-20T00:56:01.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L2FudGhyb3BpY3MtNy1mb3VuZGVycy1jYXNoZWQtb3V0LW5lYXJseS0yYi1pbi1yZWNvcmQtYnJlYWtpbmctaXBvLw==",
-      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-20T00:43:50.000Z"
-    },
-    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvaGViYmlh",
       "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
       "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
@@ -271,15 +280,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-20T00:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzODIyNy9hcHBsZS1haS1hZ2VudC1lbmdpbmVlci1qb2ItbGlzdGluZw==",
-      "title": "Apple is hiring engineers to build its own AI agent",
-      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted b...",
-      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-19T22:31:41.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS90cmF1bWF0aXplZC10ZWVucy1zdWUtc2Nob29sLWNvcHMtYWZ0ZXItZG9yaXRvcy1iYWctdHJpZ2dlcnMtYWktZ3VuLWFsZXJ0Lw==",
