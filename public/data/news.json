@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-23T09:09:21.203Z",
+  "lastUpdated": "2026-11-23T12:10:23.187Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vcmV2aWV3cy8yMDI2LzExL3Jldmlldy10aGUtYXN1cy1wcm9hcnQtcDE2LW9mZmVycy1hLWdsaW1wc2Utb2YtYS1mdXR1cmUtcG93ZXJlZC1ieS1sb2NhbC1haS8=",
+      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+      "summary": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
+      "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T12:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzk4NzQvd2FsbWFydC1hZ2VudC1nYXRld2F5LW1ldGEtbXVzZS1ibGFjay1mcmlkYXk=",
+      "title": "Meta Muse can do your Black Friday shopping at Walmart",
+      "summary": "Walmart will let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. Tomorrow, on Tuesday November 24th, the retail giant will roll out a live implementation of ...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T11:00:00.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIyL2hvdy1ub3RhYmxlLWNhcGl0YWwtZ2ljLWFuZC1iYWlsbGllLWdpZmZvcmQtYmV0LWJpZy1vbi1hbnRocm9waWMtYmVmb3JlLWl0cy1pcG8v",
       "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
@@ -226,15 +244,6 @@
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-20T14:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzgzOTAvc2lnbmFsLWJsb2NraW5nLWFpLWFnZW50LXNjcmVlbnNob3RzLW1vYmlsZS1hcHA=",
-      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems tha...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "source": "The Verge AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-20T12:30:47.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NvbWJhdHRpbmctYWR2ZXJzYXJpYWwtZGlzdGlsbGF0aW9u",
@@ -505,15 +514,6 @@
       "source": "Ars Technica AI",
       "providerTag": "xAI",
       "publishedAt": "2026-11-17T14:00:29.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9yb2JvLXNvbGRpZXItc3RhcnR1cC1iYWNrZWQtYnktZXJpYy10cnVtcC1taXNzZXMtcGF5cm9sbC1tYXktY29sbGFwc2Uv",
-      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
-      "summary": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
-      "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-16T22:58:27.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL21hcHMvYXNrLW1hcHMtaG9saWRheS10cmF2ZWwtZmVhdHVyZXMtMjAyNi8=",
