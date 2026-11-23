@@ -1,11 +1,83 @@
 {
-  "lastUpdated": "2026-11-23T15:06:57.754Z",
+  "lastUpdated": "2026-11-23T18:08:11.467Z",
   "totalSources": 7,
   "items": [
     {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FsbGVuYWkvcm9ib3RyYWNr",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T17:20:37.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2FtYXpvbi1zbmFwcy11cC1kZWNhcnRzLWFpLW9wdGltaXphdGlvbi10ZWNoLWZvci03LTViLWFzLWl0LXByZXBhcmVzLXRvLXNlbGwtdHJhaW5pdW0tY2hpcHMv",
+      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T17:14:23.000Z"
+    },
+    {
+      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL3NlYXJjaC9nb29nbGUtc2VhcmNoLXBlcnNvbmFsLWludGVsbGlnZW5jZS1hcHBzLw==",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.max-600x600.format-webp.webp\">Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, an...",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "Google AI Blog",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-23T17:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2plbnNlbi1odWFuZy1pc250LW91dC1vZi10aGUtd29vZHMteWV0Lw==",
+      "title": "Jensen Huang isn’t out of the woods yet",
+      "summary": "It’s safe to say no one expected this. Monday morning, Jensen Huang returned as CEO of Nvidia, after resigning the position following news of multiple affairs, including one with a subordinate and one with a woman tied t...",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+      "source": "TechCrunch AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-23T16:57:40.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL3RydW1wLXJlcG9ydGVkbHktY2FsbGVkLWludG8tbnZpZGlhLWJvYXJkLW1lZXRpbmctdG8tYWR2b2NhdGUtZm9yLWh1YW5ncy1yZXR1cm4v",
+      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+      "summary": "\"I spoke to them, let me put it that way... And I convinced them,\" the president told CNBC.",
+      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T16:39:10.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvbGljeS8xMDQwMDk2L3RydW1wLW52aWRpYS1qZW5zZW4taHVhbmctcmVpbnN0YXRlZA==",
+      "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
+      "summary": "It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. \"President Trump was totally involved and this is a g...",
+      "url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T16:30:11.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTA0MDA2OS9qZW5zZW4taHVhbmctcmV0dXJuLWVsb24tbXVzay1zYW0tYWx0bWFuLXlheQ==",
+      "title": "Tech leaders are celebrating Jensen Huang’s return",
+      "summary": "Let's say you're Jensen Huang. You (allegedly) cheated on your wife with an alleged Chinese spy, allegedly had an affair with not one, but two subordinates, and (allegedly!) \"terrorized\" your employees, a series of indis...",
+      "url": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
+      "source": "The Verge AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-23T16:14:04.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9qZW5zZW4taHVhbmctcmVpbnN0YXRlZC1hcy1udmlkaWEtY2VvLWJvYXJkLWNoYWlyLw==",
+      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "summary": "Trump says he spoke to the board and that Huang \"did nothing wrong.\"",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T15:46:18.000Z"
+    },
+    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL3RydW1wLWVuZG9yc2VzLWplbnNlbi1odWFuZ3MtcmV0dXJuLXRvLW52aWRpYS1zYXlzLXVzLWhhcy1uby1ldmlkZW5jZS1vZi13cm9uZ2RvaW5nLw==",
       "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
-      "summary": "The president cited the U.S. Attorney General in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+      "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
       "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
       "source": "TechCrunch AI",
       "providerTag": "General",
@@ -30,15 +102,6 @@
       "publishedAt": "2026-11-23T14:21:59.000Z"
     },
     {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9qZW5zZW4taHVhbmctcmVpbnN0YXRlZC1hcy1udmlkaWEtY2VvLWJvYXJkLWNoYWlyLw==",
-      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
-      "summary": "Board says senior government officials confirmed Huang is \"no national security risk.\"",
-      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T14:10:18.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzOTkzNy9udmlkaWEtY2VvLWplbnNlbi1odWFuZy1yZWluc3RhdGVk",
       "title": "Jensen Huang is back as Nvidia’s CEO",
       "summary": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which t...",
@@ -59,7 +122,7 @@
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzk4NzQvd2FsbWFydC1hZ2VudC1nYXRld2F5LW1ldGEtbXVzZS1ibGFjay1mcmlkYXk=",
       "title": "Meta Muse can do your Black Friday shopping at Walmart",
-      "summary": "Walmart will let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. Tomorrow, on Tuesday November 24th, the retail giant will roll out a live implementation of ...",
+      "summary": "Walmart will now let Meta's Muse shop on your behalf, allowing the AI agent to find and purchase Black Friday deals via Walmart's Sparky AI assistant. The retail giant is rolling out a live implementation of the Agent Ga...",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
       "source": "The Verge AI",
       "providerTag": "General",
@@ -174,15 +237,6 @@
       "publishedAt": "2026-11-21T17:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIxL2lzLXNlbGxpbmctYW4tYWktdmVyc2lvbi1vZi15b3VyLWZhY2UtdG8tdGhpcy1taWNyb2RyYW1hLXN0YXJ0dXAtdGhlLWZ1dHVyZS1vZi1ob2xseXdvb2Qv",
-      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
-      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-21T16:00:00.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAzODcwMS9hbnRocm9waWMtaXBvLWFpLXNhZmV0eS1vcGVuYWktbnZpZGlhLXN0cnVjdHVyZQ==",
       "title": "Can Anthropic afford to put safety first?",
       "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last T...",
@@ -226,42 +280,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-20T20:59:08.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIwL2RhbmllbC1lay1iYWNrcy1haS1yZXNlYXJjaGVycy1mdXNpb24tcG93ZXItc3RhcnR1cC1oZXJlcy13aGF0LXRoZXlyZS1idWlsZGluZy8=",
-      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
-      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
-      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-20T19:53:41.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIwL2FpLWNsYWltZWQtYS1zb2x1dGlvbi10by10aGUtMTY3LXllYXItb2xkLXJpZW1hbm4taHlwb3RoZXNpcy1hbmQtYS1odW1hbi1kaWQtdG9vLw==",
-      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-      "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
-      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-20T19:32:08.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvbGljeS8xMDM4ODkyL3RydW1wLWZvcmVpZ24tZGF0YS1jZW50ZXJzLXRheA==",
-      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-      "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"...",
-      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-20T18:50:19.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMTAwNTEvYW50aHJvcGljLXJpZW1hbm4taHlwb3RoZXNpcy1taWxsZW5uaXVtLXByaXplLXByb2JsZW0=",
-      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-      "summary": "Anthropic mathematician Levent Alp&#246;ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the wor...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-      "source": "The Verge AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-20T16:34:13.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NvbWJhdHRpbmctYWR2ZXJzYXJpYWwtZGlzdGlsbGF0aW9u",
@@ -523,24 +541,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-17T15:28:59.000Z"
-    },
-    {
-      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL21hcHMvYXNrLW1hcHMtaG9saWRheS10cmF2ZWwtZmVhdHVyZXMtMjAyNi8=",
-      "title": "New Ask Maps features to help with holiday travel and prep",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp\">Plan holiday road trips, get route tips, find local appointments, and search your saved...",
-      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "source": "Google AI Blog",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-16T14:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL29wZW5yb3V0ZXI=",
-      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/openrouter",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-16T00:00:00.000Z"
     }
   ]
 }
