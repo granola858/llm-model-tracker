@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T06:15:00.331Z",
+  "lastUpdated": "2026-11-23T09:09:23.787Z",
   "items": [
     {
       "provider": "Anthropic",
@@ -14,7 +14,7 @@
       "name": "Gemini Argon",
       "date": "2027-01-31",
       "precision": "after",
-      "probability": 0.405,
+      "probability": 0.325,
       "url": "https://polymarket.com/event/next-gemini-argon-released-byptptpt-20261014"
     },
     {
@@ -22,7 +22,7 @@
       "name": "Muse Wonder 1.1+",
       "date": "2027-01-31",
       "precision": "after",
-      "probability": 0.485,
+      "probability": 0.49,
       "url": "https://polymarket.com/event/next-muse-wonder-1pt1-released-byptptpt"
     },
     {
@@ -30,7 +30,7 @@
       "name": "Grok 4.8+",
       "date": "2026-12-07",
       "precision": "near",
-      "probability": 0.675,
+      "probability": 0.665,
       "url": "https://polymarket.com/event/next-grok-model-4pt8-released-by"
     },
     {
@@ -38,7 +38,7 @@
       "name": "DeepSeek Pro",
       "date": "2026-12-31",
       "precision": "after",
-      "probability": 0.18,
+      "probability": 0.175,
       "url": "https://polymarket.com/event/next-deepseek-pro-released-byptptpt"
     }
   ]
