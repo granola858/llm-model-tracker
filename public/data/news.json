@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-11-23T18:08:11.467Z",
+  "lastUpdated": "2026-11-23T21:06:00.340Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL252aWRpYS1lbXBsb3llZXMtZ3JlZXQtamVuc2VuLWh1YW5nLWxpa2UtYS1oZXJvLWFzLWhlLXJldHVybnMtdG8tY29tcGFueXMtaHEv",
+      "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+      "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T20:38:53.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2dvb2dsZS1zZWFyY2hzLWFpLW1vZGUtY2FuLW5vdy10YXAtaW50by1kcml2ZS1hbmQtd2FsbGV0LWZvci1tb3JlLXBlcnNvbmFsaXplZC1yZXNwb25zZXMv",
+      "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "source": "TechCrunch AI",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-23T19:14:46.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2plbnNlbi1odWFuZy1zY2hlZHVsZWQtdG8tdGVzdGlmeS1uZXh0LXdlZWstaW4tc2VuYXRlLWZvbGxvd2luZy1yZWluc3RhdGVtZW50LWFzLW52aWRpYS1jZW8v",
+      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+      "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "source": "TechCrunch AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-23T18:12:22.000Z"
+    },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FsbGVuYWkvcm9ib3RyYWNr",
       "title": "RoboTrack: Point tracking for real-world robotic manipulation",
@@ -32,16 +59,16 @@
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2plbnNlbi1odWFuZy1pc250LW91dC1vZi10aGUtd29vZHMteWV0Lw==",
       "title": "Jensen Huang isn’t out of the woods yet",
-      "summary": "It’s safe to say no one expected this. Monday morning, Jensen Huang returned as CEO of Nvidia, after resigning the position following news of multiple affairs, including one with a subordinate and one with a woman tied t...",
+      "summary": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
       "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
       "source": "TechCrunch AI",
-      "providerTag": "Meta",
+      "providerTag": "General",
       "publishedAt": "2026-11-23T16:57:40.000Z"
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL3RydW1wLXJlcG9ydGVkbHktY2FsbGVkLWludG8tbnZpZGlhLWJvYXJkLW1lZXRpbmctdG8tYWR2b2NhdGUtZm9yLWh1YW5ncy1yZXR1cm4v",
       "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
-      "summary": "\"I spoke to them, let me put it that way... And I convinced them,\" the president told CNBC.",
+      "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
       "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
       "source": "TechCrunch AI",
       "providerTag": "General",
@@ -129,6 +156,15 @@
       "publishedAt": "2026-11-23T11:00:00.000Z"
     },
     {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2Nvbm5lY3RlZC1pbnRlbGxpZ2VuY2UtZm9yLWluLWhvdXNlLWxlZ2Fs",
+      "title": "Connected intelligence for in-house legal",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside co...",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-23T08:00:00.000Z"
+    },
+    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIyL2hvdy1ub3RhYmxlLWNhcGl0YWwtZ2ljLWFuZC1iYWlsbGllLWdpZmZvcmQtYmV0LWJpZy1vbi1hbnRocm9waWMtYmVmb3JlLWl0cy1pcG8v",
       "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
       "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
@@ -201,24 +237,6 @@
       "publishedAt": "2026-11-22T00:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIxL3NpZ25hbC1yZXN0cmljdHMtbW9iaWxlLXNjcmVlbnNob3RzLWFzLWl0LWNvbmZyb250cy1leGlzdGVudGlhbC10aHJlYXQtb2YtYWktc3VydmVpbGxhbmNlLw==",
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
-      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-21T21:37:10.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIxL2EtdGFsZS1vZi10d28tbnZpZGlhcy8=",
-      "title": "A tale of two Nvidias",
-      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
-      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-21T21:07:42.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzOTU1NC91bi1yZWd1bGF0aW9ucy1raWxsZXItcm9ib3Rz",
       "title": "The UN fails to agree on rules regulating ‘killer robots’",
       "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings a...",
@@ -226,15 +244,6 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-21T20:03:37.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIxL2FsbC10aGUtYWktYWdlbnRzLXRoYXQtY2FuLWxpdmUtaW4teW91ci10ZXh0LW1lc3NhZ2VzLw==",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-21T17:00:00.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAzODcwMS9hbnRocm9waWMtaXBvLWFpLXNhZmV0eS1vcGVuYWktbnZpZGlhLXN0cnVjdHVyZQ==",
@@ -363,10 +372,10 @@
       "publishedAt": "2026-11-19T08:00:00.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RlcGxveWluZy1kYXlicmVhay1yZWQ=",
-      "title": "Deploying Daybreak Red",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2NvZGV4LXNlY3VyaXR5LXBsdWdpbi1kZW1v",
+      "title": "Explore the Codex Security Plugin",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-19T00:00:00.000Z"
@@ -381,19 +390,19 @@
       "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RheWJyZWFrLWJsdWUtb25ib2FyZGluZy1kZW1v",
-      "title": "Get started with Daybreak Blue",
-      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RlcGxveWluZy1kYXlicmVhay1yZWQ=",
+      "title": "Deploying Daybreak Red",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2NvZGV4LXNlY3VyaXR5LXBsdWdpbi1kZW1v",
-      "title": "Explore the Codex Security Plugin",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RheWJyZWFrLWJsdWUtb25ib2FyZGluZy1kZW1v",
+      "title": "Get started with Daybreak Blue",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-19T00:00:00.000Z"
@@ -460,15 +469,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-18T10:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3Jlc2VhcmNoLWFjY2VsZXJhdGlvbi1qYWdnZWQtZnJvbnRpZXI=",
-      "title": "Research acceleration: The jagged frontier",
-      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-18T08:00:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvc3VtaXRvbW8tbGlmZQ==",
