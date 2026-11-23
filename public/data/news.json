@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-11-23T12:10:23.187Z",
+  "lastUpdated": "2026-11-23T15:06:57.754Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL3RydW1wLWVuZG9yc2VzLWplbnNlbi1odWFuZ3MtcmV0dXJuLXRvLW52aWRpYS1zYXlzLXVzLWhhcy1uby1ldmlkZW5jZS1vZi13cm9uZ2RvaW5nLw==",
+      "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+      "summary": "The president cited the U.S. Attorney General in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T15:04:01.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL3NpZXJyYS1kb3VibGVzLXZhbHVhdGlvbi10by0zMGItd2l0aGluLXNpeC1tb250aHMtYXMtZGVtYW5kLWZvci1haS1pbi1jeC10YWtlcy1vZmYv",
+      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+      "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
+      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T14:43:03.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL252aWRpYS1yZXZlcnNlcy1jb3Vyc2UtYW5kLWJyaW5ncy1qZW5zZW4taHVhbmctYmFjay1hcy1jZW8v",
+      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+      "summary": "The stunning reversal was supported by senior officials in the U.S. government.",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T14:21:59.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9qZW5zZW4taHVhbmctcmVpbnN0YXRlZC1hcy1udmlkaWEtY2VvLWJvYXJkLWNoYWlyLw==",
+      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "summary": "Board says senior government officials confirmed Huang is \"no national security risk.\"",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T14:10:18.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzOTkzNy9udmlkaWEtY2VvLWplbnNlbi1odWFuZy1yZWluc3RhdGVk",
+      "title": "Jensen Huang is back as Nvidia’s CEO",
+      "summary": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which t...",
+      "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T14:04:24.000Z"
+    },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vcmV2aWV3cy8yMDI2LzExL3Jldmlldy10aGUtYXN1cy1wcm9hcnQtcDE2LW9mZmVycy1hLWdsaW1wc2Utb2YtYS1mdXR1cmUtcG93ZXJlZC1ieS1sb2NhbC1haS8=",
       "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
@@ -28,6 +73,15 @@
       "source": "TechCrunch AI",
       "providerTag": "Anthropic",
       "publishedAt": "2026-11-23T01:25:53.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FnZW50aWMtZXZhbHM=",
+      "title": "How to build and maintain an agentic evaluation",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T00:00:00.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzOTg1MS9tYWpvci10ZWNoLW91dGFnZXM=",
@@ -201,15 +255,6 @@
       "publishedAt": "2026-11-20T18:50:19.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIwL2NoaXBzLWNhbi1zdXJ2aXZlLXRoZS1zcGFjZS1lbnZpcm9ubWVudC1jYW4tdGhlaXItZmluYW5jaW5nLw==",
-      "title": "Chips can survive the space environment — can their financing?",
-      "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
-      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-20T17:40:01.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMTAwNTEvYW50aHJvcGljLXJpZW1hbm4taHlwb3RoZXNpcy1taWxsZW5uaXVtLXByaXplLXByb2JsZW0=",
       "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
       "summary": "Anthropic mathematician Levent Alp&#246;ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the wor...",
@@ -217,33 +262,6 @@
       "source": "The Verge AI",
       "providerTag": "Anthropic",
       "publishedAt": "2026-11-20T16:34:13.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS9wb2RjYXN0L3RoZS1mYWxsb3V0LWZyb20tbnZpZGlhcy1qZW5zZW4taHVhbmctc2NhbmRhbC1jb250aW51ZXMv",
-      "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
-      "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, t...",
-      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-20T14:55:44.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAzODQxOS9vdXRhZ2Utb3V0bG9vay1ncm91bmQtc3RvcC10ZWNoLWZhaWx1cmUtdmVyZ2VjYXN0",
-      "title": "The week everything fell apart",
-      "summary": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technologic...",
-      "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-20T14:06:59.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIwLzYtYWktcG93ZXJlZC1nYWRnZXRzLXRoYXQtY291bGQtbWFrZS15b3VyLWhvbWUtb2ZmaWNlLXNtYXJ0ZXIv",
-      "title": "Six AI-powered gadgets that could make your home office smarter",
-      "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
-      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-20T14:00:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NvbWJhdHRpbmctYWR2ZXJzYXJpYWwtZGlzdGlsbGF0aW9u",
@@ -507,15 +525,6 @@
       "publishedAt": "2026-11-17T15:28:59.000Z"
     },
     {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vc2VjdXJpdHkvMjAyNi8xMS9ncm9rLWJvdC10b29rLXVuYXBwcm92ZWQtYWN0aW9ucy1pZ25vcmVkLW9yZGVycy10by1zdG9wLWFuZC10aGVuLWRlbmllZC1pdC8=",
-      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-      "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-      "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-      "source": "Ars Technica AI",
-      "providerTag": "xAI",
-      "publishedAt": "2026-11-17T14:00:29.000Z"
-    },
-    {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL21hcHMvYXNrLW1hcHMtaG9saWRheS10cmF2ZWwtZmVhdHVyZXMtMjAyNi8=",
       "title": "New Ask Maps features to help with holiday travel and prep",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp\">Plan holiday road trips, get route tips, find local appointments, and search your saved...",
@@ -532,15 +541,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-16T00:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9zaW1yZWFkeS1hc3NldHMtcm9ib3QtcGljay1hbmQtcGxhY2U=",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-13T18:00:39.000Z"
     }
   ]
 }

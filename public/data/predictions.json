@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-23T12:10:24.787Z",
+  "lastUpdated": "2026-11-23T15:07:00.058Z",
   "items": [
     {
       "provider": "Anthropic",
       "name": "Claude Fable 5.3+",
       "date": "2027-01-31",
       "precision": "by",
-      "probability": 0.67,
+      "probability": 0.65,
       "url": "https://polymarket.com/event/next-fable-model-5pt3-released-byptptpt"
     },
     {
@@ -22,15 +22,15 @@
       "name": "Muse Wonder 1.1+",
       "date": "2027-01-31",
       "precision": "by",
-      "probability": 0.515,
+      "probability": 0.52,
       "url": "https://polymarket.com/event/next-muse-wonder-1pt1-released-byptptpt"
     },
     {
       "provider": "xAI",
       "name": "Grok 4.8+",
       "date": "2026-12-07",
-      "precision": "near",
-      "probability": 0.665,
+      "precision": "after",
+      "probability": 0.46,
       "url": "https://polymarket.com/event/next-grok-model-4pt8-released-by"
     },
     {
@@ -38,7 +38,7 @@
       "name": "DeepSeek Pro",
       "date": "2026-12-31",
       "precision": "after",
-      "probability": 0.195,
+      "probability": 0.185,
       "url": "https://polymarket.com/event/next-deepseek-pro-released-byptptpt"
     }
   ]
