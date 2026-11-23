@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-23T00:17:41.406Z",
+  "lastUpdated": "2026-11-23T03:08:42.390Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIyL2hvdy1ub3RhYmxlLWNhcGl0YWwtZ2ljLWFuZC1iYWlsbGllLWdpZmZvcmQtYmV0LWJpZy1vbi1hbnRocm9waWMtYmVmb3JlLWl0cy1pcG8v",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-23T01:25:53.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzOTg1MS9tYWpvci10ZWNoLW91dGFnZXM=",
       "title": "We haven’t seen the last of the major tech outages",
@@ -235,15 +244,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-20T10:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzE5L2FwcGxlLW1heS1iZS1kZXZlbG9waW5nLWl0cy1vd24tYWktYWdlbnQtdGhhdC1ydW5zLXlvdXItbWFjLw==",
-      "title": "Apple may be developing its own AI agent that runs your Mac",
-      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
-      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "source": "TechCrunch AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-20T00:56:01.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvaGViYmlh",
