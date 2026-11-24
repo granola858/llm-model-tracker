@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-24T12:09:44.689Z",
+  "lastUpdated": "2026-11-24T15:06:44.588Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9ob3ctdHJ1bXAtYW5kLXNpbGljb24tdmFsbGV5LWZvcmNlZC1udmlkaWEtdG8tdGFrZS1qZW5zZW4taHVhbmctYmFjay8=",
+      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+      "summary": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T14:56:50.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vc2VjdXJpdHkvMjAyNi8xMS9hbWF6b24tc2F5cy1oYWNrZXJzLWFpLWFnZW50cy1mb3VuZC1hbmQtZXhwbG9pdGVkLTAtZGF5LXdpdGgtbGl0dGxlLWh1bWFuLWlucHV0Lw==",
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T12:30:05.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDA2NTIvamVuc2VuLWh1YW5nLW52aWRpYS10cnVtcC1yZWluc3RhdGVk",
       "title": "Trump engineered a risky comeback for Jensen Huang",
@@ -516,15 +534,6 @@
       "publishedAt": "2026-11-18T00:00:00.000Z"
     },
     {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS90cnVtcC13YXMtaW4tYmVkLXdpdGgtamVuc2VuLWNyaXRpY3MtYmFsay1hdC1odWFuZ3Mtd2lzaC10by1yZXR1cm4tdG8tbnZpZGlhLw==",
-      "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
-      "summary": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
-      "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-17T20:32:55.000Z"
-    },
-    {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS9wcm9kdWN0cy9nZW1pbmktYXBwL3Rhc2tzLWluLWdlbWluaS1mcmVlLW5ldy1mZWF0dXJlcy8=",
       "title": "Put Gemini to work for you",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp\">Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and ...",
@@ -532,15 +541,6 @@
       "source": "Google AI Blog",
       "providerTag": "Google",
       "publishedAt": "2026-11-17T17:00:00.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9nb29nbGUtd2lsbC1sZXQteW91LW9wdC1vdXQtb2YtYWktdHJhaW5pbmctaW4tZ2VtaW5pLXdpdGhvdXQtbG9zaW5nLXlvdXItaGlzdG9yeS8=",
-      "title": "Google makes it easier to use Gemini without training AI on your data",
-      "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
-      "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
-      "source": "Ars Technica AI",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-17T16:50:10.000Z"
     }
   ]
 }
