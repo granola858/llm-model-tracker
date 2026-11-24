@@ -33,5 +33,6 @@
   "openrouter:openai/gpt-6.2-astra-pro": "2026-11-21",
   "openrouter:openai/gpt-6.2-sol-pro": "2026-11-21",
   "news:https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/": "2026-11-21",
-  "news:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/": "2026-11-21"
+  "news:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/": "2026-11-21",
+  "news:https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/": "2026-11-24"
 }
