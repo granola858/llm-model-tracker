@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T00:15:44.948Z",
+  "lastUpdated": "2026-11-24T03:08:10.900Z",
   "items": [
     {
       "provider": "Anthropic",
@@ -14,7 +14,7 @@
       "name": "Gemini Argon",
       "date": "2027-01-31",
       "precision": "after",
-      "probability": 0.445,
+      "probability": 0.43,
       "url": "https://polymarket.com/event/next-gemini-argon-released-byptptpt-20261014"
     },
     {
@@ -38,7 +38,7 @@
       "name": "DeepSeek Pro",
       "date": "2026-12-31",
       "precision": "after",
-      "probability": 0.185,
+      "probability": 0.18,
       "url": "https://polymarket.com/event/next-deepseek-pro-released-byptptpt"
     }
   ]
