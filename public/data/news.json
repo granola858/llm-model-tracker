@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-11-23T21:06:00.340Z",
+  "lastUpdated": "2026-11-24T00:15:42.819Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDA2NTIvamVuc2VuLWh1YW5nLW52aWRpYS10cnVtcC1yZWluc3RhdGVk",
+      "title": "Trump engineered a risky comeback for Jensen Huang",
+      "summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on St...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "source": "The Verge AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-23T22:25:12.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzA0MjIvbnZpZGlhLWplbnNlbi1odWFuZy1haS1jaGluYS1hbGljZS1odWFuZw==",
+      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+      "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Tim...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "The Verge AI",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-23T22:10:32.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDA4MTkvd2VsY29tZS10by1lbGl0ZS1pbXB1bml0eS1qZW5zZW4taHVhbmc=",
+      "title": "Welcome to elite impunity, Jensen Huang",
+      "summary": "I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened. N...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T22:09:26.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2FudGhyb3BpYy1sYXVuY2hlcy1jbGF1ZGUtc2hpcC1sZXR0aW5nLWFpLWFnZW50cy1yZXZpZXctZml4LWFuZC1hcHByb3ZlLWNvZGUtY2hhbmdlcy8=",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-23T22:05:50.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL3N1cGVydGFrZS1yYWlzZXMtMjBtLXRvLWxldC1haS1hZ2VudHMtdHVybi15b3VyLW1hcmtldC1wcmVkaWN0aW9ucy1pbnRvLXN0b2NrLXBvcnRmb2xpb3Mv",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T22:02:05.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2Vsb24tbXVzay1hbmQtb3RoZXJzLXJlam9pY2UtYXMtamVuc2VuLWh1YW5nLWlzLXJlaW5zdGF0ZWQtYXQtbnZpZGlhLWFtaWQtc2NhbmRhbC8=",
+      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
+      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T21:47:41.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9zdGF0ZXMtc3VlLXNwYWNleC10by1zdG9wLWdyb2stZnJvbS1nZW5lcmF0aW5nLWNoaWxkLXNleC1pbWFnZXMtcmV2ZW5nZS1wb3JuLw==",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "summary": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+      "source": "Ars Technica AI",
+      "providerTag": "xAI",
+      "publishedAt": "2026-11-23T21:30:44.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL21lZ2FzcGVlZC10aGUtY29tcGFueS1hdC10aGUtY2VudGVyLW9mLXRoZS1qZW5zZW4taHVhbmctc2NhbmRhbC1hcHBlYXJzLWhlYWRlZC1mb3ItYS11LXMtYmxhY2tsaXN0Lw==",
+      "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+      "summary": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
+      "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T21:25:42.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ludHJvZHVjaW5nLXNoaXJ1ZG8=",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-23T21:20:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3NjaWVuY2UvMTA0MDQ5Ny9haS1kYXRhLWNlbnRlcnMtZWxlY3RyaWNpdHktdW4tY2xpbWF0ZS1zdW1taXQ=",
+      "title": "AI data centers throw another wrench into chaotic UN climate talks",
+      "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations...",
+      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T21:09:37.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL252aWRpYS1lbXBsb3llZXMtZ3JlZXQtamVuc2VuLWh1YW5nLWxpa2UtYS1oZXJvLWFzLWhlLXJldHVybnMtdG8tY29tcGFueXMtaHEv",
       "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
@@ -12,6 +102,24 @@
       "publishedAt": "2026-11-23T20:38:53.000Z"
     },
     {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDAxMzQvYW50aHJvcGljLWNsYXVkZS1zaGlwLWFpLXB1bGwtcmVxdWVzdHM=",
+      "title": "Claude AI can review pull requests and ship fixes on its own now",
+      "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have a...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "source": "The Verge AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-23T20:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTA0MDQyOC9udmlkaWEtamVuc2VuLWh1YW5nLWNlby1yZXR1cm4=",
+      "title": "How Jensen Huang ended up as Nvidia CEO again",
+      "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over...",
+      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T19:57:18.000Z"
+    },
+    {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2dvb2dsZS1zZWFyY2hzLWFpLW1vZGUtY2FuLW5vdy10YXAtaW50by1kcml2ZS1hbmQtd2FsbGV0LWZvci1tb3JlLXBlcnNvbmFsaXplZC1yZXNwb25zZXMv",
       "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
       "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
@@ -19,6 +127,24 @@
       "source": "TechCrunch AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-23T19:14:46.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2dhZGdldHMvMTA0MDM1Ny9ub3RoaW5nLWVhci1ub3RlLWVhcmJ1ZHMtYWktcmVjb3JkaW5n",
+      "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
+      "summary": "Nothing's new AI device is the Ear Note, a set of earbuds and their microphone-equipped charging case that can record and transcribe conversations, with a connected app to manage the recordings, transcriptions and AI-gen...",
+      "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-23T19:04:52.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDAyNTUveC1ncm9rLWFpLWRlZXBmYWtlcy1vcmVnb24tdmlyZ2luaWEtbGF3c3VpdA==",
+      "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
+      "summary": "In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safe...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "source": "The Verge AI",
+      "providerTag": "xAI",
+      "publishedAt": "2026-11-23T18:26:47.000Z"
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2plbnNlbi1odWFuZy1zY2hlZHVsZWQtdG8tdGVzdGlmeS1uZXh0LXdlZWstaW4tc2VuYXRlLWZvbGxvd2luZy1yZWluc3RhdGVtZW50LWFzLW52aWRpYS1jZW8v",
@@ -120,24 +246,6 @@
       "publishedAt": "2026-11-23T14:43:03.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL252aWRpYS1yZXZlcnNlcy1jb3Vyc2UtYW5kLWJyaW5ncy1qZW5zZW4taHVhbmctYmFjay1hcy1jZW8v",
-      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
-      "summary": "The stunning reversal was supported by senior officials in the U.S. government.",
-      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T14:21:59.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzOTkzNy9udmlkaWEtY2VvLWplbnNlbi1odWFuZy1yZWluc3RhdGVk",
-      "title": "Jensen Huang is back as Nvidia’s CEO",
-      "summary": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which t...",
-      "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T14:04:24.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vcmV2aWV3cy8yMDI2LzExL3Jldmlldy10aGUtYXN1cy1wcm9hcnQtcDE2LW9mZmVycy1hLWdsaW1wc2Utb2YtYS1mdXR1cmUtcG93ZXJlZC1ieS1sb2NhbC1haS8=",
       "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
       "summary": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
@@ -145,15 +253,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-23T12:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzk4NzQvd2FsbWFydC1hZ2VudC1nYXRld2F5LW1ldGEtbXVzZS1ibGFjay1mcmlkYXk=",
-      "title": "Meta Muse can do your Black Friday shopping at Walmart",
-      "summary": "Walmart will now let Meta's Muse shop on your behalf, allowing the AI agent to find and purchase Black Friday deals via Walmart's Sparky AI assistant. The retail giant is rolling out a live implementation of the Agent Ga...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T11:00:00.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2Nvbm5lY3RlZC1pbnRlbGxpZ2VuY2UtZm9yLWluLWhvdXNlLWxlZ2Fs",
@@ -165,13 +264,13 @@
       "publishedAt": "2026-11-23T08:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIyL2hvdy1ub3RhYmxlLWNhcGl0YWwtZ2ljLWFuZC1iYWlsbGllLWdpZmZvcmQtYmV0LWJpZy1vbi1hbnRocm9waWMtYmVmb3JlLWl0cy1pcG8v",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-23T01:25:53.000Z"
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvcmljaHBhbmVsLWFpLWN1c3RvbWVyLXN1cHBvcnQ=",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-23T08:00:00.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FnZW50aWMtZXZhbHM=",
@@ -183,51 +282,6 @@
       "publishedAt": "2026-11-23T00:00:00.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzOTg1MS9tYWpvci10ZWNoLW91dGFnZXM=",
-      "title": "We haven’t seen the last of the major tech outages",
-      "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are m...",
-      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-22T22:48:02.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIyL29wZW5haXMtY2hpZWYtc2NpZW50aXN0LWhhcy10aG91Z2h0cy1vbi1ob3ctdG8tbGltaXQtYWktZGV2ZWxvcG1lbnQv",
-      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
-      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-      "source": "TechCrunch AI",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-22T21:14:07.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIyL3doeS1kYXRhLWNlbnRlcnMtYXJlLWF0LXRoZS1jZW50ZXItb2YtdGhlLWJpZy10ZWNoLWJhY2tsYXNoLw==",
-      "title": "Why data centers are at the center of the Big Tech backlash",
-      "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
-      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-22T18:08:43.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2dhbWVzLzEwMzk3NzAvYmluZGluZy1vZi1pc2FhYy1haS1tdXNpYw==",
-      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
-      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs ...",
-      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-22T17:25:20.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2NvbHVtbi8xMDM5MTM5L3ZpYmUtY29kaW5nLWdhZGdldHMtdHYtY2FtZXJh",
-      "title": "The vibe-coding revolution is coming to all the gadgets",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday...",
-      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-22T13:00:00.000Z"
-    },
-    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3BlcnBsZXhpdHktYW5kLWludGVsbGlnZW5jZQ==",
       "title": "Perplexity and Intelligence",
       "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
@@ -235,33 +289,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-22T00:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTAzOTU1NC91bi1yZWd1bGF0aW9ucy1raWxsZXItcm9ib3Rz",
-      "title": "The UN fails to agree on rules regulating ‘killer robots’",
-      "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings a...",
-      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-21T20:03:37.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvZGNhc3QvMTAzODcwMS9hbnRocm9waWMtaXBvLWFpLXNhZmV0eS1vcGVuYWktbnZpZGlhLXN0cnVjdHVyZQ==",
-      "title": "Can Anthropic afford to put safety first?",
-      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last T...",
-      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-      "source": "The Verge AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-21T15:00:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2dhbWVzLzEwMzgwOTkvY2hlc3MtY2xhc3NpYy1nYW1lcy1leHBhbnNpb24tYWk=",
-      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
-      "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, ...",
-      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-21T14:00:00.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9nb29nbGVzLWxhdGVzdC1zZWFyY2gtcGFnZS1yZWRlc2lnbi1kcm9wcy10aGUtc2VhcmNoLWJ1dHRvbi1hZGRzLWFpLXNpZGViYXIv",
@@ -372,15 +399,6 @@
       "publishedAt": "2026-11-19T08:00:00.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2NvZGV4LXNlY3VyaXR5LXBsdWdpbi1kZW1v",
-      "title": "Explore the Codex Security Plugin",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-19T00:00:00.000Z"
-    },
-    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL3ByLXNjYW5zLWRlbW8=",
       "title": "See PR scans in action",
       "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
@@ -390,19 +408,28 @@
       "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RlcGxveWluZy1kYXlicmVhay1yZWQ=",
-      "title": "Deploying Daybreak Red",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RheWJyZWFrLWJsdWUtb25ib2FyZGluZy1kZW1v",
+      "title": "Get started with Daybreak Blue",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RheWJyZWFrLWJsdWUtb25ib2FyZGluZy1kZW1v",
-      "title": "Get started with Daybreak Blue",
-      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2NvZGV4LXNlY3VyaXR5LXBsdWdpbi1kZW1v",
+      "title": "Explore the Codex Security Plugin",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RlcGxveWluZy1kYXlicmVhay1yZWQ=",
+      "title": "Deploying Daybreak Red",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-19T00:00:00.000Z"
@@ -462,24 +489,6 @@
       "publishedAt": "2026-11-18T15:00:23.000Z"
     },
     {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3RoZS1zaWxlbnQtY29uc2Vuc3Vz",
-      "title": "The Silent Consensus",
-      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "url": "https://openai.com/index/the-silent-consensus",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-18T10:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvc3VtaXRvbW8tbGlmZQ==",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-18T08:00:00.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FkZ2V0cy8yMDI2LzExL21pY3Jvc29mdC1jYWxscy1jb3BpbG90LXRoZS1uZXctb3MtZm9yLXdvcmstYXQtaWduaXRlLWtleW5vdGUv",
       "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
       "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
@@ -532,15 +541,6 @@
       "source": "Ars Technica AI",
       "providerTag": "Google",
       "publishedAt": "2026-11-17T16:50:10.000Z"
-    },
-    {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FkZ2V0cy8yMDI2LzExL2Fycy1saXZlLWNhbi10aGUtY2xvdWQtc3Vydml2ZS1kcm9uZS1zdHJpa2VzLW9uLWRhdGEtY2VudGVycy8=",
-      "title": "Ars Live: What do drone strikes on data centers mean for the future? Talk at 1 pm EST today",
-      "summary": "Ars Live discussion is happening today, November 17, at 1 pm Eastern Time.",
-      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-17T15:28:59.000Z"
     }
   ]
 }
