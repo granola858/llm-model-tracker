@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-11-24T15:06:44.588Z",
+  "lastUpdated": "2026-11-24T18:08:06.019Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3VrLXdhcm5zLWFpLWRyaXZlbi1jeWJlcmF0dGFja3MtYXJlLWV4cG9zaW5nLXllYXJzLW9mLXdlYWstc2VjdXJpdHkv",
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T18:02:59.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS90aWRhbC13aWxsLWJhbi1mdWxseS1haS1nZW5lcmF0ZWQtbXVzaWMtb24tZGVjZW1iZXItOS8=",
+      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+      "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T17:34:34.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L21ldGEtYnJpbmdzLWl0cy1tdXNlLWFpLWFzc2lzdGFudC1kaXJlY3RseS1pbnRvLWluc3RhZ3JhbS1kbXMv",
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T17:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3RpZGFsLXRvLWJhbi1hbmQtcmVtb3ZlLW1pbGxpb25zLW9mLWFpLWdlbmVyYXRlZC10cmFja3MtYXMtYWktc2xvcC1pbnVuZGF0ZXMtbXVzaWMtc3RyZWFtaW5nLw==",
+      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T16:46:00.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9taWNyb2R1Y2stb2JzdGFjbGUtYXZvaWRhbmNl",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T16:34:13.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3doeS1hLWNydXNvZS1pbnZlc3Rvci1pcy1iZXR0aW5nLW9uLXNvbGFyLWFuZC1iYXR0ZXJpZXMtdG8tcG93ZXItZnV0dXJlLWFpLWRhdGEtY2VudGVycy8=",
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T16:10:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDEyMjcvdGhlLW5ldy15b3JrLXRpbWVzLXdhcm5zLXBob3RvZ3JhcGhlcnMtbm90LXRvLXVwZGF0ZS1waG90b3Nob3Atb3Zlci1haS1mZWF0dXJlcw==",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge ...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T16:09:23.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3BpbnRlcmVzdC13aWxsLW5vdy1sZXQtcGFyZW50cy1saW1pdC10aGUtYWktZ2VuZXJhdGVkLWNvbnRlbnQtdGhlaXItdGVlbnMtc2VlLw==",
+      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T16:02:37.000Z"
+    },
+    {
+      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL2dlbWluaS9nZW1pbmktZ29sZGVuLXN0YXRlLw==",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp\">Google Gemini partners with Golden State to power fan experiences and business operations for the Wa...",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "source": "Google AI Blog",
+      "providerTag": "Google",
+      "publishedAt": "2026-11-24T16:00:00.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L2FtYXpvbnMtZGVjYXJ0LWFjcXVpc2l0aW9uLWlzLWEtYmV0LW9uLXVzaW5nLXNvZnR3YXJlLXRvLW5hcnJvdy10aGUtZ2FwLXdpdGgtbnZpZGlhLWluLXRoZS1haS1jaGlwLXJhY2Uv",
+      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+      "summary": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T15:51:07.000Z"
+    },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9ob3ctdHJ1bXAtYW5kLXNpbGljb24tdmFsbGV5LWZvcmNlZC1udmlkaWEtdG8tdGFrZS1qZW5zZW4taHVhbmctYmFjay8=",
       "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
@@ -165,15 +255,6 @@
       "publishedAt": "2026-11-23T18:26:47.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2plbnNlbi1odWFuZy1zY2hlZHVsZWQtdG8tdGVzdGlmeS1uZXh0LXdlZWstaW4tc2VuYXRlLWZvbGxvd2luZy1yZWluc3RhdGVtZW50LWFzLW52aWRpYS1jZW8v",
-      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
-      "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
-      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
-      "source": "TechCrunch AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-23T18:12:22.000Z"
-    },
-    {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FsbGVuYWkvcm9ib3RyYWNr",
       "title": "RoboTrack: Point tracking for real-world robotic manipulation",
       "summary": "點擊閱讀完整原文報導。",
@@ -181,15 +262,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-23T17:20:37.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2FtYXpvbi1zbmFwcy11cC1kZWNhcnRzLWFpLW9wdGltaXphdGlvbi10ZWNoLWZvci03LTViLWFzLWl0LXByZXBhcmVzLXRvLXNlbGwtdHJhaW5pdW0tY2hpcHMv",
-      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-      "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
-      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T17:14:23.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL3NlYXJjaC9nb29nbGUtc2VhcmNoLXBlcnNvbmFsLWludGVsbGlnZW5jZS1hcHBzLw==",
@@ -201,24 +273,6 @@
       "publishedAt": "2026-11-23T17:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2plbnNlbi1odWFuZy1pc250LW91dC1vZi10aGUtd29vZHMteWV0Lw==",
-      "title": "Jensen Huang isn’t out of the woods yet",
-      "summary": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
-      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T16:57:40.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL3RydW1wLXJlcG9ydGVkbHktY2FsbGVkLWludG8tbnZpZGlhLWJvYXJkLW1lZXRpbmctdG8tYWR2b2NhdGUtZm9yLWh1YW5ncy1yZXR1cm4v",
-      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
-      "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
-      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T16:39:10.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvbGljeS8xMDQwMDk2L3RydW1wLW52aWRpYS1qZW5zZW4taHVhbmctcmVpbnN0YXRlZA==",
       "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
       "summary": "It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. \"President Trump was totally involved and this is a g...",
@@ -228,15 +282,6 @@
       "publishedAt": "2026-11-23T16:30:11.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTA0MDA2OS9qZW5zZW4taHVhbmctcmV0dXJuLWVsb24tbXVzay1zYW0tYWx0bWFuLXlheQ==",
-      "title": "Tech leaders are celebrating Jensen Huang’s return",
-      "summary": "Let's say you're Jensen Huang. You (allegedly) cheated on your wife with an alleged Chinese spy, allegedly had an affair with not one, but two subordinates, and (allegedly!) \"terrorized\" your employees, a series of indis...",
-      "url": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
-      "source": "The Verge AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-23T16:14:04.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9qZW5zZW4taHVhbmctcmVpbnN0YXRlZC1hcy1udmlkaWEtY2VvLWJvYXJkLWNoYWlyLw==",
       "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
       "summary": "Trump says he spoke to the board and that Huang \"did nothing wrong.\"",
@@ -244,24 +289,6 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-23T15:46:18.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL3RydW1wLWVuZG9yc2VzLWplbnNlbi1odWFuZ3MtcmV0dXJuLXRvLW52aWRpYS1zYXlzLXVzLWhhcy1uby1ldmlkZW5jZS1vZi13cm9uZ2RvaW5nLw==",
-      "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
-      "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
-      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T15:04:01.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL3NpZXJyYS1kb3VibGVzLXZhbHVhdGlvbi10by0zMGItd2l0aGluLXNpeC1tb250aHMtYXMtZGVtYW5kLWZvci1haS1pbi1jeC10YWtlcy1vZmYv",
-      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
-      "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
-      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T14:43:03.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vcmV2aWV3cy8yMDI2LzExL3Jldmlldy10aGUtYXN1cy1wcm9hcnQtcDE2LW9mZmVycy1hLWdsaW1wc2Utb2YtYS1mdXR1cmUtcG93ZXJlZC1ieS1sb2NhbC1haS8=",
@@ -507,15 +534,6 @@
       "publishedAt": "2026-11-18T15:00:23.000Z"
     },
     {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FkZ2V0cy8yMDI2LzExL21pY3Jvc29mdC1jYWxscy1jb3BpbG90LXRoZS1uZXctb3MtZm9yLXdvcmstYXQtaWduaXRlLWtleW5vdGUv",
-      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
-      "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
-      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T00:27:29.000Z"
-    },
-    {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL21vZS1leHBlcnQtc3RyZWFtaW5n",
       "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
       "summary": "點擊閱讀完整原文報導。",
@@ -523,24 +541,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-18T00:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL3J1bWJsZS0yLWZsYXNo",
-      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/rumble-2-flash",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T00:00:00.000Z"
-    },
-    {
-      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS9wcm9kdWN0cy9nZW1pbmktYXBwL3Rhc2tzLWluLWdlbWluaS1mcmVlLW5ldy1mZWF0dXJlcy8=",
-      "title": "Put Gemini to work for you",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp\">Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and ...",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-      "source": "Google AI Blog",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-17T17:00:00.000Z"
     }
   ]
 }
