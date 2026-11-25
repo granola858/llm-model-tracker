@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-11-25T18:07:50.110Z",
+  "lastUpdated": "2026-11-25T21:06:38.465Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L29wZW5haS1zYXlzLWhlYXZ5LWNoYXRncHQtdXNlcnMtbWF5LWhpdC1saW1pdHMtc29vbmVyLWFzLWl0LW1lcmdlcy1jaGF0LWFuZC13b3JrLw==",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "source": "TechCrunch AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-25T20:03:27.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L2plbnNlbi1odWFuZy1icm9rZS1udmlkaWFzLWNvZGUtb2YtY29uZHVjdC1hbmQtaGlzLWVtcGxveWVlcy1tYXktbm90LWZvcmdldC1pdC8=",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T19:54:57.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L2FudGhyb3BpY3MtZGFyaW8tYW1vZGVpLWNhbGxzLWFjY3VzYXRpb25zLW9mLXN1cnJlbmRlcmluZy1odW1hbi1jb250cm9sLXRvLWFpLWFic3VyZC8=",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-25T19:44:24.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FsbGVuYWkvd2hlcmUtc2NpZW50aXN0cy1kcmF3LXRoZS1saW5lLW9uLWFpLWFnZW50cw==",
+      "title": "Where scientists draw the line on AI agents",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T18:52:55.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L3dhbnQtdG8tYnV5LXlvdXIta2lkLWFuLWFpLXRveS10aGlzLWNocmlzdG1hcy1ub3QtaW4tbmV3LXlvcmsv",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T18:11:46.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3NjaWVuY2UvMTA0MjI3OC9zcGFjZXgtZmNjLXN0YXJtaW5kLWFpLXNwYWNlLWRhdGEtY2VudGVycw==",
       "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
@@ -13,7 +58,7 @@
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L3N0YXRlLWFncy1maWdodC1jaGFyYWN0ZXItYWlzLXBsYW4tdG8tYXVjdGlvbi1vZmYtdXNlcnMtcHJpdmF0ZS1jaGF0cy8=",
-      "title": "State AGs fight Character AI’s plan to auction off users’ private chats",
+      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
       "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
       "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
       "source": "TechCrunch AI",
@@ -147,24 +192,6 @@
       "publishedAt": "2026-11-24T21:33:29.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3dhbG1hcnQtdGVhbXMtdXAtd2l0aC1tZXRhLXRvLWJyaW5nLWJsYWNrLWZyaWRheS1kZWFscy10by1haS1hZ2VudC1tdXNlLw==",
-      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
-      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-24T21:32:38.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L21hcGxlLXJhaXNlcy01LTNtLXRvLWJ1aWxkLWFpLXByb2R1Y3RzLXRoYXQtcHJvdGVjdC15b3VyLWRhdGEtZXZlbi1mcm9tLWl0c2VsZi8=",
-      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
-      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
-      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-24T21:19:52.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS93aGF0cy1nb2luZy1vbi13aXRoLXRoZS1yaWVtYW5uLWh5cG90aGVzaXMv",
       "title": "What's going on with the Riemann hypothesis?",
       "summary": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
@@ -192,15 +219,6 @@
       "publishedAt": "2026-11-24T18:47:57.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L2FudGhyb3BpYy1zaGFyZXMtZmFsbC1iZWxvdy1pcG8tcHJpY2UtYS13b3JyeWluZy1zaWduLWZvci1haS1zdGFydHVwcy8=",
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
-      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-24T18:30:42.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2VudGVydGFpbm1lbnQvMTA0MTQxNy9kYXZpZC1maW5jaGVyLW5ldGZsaXgtY2xpZmYtYm9vdGgtYWktaW50ZXJwb3NpdGl2ZQ==",
       "title": "David Fincher is being dragged for suspected use of AI in his latest film",
       "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether gen...",
@@ -208,15 +226,6 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-24T18:15:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3VrLXdhcm5zLWFpLWRyaXZlbi1jeWJlcmF0dGFja3MtYXJlLWV4cG9zaW5nLXllYXJzLW9mLXdlYWstc2VjdXJpdHkv",
-      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
-      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-24T18:02:59.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS90aWRhbC13aWxsLWJhbi1mdWxseS1haS1nZW5lcmF0ZWQtbXVzaWMtb24tZGVjZW1iZXItOS8=",
@@ -361,15 +370,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-23T21:20:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FsbGVuYWkvcm9ib3RyYWNr",
-      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/allenai/robotrack",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T17:20:37.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL3NlYXJjaC9nb29nbGUtc2VhcmNoLXBlcnNvbmFsLWludGVsbGlnZW5jZS1hcHBzLw==",
