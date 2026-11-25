@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-25T09:07:39.281Z",
+  "lastUpdated": "2026-11-25T12:09:39.961Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9haS1jYW4tZG8tdGhlLWNhbGN1bGF0aW9ucy1waHlzaWNpc3RzLWFyZS1maWd1cmluZy1vdXQtd2hhdC1jb21lcy1uZXh0Lw==",
+      "title": "AI can do the calculations. Theoretical physicists are figuring out what comes next.",
+      "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
+      "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T12:00:28.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2libS1yZXNlYXJjaC9hbi1pbmRpYy12b2ljZS1hZ2VudC13aXRoLWN1Z2E=",
+      "title": "An Indic Voice Agent with CUGA",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T10:22:09.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3lhbGVzLXNvbm5lbmZlbGQtbnZpZGlhLWlzLWEtZGV0cmltZW50LXRvLXUtcy1pbmR1c3RyaWFsLW1pZ2h0LW5vdC1hLWNoYW1waW9uLw==",
       "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
@@ -471,15 +489,6 @@
       "publishedAt": "2026-11-20T00:00:00.000Z"
     },
     {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS90cmF1bWF0aXplZC10ZWVucy1zdWUtc2Nob29sLWNvcHMtYWZ0ZXItZG9yaXRvcy1iYWctdHJpZ2dlcnMtYWktZ3VuLWFsZXJ0Lw==",
-      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-      "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
-      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-19T20:19:28.000Z"
-    },
-    {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2RldmVsb3BlcnMtdG9vbHMvZ2VtaW5pLWFwaS10b29sLXJldHJpZXZhbC8=",
       "title": "Introducing Tool Retrieval in the Gemini API",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp\">Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now i...",
@@ -523,15 +532,6 @@
       "source": "Google AI Blog",
       "providerTag": "Google",
       "publishedAt": "2026-11-18T17:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2libS1yZXNlYXJjaC90aW1lLXNlcmllcy1wb3dlcmVkLXN0cmVhbWhvdXNl",
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T15:00:23.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL21vZS1leHBlcnQtc3RyZWFtaW5n",
