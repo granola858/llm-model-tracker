@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-11-24T21:06:24.967Z",
+  "lastUpdated": "2026-11-25T00:17:04.459Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3lhbGVzLXNvbm5lbmZlbGQtbnZpZGlhLWlzLWEtZGV0cmltZW50LXRvLXUtcy1pbmR1c3RyaWFsLW1pZ2h0LW5vdC1hLWNoYW1waW9uLw==",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to U.S. industrial might — not a champion",
+      "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal l...",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T00:12:02.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L2plbnNlbi1odWFuZy1zdGlsbC10aGlua3MtYS1zdWNjZXNzaW9uLXBsYW4tY3JlYXRlcy11bm5lY2Vzc2FyeS1oaWVyYXJjaHkv",
+      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+      "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T22:27:52.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L2luLWFsbC1oYW5kcy1tZWV0aW5nLWplbnNlbi1odWFuZy10aGFua3Mtd2hpdGUtaG91c2UtYW5kLXNheXMtaGVzLWluLXRoZXJhcHkv",
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T21:48:27.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L2V2ZW4tdGhlLWJlc3QtYWktYWdlbnRzLXN0cnVnZ2xlLXdpdGgtZXZlcnlkYXktbGlmZS8=",
+      "title": "Even the best AI agents struggle with everyday life",
+      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T21:33:29.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3dhbG1hcnQtdGVhbXMtdXAtd2l0aC1tZXRhLXRvLWJyaW5nLWJsYWNrLWZyaWRheS1kZWFscy10by1haS1hZ2VudC1tdXNlLw==",
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T21:32:38.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L21hcGxlLXJhaXNlcy01LTNtLXRvLWJ1aWxkLWFpLXByb2R1Y3RzLXRoYXQtcHJvdGVjdC15b3VyLWRhdGEtZXZlbi1mcm9tLWl0c2VsZi8=",
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-24T21:19:52.000Z"
+    },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS93aGF0cy1nb2luZy1vbi13aXRoLXRoZS1yaWVtYW5uLWh5cG90aGVzaXMv",
       "title": "What's going on with the Riemann hypothesis?",
@@ -147,15 +201,6 @@
       "publishedAt": "2026-11-24T16:00:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L2FtYXpvbnMtZGVjYXJ0LWFjcXVpc2l0aW9uLWlzLWEtYmV0LW9uLXVzaW5nLXNvZnR3YXJlLXRvLW5hcnJvdy10aGUtZ2FwLXdpdGgtbnZpZGlhLWluLXRoZS1haS1jaGlwLXJhY2Uv",
-      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
-      "summary": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
-      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-24T15:51:07.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9ob3ctdHJ1bXAtYW5kLXNpbGljb24tdmFsbGV5LWZvcmNlZC1udmlkaWEtdG8tdGFrZS1qZW5zZW4taHVhbmctYmFjay8=",
       "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
       "summary": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
@@ -163,6 +208,15 @@
       "source": "Ars Technica AI",
       "providerTag": "General",
       "publishedAt": "2026-11-24T14:56:50.000Z"
+    },
+    {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2dwdC02LW1vZGVscy1kZW1vbnN0cmF0ZS1pbnRyaW5zaWMtcHJvdGVpbi1kZXNpZ24tY2FwYWJpbGl0aWVz",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-24T13:00:00.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vc2VjdXJpdHkvMjAyNi8xMS9hbWF6b24tc2F5cy1oYWNrZXJzLWFpLWFnZW50cy1mb3VuZC1hbmQtZXhwbG9pdGVkLTAtZGF5LXdpdGgtbGl0dGxlLWh1bWFuLWlucHV0Lw==",
@@ -201,6 +255,15 @@
       "publishedAt": "2026-11-24T00:00:00.000Z"
     },
     {
+      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2N1c3RvbWVyLXN0b3JpZXMvY2xheS1wbHVnaW5zLW9wZW5haQ==",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "source": "OpenAI News",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-24T00:00:00.000Z"
+    },
+    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDA2NTIvamVuc2VuLWh1YW5nLW52aWRpYS10cnVtcC1yZWluc3RhdGVk",
       "title": "Trump engineered a risky comeback for Jensen Huang",
       "summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on St...",
@@ -228,33 +291,6 @@
       "publishedAt": "2026-11-23T22:09:26.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2FudGhyb3BpYy1sYXVuY2hlcy1jbGF1ZGUtc2hpcC1sZXR0aW5nLWFpLWFnZW50cy1yZXZpZXctZml4LWFuZC1hcHByb3ZlLWNvZGUtY2hhbmdlcy8=",
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
-      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-      "source": "TechCrunch AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-23T22:05:50.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL3N1cGVydGFrZS1yYWlzZXMtMjBtLXRvLWxldC1haS1hZ2VudHMtdHVybi15b3VyLW1hcmtldC1wcmVkaWN0aW9ucy1pbnRvLXN0b2NrLXBvcnRmb2xpb3Mv",
-      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
-      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T22:02:05.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL2Vsb24tbXVzay1hbmQtb3RoZXJzLXJlam9pY2UtYXMtamVuc2VuLWh1YW5nLWlzLXJlaW5zdGF0ZWQtYXQtbnZpZGlhLWFtaWQtc2NhbmRhbC8=",
-      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
-      "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
-      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T21:47:41.000Z"
-    },
-    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9zdGF0ZXMtc3VlLXNwYWNleC10by1zdG9wLWdyb2stZnJvbS1nZW5lcmF0aW5nLWNoaWxkLXNleC1pbWFnZXMtcmV2ZW5nZS1wb3JuLw==",
       "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
       "summary": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
@@ -262,15 +298,6 @@
       "source": "Ars Technica AI",
       "providerTag": "xAI",
       "publishedAt": "2026-11-23T21:30:44.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL21lZ2FzcGVlZC10aGUtY29tcGFueS1hdC10aGUtY2VudGVyLW9mLXRoZS1qZW5zZW4taHVhbmctc2NhbmRhbC1hcHBlYXJzLWhlYWRlZC1mb3ItYS11LXMtYmxhY2tsaXN0Lw==",
-      "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
-      "summary": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
-      "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T21:25:42.000Z"
     },
     {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ludHJvZHVjaW5nLXNoaXJ1ZG8=",
@@ -289,15 +316,6 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-23T21:09:37.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzIzL252aWRpYS1lbXBsb3llZXMtZ3JlZXQtamVuc2VuLWh1YW5nLWxpa2UtYS1oZXJvLWFzLWhlLXJldHVybnMtdG8tY29tcGFueXMtaHEv",
-      "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
-      "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
-      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T20:38:53.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDAxMzQvYW50aHJvcGljLWNsYXVkZS1zaGlwLWFpLXB1bGwtcmVxdWVzdHM=",
@@ -478,24 +496,6 @@
       "source": "Google AI Blog",
       "providerTag": "Google",
       "publishedAt": "2026-11-19T17:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2hvdy1vcGVuYWktcGVyZm9ybWFuY2UtZmFjdG9yeS1rZWVwcy1jaGF0Z3B0LWZhc3Q=",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-19T08:00:00.000Z"
-    },
-    {
-      "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2J1c2luZXNzL2xlYXJuL2RheWJyZWFrLWJsdWUtb25ib2FyZGluZy1kZW1v",
-      "title": "Get started with Daybreak Blue",
-      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "source": "OpenAI News",
-      "providerTag": "OpenAI",
-      "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL1JhZGl4QXJrL2RhaXN5cm9zZS0yN2ItcHVzaGluZy10aGUtZnJvbnRpZXItb2YtcG9zdC10cmFpbmlu",

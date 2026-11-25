@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T21:06:27.425Z",
+  "lastUpdated": "2026-11-25T00:17:06.599Z",
   "items": [
     {
       "provider": "Anthropic",
@@ -14,15 +14,15 @@
       "name": "Gemini Argon",
       "date": "2027-01-31",
       "precision": "after",
-      "probability": 0.465,
+      "probability": 0.475,
       "url": "https://polymarket.com/event/next-gemini-argon-released-byptptpt-20261014"
     },
     {
       "provider": "Meta",
       "name": "Muse Wonder 1.1+",
       "date": "2027-01-31",
-      "precision": "after",
-      "probability": 0.47,
+      "precision": "by",
+      "probability": 0.505,
       "url": "https://polymarket.com/event/next-muse-wonder-1pt1-released-byptptpt"
     },
     {
