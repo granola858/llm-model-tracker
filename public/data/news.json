@@ -1,10 +1,46 @@
 {
-  "lastUpdated": "2026-11-25T12:09:39.961Z",
+  "lastUpdated": "2026-11-25T15:07:04.919Z",
   "totalSources": 7,
   "items": [
     {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTA0MjA3MS9tZXRhLWFtYXpvbi1tdXNlLWFpLXNob3BwaW5nLWRpc2N1c3Npb25z",
+      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "summary": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of prod...",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T14:12:33.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L2FtYXpvbi1hbmQtbWV0YS1yZXBvcnRlZGx5LWluLXRhbGtzLXRvLWxpZnQtYmxvY2thZGUtb24tYWktYWdlbnQtbXVzZS8=",
+      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T14:10:18.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L3RoZS1xdWVzdGlvbnMtamVuc2VuLWh1YW5nLWFuZC1udmlkaWEtd2lsbC1zdGlsbC1oYXZlLXRvLWFuc3dlci1hYm91dC1tZWdhc3BlZWQv",
+      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+      "summary": "Huang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler.",
+      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T13:00:00.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDAwODEvdmliZS1jb2Rpbmctb3Blbi1zb3VyY2UtbXVzaWMtZmlybXdhcmU=",
+      "title": "Has vibe coding made open source the new normal for synths?",
+      "summary": "The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has caused chaos in the music gear world, leaving companies scrambling to figure out how to respond. While some, like Roland, have rem...",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T13:00:00.000Z"
+    },
+    {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS9haS1jYW4tZG8tdGhlLWNhbGN1bGF0aW9ucy1waHlzaWNpc3RzLWFyZS1maWd1cmluZy1vdXQtd2hhdC1jb21lcy1uZXh0Lw==",
-      "title": "AI can do the calculations. Theoretical physicists are figuring out what comes next.",
+      "title": "AI may soon change what it means to be a theoretical physicist",
       "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
       "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
       "source": "Ars Technica AI",
@@ -183,15 +219,6 @@
       "publishedAt": "2026-11-24T16:30:00.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3doeS1hLWNydXNvZS1pbnZlc3Rvci1pcy1iZXR0aW5nLW9uLXNvbGFyLWFuZC1iYXR0ZXJpZXMtdG8tcG93ZXItZnV0dXJlLWFpLWRhdGEtY2VudGVycy8=",
-      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
-      "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
-      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-24T16:10:00.000Z"
-    },
-    {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDEyMjcvdGhlLW5ldy15b3JrLXRpbWVzLXdhcm5zLXBob3RvZ3JhcGhlcnMtbm90LXRvLXVwZGF0ZS1waG90b3Nob3Atb3Zlci1haS1mZWF0dXJlcw==",
       "title": "The New York Times warns photographers not to update Photoshop over AI features",
       "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge ...",
@@ -199,15 +226,6 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-24T16:09:23.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3BpbnRlcmVzdC13aWxsLW5vdy1sZXQtcGFyZW50cy1saW1pdC10aGUtYWktZ2VuZXJhdGVkLWNvbnRlbnQtdGhlaXItdGVlbnMtc2VlLw==",
-      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
-      "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
-      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-24T16:02:37.000Z"
     },
     {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL2dlbWluaS9nZW1pbmktZ29sZGVuLXN0YXRlLw==",
@@ -325,24 +343,6 @@
       "source": "OpenAI News",
       "providerTag": "OpenAI",
       "publishedAt": "2026-11-23T21:20:00.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3NjaWVuY2UvMTA0MDQ5Ny9haS1kYXRhLWNlbnRlcnMtZWxlY3RyaWNpdHktdW4tY2xpbWF0ZS1zdW1taXQ=",
-      "title": "AI data centers throw another wrench into chaotic UN climate talks",
-      "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations...",
-      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T21:09:37.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDAxMzQvYW50aHJvcGljLWNsYXVkZS1zaGlwLWFpLXB1bGwtcmVxdWVzdHM=",
-      "title": "Claude AI can review pull requests and ship fixes on its own now",
-      "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have a...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
-      "source": "The Verge AI",
-      "providerTag": "Anthropic",
-      "publishedAt": "2026-11-23T20:00:00.000Z"
     },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2FsbGVuYWkvcm9ib3RyYWNr",
