@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-11-25T15:07:04.919Z",
+  "lastUpdated": "2026-11-25T18:07:50.110Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3NjaWVuY2UvMTA0MjI3OC9zcGFjZXgtZmNjLXN0YXJtaW5kLWFpLXNwYWNlLWRhdGEtY2VudGVycw==",
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing t...",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T17:44:51.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L3N0YXRlLWFncy1maWdodC1jaGFyYWN0ZXItYWlzLXBsYW4tdG8tYXVjdGlvbi1vZmYtdXNlcnMtcHJpdmF0ZS1jaGF0cy8=",
+      "title": "State AGs fight Character AI’s plan to auction off users’ private chats",
+      "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T17:35:58.000Z"
+    },
+    {
+      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vZ2FkZ2V0cy8yMDI2LzExL2Fycy1saXZlLXJlY2FwLWRvbnQtZXhwZWN0LW1pbGl0YXJ5LWF0dGFja3Mtb24tZGF0YS1jZW50ZXJzLXRvLXN0b3Av",
+      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+      "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+      "source": "Ars Technica AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T16:47:14.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2dhZGdldHMvMTA0MjE2Mi9ub3RoaW5nLWVhci1ub3RlLWFpLWVhcmJ1ZHMtcmV2ZWFs",
+      "title": "Nothing offers a full look at its AI earbuds and charging case",
+      "summary": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize yo...",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T16:00:59.000Z"
+    },
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS9wb2RjYXN0L2FpLWRhdGEtY2VudGVycy1hcmUtYmVjb21pbmctaGFyZGVyLXRvLWJ1aWxkLWFuZC1uZW9jbG91ZHMtYXJlLWZlZWxpbmctaXQv",
+      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "summary": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land,...",
+      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "source": "TechCrunch AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T15:41:43.000Z"
+    },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTA0MjA3MS9tZXRhLWFtYXpvbi1tdXNlLWFpLXNob3BwaW5nLWRpc2N1c3Npb25z",
       "title": "Amazon is reportedly in talks to end Muse AI shopping block",
@@ -23,10 +68,10 @@
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L3RoZS1xdWVzdGlvbnMtamVuc2VuLWh1YW5nLWFuZC1udmlkaWEtd2lsbC1zdGlsbC1oYXZlLXRvLWFuc3dlci1hYm91dC1tZWdhc3BlZWQv",
       "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-      "summary": "Huang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler.",
+      "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
       "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
       "source": "TechCrunch AI",
-      "providerTag": "General",
+      "providerTag": "Meta",
       "publishedAt": "2026-11-25T13:00:00.000Z"
     },
     {
@@ -64,6 +109,15 @@
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-25T00:12:02.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2lua2xpbmctMi1taW5pLWluZmVyZW5jZS1oaWxsY2xpbWI=",
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-25T00:00:00.000Z"
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L2plbnNlbi1odWFuZy1zdGlsbC10aGlua3MtYS1zdWNjZXNzaW9uLXBsYW4tY3JlYXRlcy11bm5lY2Vzc2FyeS1oaWVyYXJjaHkv",
@@ -183,24 +237,6 @@
       "publishedAt": "2026-11-24T17:17:09.000Z"
     },
     {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L21ldGEtYnJpbmdzLWl0cy1tdXNlLWFpLWFzc2lzdGFudC1kaXJlY3RseS1pbnRvLWluc3RhZ3JhbS1kbXMv",
-      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
-      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-24T17:00:00.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L3RpZGFsLXRvLWJhbi1hbmQtcmVtb3ZlLW1pbGxpb25zLW9mLWFpLWdlbmVyYXRlZC10cmFja3MtYXMtYWktc2xvcC1pbnVuZGF0ZXMtbXVzaWMtc3RyZWFtaW5nLw==",
-      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-      "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
-      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-24T16:46:00.000Z"
-    },
-    {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9taWNyb2R1Y2stb2JzdGFjbGUtYXZvaWRhbmNl",
       "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
       "summary": "點擊閱讀完整原文報導。",
@@ -307,24 +343,6 @@
       "source": "The Verge AI",
       "providerTag": "Meta",
       "publishedAt": "2026-11-23T22:25:12.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwMzA0MjIvbnZpZGlhLWplbnNlbi1odWFuZy1haS1jaGluYS1hbGljZS1odWFuZw==",
-      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-      "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Tim...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-      "source": "The Verge AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-23T22:10:32.000Z"
-    },
-    {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDA4MTkvd2VsY29tZS10by1lbGl0ZS1pbXB1bml0eS1qZW5zZW4taHVhbmc=",
-      "title": "Welcome to elite impunity, Jensen Huang",
-      "summary": "I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened. N...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-23T22:09:26.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyNi8xMS9zdGF0ZXMtc3VlLXNwYWNleC10by1zdG9wLWdyb2stZnJvbS1nZW5lcmF0aW5nLWNoaWxkLXNleC1pbWFnZXMtcmV2ZW5nZS1wb3JuLw==",
@@ -435,15 +453,6 @@
       "publishedAt": "2026-11-20T21:47:10.000Z"
     },
     {
-      "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vc2VjdXJpdHkvMjAyNi8xMS9hLWxlYWt5LWFpLXN1cHBseS1jaGFpbi1pcy1leHBvc2luZy1zZWNyZXQtdXNlci1kYXRhLWF0LWFuLWFsYXJtaW5nLXJhdGUv",
-      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-      "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
-      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-      "source": "Ars Technica AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-20T20:59:08.000Z"
-    },
-    {
       "id": "OpenAI News-aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NvbWJhdHRpbmctYWR2ZXJzYXJpYWwtZGlzdGlsbGF0aW9u",
       "title": "Combatting adversarial distillation",
       "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
@@ -532,15 +541,6 @@
       "source": "Google AI Blog",
       "providerTag": "Google",
       "publishedAt": "2026-11-18T17:00:00.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL21vZS1leHBlcnQtc3RyZWFtaW5n",
-      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/moe-expert-streaming",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T00:00:00.000Z"
     }
   ]
 }
