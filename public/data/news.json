@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-26T09:07:41.901Z",
+  "lastUpdated": "2026-11-26T12:09:22.703Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2dnbWwtb3JnL2xsYW1hY3BwLWFtZC1iZW5jaA==",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "Hugging Face Blog",
+      "providerTag": "Meta",
+      "publishedAt": "2026-11-26T11:37:17.000Z"
+    },
+    {
+      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3BvbGljeS8xMDQyNjIwL2NoYXJhY3Rlci1haS1zYWxlLXN0YXRlLWFncy1ibG9jay1zZWxsaW5nLXVzZXJzLWNoYXRz",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs ac...",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge AI",
+      "providerTag": "General",
+      "publishedAt": "2026-11-26T09:54:40.000Z"
+    },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9idWlsZGluZy1vbi1uZW1vdHJvbi0zNS1wYXJzZS1vcGVuLWRhdGEtZmluZS10dW5pbg==",
       "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
@@ -273,15 +291,6 @@
       "publishedAt": "2026-11-24T16:30:00.000Z"
     },
     {
-      "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDEyMjcvdGhlLW5ldy15b3JrLXRpbWVzLXdhcm5zLXBob3RvZ3JhcGhlcnMtbm90LXRvLXVwZGF0ZS1waG90b3Nob3Atb3Zlci1haS1mZWF0dXJlcw==",
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge ...",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "source": "The Verge AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-24T16:09:23.000Z"
-    },
-    {
       "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL2dlbWluaS9nZW1pbmktZ29sZGVuLXN0YXRlLw==",
       "title": "How Gemini is changing the game for Golden State's organization and fans.",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp\">Google Gemini partners with Golden State to power fan experiences and business operations for the Wa...",
@@ -532,15 +541,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-18T18:53:43.000Z"
-    },
-    {
-      "id": "Google AI Blog-aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS9wcm9kdWN0cy9nZW1pbmktYXBwL2dlbWluaS1sb3dlci1tZW1vcnktZGV2aWNlcy8=",
-      "title": "The Gemini app is now available on lower-memory Android devices.",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp\">The Google Gemini app now supports lower-memory Android devices. Access Gemini Live ...",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "source": "Google AI Blog",
-      "providerTag": "Google",
-      "publishedAt": "2026-11-18T17:00:00.000Z"
     }
   ]
 }
