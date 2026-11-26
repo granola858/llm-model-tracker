@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T12:09:22.703Z",
+  "lastUpdated": "2026-11-26T15:06:55.341Z",
   "totalSources": 7,
   "items": [
     {
@@ -28,6 +28,15 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-26T05:05:36.000Z"
+    },
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL3RyYWluaW5nLXN3YXJtcw==",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-26T00:00:00.000Z"
     },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L3NwLWNvbnNpZGVycy1udmlkaWEtY3JlZGl0LWRvd25ncmFkZS1vdmVyLWdvdmVybmFuY2UtYW5kLWtleS1tYW4tcmlza3Mv",
@@ -532,15 +541,6 @@
       "source": "Hugging Face Blog",
       "providerTag": "General",
       "publishedAt": "2026-11-18T19:54:56.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL0RoYXJtYS1BSS9wcmVkaWN0aW5nLWZpbmUtdHVuaW5nLXRpbWU=",
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-18T18:53:43.000Z"
     }
   ]
 }
