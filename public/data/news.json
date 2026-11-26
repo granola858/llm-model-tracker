@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-26T03:07:59.518Z",
+  "lastUpdated": "2026-11-26T06:11:09.857Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9idWlsZGluZy1vbi1uZW1vdHJvbi0zNS1wYXJzZS1vcGVuLWRhdGEtZmluZS10dW5pbg==",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "summary": "點擊閱讀完整原文報導。",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "source": "Hugging Face Blog",
+      "providerTag": "General",
+      "publishedAt": "2026-11-26T05:05:36.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L3NwLWNvbnNpZGVycy1udmlkaWEtY3JlZGl0LWRvd25ncmFkZS1vdmVyLWdvdmVybmFuY2UtYW5kLWtleS1tYW4tcmlza3Mv",
       "title": "S&#038;P considers Nvidia credit downgrade over governance and ‘key man’ risks",
@@ -253,15 +262,6 @@
       "source": "The Verge AI",
       "providerTag": "General",
       "publishedAt": "2026-11-24T17:17:09.000Z"
-    },
-    {
-      "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL252aWRpYS9taWNyb2R1Y2stb2JzdGFjbGUtYXZvaWRhbmNl",
-      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-      "summary": "點擊閱讀完整原文報導。",
-      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "source": "Hugging Face Blog",
-      "providerTag": "General",
-      "publishedAt": "2026-11-24T16:34:13.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RlY2gvMTA0MTIyMi9qZW5zZW4taHVhbmctbnZpZGlhLXNjYW5kYWwtZGVlcGZha2Vz",
