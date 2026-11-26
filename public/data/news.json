@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-26T15:06:55.341Z",
+  "lastUpdated": "2026-11-26T18:07:48.206Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI2L2FzLWFudGhyb3BpYy1pcG9zLWdyYW5kLXRoZWZ0LWF1dG8tdmktcHJvdmVzLXdoeS1lZmZpY2llbmN5LWlzbnQtYS12aXJ0dWUv",
+      "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "source": "TechCrunch AI",
+      "providerTag": "Anthropic",
+      "publishedAt": "2026-11-26T16:00:00.000Z"
+    },
     {
       "id": "Hugging Face Blog-aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL2dnbWwtb3JnL2xsYW1hY3BwLWFtZC1iZW5jaA==",
       "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
@@ -226,15 +235,6 @@
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-24T22:27:52.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI0L2luLWFsbC1oYW5kcy1tZWV0aW5nLWplbnNlbi1odWFuZy10aGFua3Mtd2hpdGUtaG91c2UtYW5kLXNheXMtaGVzLWluLXRoZXJhcHkv",
-      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
-      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-      "source": "TechCrunch AI",
-      "providerTag": "General",
-      "publishedAt": "2026-11-24T21:48:27.000Z"
     },
     {
       "id": "Ars Technica AI-aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vYWkvMjAyNi8xMS93aGF0cy1nb2luZy1vbi13aXRoLXRoZS1yaWVtYW5uLWh5cG90aGVzaXMv",
