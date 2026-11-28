@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-28T15:05:46.182Z",
+  "lastUpdated": "2026-11-28T18:07:20.585Z",
   "totalSources": 7,
   "items": [
+    {
+      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI4L29wZW5haXMtbmV3LWNvdW50ZXJzdWl0LWFjY3VzZXMtYXBwbGUtb2YtdW5sYXdmdWxseS1wcmVzc3VyaW5nLXZlbmRvcnMv",
+      "title": "OpenAI’s new countersuit accuses Apple of ‘unlawfully pressuring vendors’",
+      "summary": "After Apple sued OpenAI this summer, OpenAI has fired back with a countersuit of its own.",
+      "url": "https://techcrunch.com/2026/11/28/openais-new-countersuit-accuses-apple-of-unlawfully-pressuring-vendors/",
+      "source": "TechCrunch AI",
+      "providerTag": "OpenAI",
+      "publishedAt": "2026-11-28T17:46:47.000Z"
+    },
     {
       "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI4L3Nha2FuYS1haXMtY2VvLXNheXMtaXRzLWhvbWVncm93bi1tb2RlbHMtYXJlLWFib3V0LW1vcmUtdGhhbi1qYXBhbnMtbmF0aW9uYWwtc2VjdXJpdHkv",
       "title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
@@ -208,15 +217,6 @@
       "source": "TechCrunch AI",
       "providerTag": "General",
       "publishedAt": "2026-11-25T14:10:18.000Z"
-    },
-    {
-      "id": "TechCrunch AI-aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzExLzI1L3RoZS1xdWVzdGlvbnMtamVuc2VuLWh1YW5nLWFuZC1udmlkaWEtd2lsbC1zdGlsbC1oYXZlLXRvLWFuc3dlci1hYm91dC1tZWdhc3BlZWQv",
-      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-      "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
-      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-      "source": "TechCrunch AI",
-      "providerTag": "Meta",
-      "publishedAt": "2026-11-25T13:00:00.000Z"
     },
     {
       "id": "The Verge AI-aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzEwNDAwODEvdmliZS1jb2Rpbmctb3Blbi1zb3VyY2UtbXVzaWMtZmlybXdhcmU=",

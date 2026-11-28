@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T15:05:48.974Z",
+  "lastUpdated": "2026-11-28T18:07:23.427Z",
   "items": [
     {
       "provider": "Anthropic",
@@ -21,16 +21,16 @@
       "provider": "Meta",
       "name": "Muse Wonder 1.1+",
       "date": "2027-01-31",
-      "precision": "by",
-      "probability": 0.56,
+      "precision": "after",
+      "probability": 0.47,
       "url": "https://polymarket.com/event/next-muse-wonder-1pt1-released-byptptpt"
     },
     {
       "provider": "xAI",
       "name": "Grok 4.8+",
-      "date": "2026-12-09",
+      "date": "2026-12-07",
       "precision": "near",
-      "probability": 0.675,
+      "probability": 0.52,
       "url": "https://polymarket.com/event/next-grok-model-4pt8-released-by"
     },
     {
@@ -38,7 +38,7 @@
       "name": "DeepSeek Pro",
       "date": "2026-12-31",
       "precision": "after",
-      "probability": 0.19,
+      "probability": 0.21,
       "url": "https://polymarket.com/event/next-deepseek-pro-released-byptptpt"
     }
   ]
