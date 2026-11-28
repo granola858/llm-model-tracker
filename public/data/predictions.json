@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T00:14:53.010Z",
+  "lastUpdated": "2026-11-28T03:07:47.301Z",
   "items": [
     {
       "provider": "Anthropic",
@@ -14,7 +14,7 @@
       "name": "Gemini Argon",
       "date": "2027-01-31",
       "precision": "after",
-      "probability": 0.48,
+      "probability": 0.47,
       "url": "https://polymarket.com/event/next-gemini-argon-released-byptptpt-20261014"
     },
     {
